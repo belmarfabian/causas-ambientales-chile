@@ -1,0 +1,36 @@
+# PDFs (muy grandes para GitHub)
+*.pdf
+tribunal_pdfs/
+tribunal_pdfs_organizado/
+
+# Datos generados (se pueden regenerar)
+datos/*.csv
+!datos/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.env
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Temporales
+*.tmp
+*.log
+*.txt
+!requirements.txt
+!README.txt
