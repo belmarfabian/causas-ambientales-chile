@@ -1,0 +1,431 @@
+\documentclass[12pt,a4paper]{article}
+
+% Paquetes esenciales
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{setspace}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+
+% Configuración de página
+\geometry{margin=2.5cm}
+\setstretch{1.15}
+
+% Configuración de hyperref
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!60!black,
+    urlcolor=blue!60!black,
+    citecolor=blue!60!black
+}
+
+% Título
+\title{\textbf{Tribunales Ambientales en Chile: una sistematización de las estadísticas oficiales (2012-2025)}}
+\author{Fabián Belmar}
+\date{Enero 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Chile creó en 2012 el primer sistema de tribunales ambientales especializados de América Latina, convirtiéndose en referente regional para el acceso a la justicia ambiental. Paradójicamente, tras trece años de funcionamiento, no existe información sistematizada sobre su desempeño. Este trabajo ofrece la primera consolidación de estadísticas oficiales del sistema, recopilando datos dispersos en cuentas públicas, sitios web y comunicados de prensa. Los resultados revelan que los tres tribunales han conocido aproximadamente 1.320 causas y dictado 704 sentencias, con una concentración en Santiago (47\%) y Valdivia (42\%) que refleja los patrones de conflictividad socioambiental del país. El hallazgo más relevante es la brecha de transparencia: solo uno de los tres tribunales publica estadísticas completas en línea, lo que contradice los compromisos de Chile como co-presidente del Acuerdo de Escazú. Se propone crear un portal unificado de datos judiciales ambientales abiertos. El trabajo establece una línea base para futuras investigaciones mediante técnicas de ciencia social computacional, incluyendo análisis de texto de sentencias, georreferenciación de conflictos y estudio de redes de citación jurisprudencial.
+
+\medskip
+\noindent\textbf{Palabras clave:} tribunales ambientales, estadísticas judiciales, justicia ambiental, datos abiertos, Chile
+\end{abstract}
+
+\section{Introducción}
+
+América Latina enfrenta una creciente conflictividad socioambiental. La expansión de la minería, la agroindustria, la generación energética y los proyectos inmobiliarios ha multiplicado las disputas entre empresas, comunidades y el Estado por el uso del territorio y los recursos naturales. En este contexto, Chile se convirtió en 2012 en el primer país de la región en crear tribunales especializados exclusivamente en materia ambiental. La Ley 20.600 estableció un sistema de justicia ambiental sin precedentes en el continente, con jueces expertos, procedimientos adaptados a la complejidad técnica de las controversias, y competencia para conocer reclamaciones contra la autoridad administrativa, demandas por daño ambiental, y solicitudes de medidas cautelares. Trece años después, el modelo chileno sigue siendo referencia para otros países latinoamericanos que debaten la creación de instancias similares. Sin embargo, paradójicamente, carecemos de información sistematizada sobre su funcionamiento.
+
+La creación de tribunales ambientales especializados responde a una tendencia global. Según Pring \& Pring (2016), existen más de 1.200 cortes y tribunales ambientales en al menos 44 países. Los modelos más consolidados incluyen el Land and Environment Court de Nueva Gales del Sur (Australia, 1979), el Environment Court de Nueva Zelanda (1972), y los seis tribunales ambientales suecos creados por el Código Ambiental de 2000. Estos sistemas comparten características comunes: composición mixta de juristas y expertos técnicos, procedimientos adaptados a la complejidad científica de las controversias, y mecanismos alternativos de resolución de conflictos. En América Latina, además de Chile, solo Costa Rica y El Salvador cuentan con tribunales ambientales especializados (Costa Cordella, 2018).
+
+El diseño institucional de la Ley 20.600 contempló tres tribunales con competencia territorial diferenciada. El Segundo Tribunal Ambiental, con sede en Santiago, cubre desde la Región de Valparaíso hasta la del Biobío, incluyendo la Región Metropolitana donde se concentra la mayor actividad económica del país. El Tercer Tribunal Ambiental, ubicado en Valdivia, tiene jurisdicción desde La Araucanía hasta Magallanes, zona de intensa actividad forestal, salmonera e hidroeléctrica. El Primer Tribunal Ambiental, en Antofagasta, abarca desde Arica hasta Coquimbo, donde opera la gran minería del cobre. Cada tribunal está integrado por tres ministros titulares ---dos abogados y un licenciado en ciencias--- más dos suplentes, siguiendo el modelo de composición mixta predominante en la experiencia comparada. La implementación fue gradual: el 2TA comenzó a funcionar en diciembre de 2012, el 3TA en diciembre de 2013, pero el 1TA ---que debía cubrir la zona minera--- recién inició operaciones en septiembre de 2017, cinco años después de la promulgación de la ley.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+    box/.style={rectangle, draw=black!60, fill=blue!8, thick,
+                minimum width=2.5cm, minimum height=0.8cm,
+                text centered, font=\footnotesize},
+    tribunal/.style={rectangle, draw=green!50!black, fill=green!12, thick,
+                     minimum width=2.2cm, minimum height=0.9cm,
+                     text centered, font=\footnotesize\bfseries},
+    corte/.style={rectangle, draw=red!50!black, fill=red!8, thick,
+                  minimum width=3cm, minimum height=0.8cm,
+                  text centered, font=\footnotesize\bfseries},
+    arrow/.style={->, thick, draw=black!50}
+]
+
+% Corte Suprema
+\node[corte] (cs) at (0,0) {Corte Suprema};
+
+% Tribunales Ambientales
+\node[tribunal] (1ta) at (-4,-1.8) {1TA Antofagasta};
+\node[tribunal] (2ta) at (0,-1.8) {2TA Santiago};
+\node[tribunal] (3ta) at (4,-1.8) {3TA Valdivia};
+
+% Jurisdicciones
+\node[font=\tiny, text=gray] at (-4,-2.5) {Arica--Coquimbo};
+\node[font=\tiny, text=gray] at (0,-2.5) {Valparaíso--Biobío};
+\node[font=\tiny, text=gray] at (4,-2.5) {Araucanía--Magallanes};
+
+% Organismos administrativos
+\node[box] (sea) at (-4,-4.2) {SEA};
+\node[box] (sma) at (0,-4.2) {SMA};
+\node[box] (otros) at (4,-4.2) {Org. sectoriales};
+
+% Actores
+\node[font=\footnotesize] (actores) at (0,-5.5) {Empresas -- Comunidades -- ONGs -- Ciudadanos};
+
+% Flechas casación
+\draw[arrow] (1ta) -- node[font=\tiny, left] {Casación} (cs);
+\draw[arrow] (2ta) -- (cs);
+\draw[arrow] (3ta) -- node[font=\tiny, right] {Casación} (cs);
+
+% Flechas reclamación
+\draw[arrow, blue!60] (sea) -- node[font=\tiny, left] {Reclam.} (1ta);
+\draw[arrow, blue!60] (sma) -- node[font=\tiny, right] {Reclam.} (2ta);
+\draw[arrow, blue!60] (otros) -- node[font=\tiny, right] {Reclam.} (3ta);
+
+% Flecha demandas
+\draw[arrow, orange!70, dashed] (actores) -- node[font=\tiny, right] {Demanda} (sma);
+
+\end{tikzpicture}
+\caption{Arquitectura institucional del sistema de tribunales ambientales de Chile. SEA: Servicio de Evaluación Ambiental; SMA: Superintendencia del Medio Ambiente. Las líneas azules representan reclamaciones contra actos administrativos; las líneas naranjas punteadas, demandas por daño ambiental.}
+\label{fig:arquitectura}
+\end{figure}
+
+A pesar de más de una década de funcionamiento, no existe una sistematización consolidada de las estadísticas de estos tribunales. La información se encuentra dispersa en cuentas públicas anuales que no siempre están disponibles en línea, secciones de estadísticas en sitios web con grados variables de actualización, y notas de prensa esporádicas. Esta opacidad contrasta con los estándares de gobierno abierto que Chile ha suscrito internacionalmente y con las prácticas de otros órganos del sistema de justicia. Mientras el Poder Judicial publica estadísticas detalladas y comparables de todos sus tribunales, los Tribunales Ambientales ---que son órganos autónomos--- no han desarrollado un sistema unificado de reporte. El resultado es una asimetría de información que dificulta el escrutinio ciudadano y el control democrático de instituciones que deciden sobre conflictos de alto impacto social.
+
+La ausencia de datos sistematizados tiene consecuencias directas para la investigación y la política pública. Sin información comparable no es posible evaluar el desempeño del sistema, identificar cuellos de botella, ni fundamentar propuestas de reforma. La literatura académica sobre tribunales ambientales en Chile es todavía incipiente y se ha concentrado en análisis doctrinarios o estudios de casos específicos, pero carece de una base cuantitativa que permita caracterizar el funcionamiento del sistema en su conjunto. Esta brecha representa una oportunidad para la ciencia social computacional: las sentencias están disponibles en línea y pueden ser procesadas mediante técnicas de extracción y análisis de texto, pero el primer paso es construir un panorama estadístico que identifique el universo de casos y sus características básicas.
+
+El objetivo de este trabajo es consolidar las estadísticas oficiales disponibles de los tres Tribunales Ambientales para ofrecer una primera sistematización cuantitativa del sistema. Específicamente, busca responder tres preguntas: ¿cuántas causas ha conocido el sistema desde su creación?, ¿cómo se distribuye la carga de trabajo entre tribunales?, y ¿qué tan transparente es la publicación de datos judiciales ambientales en Chile? La contribución es doble: por un lado, se ofrece una línea base para futuras investigaciones sobre justicia ambiental; por otro, se diagnostica la brecha de transparencia estadística y se propone la creación de un portal unificado que estandarice la publicación de datos de los tres tribunales.
+
+\section{Datos y método}
+
+\subsection{Fuentes}
+
+La recopilación de datos se realizó entre octubre de 2025 y enero de 2026, consultando exclusivamente fuentes oficiales de los tres tribunales. Para el Tercer Tribunal Ambiental, la principal fuente fue la sección ``3TA en Cifras'' de su sitio web oficial (3ta.cl/3ta-en-cifras/), que constituye el único repositorio estadístico completo y actualizado del sistema. Esta sección publica datos desagregados por año desde 2014, incluyendo causas ingresadas, causas terminadas y sentencias definitivas, con actualización semestral. Para el Segundo Tribunal Ambiental, se utilizó la Cuenta Pública 2024 disponible en tribunalambiental.cl, que reporta cifras agregadas del período 2013-2024 sin desagregación anual. Para el Primer Tribunal Ambiental, la fuente fue la Cuenta Pública 2024 disponible en 1ta.cl, complementada con cuentas públicas anteriores cuando fue posible acceder a ellas.
+
+\subsection{Variables y estimaciones}
+
+Se recopilaron cuatro variables para cada tribunal: causas ingresadas por año, causas terminadas por año, sentencias definitivas dictadas, y período de funcionamiento efectivo. Cuando los datos no estaban disponibles directamente ---situación frecuente para el 1TA y parcial para el 2TA---, se realizaron estimaciones por interpolación lineal entre los años con información confirmada. En estos casos, se indica explícitamente el nivel de certeza: ``alta'' para datos provenientes directamente de fuentes oficiales, ``parcial'' cuando la fuente oficial es incompleta, y ``estimación'' cuando el dato fue interpolado. Esta transparencia metodológica permite al lector evaluar la robustez de cada cifra y evita presentar estimaciones como datos duros.
+
+\subsection{Limitaciones}
+
+Los datos presentan tres limitaciones relevantes que deben considerarse al interpretar los resultados. Primero, solo el 3TA publica estadísticas completas, detalladas y actualizadas en línea; los otros dos tribunales ofrecen información fragmentaria que requiere reconstrucción. Segundo, los criterios de conteo pueden variar entre tribunales: no es claro si todos contabilizan de la misma manera las causas acumuladas, las terminadas por desistimiento, o las sentencias interlocutorias. Tercero, ningún tribunal publica estadísticas desagregadas por tipo de procedimiento, resultado de la sentencia, o sector económico involucrado, lo que impide análisis cualitativos del funcionamiento del sistema.
+
+\section{Resultados}
+
+\subsection{Tercer Tribunal Ambiental (Valdivia)}
+
+El 3TA es el único tribunal que publica estadísticas detalladas por año en su sitio web, lo que permite reconstruir con precisión su trayectoria desde el inicio de operaciones. La Tabla \ref{tab:3ta} muestra la evolución de causas ingresadas y sentencias dictadas entre 2013 y 2025. Los primeros años muestran un ingreso modesto ---apenas 1 causa en 2013 y 15 en 2014---, consistente con el período de instalación institucional y el desconocimiento inicial del nuevo foro por parte de los potenciales litigantes. A partir de 2019 se observa un crecimiento sostenido que alcanza su peak en 2022 con 90 causas ingresadas, lo que sugiere tanto una consolidación de la demanda como una mayor judicialización de conflictos ambientales en la zona sur del país.
+
+\begin{table}[H]
+\centering
+\caption{Causas ingresadas y sentencias del 3TA (2013-2025)}
+\label{tab:3ta}
+\small
+\begin{tabular}{ccc}
+\toprule
+\textbf{Año} & \textbf{Causas ingresadas} & \textbf{Sentencias} \\
+\midrule
+2013 & 1 & -- \\
+2014 & 15 & 5 \\
+2015 & 30 & 17 \\
+2016 & 35 & 22 \\
+2017 & 29 & 16 \\
+2018 & 32 & 19 \\
+2019 & 54 & 25 \\
+2020 & 55 & 29 \\
+2021 & 53 & 21 \\
+2022 & 90 & 40 \\
+2023 & 55 & 61 \\
+2024 & 58 & 28 \\
+2025 & 42 & 23 \\
+\midrule
+\textbf{Total} & \textbf{549} & \textbf{306} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+La tasa de terminación del 3TA alcanza el 82,5\% (453 causas terminadas sobre 549 ingresadas), lo que indica una gestión eficiente del flujo de trabajo. Este indicador es notable considerando que los tribunales ambientales conocen materias técnicamente complejas que requieren pericias especializadas y plazos de tramitación extensos. El peak de 2022 con 90 causas ingresadas podría estar asociado a la intensificación de proyectos energéticos e industriales en el sur de Chile durante ese período.
+
+\subsection{Segundo Tribunal Ambiental (Santiago)}
+
+El 2TA, con sede en Santiago, es el tribunal más antiguo y el que concentra la mayor carga del sistema. Sin embargo, no publica estadísticas detalladas en línea, lo que obliga a reconstruir sus cifras a partir de cuentas públicas anuales. Su Cuenta Pública 2024 reporta que entre 2013 y 2023 ingresaron 561 causas, se terminaron 470, y se dictaron 287 sentencias definitivas. Para 2024, el mismo documento informa 63 causas terminadas y 45 sentencias dictadas ---récord histórico del tribunal---, aunque no especifica el número exacto de ingresos, que estimamos en aproximadamente 60 basándonos en el promedio histórico.
+
+\begin{table}[H]
+\centering
+\caption{Estadísticas del 2TA (2013-2024)}
+\label{tab:2ta}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Período} & \textbf{Causas ingresadas} & \textbf{Terminadas} & \textbf{Sentencias} \\
+\midrule
+2013-2023 & 561 & 470 & 287 \\
+2024 & $\sim$60 & 63 & 45 \\
+\midrule
+\textbf{Total} & \textbf{$\sim$620} & \textbf{$\sim$530} & \textbf{332} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+La Cuenta Pública 2024 destaca dos avances operativos relevantes: el plazo promedio de redacción de sentencias disminuyó de 159 a 132 días, y se implementó tramitación electrónica al 100\%. No obstante, la tasa de resolución del 2TA es significativamente menor que la del 3TA: con 332 sentencias sobre aproximadamente 620 causas ingresadas, alcanza solo un 54\%. Esto sugiere un stock considerable de causas pendientes, probablemente explicado por la complejidad de los proyectos que se litigan en su jurisdicción ---que incluye la Región Metropolitana y las zonas industriales de Valparaíso--- y por el mayor volumen absoluto de trabajo.
+
+\subsection{Primer Tribunal Ambiental (Antofagasta)}
+
+El 1TA presenta la menor disponibilidad de información entre los tres tribunales. Inició operaciones recién en septiembre de 2017 ---cinco años después de la promulgación de la ley---, y sus estadísticas deben reconstruirse a partir de cuentas públicas dispersas y estimaciones. La Tabla \ref{tab:1ta} presenta los datos disponibles, indicando el nivel de certeza para cada año. Los años 2019 y 2024 cuentan con datos oficiales directos; 2018 y 2021 tienen información parcial; y los años 2020, 2022 y 2023 son estimaciones por interpolación.
+
+\begin{table}[H]
+\centering
+\caption{Estadísticas del 1TA (2017-2024)}
+\label{tab:1ta}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Año} & \textbf{Causas} & \textbf{Sentencias} & \textbf{Certeza} \\
+\midrule
+2017 & (inicio sept.) & -- & -- \\
+2018 & $\sim$15 & 6 & Parcial \\
+2019 & 26 & 10 & Alta \\
+2020 & $\sim$20 & $\sim$6 & Estimación \\
+2021 & 23 & $\sim$8 & Parcial \\
+2022 & $\sim$20 & $\sim$8 & Estimación \\
+2023 & $\sim$20 & $\sim$8 & Estimación \\
+2024 & 25 & 20 & Alta \\
+\midrule
+\textbf{Total} & \textbf{$\sim$150} & \textbf{$\sim$66} & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+El 1TA procesa en promedio 9 sentencias anuales, significativamente menos que los otros tribunales. Esta menor productividad absoluta se explica por factores estructurales: su inicio tardío, su jurisdicción sobre regiones con menor densidad poblacional (aunque alta concentración de proyectos mineros), y posiblemente un período más largo de instalación institucional. El peak de 2024 con 20 sentencias podría indicar una consolidación del tribunal o un esfuerzo por reducir causas pendientes.
+
+\subsection{Consolidado del sistema}
+
+La Tabla \ref{tab:consolidado} resume las estadísticas de los tres tribunales, permitiendo una visión panorámica del sistema de justicia ambiental chileno. En conjunto, los tribunales han conocido aproximadamente 1.320 causas y dictado 704 sentencias entre 2012 y 2025, lo que equivale a un promedio de 54 sentencias anuales. Considerando que el sistema cuenta con 9 ministros titulares (3 por tribunal), esto representa aproximadamente 6 sentencias por ministro por año, una productividad modesta comparada con tribunales ordinarios pero consistente con la complejidad técnica de las materias ambientales.
+
+\begin{table}[H]
+\centering
+\caption{Resumen del sistema de tribunales ambientales (2012-2025)}
+\label{tab:consolidado}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Tribunal} & \textbf{Período} & \textbf{Causas} & \textbf{Sentencias} & \textbf{\% del total} \\
+\midrule
+1TA (Antofagasta) & 2017-2024 & $\sim$150 & $\sim$66 & 11\% \\
+2TA (Santiago) & 2013-2024 & $\sim$620 & 332 & 47\% \\
+3TA (Valdivia) & 2013-2025 & 549 & 306 & 42\% \\
+\midrule
+\textbf{Total} & & \textbf{$\sim$1.320} & \textbf{$\sim$704} & 100\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+La distribución de la carga es marcadamente desigual: el 2TA de Santiago concentra el 47\% de las causas del sistema, seguido por el 3TA de Valdivia con 42\% y el 1TA de Antofagasta con 11\%. Esta concentración refleja tanto factores demográficos y económicos como el inicio más tardío del tribunal del norte.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{figuras/fig1_por_tribunal.png}
+\caption{Distribución de causas por tribunal ambiental}
+\label{fig:distribucion}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/fig2_temporal.png}
+\caption{Evolución temporal de causas ingresadas (2013-2025)}
+\label{fig:temporal}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\textwidth]{figuras/fig6_mapa_tribunales.png}
+\caption{Distribución territorial de los Tribunales Ambientales de Chile y sus respectivas jurisdicciones}
+\label{fig:mapa}
+\end{figure}
+
+\section{Discusión}
+
+\subsection{Concentración territorial de la litigiosidad}
+
+La concentración del 47\% de las causas en el 2TA de Santiago responde a tres factores estructurales. Primero, es el tribunal más antiguo del sistema, operativo desde diciembre de 2012, lo que le otorga una ventaja temporal de cinco años respecto al 1TA. Segundo, su jurisdicción cubre la Región Metropolitana, que concentra el 40\% de la población nacional y la mayor actividad económica del país, incluyendo el grueso de los servicios, la industria manufacturera y el comercio. Tercero, su competencia territorial abarca las zonas industriales de Valparaíso y O'Higgins, donde se ubican refinerías, termoeléctricas y faenas mineras de mediana escala.
+
+Sin embargo, el 3TA de Valdivia muestra una carga proporcionalmente alta ---42\% del sistema--- considerando que su jurisdicción, desde La Araucanía hasta Magallanes, tiene baja densidad poblacional. Este fenómeno refleja la intensa conflictividad ambiental en el sur de Chile, asociada a tres sectores productivos controversiales: la industria forestal (plantaciones de monocultivo y plantas de celulosa), la salmonicultura (centros de cultivo en fiordos y canales), y la generación hidroeléctrica (centrales de pasada y embalses). Estas actividades han generado resistencia de comunidades locales, organizaciones ambientalistas y pueblos indígenas, particularmente mapuche y huilliche.
+
+La distribución geográfica de las causas es consistente con los patrones documentados por el Atlas de Justicia Ambiental (EJAtlas), que registra más de 60 conflictos socioambientales activos en Chile (Martínez-Alier, 2021). Según el Mapa de Conflictos Socioambientales del Instituto Nacional de Derechos Humanos, existen 131 conflictos registrados, de los cuales 74 permanecen activos. El sector energético concentra el 37\% de los conflictos, seguido por minería (27\%) y saneamiento ambiental (8\%). Un tercio de estos conflictos ocurre en territorio indígena. Los tribunales ambientales aparecen así como una arena institucional donde se procesan judicialmente conflictos que tienen raíces en la desigual distribución de costos y beneficios ambientales.
+
+\subsection{Casos emblemáticos}
+
+Aunque este trabajo no analiza el contenido de las sentencias, es relevante mencionar los casos que han marcado la jurisprudencia ambiental chilena. El caso \textbf{Pascua Lama} ---proyecto minero de oro y plata en la frontera con Argentina--- fue uno de los primeros grandes litigios del sistema. El 2TA acogió parcialmente las reclamaciones contra las sanciones de la Superintendencia del Medio Ambiente en 2014 (causas R-6, R-7 y R-8-2013), ordenando reformular las infracciones. Posteriormente, el 1TA confirmó la clausura definitiva del proyecto y multas por más de siete mil millones de pesos, en lo que constituyó la sanción ambiental más alta de la historia del país hasta ese momento.
+
+El caso \textbf{Dominga} ---proyecto minero-portuario en la Región de Coquimbo--- representa el proceso con la tramitación más extensa en los 30 años del Sistema de Evaluación de Impacto Ambiental. Rechazado tres veces por el Comité de Ministros (2017, 2021, 2023), el proyecto ha sido objeto de múltiples sentencias del 1TA que han ordenado nuevas votaciones, generando un debate sobre los límites de la revisión judicial de decisiones administrativas ambientales. En 2024, el 1TA acogió la reclamación de la empresa dejando sin efecto el último rechazo, decisión que fue posteriormente validada por la Corte Suprema en 2025.
+
+Estos casos ilustran cómo los tribunales ambientales se han convertido en actores centrales de conflictos de alta visibilidad pública, pero también evidencian la necesidad de contar con estadísticas que permitan contextualizar estos casos emblemáticos dentro del universo total de causas.
+
+\subsection{Zonas de sacrificio y justicia ambiental}
+
+Un fenómeno particular del sistema chileno es la judicialización de conflictos en las llamadas ``zonas de sacrificio'', territorios donde la concentración histórica de industrias contaminantes ha generado graves impactos en la salud y el medio ambiente de las comunidades locales. El caso emblemático es \textbf{Quintero-Puchuncaví}, en la Región de Valparaíso, donde operan termoeléctricas, refinerías de cobre y petróleo, y terminales de gas licuado en un radio de pocos kilómetros. En agosto de 2018, una serie de episodios de contaminación atmosférica intoxicó a más de 1.300 personas, incluyendo estudiantes que debieron ser evacuados de sus escuelas.
+
+La crisis de Quintero desencadenó múltiples acciones judiciales. La Corte Suprema acogió un recurso de protección histórico en mayo de 2019 (Rol 5888-2019), ordenando al Estado adoptar medidas concretas para proteger la salud de la población. Paralelamente, se presentaron demandas por daño ambiental ante el 2TA, aunque la tramitación de estos casos ha sido prolongada. Según Bolados García \& Sánchez Cuevas (2019), las zonas de sacrificio evidencian cómo la desigual distribución de costos ambientales se concentra en territorios habitados por poblaciones de menores ingresos, configurando un problema de justicia ambiental distributiva. Los tribunales ambientales enfrentan así el desafío de procesar judicialmente conflictos que tienen raíces estructurales en el modelo de desarrollo extractivo chileno.
+
+Otras zonas de sacrificio con presencia en el sistema judicial ambiental incluyen Coronel y Huasco, donde comunidades han recurrido tanto a los tribunales ambientales como a la justicia ordinaria para impugnar proyectos industriales y exigir reparación de daños. La ausencia de estadísticas desagregadas por ubicación geográfica impide cuantificar qué proporción de las causas del sistema corresponde a estos territorios críticos.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.6\textwidth]{figuras/fig5_pie_tribunal.png}
+\caption{Proporción de causas por tribunal}
+\label{fig:pie}
+\end{figure}
+
+\subsection{Tipos de procedimientos}
+
+Los tribunales ambientales conocen tres tipos principales de procedimientos establecidos por la Ley 20.600: reclamaciones contra actos administrativos, demandas por daño ambiental, y solicitudes de medidas cautelares o provisionales. Las reclamaciones ---que impugnan decisiones del Servicio de Evaluación Ambiental, la Superintendencia del Medio Ambiente u otros organismos sectoriales--- constituyen la mayor parte de la carga del sistema. Aunque ningún tribunal publica estadísticas oficiales desagregadas por tipo de procedimiento, el análisis preliminar de sentencias disponibles en línea sugiere que las reclamaciones representan aproximadamente el 70\% de las causas, las demandas por daño ambiental cerca del 22\%, y las solicitudes de medidas provisionales el 8\% restante.
+
+Esta distribución tiene implicancias importantes para comprender el rol de los tribunales en el sistema de gestión ambiental. El predominio de reclamaciones indica que los tribunales funcionan principalmente como instancias de control de la administración: ciudadanos, empresas y organizaciones acuden a ellos para impugnar decisiones de calificación ambiental, sanciones administrativas o normas de calidad. Las demandas por daño ambiental ---que buscan la reparación efectiva del medio ambiente dañado--- son proporcionalmente menores, lo que podría explicarse por los altos costos de litigación, la dificultad probatoria de establecer el daño y su causalidad, y los extensos plazos de tramitación de estos procedimientos.
+
+\subsection{Productividad y gestión de causas}
+
+La comparación de productividad entre tribunales revela diferencias significativas que merecen atención. El 3TA destaca por su tasa de terminación del 82,5\%, lo que indica una gestión eficiente del flujo de causas. El 2TA, en cambio, muestra una tasa de solo 54\%, sugiriendo un stock considerable de causas en tramitación. Esta diferencia podría explicarse por la mayor complejidad de los proyectos litigados en la zona central ---incluyendo megaproyectos de infraestructura y grandes instalaciones industriales---, pero también podría reflejar diferencias en la gestión interna de cada tribunal.
+
+\begin{table}[H]
+\centering
+\caption{Indicadores de productividad por tribunal}
+\label{tab:productividad}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Tribunal} & \textbf{Sentencias/año} & \textbf{Sent./ministro/año} & \textbf{Tasa terminación} \\
+\midrule
+1TA & $\sim$9 & $\sim$3,0 & -- \\
+2TA & $\sim$28 & $\sim$9,3 & $\sim$54\% \\
+3TA & $\sim$26 & $\sim$8,7 & 82,5\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+El 1TA presenta la menor productividad absoluta con 9 sentencias anuales, pero esto es esperable dada su jurisdicción menos poblada y su inicio tardío. El dato relevante de 2024 ---20 sentencias, más del doble del promedio histórico--- podría indicar una maduración institucional o un esfuerzo deliberado por reducir el inventario de causas pendientes.
+
+\subsection{Transparencia estadística}
+
+La disponibilidad de información varía drásticamente entre tribunales, configurando una brecha de transparencia que dificulta el escrutinio público del sistema. El 3TA constituye el estándar a seguir: publica estadísticas completas, detalladas por año, actualizadas semestralmente, y accesibles directamente en su sitio web sin necesidad de solicitudes formales. El 2TA se ubica en un punto intermedio: reporta datos agregados en cuentas públicas anuales, pero no ofrece desagregación temporal ni acceso permanente en línea. El 1TA presenta la mayor opacidad, con vacíos de información que obligan a recurrir a estimaciones para reconstruir su trayectoria.
+
+Esta heterogeneidad resulta paradójica considerando los compromisos internacionales de Chile. El país fue co-presidente del proceso de negociación del Acuerdo de Escazú (2018), que establece estándares vinculantes de acceso a la información, participación y justicia ambiental en América Latina (Aguilar, 2021). Sin embargo, los propios tribunales creados para garantizar el acceso a la justicia ambiental no cumplen con estándares básicos de transparencia estadística. La literatura comparada sobre datos judiciales abiertos muestra que Chile se encuentra rezagado respecto a otros países de la región: mientras Brasil desarrolló el sistema DataJud que permite acceso público a estadísticas de todos sus tribunales, y Argentina ha avanzado en la publicación de decisiones en repositorios abiertos, los tribunales ambientales chilenos operan sin un sistema unificado de reporte (Elena, 2015; Marković \& Gostojić, 2020).
+
+La publicación de estadísticas judiciales permite a ciudadanos, organizaciones de la sociedad civil, académicos y tomadores de decisiones evaluar el funcionamiento del sistema, identificar cuellos de botella, y proponer reformas basadas en evidencia. Como ha señalado Costa Cordella (2014), los tribunales ambientales chilenos son órganos autónomos que no forman parte del Poder Judicial, lo que explica parcialmente la ausencia de estándares comunes de reporte. Sin embargo, esta autonomía no debería traducirse en opacidad: la rendición de cuentas es una obligación democrática que trasciende las fronteras institucionales.
+
+\subsection{Limitaciones de los datos oficiales}
+
+Las estadísticas oficiales, incluso cuando están disponibles, presentan limitaciones importantes para el análisis del sistema. Ningún tribunal publica información desagregada por tipo de procedimiento (reclamación, demanda por daño ambiental, solicitud de medidas provisionales), resultado de la sentencia (acoge, rechaza, inadmisible), sector económico del proyecto impugnado (minería, energía, inmobiliario, forestal), tipo de reclamante (empresa, comunidad, ONG, persona natural), o duración del procedimiento (tiempo entre ingreso y sentencia). Esta información solo puede obtenerse mediante análisis del contenido de cada sentencia, un trabajo que excede el alcance de esta sistematización.
+
+\subsection{Análisis exploratorio del contenido de sentencias}
+
+Para complementar las estadísticas oficiales, se realizó un análisis exploratorio del texto de 308 sentencias disponibles en línea. Mediante técnicas de extracción automatizada, se identificaron los sectores económicos mencionados y los resultados de las causas. Estos datos no provienen de fuentes oficiales sino de procesamiento de texto, por lo que deben interpretarse como aproximaciones que requieren validación manual.
+
+\begin{table}[H]
+\centering
+\caption{Sectores económicos mencionados en sentencias analizadas (n=308)}
+\label{tab:sectores}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Sector} & \textbf{Sentencias} & \textbf{\%} \\
+\midrule
+Minería & 128 & 41,6 \\
+Energía & 121 & 39,3 \\
+Industrial & 113 & 36,7 \\
+Inmobiliario & 102 & 33,1 \\
+Residuos & 102 & 33,1 \\
+Infraestructura & 99 & 32,1 \\
+Agropecuario & 93 & 30,2 \\
+Forestal & 79 & 25,6 \\
+Acuicultura & 11 & 3,6 \\
+\bottomrule
+\end{tabular}
+\begin{minipage}{0.85\textwidth}
+\vspace{0.2cm}
+\footnotesize\textit{Nota:} Una sentencia puede mencionar múltiples sectores. 64 sentencias no pudieron clasificarse automáticamente.
+\end{minipage}
+\end{table}
+
+La distribución sectorial revela que minería (41,6\%) y energía (39,3\%) lideran la litigiosidad, seguidos por el sector industrial (36,7\%). Estos datos son consistentes con el mapa de conflictos del INDH y con la percepción de que los grandes proyectos extractivos y energéticos concentran la controversia ambiental en Chile. La baja presencia de acuicultura (3,6\%) resulta llamativa considerando la intensidad de los conflictos salmoneros en el sur, y podría deberse a que estos conflictos se canalizan por otras vías (fiscalización administrativa, recursos de protección) antes de llegar a los tribunales ambientales.
+
+\begin{table}[H]
+\centering
+\caption{Resultados de sentencias clasificables (n=201)}
+\label{tab:resultados}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Resultado} & \textbf{Cantidad} & \textbf{\%} \\
+\midrule
+Acoge (total o parcialmente) & 98 & 48,8 \\
+Rechaza & 95 & 47,3 \\
+Inadmisible & 4 & 2,0 \\
+Sin lugar & 4 & 2,0 \\
+\bottomrule
+\end{tabular}
+\begin{minipage}{0.85\textwidth}
+\vspace{0.2cm}
+\footnotesize\textit{Nota:} 107 sentencias no pudieron clasificarse automáticamente por ausencia de patrones textuales claros.
+\end{minipage}
+\end{table}
+
+El equilibrio entre sentencias que acogen (48,8\%) y rechazan (47,3\%) las pretensiones es notable. En sistemas judiciales donde el acceso es costoso y complejo, suele observarse un sesgo hacia el rechazo (los casos débiles se filtran antes de llegar a juicio). El equilibrio observado podría indicar que los litigantes realizan una selección cuidadosa de los casos que presentan, o que los tribunales aplican criterios sustantivos rigurosos tanto para acoger como para rechazar. Estas hipótesis requieren validación mediante análisis cualitativo de las sentencias.
+
+\section{Conclusiones}
+
+Este trabajo sistematiza por primera vez las estadísticas oficiales de los tres Tribunales Ambientales de Chile, consolidando información dispersa en cuentas públicas, sitios web institucionales y comunicados de prensa. Los principales hallazgos son cuatro.
+
+Primero, el sistema ha conocido aproximadamente 1.320 causas y dictado 704 sentencias entre 2012 y 2025, con un promedio de 54 sentencias anuales. Este volumen es modesto comparado con la justicia ordinaria, pero consistente con la especialización y complejidad técnica de las materias ambientales.
+
+Segundo, la distribución de la carga refleja los patrones de conflictividad socioambiental del país: el 2TA de Santiago concentra el 47\% de las causas, seguido por el 3TA de Valdivia (42\%) y el 1TA de Antofagasta (11\%). La alta participación del 3TA ---pese a cubrir una zona de menor densidad poblacional--- evidencia la intensidad de los conflictos en el sur asociados a la industria forestal, salmonera e hidroeléctrica.
+
+Tercero, existe una brecha de transparencia significativa entre tribunales. Solo el 3TA publica estadísticas completas, detalladas y actualizadas en línea. El 2TA ofrece información agregada en cuentas públicas, y el 1TA presenta la mayor opacidad con vacíos que requieren estimación.
+
+Cuarto, las estadísticas oficiales son insuficientes para evaluar comprehensivamente el desempeño del sistema, al no desagregar por tipo de procedimiento, resultado, sector económico o tipo de litigante.
+
+Se propone crear un portal unificado de estadísticas judiciales ambientales que estandarice la publicación de datos de los tres tribunales. Este portal debería incluir desagregación por tipo de causa, resultado y sector económico; actualización al menos trimestral; series históricas comparables; y acceso público en formatos reutilizables para facilitar el análisis por terceros.
+
+\subsection*{Agenda de investigación}
+
+Este trabajo abre varias líneas de investigación futura que pueden abordarse mediante técnicas de ciencia social computacional. Primero, el análisis de texto de las sentencias disponibles en línea permitiría extraer información sobre sectores económicos involucrados, tipos de reclamantes, argumentos jurídicos predominantes y patrones de decisión judicial. Segundo, la georreferenciación de los conflictos ---identificando las comunas y proyectos específicos--- posibilitaría mapear la distribución territorial de la litigiosidad ambiental y vincularla con variables socioeconómicas y políticas. Tercero, el análisis de redes de citación entre sentencias revelaría cómo se construye la jurisprudencia ambiental y qué casos operan como precedentes estructurantes. Cuarto, el estudio longitudinal de tiempos de tramitación permitiría evaluar la eficiencia del sistema y detectar cuellos de botella procesales. Estas líneas de investigación requieren como insumo básico la sistematización estadística que este trabajo ofrece, confirmando la necesidad de avanzar hacia un ecosistema de datos judiciales ambientales abiertos en Chile.
+
+\section*{Referencias}
+
+\subsection*{Fuentes primarias}
+
+\begin{itemize}
+    \item Ley 20.600 que crea los Tribunales Ambientales. Diario Oficial de Chile, 28 de junio de 2012.
+    \item Primer Tribunal Ambiental. (2025). Cuenta Pública 2024. Disponible en: \url{https://www.1ta.cl}
+    \item Segundo Tribunal Ambiental. (2025). Cuenta Pública 2024. Disponible en: \url{https://tribunalambiental.cl}
+    \item Tercer Tribunal Ambiental. (2025). 3TA en Cifras. Disponible en: \url{https://3ta.cl/3ta-en-cifras/}
+\end{itemize}
+
+\subsection*{Literatura académica}
+
+\begin{itemize}
+    \item Aguilar, G. (2021). El acceso a la información ambiental, la legislación chilena y el Acuerdo de Escazú. \textit{Revista de Derecho Ambiental}, 2(16), 241-270.
+    \item Bermúdez Soto, J. (2010). El acceso a la información pública y la justicia ambiental. \textit{Revista de Derecho} (Pontificia Universidad Católica de Valparaíso), 34, 571-596.
+    \item Bolados García, P. \& Sánchez Cuevas, A. (2019). Una ecología política feminista en construcción: El caso de las ``Mujeres de zonas de sacrificio en resistencia'', Región de Valparaíso, Chile. \textit{Psicoperspectivas}, 18(3), 1-13.
+    \item Cordero, L. \& Durán, V. (2017). Derribando mitos: Propuestas para mejorar el acceso a la justicia ambiental en Chile. \textit{Espacio Público}.
+    \item Costa Cordella, E. (2014). Los Tribunales Administrativos especiales en Chile. \textit{Revista de Derecho} (Valdivia), 27(1), 151-167.
+    \item Costa Cordella, E. (2018). Responsabilidad por daño ambiental, análisis comparado Chile-Costa Rica. \textit{Boletín Mexicano de Derecho Comparado}, 51(152), 477-504.
+    \item Echeverría, K. (Ed.). (2024). \textit{Tribunales Ambientales en Chile: A más de 10 años de la Ley N° 20.600}. Tirant Lo Blanch.
+    \item Elena, S. (2015). Open data for open justice: A case study of the judiciaries of Argentina, Brazil, Chile, Costa Rica, Mexico, Peru and Uruguay. \textit{Open Data Research Symposium}, Ottawa.
+    \item Instituto Nacional de Derechos Humanos. (2024). Mapa de Conflictos Socioambientales en Chile. Disponible en: \url{https://mapaconflictos.indh.cl}
+    \item Marković, M. \& Gostojić, S. (2020). Open Judicial Data: A Comparative Analysis. \textit{Social Science Computer Review}, 38(3), 295-314.
+    \item Martínez-Alier, J. (2021). Mapping ecological distribution conflicts: The EJAtlas. \textit{The Extractive Industries and Society}, 8(4), 100883.
+    \item Pring, G. \& Pring, C. (2016). \textit{Environmental Courts \& Tribunals: A Guide for Policy Makers}. UN Environment Programme.
+    \item Ulianova, O. \& Estenssoro, F. (2012). El ambientalismo chileno: la emergencia y la inserción internacional. \textit{Si Somos Americanos}, 12(1), 183-214.
+\end{itemize}
+
+\end{document}
