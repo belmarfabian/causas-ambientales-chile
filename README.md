@@ -115,9 +115,9 @@ Datos públicos. Base de conflictos construida a partir de fuentes públicas (IN
 ```bibtex
 @misc{belmar2026conflictos,
   author = {Belmar, Fabián},
-  title = {Conflictos Socioecológicos y Tribunales Ambientales de Chile},
+  title = {Conflictos Socioecológicos y Causas Ambientales de Chile},
   year = {2026},
   publisher = {GitHub},
-  url = {https://github.com/belmarfabian/tribunal-ambiental-chile}
+  url = {https://github.com/belmarfabian/causas-ambientales-chile}
 }
 ```
