@@ -90,6 +90,16 @@ def cargar_resumen():
     }
 
 
+@st.cache_data
+def cargar_datos_tribunales():
+    """Carga estadísticas de los Tribunales Ambientales."""
+    stats_path = BASE_DIR / "datos" / "estadisticas" / "estadisticas_corpus.json"
+    if stats_path.exists():
+        with open(stats_path, encoding="utf-8") as f:
+            return json.load(f)
+    return None
+
+
 def main():
     st.title("🌿 Conflictos Socioecológicos en Chile")
     st.markdown("**Base de datos integrada: INDH, EJAtlas y OCMAL**")
@@ -192,12 +202,12 @@ def main():
 
     # Tabs
     if tiene_categorias:
-        tab_stats, tab_cat, tab_temporal, tab_map, tab_data, tab_cross, tab_search = st.tabs(
-            ["📊 Estadísticas", "🏷️ Categorías", "📈 Temporal", "🗺️ Mapa", "📋 Datos", "🔗 Fuentes Cruzadas", "🔍 Búsqueda"]
+        tab_stats, tab_cat, tab_temporal, tab_map, tab_data, tab_cross, tab_search, tab_tribunales = st.tabs(
+            ["📊 Estadísticas", "🏷️ Categorías", "📈 Temporal", "🗺️ Mapa", "📋 Datos", "🔗 Fuentes Cruzadas", "🔍 Búsqueda", "⚖️ Tribunales"]
         )
     else:
-        tab_stats, tab_temporal, tab_map, tab_data, tab_cross, tab_search = st.tabs(
-            ["📊 Estadísticas", "📈 Temporal", "🗺️ Mapa", "📋 Datos", "🔗 Fuentes Cruzadas", "🔍 Búsqueda"]
+        tab_stats, tab_temporal, tab_map, tab_data, tab_cross, tab_search, tab_tribunales = st.tabs(
+            ["📊 Estadísticas", "📈 Temporal", "🗺️ Mapa", "📋 Datos", "🔗 Fuentes Cruzadas", "🔍 Búsqueda", "⚖️ Tribunales"]
         )
         tab_cat = None
 
@@ -603,6 +613,101 @@ def main():
 
                     if row.get('url'):
                         st.markdown(f"[Ver en fuente original]({row['url']})")
+
+    with tab_tribunales:
+        st.subheader("⚖️ Tribunales Ambientales de Chile")
+        st.markdown("Estadísticas del corpus de documentos judiciales (2013-2025)")
+
+        datos_tribunales = cargar_datos_tribunales()
+
+        if datos_tribunales:
+            # Métricas principales
+            col1, col2, col3, col4 = st.columns(4)
+            with col1:
+                st.metric("Total documentos", f"{datos_tribunales['total_archivos']:,}")
+            with col2:
+                st.metric("Causas únicas", datos_tribunales['roles_unicos'])
+            with col3:
+                st.metric("Sentencias", datos_tribunales['por_tipo'].get('Sentencia', 0))
+            with col4:
+                st.metric("Actas", datos_tribunales['por_tipo'].get('Acta', 0))
+
+            col1, col2 = st.columns(2)
+
+            with col1:
+                # Por tribunal
+                df_trib = pd.DataFrame([
+                    {'Tribunal': k, 'Documentos': v}
+                    for k, v in datos_tribunales['por_tribunal'].items()
+                ])
+                fig_trib = px.bar(
+                    df_trib, x='Tribunal', y='Documentos',
+                    title='Documentos por Tribunal',
+                    color='Tribunal',
+                    color_discrete_map={'1TA': '#1f77b4', '2TA': '#ff7f0e', '3TA': '#2ca02c'}
+                )
+                fig_trib.update_layout(showlegend=False)
+                st.plotly_chart(fig_trib, use_container_width=True)
+
+            with col2:
+                # Por tipo de documento
+                tipos_principales = ['Sentencia', 'Acta', 'Resolución', 'Informe', 'Boletín']
+                df_tipo = pd.DataFrame([
+                    {'Tipo': k, 'Cantidad': v}
+                    for k, v in datos_tribunales['por_tipo'].items()
+                    if k in tipos_principales
+                ])
+                df_tipo = df_tipo.sort_values('Cantidad', ascending=True)
+                fig_tipo = px.bar(
+                    df_tipo, x='Cantidad', y='Tipo', orientation='h',
+                    title='Documentos por tipo',
+                    color='Cantidad', color_continuous_scale='Blues'
+                )
+                st.plotly_chart(fig_tipo, use_container_width=True)
+
+            # Evolución temporal
+            st.markdown("### Evolución temporal")
+            df_año = pd.DataFrame([
+                {'Año': int(k), 'Documentos': v}
+                for k, v in datos_tribunales['por_año'].items()
+            ]).sort_values('Año')
+
+            fig_temporal = px.area(
+                df_año, x='Año', y='Documentos',
+                title='Documentos por año',
+                line_shape='spline'
+            )
+            fig_temporal.update_traces(fill='tozeroy')
+            st.plotly_chart(fig_temporal, use_container_width=True)
+
+            # Por tribunal y año
+            st.markdown("### Detalle por tribunal y año")
+            datos_cruzados = []
+            for trib, años in datos_tribunales['por_tribunal_año'].items():
+                for año, cant in años.items():
+                    if cant > 0:
+                        datos_cruzados.append({'Tribunal': trib, 'Año': int(año), 'Documentos': cant})
+
+            if datos_cruzados:
+                df_cruzado = pd.DataFrame(datos_cruzados)
+                fig_cruzado = px.line(
+                    df_cruzado, x='Año', y='Documentos', color='Tribunal',
+                    title='Evolución por tribunal',
+                    color_discrete_map={'1TA': '#1f77b4', '2TA': '#ff7f0e', '3TA': '#2ca02c'},
+                    markers=True
+                )
+                st.plotly_chart(fig_cruzado, use_container_width=True)
+
+            # Info de tribunales
+            st.markdown("""
+            ---
+            **Tribunales Ambientales de Chile:**
+            - **1TA** (Antofagasta): Regiones de Arica y Parinacota, Tarapacá, Antofagasta, Atacama y Coquimbo
+            - **2TA** (Santiago): Regiones de Valparaíso, Metropolitana, O'Higgins, Maule, Ñuble y Biobío
+            - **3TA** (Valdivia): Regiones de La Araucanía, Los Ríos, Los Lagos, Aysén y Magallanes
+            """)
+        else:
+            st.warning("No se encontraron datos de tribunales. Verifica que exista el archivo datos/estadisticas/estadisticas_corpus.json")
 
     # Footer
     st.markdown("---")
