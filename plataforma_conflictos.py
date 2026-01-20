@@ -312,16 +312,80 @@ def seccion_tribunales():
             fig.update_traces(textposition='outside')
             st.plotly_chart(fig, use_container_width=True)
 
-        # Distribución por tribunal (pie)
-        st.markdown("### Distribución de causas por tribunal")
-        df_dist = pd.DataFrame([
-            {'Tribunal': '1TA (Antofagasta)', 'Causas': datos['por_tribunal'].get('1TA', 0)},
-            {'Tribunal': '2TA (Santiago)', 'Causas': datos['por_tribunal'].get('2TA', 0)},
-            {'Tribunal': '3TA (Valdivia)', 'Causas': datos['por_tribunal'].get('3TA', 0)},
+        # Cruce tribunal × tipo de procedimiento (datos del paper 2)
+        st.markdown("### Causas por tribunal y tipo de procedimiento")
+        st.caption("R=Reclamación, D=Demanda, S=Solicitud, C=Otras (Ley 20.600)")
+
+        # Datos verificados del paper 2 (866 causas únicas)
+        df_cruce = pd.DataFrame([
+            {'Tribunal': '1TA (Antofagasta)', 'Tipo': 'R - Reclamación', 'Causas': 49},
+            {'Tribunal': '1TA (Antofagasta)', 'Tipo': 'D - Demanda', 'Causas': 12},
+            {'Tribunal': '1TA (Antofagasta)', 'Tipo': 'S - Solicitud', 'Causas': 8},
+            {'Tribunal': '2TA (Santiago)', 'Tipo': 'R - Reclamación', 'Causas': 276},
+            {'Tribunal': '2TA (Santiago)', 'Tipo': 'D - Demanda', 'Causas': 25},
+            {'Tribunal': '2TA (Santiago)', 'Tipo': 'S - Solicitud', 'Causas': 79},
+            {'Tribunal': '2TA (Santiago)', 'Tipo': 'C - Otras', 'Causas': 5},
+            {'Tribunal': '3TA (Valdivia)', 'Tipo': 'R - Reclamación', 'Causas': 274},
+            {'Tribunal': '3TA (Valdivia)', 'Tipo': 'D - Demanda', 'Causas': 59},
+            {'Tribunal': '3TA (Valdivia)', 'Tipo': 'S - Solicitud', 'Causas': 74},
+            {'Tribunal': '3TA (Valdivia)', 'Tipo': 'C - Otras', 'Causas': 5},
         ])
-        fig = px.pie(df_dist, values='Causas', names='Tribunal',
-                    color_discrete_sequence=['#1f77b4', '#ff7f0e', '#2ca02c'])
+
+        fig = px.bar(df_cruce, x='Tribunal', y='Causas', color='Tipo',
+                    title='866 causas únicas por tribunal y tipo',
+                    text='Causas', barmode='stack',
+                    color_discrete_map={
+                        'R - Reclamación': '#1f77b4',
+                        'D - Demanda': '#ff7f0e',
+                        'S - Solicitud': '#2ca02c',
+                        'C - Otras': '#d62728'
+                    })
+        fig.update_layout(
+            xaxis_title='',
+            yaxis_title='Causas',
+            legend_title='Tipo de procedimiento'
+        )
+        fig.update_traces(textposition='inside')
         st.plotly_chart(fig, use_container_width=True)
+
+        # Totales por tipo de procedimiento
+        col1, col2 = st.columns(2)
+        with col1:
+            df_tipo_proc = pd.DataFrame([
+                {'Tipo': 'R - Reclamaciones', 'Causas': 599},
+                {'Tipo': 'D - Demandas', 'Causas': 96},
+                {'Tipo': 'S - Solicitudes', 'Causas': 161},
+                {'Tipo': 'C - Otras', 'Causas': 10},
+            ]).sort_values('Causas', ascending=True)
+
+            fig = px.bar(df_tipo_proc, x='Causas', y='Tipo', orientation='h',
+                        title='Total por tipo de procedimiento', text='Causas',
+                        color='Tipo',
+                        color_discrete_map={
+                            'R - Reclamaciones': '#1f77b4',
+                            'D - Demandas': '#ff7f0e',
+                            'S - Solicitudes': '#2ca02c',
+                            'C - Otras': '#d62728'
+                        })
+            fig.update_layout(showlegend=False)
+            fig.update_traces(textposition='outside')
+            st.plotly_chart(fig, use_container_width=True)
+
+        with col2:
+            # Total por tribunal
+            df_trib_total = pd.DataFrame([
+                {'Tribunal': '1TA (Antofagasta)', 'Causas': 69},
+                {'Tribunal': '2TA (Santiago)', 'Causas': 385},
+                {'Tribunal': '3TA (Valdivia)', 'Causas': 412},
+            ]).sort_values('Causas', ascending=True)
+
+            fig = px.bar(df_trib_total, x='Causas', y='Tribunal', orientation='h',
+                        title='Total causas por tribunal', text='Causas',
+                        color='Tribunal',
+                        color_discrete_sequence=['#1f77b4', '#ff7f0e', '#2ca02c'])
+            fig.update_layout(showlegend=False)
+            fig.update_traces(textposition='outside')
+            st.plotly_chart(fig, use_container_width=True)
 
     with tab_temporal:
         # Solo años con sentencias
