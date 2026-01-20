@@ -102,7 +102,14 @@ def cargar_datos_tribunales():
 
 def main():
     st.title("🌿 Conflictos Socioecológicos en Chile")
-    st.markdown("**Base de datos integrada: INDH, EJAtlas y OCMAL**")
+    st.markdown("""
+    **Base de datos integrada de conflictos socioecológicos en Chile (1990-2025).**
+
+    Consolida información de tres fuentes: el [Mapa de Conflictos Socioambientales del INDH](https://mapaconflictos.indh.cl/),
+    el [Environmental Justice Atlas](https://ejatlas.org/country/chile) y el [Observatorio de Conflictos Mineros de América Latina](https://mapa.conflictosmineros.net/).
+    Incluye 244 conflictos únicos tras proceso de deduplicación, con información sobre sector económico,
+    región, actores afectados, formas de resistencia y estado actual.
+    """)
 
     # Cargar datos (versión final con noticias)
     df = cargar_datos()
@@ -232,10 +239,12 @@ def main():
                     orientation='h',
                     title='Conflictos por sector económico',
                     color='Cantidad',
-                    color_continuous_scale='Viridis'
+                    color_continuous_scale='Viridis',
+                    text='Cantidad'
                 )
                 fig_sector.update_layout(yaxis={'categoryorder': 'total ascending'})
-                st.plotly_chart(fig_sector, width='stretch')
+                fig_sector.update_traces(textposition='outside')
+                st.plotly_chart(fig_sector, use_container_width=True)
 
         with col2:
             # Por estado
@@ -251,10 +260,12 @@ def main():
                     orientation='h',
                     title='Conflictos por estado',
                     color='Estado',
-                    color_discrete_map=colores
+                    color_discrete_map=colores,
+                    text='Cantidad'
                 )
                 fig_estado.update_layout(yaxis={'categoryorder': 'total ascending'}, showlegend=False)
-                st.plotly_chart(fig_estado, width='stretch')
+                fig_estado.update_traces(textposition='outside')
+                st.plotly_chart(fig_estado, use_container_width=True)
 
         # Por fuente
         col1, col2 = st.columns(2)
@@ -269,10 +280,12 @@ def main():
                 orientation='h',
                 title='Conflictos por fuente',
                 color='Fuente',
-                color_discrete_map={'INDH': '#1f77b4', 'EJAtlas': '#ff7f0e', 'OCMAL': '#2ca02c'}
+                color_discrete_map={'INDH': '#1f77b4', 'EJAtlas': '#ff7f0e', 'OCMAL': '#2ca02c'},
+                text='Cantidad'
             )
             fig_fuente.update_layout(yaxis={'categoryorder': 'total ascending'}, showlegend=False)
-            st.plotly_chart(fig_fuente, width='stretch')
+            fig_fuente.update_traces(textposition='outside')
+            st.plotly_chart(fig_fuente, use_container_width=True)
 
         with col2:
             # Por región
@@ -292,10 +305,12 @@ def main():
                     orientation='h',
                     title='Top 10 regiones',
                     color='Cantidad',
-                    color_continuous_scale='Blues'
+                    color_continuous_scale='Blues',
+                    text='Cantidad'
                 )
                 fig_region.update_layout(yaxis={'categoryorder': 'total ascending'})
-                st.plotly_chart(fig_region, width='stretch')
+                fig_region.update_traces(textposition='outside')
+                st.plotly_chart(fig_region, use_container_width=True)
 
     # Tab de categorías (si existen)
     if tiene_categorias and tab_cat is not None:
@@ -616,7 +631,13 @@ def main():
 
     with tab_tribunales:
         st.subheader("⚖️ Tribunales Ambientales de Chile")
-        st.markdown("Estadísticas del corpus de documentos judiciales (2013-2025)")
+        st.markdown("""
+        **Corpus de documentos judiciales de los tres Tribunales Ambientales de Chile (2013-2025).**
+
+        Los Tribunales Ambientales son órganos jurisdiccionales especializados creados por la Ley 20.600 (2012)
+        para resolver controversias medioambientales. Este corpus incluye sentencias, actas, resoluciones
+        e informes de los tres tribunales: 1TA (Antofagasta), 2TA (Santiago) y 3TA (Valdivia).
+        """)
 
         datos_tribunales = cargar_datos_tribunales()
 
@@ -644,9 +665,11 @@ def main():
                     df_trib, x='Tribunal', y='Documentos',
                     title='Documentos por Tribunal',
                     color='Tribunal',
-                    color_discrete_map={'1TA': '#1f77b4', '2TA': '#ff7f0e', '3TA': '#2ca02c'}
+                    color_discrete_map={'1TA': '#1f77b4', '2TA': '#ff7f0e', '3TA': '#2ca02c'},
+                    text='Documentos'
                 )
                 fig_trib.update_layout(showlegend=False)
+                fig_trib.update_traces(textposition='outside')
                 st.plotly_chart(fig_trib, use_container_width=True)
 
             with col2:
@@ -661,8 +684,10 @@ def main():
                 fig_tipo = px.bar(
                     df_tipo, x='Cantidad', y='Tipo', orientation='h',
                     title='Documentos por tipo',
-                    color='Cantidad', color_continuous_scale='Blues'
+                    color='Cantidad', color_continuous_scale='Blues',
+                    text='Cantidad'
                 )
+                fig_tipo.update_traces(textposition='outside')
                 st.plotly_chart(fig_tipo, use_container_width=True)
 
             # Evolución temporal
