@@ -1,0 +1,22 @@
+{
+  "fecha": "2026-01-13T14:17:01.567587",
+  "procesados": 615,
+  "exitosos": 229,
+  "omitidos": 3128,
+  "escaneados_count": 364,
+  "errores_count": 22,
+  "por_tipo": {
+    ".pdf": {
+      "exitosos": 159,
+      "fallidos": 365
+    },
+    ".doc": {
+      "exitosos": 9,
+      "fallidos": 21
+    },
+    ".docx": {
+      "exitosos": 61,
+      "fallidos": 0
+    }
+  }
+}

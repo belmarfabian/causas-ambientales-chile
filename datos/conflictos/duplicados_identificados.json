@@ -1,0 +1,365 @@
+{
+  "ejatlas_vs_ocmal": [
+    {
+      "nombre_principal": "Proyecto Minera Dominga, Coquimbo, Chile",
+      "nombre_secundario": "Proyecto Dominga",
+      "palabras_comunes": ["dominga", "proyecto"]
+    },
+    {
+      "nombre_principal": "Las Vizcachitas Mining Project, Chile",
+      "nombre_secundario": "Proyecto Vizcachita",
+      "palabras_comunes": ["vizcachita"]
+    },
+    {
+      "nombre_principal": "Minera Los Pelambres, Los Vilos, Coquimbo, Chile",
+      "nombre_secundario": "Los Pelambres Tailings",
+      "palabras_comunes": ["pelambres"]
+    },
+    {
+      "nombre_principal": "Caserones, Chile",
+      "nombre_secundario": "Proyecto Caserones sequía Tierra Amarilla",
+      "palabras_comunes": ["caserones"]
+    },
+    {
+      "nombre_principal": "Proyecto de minería de oro Los Domos, Aysén, Chile",
+      "nombre_secundario": "Proyecto Los Domos",
+      "palabras_comunes": ["domos", "proyecto"]
+    },
+    {
+      "nombre_principal": "Minas de Carbón en Isla Guafo, Chile",
+      "nombre_secundario": "Coal Exploitation at Isla Guafo",
+      "palabras_comunes": ["guafo", "isla"]
+    },
+    {
+      "nombre_principal": "Minera de cobre Doña Inés de Collahuasi, Chile",
+      "nombre_secundario": "Doña Inés de Collahuasi",
+      "palabras_comunes": ["collahuasi", "ines"]
+    }
+  ],
+  "ejatlas_vs_indh": [
+    {
+      "nombre_principal": "Puerto Chino en Corral (Puerto Pacífico Sur/Consorcio Chino-Chileno)",
+      "nombre_secundario": "Puerto Corral Pacífico Sur, Chile",
+      "palabras_comunes": [
+        "corral",
+        "pacifico",
+        "puerto"
+      ]
+    },
+    {
+      "nombre_principal": "Pascua Lama",
+      "nombre_secundario": "Mina de oro, cobre y plata Pascua Lama, Chile",
+      "palabras_comunes": [
+        "pascua",
+        "lama"
+      ]
+    },
+    {
+      "nombre_principal": "Concesiones Mineras Lago Lleu Lleu",
+      "nombre_secundario": "Lago Lleu Lleu, Chile",
+      "palabras_comunes": [
+        "lago",
+        "lleu"
+      ]
+    },
+    {
+      "nombre_principal": "Pozos de extracción de agua en el Parque Nacional Lauca",
+      "nombre_secundario": "Extracción de agua en Pampa Colorada para la minera Escondida, Chile",
+      "palabras_comunes": [
+        "agua",
+        "extraccion"
+      ]
+    },
+    {
+      "nombre_principal": "Fundición Paipote",
+      "nombre_secundario": "Fundicion de cobre Paipote (Videla Lira), Chile",
+      "palabras_comunes": [
+        "fundicion",
+        "paipote"
+      ]
+    },
+    {
+      "nombre_principal": "Conflicto por las aguas del río Wueneywue ",
+      "nombre_secundario": "Conflicto internacional sobre el Rio Lauca, Bolivia – Chile",
+      "palabras_comunes": [
+        "conflicto",
+        "rio"
+      ]
+    },
+    {
+      "nombre_principal": "Planta de producción de sales de potasio en Salar de Atacama",
+      "nombre_secundario": "Lithium mining in the Salar de Atacama, Chile",
+      "palabras_comunes": [
+        "atacama",
+        "salar"
+      ]
+    },
+    {
+      "nombre_principal": "Central hidroeléctrica El Gato",
+      "nombre_secundario": "Central Hidroeléctrica Rucalhue, Bíobío, Chile",
+      "palabras_comunes": [
+        "hidroelectrica",
+        "central"
+      ]
+    },
+    {
+      "nombre_principal": "Fundición Ventanas",
+      "nombre_secundario": "Refinería y fundición ENAMI-CODELCO en Zona de Sacrificio Ventanas, Chile",
+      "palabras_comunes": [
+        "ventanas",
+        "fundicion"
+      ]
+    },
+    {
+      "nombre_principal": "Proyecto hidroeléctrico Alto Maipo",
+      "nombre_secundario": "ALTO MAIPO Hydroelectric Project (PHAM), Chile",
+      "palabras_comunes": [
+        "maipo",
+        "alto"
+      ]
+    },
+    {
+      "nombre_principal": "Pozos de extracción de agua en el Parque Nacional Lauca",
+      "nombre_secundario": "Minería en el Parque y Reserva Nacional Lauca-Las Vicuñas, Chile",
+      "palabras_comunes": [
+        "nacional",
+        "parque"
+      ]
+    },
+    {
+      "nombre_principal": "Contaminación del río Cruces por planta de celulosa Valdivia (CELCO)",
+      "nombre_secundario": "Cellulose Factory Celulosa Aurauco S.A., Valdivia, Chile",
+      "palabras_comunes": [
+        "celulosa",
+        "valdivia"
+      ]
+    },
+    {
+      "nombre_principal": "Proyecto Mina Invierno (Isla Riesco)",
+      "nombre_secundario": "Minera Invierno de carbón en Isla Riesco, Chile",
+      "palabras_comunes": [
+        "invierno",
+        "riesco",
+        "isla"
+      ]
+    },
+    {
+      "nombre_principal": "Cerro Colorado y Pampa Lagunillas",
+      "nombre_secundario": "Mining company Cerro Colorado, Chile",
+      "palabras_comunes": [
+        "cerro",
+        "colorado"
+      ]
+    },
+    {
+      "nombre_principal": "Proyecto minero Tres Valles ",
+      "nombre_secundario": "Minera Tres Valles en Coquimbo, Chile",
+      "palabras_comunes": [
+        "tres",
+        "valles"
+      ]
+    },
+    {
+      "nombre_principal": "Mina Carmen de Andacollo",
+      "nombre_secundario": "Mina de cobre Carmen de Andacollo,  Chile",
+      "palabras_comunes": [
+        "andacollo",
+        "carmen"
+      ]
+    },
+    {
+      "nombre_principal": "Contaminación lago Llanquihue",
+      "nombre_secundario": "Contaminación masiva de la Cuenca del Lago Villarrica, Araucanía, Chile",
+      "palabras_comunes": [
+        "lago",
+        "contaminacion"
+      ]
+    },
+    {
+      "nombre_principal": "Central hidroeléctrica El Gato",
+      "nombre_secundario": "Proyecto Central Hidroeléctrica Aguas Calientes, Chile",
+      "palabras_comunes": [
+        "hidroelectrica",
+        "central"
+      ]
+    },
+    {
+      "nombre_principal": "Andina 244",
+      "nombre_secundario": "Proyecto Expansión Andina 244 CODELCO, Chile",
+      "palabras_comunes": [
+        "andina",
+        "244"
+      ]
+    },
+    {
+      "nombre_principal": "Central Hidroeléctrica Maqueo SN Power/Trayenko S.A",
+      "nombre_secundario": "Hidroeléctrica Maqueo, Chile",
+      "palabras_comunes": [
+        "hidroelectrica",
+        "maqueo"
+      ]
+    },
+    {
+      "nombre_principal": "Doña Alicia",
+      "nombre_secundario": "Represas río Cautín (Alto Cautín y Doña Alicia), Chile",
+      "palabras_comunes": [
+        "alicia",
+        "dona"
+      ]
+    },
+    {
+      "nombre_principal": "Plomo en Arica",
+      "nombre_secundario": "Conflicto del Plomo Boliden, Cerro Chuño en Arica, Chile",
+      "palabras_comunes": [
+        "arica",
+        "plomo"
+      ]
+    },
+    {
+      "nombre_principal": "Parque eólico Chiloé",
+      "nombre_secundario": "Parque eólico Pililín en Cerro Oncol de Acciona Energía, Chile",
+      "palabras_comunes": [
+        "eolico",
+        "parque"
+      ]
+    },
+    {
+      "nombre_principal": "Central termoeléctrica Punta Alcalde",
+      "nombre_secundario": "Punta Alcalde power plant, Huasco, Chile",
+      "palabras_comunes": [
+        "punta",
+        "alcalde"
+      ]
+    }
+  ],
+  "ocmal_vs_indh": [
+    {
+      "nombre_principal": "Mina Carmen de Andacollo",
+      "nombre_secundario": "Carmen de Andacollo Expansion",
+      "palabras_comunes": [
+        "andacollo",
+        "carmen"
+      ]
+    },
+    {
+      "nombre_principal": "Proyecto minero Tres Valles ",
+      "nombre_secundario": "Tres Valles Project",
+      "palabras_comunes": [
+        "tres",
+        "valles"
+      ]
+    },
+    {
+      "nombre_principal": "Mina Carmen de Andacollo",
+      "nombre_secundario": "Carmen de Andacollo Toxic Waste",
+      "palabras_comunes": [
+        "andacollo",
+        "carmen"
+      ]
+    },
+    {
+      "nombre_principal": "Cerro Colorado y Pampa Lagunillas",
+      "nombre_secundario": "Cerro Colorado",
+      "palabras_comunes": [
+        "cerro",
+        "colorado"
+      ]
+    },
+    {
+      "nombre_principal": "Planta de producción de sales de potasio en Salar de Atacama",
+      "nombre_secundario": "Lithium Exploitation at Salar de Atacama",
+      "palabras_comunes": [
+        "atacama",
+        "salar"
+      ]
+    },
+    {
+      "nombre_principal": "Proyecto Mina Invierno (Isla Riesco)",
+      "nombre_secundario": "Isla Riesco Coal Exploitation",
+      "palabras_comunes": [
+        "riesco",
+        "isla"
+      ]
+    },
+    {
+      "nombre_principal": "Proyecto minero Cerro Casale",
+      "nombre_secundario": "Cerro Casale Mining Opposition",
+      "palabras_comunes": [
+        "casale",
+        "cerro"
+      ]
+    },
+    {
+      "nombre_principal": "Concesiones Mineras Lago Lleu Lleu",
+      "nombre_secundario": "Scandium Discovery at Lago Lleu Lleu",
+      "palabras_comunes": [
+        "lago",
+        "lleu"
+      ]
+    },
+    {
+      "nombre_principal": "Lavadero de oro en río Colico",
+      "nombre_secundario": "Río Colico Mining Dispute",
+      "palabras_comunes": [
+        "colico",
+        "rio"
+      ]
+    },
+    {
+      "nombre_principal": "Andina 244",
+      "nombre_secundario": "Oposición a Proyecto Andina 244",
+      "palabras_comunes": [
+        "andina",
+        "244"
+      ]
+    },
+    {
+      "nombre_principal": "Dunas de Putú",
+      "nombre_secundario": "Proyecto extracción de hierro en dunas de Putú",
+      "palabras_comunes": [
+        "putu",
+        "dunas"
+      ]
+    },
+    {
+      "nombre_principal": "Pozos de extracción de agua en el Parque Nacional Lauca",
+      "nombre_secundario": "Pampa Colorada extracción agua comunidades",
+      "palabras_comunes": [
+        "agua",
+        "extraccion"
+      ]
+    },
+    {
+      "nombre_principal": "Proyecto minero Pampa Hermosa",
+      "nombre_secundario": "Pampa Hermosa afectación Salar Llamara",
+      "palabras_comunes": [
+        "hermosa",
+        "pampa"
+      ]
+    },
+    {
+      "nombre_principal": "Pascua Lama",
+      "nombre_secundario": "Pascua Lama glaciares en peligro",
+      "palabras_comunes": [
+        "pascua",
+        "lama"
+      ]
+    },
+    {
+      "nombre_principal": "Fundición Paipote",
+      "nombre_secundario": "Fundición Paipote descontaminación",
+      "palabras_comunes": [
+        "fundicion",
+        "paipote"
+      ]
+    },
+    {
+      "nombre_principal": "Proyecto minero Los Pumas",
+      "nombre_secundario": "Proyecto minero Los Pumas",
+      "palabras_comunes": [
+        "pumas",
+        "minero"
+      ]
+    }
+  ]
+}

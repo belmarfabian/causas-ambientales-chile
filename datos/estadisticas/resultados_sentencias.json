@@ -1,0 +1,25 @@
+{
+  "fecha_analisis": "2026-01-10",
+  "textos_analizados": 308,
+  "clasificados": 201,
+  "no_clasificados": 107,
+  "resultados": {
+    "acoge": {
+      "cantidad": 98,
+      "porcentaje": 48.8
+    },
+    "rechaza": {
+      "cantidad": 95,
+      "porcentaje": 47.3
+    },
+    "inadmisible": {
+      "cantidad": 4,
+      "porcentaje": 2.0
+    },
+    "sin_lugar": {
+      "cantidad": 4,
+      "porcentaje": 2.0
+    }
+  },
+  "nota": "Analisis basado en patrones de texto. 107 sentencias no pudieron clasificarse automaticamente."
+}

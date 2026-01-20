@@ -1,0 +1,541 @@
+[
+  {
+    "id": 7065,
+    "name": "Puerto Corral Pacífico Sur, Chile",
+    "headline": "Exitosa resistencia de comunidades indígenas y vecinos al Puerto Corral Pacífico Sur.",
+    "image": "https://ejatlas.org/media/conflicts/puerto-corral-pacifico-sur/manifestacion.jpeg",
+    "slug": "puerto-corral-pacifico-sur"
+  },
+  {
+    "id": 6929,
+    "name": "Data Center Google en Cerrillos, Santiago, Chile",
+    "headline": "El ingreso del proyecto “Data Center” al Servicio de Evaluación Ambiental (SEA) por parte de Inversiones y Servicios Dataluna, filial de Google en Chile, generó la oposición de los vecinos de Cerrillos debido a la cantidad de agua que utilizaría este centro de datos, en una comuna que ya contaba con escasez hídrica.",
+    "image": "https://ejatlas.org/media/conflicts/data-center-google-en-cerrillos-santiago-chile/Mosacat.png",
+    "slug": "data-center-google-en-cerrillos-santiago-chile"
+  },
+  {
+    "id": 6548,
+    "name": "Green Hydrogen in the Magallanes Region, Chile",
+    "headline": "The Magallanes region, in the extreme south of Chile, has enormous potential for the production of green hydrogen thanks to its strong winds. However, the project faces opposition from local communities and environmental organizations who fear the environmental and social impact.",
+    "image": "https://ejatlas.org/media/conflicts/hidrogeno-verde-en-la-region-de-magallanes-chile/H2-Magallanes-Project-Total-Eren-1024x576.jpg",
+    "slug": "hidrogeno-verde-en-la-region-de-magallanes-chile"
+  },
+  {
+    "id": 6439,
+    "name": "Health impacts of pesticides exposure on rural populations in the Maule region, Chile",
+    "headline": "The rural population of the region is exposed to health risks because they live in an area of significant production of agricultural inputs for export through the use of pesticides in a context of non-compliance or permissiveness of the regulations in force. Agricultural workers and rural school children are most susceptible to poisoning and have high levels of various pesticides in their urine.",
+    "image": null,
+    "slug": "health-impacts-of-organophosphate-pesticide-op-exposure-on-rural-populations-in-the-maule-region"
+  },
+  {
+    "id": 6453,
+    "name": "Living with pesticides from export crops in Monte Patria, Coquimbo Region, Chile.",
+    "headline": "Rural populations of Monte Patria are exposed to frequent intoxications from the use of pesticides (mostly organophosphates) for the cultivation of pisco vines and export fruit. With little or no compliance with application standards and a lack of buffer zones, residents of nearby residential areas oscillate between resignation, fear of health risks and denunciation before the courts.",
+    "image": "https://ejatlas.org/media/conflicts/living-with-pesticides-from-export-crops-the-case-of-the-municipality-of-monte-patria-coquimbo-region-chile/Chile_Monte_Patria_toxicos.jpeg",
+    "slug": "living-with-pesticides-from-export-crops-the-case-of-the-municipality-of-monte-patria-coquimbo-region-chile"
+  },
+  {
+    "id": 5016,
+    "name": "Proyecto inmobiliario 'Maratué', Valparaíso, Chile",
+    "headline": "Proyecto inmobiliario Maratué en Puchuncaví amenaza con la destrucción del último pulmón verde de la zona. Destrucción de bosque nativo, afectación a fauna endémica y a los modos de vida de las poblaciones locales son algunos de sus impactos.",
+    "image": "https://ejatlas.org/media/conflict/proyecto-inmobiliario-maratue/61049402_10161739585820641_2866683051360911360_n.jpg",
+    "slug": "proyecto-inmobiliario-maratue"
+  },
+  {
+    "id": 6376,
+    "name": "Minería de Tierras Raras en Penco, Región del Biobío, Chile",
+    "headline": "Desde 2015, en los cerros de la ciudad de Penco comenzó a gestarse un proyecto minero de Tierras Raras que podría afectar a su población y a los ecosistemas en torno al Gran Concepción.",
+    "image": "https://ejatlas.org/media/conflict/mineria-de-tierras-raras-en-penco-region-del-bio-bio/movilizacion_contra_minera_biolantanidos_2019.jpg",
+    "slug": "mineria-de-tierras-raras-en-penco-region-del-bio-bio"
+  },
+  {
+    "id": 2317,
+    "name": "Environmental threats (industrial salmon, new mining concessions) in Chiloé, Chile",
+    "headline": "Threats in 2016 to environment and local livelihoods by the contaminating salmon industry and by new mining concessions in Chiloé.",
+    "image": "https://ejatlas.org/media/conflict/environmental-threats-industrial-salmon-new-mining-concessions-in-chiloe-chile/chiloe-protesta-moneda4.jpg",
+    "slug": "environmental-threats-industrial-salmon-new-mining-concessions-in-chiloe-chile"
+  },
+  {
+    "id": 452,
+    "name": "Mina de oro, cobre y plata Pascua Lama, Chile",
+    "headline": "Following the Chilean Supreme Court resolution, the Pascua-Lama mine is temporarily interrupted since 2013. However, in January 2020 the Supreme Court ruled in favour of the project. The consequences are yet to be seen",
+    "image": "https://ejatlas.org/media/conflict/pascua-lama-proyecto-minero-de-oro-cobre-y-plata-chile/pacua_lama_chile.jpg",
+    "slug": "pascua-lama-proyecto-minero-de-oro-cobre-y-plata-chile"
+  },
+  {
+    "id": 763,
+    "name": "Lago Lleu Lleu, Chile",
+    "headline": "La resistencia de las comunidades indigenas Mapuche determinó que la empresa finalmente desista de sus aspiraciones. Sin embargo un nuevo peligro \r\nrelacionado con extracción de hierro podría levantar nuevas luchas",
+    "image": "https://ejatlas.org/media/conflict/lago-lleu-lleu-chile/Chile_Leuleu_Minera-amenaza-tierras-mapuches-en-Lleu-Lleu.png",
+    "slug": "lago-lleu-lleu-chile"
+  },
+  {
+    "id": 5006,
+    "name": "Ventanas Industrial Complex, Chile",
+    "headline": "This region has been the site of intensive industrial development over the last 50 years.  Given the heavy contamination in the region, it is commonly referred to as a “sacrifice zone”.",
+    "image": "https://ejatlas.org/media/conflict/ventanas-industrial-complex-chile/sos-contaminacion-ok-700x346.jpg",
+    "slug": "ventanas-industrial-complex-chile"
+  },
+  {
+    "id": 2393,
+    "name": "Transporte de cobre en Antofagasta y movimiento Este Polvo te Mata, Chile",
+    "headline": "In Antofagasta, strong complaints against black dust from transport of exported copper concentrates. More cancers in proportion than any other city in Chile. Hence a direct action movement, with the slogan \"Este Polvo te Mata\"- this dust kills you.",
+    "image": "https://ejatlas.org/media/conflict/port-of-antofagasta/antofagasta.galpon.jpg",
+    "slug": "port-of-antofagasta"
+  },
+  {
+    "id": 768,
+    "name": "Extracción de agua en Pampa Colorada para la minera Escondida, Chile",
+    "headline": "La minera busca expandir sus faenas extractivas de cobre con un nuevo proyecto de extracción hídrica subterránea en el desierto. Comunidades indígenas y la Municipalidad de San Pedro de Atacama se oponen al proyecto y logran suspenderlo definitivamente.",
+    "image": "https://ejatlas.org/media/conflict/pampa-colorada-de-la-minera-de-cobre-escondida-chile/Pampa_Colorada.jpg",
+    "slug": "pampa-colorada-de-la-minera-de-cobre-escondida-chile"
+  },
+  {
+    "id": 760,
+    "name": "Fundicion de cobre Paipote (Videla Lira), Chile",
+    "headline": "",
+    "image": null,
+    "slug": "fundicion-paipote-videla-lira-chile"
+  },
+  {
+    "id": 3776,
+    "name": "Small-scale fisher people against contaminating industries in Valparaiso, Chile",
+    "headline": "The ongoing contamination in the \"Sacrifice Zone\" of Quintero and Puchuncavi and the lack of measures against contamination and to protect environmental defenders led to the assassination of artisanal fisherman and fisher union leader Alejandro Castro.",
+    "image": "https://ejatlas.org/media/conflict/la-contaminacion-y-la-lucha-de-los-pescadores-artesanales-amenazadas-en-puchuncavi-chile/Pescadores-de_Quintero__3_.jpg",
+    "slug": "la-contaminacion-y-la-lucha-de-los-pescadores-artesanales-amenazadas-en-puchuncavi-chile"
+  },
+  {
+    "id": 2417,
+    "name": "Conflicto internacional sobre el Rio Lauca, Bolivia – Chile",
+    "headline": "El conflicto  internacional entre Bolivia y Chile por el rio internacional Lauca se da a causa del desvio del curso de este por parte de Chile en 1962 para regar el valle de Azapa. El conflicto sigue vigente actualmente. ",
+    "image": "https://ejatlas.org/media/conflict/conflicto-internacional-rio-lauca-bolivia-chile/Nueva_imagen__3_.jpg",
+    "slug": "conflicto-internacional-rio-lauca-bolivia-chile"
+  },
+  {
+    "id": 2305,
+    "name": "Yelcho Watershed targeted by Ministry of Energy’s hydro plans, Chile",
+    "headline": "This Study is threatening at least seven major watersheds with hydro development. If it is allowed to become national Energy policy, it will generate significant conflict in these \"sacrifice watersheds\"",
+    "image": "https://ejatlas.org/media/conflict/ministry-of-energys-watershed-mapping-study-yelcho-watershed/12484585_822337131226091_3437042553045024708_o.jpg",
+    "slug": "ministry-of-energys-watershed-mapping-study-yelcho-watershed"
+  },
+  {
+    "id": 759,
+    "name": "Lithium and iron mining in the dunes of Putu, Chile",
+    "headline": "The conflict of the dunes of Putu occurs from the rapid and unexpected appearance of mining works in a fragile ecological area. Neighbors and groupings are mobilized to declare the place as a sanctuary of nature in 2017 and paralyze the tasks.",
+    "image": "https://ejatlas.org/media/conflict/dunas-de-putu-chile/Putu.jpg",
+    "slug": "dunas-de-putu-chile"
+  },
+  {
+    "id": 5615,
+    "name": "Lithium mining in Salar Coipasa, Chile and Bolivia",
+    "headline": "In the Salar de Copaisa, the Aymara community of Ancovinto opposes the lithium exploration project of the Canadian company Lithium Chile for its socio-environmental affections.",
+    "image": "https://ejatlas.org/media/conflict/mineria-de-litio-en-salar-coipasa/Ancovinto_Resiste.jpg",
+    "slug": "mineria-de-litio-en-salar-coipasa"
+  },
+  {
+    "id": 4775,
+    "name": "Lithium mining and potassium Salar Maricunga, Copiapó, Chile",
+    "headline": "Simco spa presented in 2018 the environmental impact study for \"Maricunga sal production\" proyect . This report has been widely questioned by different social sectors of Copiapó, including indigenous communities. The project is postponed pending EIA.",
+    "image": "https://ejatlas.org/media/conflict/mineria-de-litio-y-potasio-salar-maricunga-copiapo-chile/Convocatoriaconsulta_maricunga.png",
+    "slug": "mineria-de-litio-y-potasio-salar-maricunga-copiapo-chile"
+  },
+  {
+    "id": 3103,
+    "name": "Lithium mining in the Salar de Atacama, Chile",
+    "headline": "The Albermarley and SQM companies expand and extend their contracts, respectively, without carrying out indigenous consultation according to C169-ILO. Controversial Mining Agreements with Corfo, Municipality and Atacamean Communities divide the population.",
+    "image": "https://ejatlas.org/media/conflict/mineria-de-litio-en-el-salar-de-atacama-chile/Roockwood_lithium.jpg",
+    "slug": "mineria-de-litio-en-el-salar-de-atacama-chile"
+  },
+  {
+    "id": 1949,
+    "name": "Proyecto Minera Dominga, Coquimbo, Chile",
+    "headline": "This large project threatens biodiversity at Punta de Choros and Humboldt Penguin Reserve. It includes open-pit mines for iron ore and copper, a harbor to load the mineral, desalinization, and processing plants.  There are allegations of corruption.",
+    "image": "https://ejatlas.org/media/conflict/dominga/Mina_Dominga.jpg",
+    "slug": "dominga"
+  },
+  {
+    "id": 5641,
+    "name": "Las Vizcachitas Mining Project, Chile",
+    "headline": "In the Putaendo Valley, the local population opposes the Vizcachitas mining project, of the Canadian company Los Andes Copper, due to the socio-environmental impacts it will cause.",
+    "image": "https://ejatlas.org/media/conflict/cobre-en-el-valle-de-putaendo-proyecto-vizcachitas/PutaendoResiste.jpg",
+    "slug": "cobre-en-el-valle-de-putaendo-proyecto-vizcachitas"
+  },
+  {
+    "id": 6030,
+    "name": "Central Hidroeléctrica Rucalhue, Bíobío, Chile",
+    "headline": "Una nueva central hidroeléctrica por construirse en el Río Biobío. Sería la cuarta hidroeléctrica con mayor potencia instalada en el río. Se demanda la revocación de la Resolución de Calificación Ambiental.",
+    "image": "https://ejatlas.org/media/conflict/central-hidroelectrica-rucalhue-chile/marcha-rucalhue-09-939x715.80.jpeg",
+    "slug": "central-hidroelectrica-rucalhue-chile"
+  },
+  {
+    "id": 5861,
+    "name": "Geothermal plant Cerro Pabellón, Chile",
+    "headline": "",
+    "image": "https://ejatlas.org/media/conflict/planta-geotermica-cerro-pabellon-chile/Chile_Pabellon_comunidades-enel01.jpeg",
+    "slug": "planta-geotermica-cerro-pabellon-chile"
+  },
+  {
+    "id": 2796,
+    "name": "Angostura dam, Chile",
+    "headline": "A contested dam that is leaving without accessible electricity the local Mapuche communities since its opening",
+    "image": "https://ejatlas.org/media/conflict/angostura-dam-chile/Angostura1.jpg",
+    "slug": "angostura-dam-chile"
+  },
+  {
+    "id": 767,
+    "name": "Minera Manganese Atacama, Chile",
+    "headline": "The Manganese Fixing Plant is located in the city of Coquimbo and has produced harmful effects on health. After complaints, the company is drastically removed without a decontamination plan, or waste and leaves 200 workers cessing.",
+    "image": "https://ejatlas.org/media/conflict/minera-manganesos-atacama-chile/Chile_Atacama_manganese.png",
+    "slug": "minera-manganesos-atacama-chile"
+  },
+  {
+    "id": 352,
+    "name": "Exploitation of Manganese Los Pumas, Arica, Chile",
+    "headline": "The Pumas Project after an impact statement and 3 impact assessments is approved by triggering great social, indigenous and environmental mobilization. After a year of protest, they manage to interrepate the authorities and put an end to the project.",
+    "image": "https://ejatlas.org/media/conflict/explotacion-de-manganeso-los-pumas-arica-chile/Movilizaci%C3%B3n_los_Pumas.jpg",
+    "slug": "explotacion-de-manganeso-los-pumas-arica-chile"
+  },
+  {
+    "id": 5424,
+    "name": "The avocado agribusiness and the water crisis in Petorca, Valparaiso Chile",
+    "headline": "Petorca (Chile) has been covered with thousands of avocado trees which have aggravated a water crisis in the region causing negative impacts to the environment and to the lives of the inhabitants. ",
+    "image": "https://ejatlas.org/media/conflict/the-avocado-agribusiness-and-water-drought-in-petorca-chile/PRI_87738683.jpg",
+    "slug": "the-avocado-agribusiness-and-water-drought-in-petorca-chile"
+  },
+  {
+    "id": 5083,
+    "name": "Proyecto Nueva Unión en Vallenar, Chile",
+    "headline": "Proyecto NuevaUnión surge de la fusión de Minera El Morro (GoldCorp) y Minera La Fortuna (Teck), ubicados en la Provincia de Huasco, Región de Atacama. Es un mega proyecto minero de cobre-oro-molibdeno. Sus operaciones comienzan el 2023.",
+    "image": "https://ejatlas.org/media/conflict/proyecto-nueva-union-huasco-chile/Chile_Nuevaunion.jpg",
+    "slug": "proyecto-nueva-union-huasco-chile"
+  },
+  {
+    "id": 4740,
+    "name": "Proyecto de minería de oro Los Domos, Aysén, Chile",
+    "headline": "El proyecto de exploración minera de oro y plata \"Los Domos\" se ubica en terrenos fiscales, adyacentes a zona de conservación de la biodiversidad y patrimonio arqueológico y paleontológico, Reservas Nacionales y el Parque Patagonia.",
+    "image": "https://ejatlas.org/media/conflict/proyecto-de-mineria-de-oro-los-domos-aysen/imagen_patagoni_sin_mineras.jpeg",
+    "slug": "proyecto-de-mineria-de-oro-los-domos-aysen"
+  },
+  {
+    "id": 2330,
+    "name": "Ralco HEP and Bio Bio Watershed hydro plans, Chile",
+    "headline": "The Biobio region is sadly known for heavy impacts on health of local Pehuenche people and to their territory. A new study for hydro in the basin could increase conflicts in these \"sacrifice watershed\"",
+    "image": "https://ejatlas.org/media/conflict/bio-bio-watershed-targeted-by-ministry-of-energys-hydro-plans-chile/Chile_Ralco.jpg",
+    "slug": "bio-bio-watershed-targeted-by-ministry-of-energys-hydro-plans-chile"
+  },
+  {
+    "id": 2329,
+    "name": "Puesco-Momolluco complex and Tolten Watershed hydropower plans, Chile",
+    "headline": "\"Los ríos nos unen\" (rivers unite us), say basin-wide opposition to \"sacrifice watersheds\"; read about this RoR project included in the government study aiming at massive exploitation of major river basins in the country",
+    "image": "https://ejatlas.org/media/conflict/tolten-watershed-targeted-by-ministry-of-energys-hydro-plans-chile/afiche-definitivo-puescofest.jpg",
+    "slug": "tolten-watershed-targeted-by-ministry-of-energys-hydro-plans-chile"
+  },
+  {
+    "id": 2267,
+    "name": "Chiloé wind power project in Mapuche territory, Chile",
+    "headline": "Indigenous and rural communities of Chiloé claiming proper consultation and implementation of a wind power project in their territory",
+    "image": "https://ejatlas.org/media/conflict/chiloe-wind-power-project-in-mapuche-territory/10467131_827739497259266_5942112897266311877_o-790x445.jpg",
+    "slug": "chiloe-wind-power-project-in-mapuche-territory"
+  },
+  {
+    "id": 2105,
+    "name": "Refinería y fundición ENAMI-CODELCO en Zona de Sacrificio Ventanas, Chile",
+    "headline": "The historic contamination of the copper smelter and refinery, turned this territory into a national sacrifice zone.",
+    "image": "https://ejatlas.org/media/conflict/zona-de-sacrificio-ventanas-refineria-y-fundicion-enami-codelco/Ventanas_industrai.jpg",
+    "slug": "zona-de-sacrificio-ventanas-refineria-y-fundicion-enami-codelco"
+  },
+  {
+    "id": 1357,
+    "name": "Minera El Morro en Valles del Huasco, Chile",
+    "headline": "La mina El Morro fue finalmente paralizada. GOLDCORP, junto a Teck Resources Limited,  fusionaran el proyecto El Morro y Relincho en un nuevo mega proyecto minero llamado NuevaUnión",
+    "image": "https://ejatlas.org/media/conflict/el-morro-chile/Chile_el-morro.jpg",
+    "slug": "el-morro-chile"
+  },
+  {
+    "id": 1129,
+    "name": "ALTO MAIPO Hydroelectric Project (PHAM), Chile",
+    "headline": "",
+    "image": "https://ejatlas.org/media/conflict/alto-maipo-hydroelectric-project-pham-chile/proyecto_alto_maipo.jpg",
+    "slug": "alto-maipo-hydroelectric-project-pham-chile"
+  },
+  {
+    "id": 1121,
+    "name": "Mediterraneo Hydroelectric plant and future exploitation plans of Puelo River, Chile",
+    "headline": "Puelo basin is being targeted by national study for its massive exploitation. Mediterraneo S.A and Endesa own water rights and will benefit from it. Read about opposition on the transboundary basin and proposal of alternatives",
+    "image": "https://ejatlas.org/media/conflict/hydroelectric-plants-on-puelo-river-by-endesa-and-mediterraneo-chile-argentina/Puelo_Chile_cabalcada.png",
+    "slug": "hydroelectric-plants-on-puelo-river-by-endesa-and-mediterraneo-chile-argentina"
+  },
+  {
+    "id": 764,
+    "name": "Minería en el Parque y Reserva Nacional Lauca-Las Vicuñas, Chile",
+    "headline": "El Parque Nacional Lauca y Biósfera natural (declarada por la Unesco) es desafectado por mandato presidencial para otorgarle la categoría de zona de interés científico, permitiendo su apertura a la explotación minera. Comunidades indígenas se movilizan.",
+    "image": "https://ejatlas.org/media/conflict/parque-y-reserva-nacional-lauca-las-vicunas-y-la-mineria-de-cobre-oro-plata-y-borax-chile/Movilizaci%C3%B3n_Lauca.png",
+    "slug": "parque-y-reserva-nacional-lauca-las-vicunas-y-la-mineria-de-cobre-oro-plata-y-borax-chile"
+  },
+  {
+    "id": 761,
+    "name": "Minas de Carbón en Isla Guafo, Chile",
+    "headline": "Un 40% de la isla Guafo es propiedad de inversores chilenos quienes buscan explotar el carbón para el funcionamiento de hidroeléctricas. Científicos y comunidades indígenas demandan la declaración del Área Protegida y la conservación de la biodiversidad. ",
+    "image": "https://ejatlas.org/media/conflict/minas-de-carbon-en-isla-guafo-chile/Isla_guafo.jpg",
+    "slug": "minas-de-carbon-en-isla-guafo-chile"
+  },
+  {
+    "id": 498,
+    "name": "Cellulose Factory Celulosa Aurauco S.A., Valdivia, Chile",
+    "headline": "Celulosa Aurauco S.A. was held accountable for the ecological disaster which decimated black-necked swans' population. ",
+    "image": "https://ejatlas.org/media/conflict/cellulose-factory-celulosa-aurauco-sa-valdivia-chile/cisnes_valdavia.jpg",
+    "slug": "cellulose-factory-celulosa-aurauco-sa-valdivia-chile"
+  },
+  {
+    "id": 451,
+    "name": "Hidroaysén hydroelectric project, Chile",
+    "headline": "Hydroaysen dam project was finally cancelled by the Chilean governement on 10th June 2014, after 8 years of the campaign under the slogan \"Patagonia Sin Represas\"",
+    "image": "https://ejatlas.org/media/conflict/hidroaysen-hydroelectric-project-chile/no_a_hydroaysen.jpg",
+    "slug": "hidroaysen-hydroelectric-project-chile"
+  },
+  {
+    "id": 345,
+    "name": "Minera Invierno de carbón en Isla Riesco, Chile",
+    "headline": "One coal mining project in Chile against which there was environmental opposition by conservationist groups. Finally discarded in 2019 through the courts. An environmental success.",
+    "image": "https://ejatlas.org/media/conflict/isla-riesco-coal-extraction-chile/mina-invierno-agencia-uno-archivo.jpg",
+    "slug": "isla-riesco-coal-extraction-chile"
+  },
+  {
+    "id": 134,
+    "name": "Castilla Thermal Power Station, Chile",
+    "headline": "",
+    "image": "https://ejatlas.org/media/conflict/castilla-thermal-power-station-chile/Protesters-of-the-Central-Castilla-in-2011-Photo-courtesy-of-Desierto-AtacamaFlickr-270x179.jpg",
+    "slug": "castilla-thermal-power-station-chile"
+  },
+  {
+    "id": 769,
+    "name": "White Quebrada White and Quebrada Phase 2 in Tarapaca, Chile",
+    "headline": "Promoting green mining and copper as a strategic metal in the energy transition, TECK wants to expand the exploitation in the pit of the mine. Lack of consultations, water grabbing, pollution and diseases is what it leaves in the territory",
+    "image": "https://ejatlas.org/media/conflict/quebrada-blanca-tarapaca-chile/2019-Qb-hero-updated.jpg",
+    "slug": "quebrada-blanca-tarapaca-chile"
+  },
+  {
+    "id": 770,
+    "name": "Drying of Quillagua by Chuquicamata and SQM, Chile",
+    "headline": "The drilling of Quillagua is a milestone in the mining conflict history in Chile. The almost complete acquisition of water rights from the Loa River by the minings left the town devoid of water for its economic practices and human consumption.",
+    "image": "https://ejatlas.org/media/conflict/desecamiento-de-quillagua-por-chuquicamata-y-sqm-chile/GKMQ_Quillagua.jpg",
+    "slug": "desecamiento-de-quillagua-por-chuquicamata-y-sqm-chile"
+  },
+  {
+    "id": 756,
+    "name": "Mining company Cerro Colorado, Chile",
+    "headline": "Currently (2020) several judicial processes are still open between the communities and the company BHP-Billiton, the largest private mining actor in Chile",
+    "image": "https://ejatlas.org/media/conflict/cerro-colorado-chile/unnamed.jpg",
+    "slug": "cerro-colorado-chile"
+  },
+  {
+    "id": 5614,
+    "name": "Mina Escondida en el Salar de Punta Negra,  Chile",
+    "headline": "La extracción de agua en el Salar de Punta Negra para abastecer a la mina Escondida de BHP Billiton ha provocados severos impactos en el salar y movilizaciones locales para parar la extracción y pedir medidas de reparación. ",
+    "image": "https://ejatlas.org/media/conflict/mineria-de-litio-en-salar-de-punta-negra/Salar_PuntaNegra.jpeg",
+    "slug": "mineria-de-litio-en-salar-de-punta-negra"
+  },
+  {
+    "id": 765,
+    "name": "Minera Los Pelambres, Los Vilos, Coquimbo, Chile",
+    "headline": "In Caimanes, Coquimbo, copper mine belonging to Luksic group. Conflicts on the use of water, and threats from a very large talings dam (El Mauro) continue after many years.",
+    "image": "https://ejatlas.org/media/conflict/los-pelambres-comunidad-los-caimanes-chile/mapa_elmauro.jpeg",
+    "slug": "los-pelambres-comunidad-los-caimanes-chile"
+  },
+  {
+    "id": 771,
+    "name": "Minera Tres Valles en Coquimbo, Chile",
+    "headline": "Graves impactos sobre el agua, falta de información y consentimiento de la población, y graves afectaciones a la actividad agrícola y ganadera son solo algunas de las consecuencias de la minería en esta región, por Vale y otras empresas",
+    "image": "https://ejatlas.org/media/conflict/tres-valles-coquimbo-chile/Chile_Tres_Valles.jpg",
+    "slug": "tres-valles-coquimbo-chile"
+  },
+  {
+    "id": 1285,
+    "name": "Neltume hydroelectric project in Panguipulli, Chile",
+    "headline": "",
+    "image": "https://ejatlas.org/media/conflict/neltume-hydroelectric-project-in-panguipulli-chile/panguipulli-sin-represas.jpg",
+    "slug": "neltume-hydroelectric-project-in-panguipulli-chile"
+  },
+  {
+    "id": 3384,
+    "name": "Hidroñuble Hydroelectric dam, Chile",
+    "headline": "In the hometown of Violeta Parra, one more hydropower plant is coming up in the Ñuble region, amid irregularities, pollution, illegal deforestation and land acquisition",
+    "image": "https://ejatlas.org/media/conflict/hydroelectric-dam-chile/banners_at_river.jpg",
+    "slug": "hydroelectric-dam-chile"
+  },
+  {
+    "id": 3273,
+    "name": "Embalse La Tranca, Valle de Cogotí, Chile",
+    "headline": "\"El embalse La Tranca no va!\" Resistance by the community of El Durazno stops in 2018 the project by the company Typsa for the La Tranca dam in Coquimbo province",
+    "image": "https://ejatlas.org/media/conflict/el-embalse-la-tranca/18766804_752992781541722_5949546523848913457_o.jpg",
+    "slug": "el-embalse-la-tranca"
+  },
+  {
+    "id": 766,
+    "name": "Yacimiento de Cobre Los Pingos, Tulahuén, Chile",
+    "headline": "La contaminación por polución, el peligro del tranque relave próximo al río que alimenta los predios agrícolas, así como el consumo de agua industrial, han generado un conflicto entre la población local y agricultores y la empresa y el gobierno regional.",
+    "image": "https://ejatlas.org/media/conflict/yacimiento-de-cobre-los-pingos-tulahuen-chile/Minera_Los_Pingos.jpg",
+    "slug": "yacimiento-de-cobre-los-pingos-tulahuen-chile"
+  },
+  {
+    "id": 1137,
+    "name": "Minera de cobre Candelaria, Tierra Amarilla, Chile",
+    "headline": "Minera La Candelaria opera desde 1995, y al 2020 presenta un nuevo proyecto de extensión de operaciones, por al menos 10 años más. Todo ello en el marco de demandas por tronaduras, relaves, contaminación de aire y agua, y un proceso judicial por fraude.",
+    "image": "https://ejatlas.org/media/conflict/minera-de-cobre-candelaria-tierra-amarilla-chile/minera-candelaria-el-mer_145844.jpg",
+    "slug": "minera-de-cobre-candelaria-tierra-amarilla-chile"
+  },
+  {
+    "id": 753,
+    "name": "Mina de cobre Carmen de Andacollo,  Chile",
+    "headline": "Minera Carmen de Andacollo opera desde 1997 en la zona de Andacollo. Ha sido denunciada por la comunidad local por constantes tronaduras, polución sobre la ciudad, contaminación de agua y malos olores. Sigue en operación con algunos planes de mitigación.",
+    "image": "https://ejatlas.org/media/conflict/mina-de-cobre-carmen-de-andacollo-chile/Minera_andacollo-polucion.jpg",
+    "slug": "mina-de-cobre-carmen-de-andacollo-chile"
+  },
+  {
+    "id": 755,
+    "name": "Minería de Oro y Cobre Cerro Casale/Aldebaran, Chile",
+    "headline": "Este proyecto sería la mayor explotación de oro del mundo. A pesar de todos los EIA, lo que ha tardado el proyecto y la oposición de comunidades indígenas y agrícolas, está actualmente en fase de exploración esperando, de ser aprobado, operar en 2022.",
+    "image": "https://ejatlas.org/media/conflict/proyecto-de-oro-y-cobre-cerro-casale-aldebaran-chile/Cerro_Casale.jpg",
+    "slug": "proyecto-de-oro-y-cobre-cerro-casale-aldebaran-chile"
+  },
+  {
+    "id": 4261,
+    "name": "Embalse La Punilla, Ñuble, Chile",
+    "headline": "Forced displacement and destruction of homes of neighbors for acquisition of land with no resettlement plan, in the name of allegedly improvement in agriculture and water provision for farmers",
+    "image": "https://ejatlas.org/media/conflict/embalse-punilla-chile/Chile_punilla.jpg",
+    "slug": "embalse-punilla-chile"
+  },
+  {
+    "id": 4970,
+    "name": "Proyecto Minera Paguanta, Quebrada de Tarapacá, Chile",
+    "headline": "La mina de cobre y oro se encuentra actualmente (2020) detenida por las acciones de oposición de los movimientos, pero los dirigentes de la Quebrada de Tarapacá esperan alertas una nueva arremetida por parte de la empresa",
+    "image": "https://ejatlas.org/media/conflict/proyecto-minera-paguanta-quebrada-de-tarapaca/Chile_No-Minera-Paguanta1.jpg",
+    "slug": "proyecto-minera-paguanta-quebrada-de-tarapaca"
+  },
+  {
+    "id": 5546,
+    "name": "Contaminación masiva de la Cuenca del Lago Villarrica, Araucanía, Chile",
+    "headline": "La contaminación en la Cuenca del Lago Villarrica está destruyendo un sistema único y muy valioso, que sostiene un sistema socio ecológico frágil, que depende de su estabilidad.",
+    "image": "https://ejatlas.org/media/conflict/contaminacion-difusa-por-presion-antropica-generalizada-lago-villarrica-region-de-la-araucania-chile1/1.-_CIUDADAN%C3%8DA_MOVILIZADA.jpeg",
+    "slug": "contaminacion-difusa-por-presion-antropica-generalizada-lago-villarrica-region-de-la-araucania-chile1"
+  },
+  {
+    "id": 5251,
+    "name": "Osorno water crisis and anti-privatization struggle, Chile",
+    "headline": "After being disconnected from water supply for ten days, the citizens of Osorno, Chile are demanding compensation and to end the concession to a private supplier.",
+    "image": "https://ejatlas.org/media/conflict/anti-privatization-struggle-due-to-the-osorno-water-crisis/EssalFuera.png",
+    "slug": "anti-privatization-struggle-due-to-the-osorno-water-crisis"
+  },
+  {
+    "id": 758,
+    "name": "Minera de cobre Doña Inés de Collahuasi, Chile",
+    "headline": "",
+    "image": null,
+    "slug": "dona-ines-de-collahuasi-chile"
+  },
+  {
+    "id": 754,
+    "name": "Caserones, Chile",
+    "headline": "El Proyecto Caserones pretende extraer 150.000 toneladas anuales de mineral de cobre de la cordillera de Copiapó a 162 kilómetros al sureste de Tierra Amarilla, a 15 km de la frontera con Argentina en el cerro que le da su nombre, en la región de Atacama. Su titular es SCM Minera Lumina Copper Chile, es una empresa perteneciente a la firma japonesa Pan Pacific Copper Co., Ltd. (75%); y a Mitsui Bussan Copper Investment & Co., Ltd. (25%), filial de Mitsui& Co., Ltd.",
+    "image": null,
+    "slug": "caserones-chile"
+  },
+  {
+    "id": 4309,
+    "name": "Proyecto Central Hidroeléctrica Aguas Calientes, Chile",
+    "headline": "La chilena Hydrochile, y sus sociedades de inversiones australianas, británicas, alemanas y estadounidenses, intentó ubicar dos centrales de paso en una zona protegida, lo que fue duramente criticado y parado por una larga coalición de organizaciones. ",
+    "image": "https://ejatlas.org/media/conflict/proyecto-central-hidroelectrica-aguas-calientes-chile/Chile_Aguas_Calientes.jpg",
+    "slug": "proyecto-central-hidroelectrica-aguas-calientes-chile"
+  },
+  {
+    "id": 2100,
+    "name": "Proyecto Expansión Andina 244 CODELCO, Chile",
+    "headline": "The extension of a very large copper mine near Santiago to be carried out by Codelco, threatening glaciers. The project stopped in 2015 because of local opposition, and the low price of copper.",
+    "image": "https://ejatlas.org/media/conflict/expansion-de-andina-244-chile/Andina.jpg",
+    "slug": "expansion-de-andina-244-chile"
+  },
+  {
+    "id": 5030,
+    "name": "'Tranquilo' coal mining project, Chile",
+    "headline": "The “Tranquilo\" carbon mining project has been approved by the Chilean government in an area known for its pristine landscape and low-scale tourism. For two years, local authorities and citizens opposed it - the former on the basis that it would impact tourism, the latter were more concerned with the enviornmental impacts.",
+    "image": "https://ejatlas.org/media/conflict/tranquilo-carbon-mining-project-chile/Puerto-Natales.jpg",
+    "slug": "tranquilo-carbon-mining-project-chile"
+  },
+  {
+    "id": 4308,
+    "name": "Hidroeléctrica Maqueo, Chile",
+    "headline": "Puel Wiyi Mapu Sin Represa. La campaña en contra de la central de 400MW, un complejo de explotación de ocho ríos, por la empresa noruega SN Power",
+    "image": "https://ejatlas.org/media/conflict/hidroelectrica-maqueo-chile/Chile_Maqueo_blog.jpeg",
+    "slug": "hidroelectrica-maqueo-chile"
+  },
+  {
+    "id": 4307,
+    "name": "Represas río Cautín (Alto Cautín y Doña Alicia), Chile",
+    "headline": "Irregularidades ambientales y fuerte oposición ciudadana a la raíz de la cancelación de dos centrales de pasada en territorio mapuche en 2016. Por ese caso, el líder mapuche (lonka) Alberto Curamil fue premiado con el Premio Goldman en 2019",
+    "image": "https://ejatlas.org/media/conflict/represas-rio-cautin-alto-cautin-y-dona-alicia-chile/Chile_Cauti%CC%81n.jpg",
+    "slug": "represas-rio-cautin-alto-cautin-y-dona-alicia-chile"
+  },
+  {
+    "id": 3091,
+    "name": "Contaminación por asbesto en empresa Pizarreño, Chile",
+    "headline": "La producción de materiales con asbestos ha dejado cientos de enfermos en el país. En protesta, en 2001, Eduardo Miño, un enfermo de asbestosis, se quemó  frente al palacio gubernamental. Las víctimas demandan reparaciones y descontaminación",
+    "image": "https://ejatlas.org/media/conflict/cientos-de-enfermos-por-inhalar-asbesto/carta_eduardo_min%CC%83o.jpg",
+    "slug": "cientos-de-enfermos-por-inhalar-asbesto"
+  },
+  {
+    "id": 2474,
+    "name": "Hidroeléctrica Tranguil, Chile",
+    "headline": "A small hydroelectric investment by RP Global causes a large conflict. Mapuche communities ask for investigation of death of an environmentalist in August 2016.",
+    "image": "https://ejatlas.org/media/conflict/minicentral-tranquil-panguipulli-chile/panguipulli.jpg",
+    "slug": "minicentral-tranquil-panguipulli-chile"
+  },
+  {
+    "id": 2409,
+    "name": "Conflicto del Plomo Boliden, Cerro Chuño en Arica, Chile",
+    "headline": "Between 1984 and 1989, Chile imported 20,000 tons of toxic waste (lead, arsenic, mercury) from the Boliden company in Sweden causing death and sickness in the Arica communities, mainly children. ",
+    "image": "https://ejatlas.org/media/conflict/contaminacion-plomo-arica/polimetales-contaminacion-620x330.jpg",
+    "slug": "contaminacion-plomo-arica"
+  },
+  {
+    "id": 2388,
+    "name": "Parque eólico Pililín en Cerro Oncol de Acciona Energía, Chile",
+    "headline": "Old temperate Valdivian rainforest threatened by wind power project in coastal Mapuche ethnic territory. This area is rich in endemic species, one of the last untouched evergreen coastal forests, a sacred site for the Mapuche.",
+    "image": "https://ejatlas.org/media/conflict/parque-eolico-pililin-cciona-energia-chile-spa/parque-eolico-en-oncol-790x552.jpg",
+    "slug": "parque-eolico-pililin-cciona-energia-chile-spa"
+  },
+  {
+    "id": 2209,
+    "name": "Rio Cuervo Hydroelectric Project, Aysen, Chile",
+    "headline": "After Hydroaysén, a 640 MW hydro project is cancelled in Chilean Patagonia in 2017. Dam opponents showed the weakness of the project and the huge seismic risk it would bring along.",
+    "image": "https://ejatlas.org/media/conflict/rio-cervo-hydroelectric-project-chile/RioCuervo_map.jpg",
+    "slug": "rio-cervo-hydroelectric-project-chile"
+  },
+  {
+    "id": 1086,
+    "name": "Monoculture plantation in Araucania, Chile",
+    "headline": "Chile is among the major producers of pulp/cellulose in South-America. An area of 2,400,000 ha of land in the country is covered by monoculture tree plantations. The Comuna de Lumaco, located in the 9th region, called the Araucania, is an area with large-",
+    "image": null,
+    "slug": "monoculture-plantation-in-araucania-chile"
+  },
+  {
+    "id": 762,
+    "name": "Huasco - Petcoke, Chile",
+    "headline": "La localidad de Huasco, se encuentra ubicada en la Región de Atacama, en la costa, unos 550 Km al norte de Santiago.",
+    "image": null,
+    "slug": "huasco-petcoke-chile"
+  },
+  {
+    "id": 500,
+    "name": "Landfills in Mapuche Territories, Chile",
+    "headline": "Governmental environmental racism against native Chilean Mapuches threatens their ancestral territory where have been authorized 17 landfills. Illegal landfills on their lands are also starting to sprout.  ",
+    "image": "https://ejatlas.org/media/conflict/landfills-in-mapuche-region-chile/racismo_ambiental.jpg",
+    "slug": "landfills-in-mapuche-region-chile"
+  },
+  {
+    "id": 351,
+    "name": "Punta Alcalde power plant, Huasco, Chile",
+    "headline": "El proyecto Central Termoeléctrica Punta Alcalde contempla de dos unidades generadoras, sumando una capacidad instalada total de 740 MW. Hay alarma de la población de Huasco, ya muy castigada por la contaminación del combustible petcoke de la termoeléctrica Guacolda. Punta Alcalde (Endesa), Huasco, Chile El proyecto Central Termoeléctrica Punta Alcalde contempla de dos unidades generadoras, sumando una capacidad instalada total de 740 MW. Hay alarma de la población de Huasco, ya muy castigada por la contaminación del combustible petcoke de la termoeléctrica Guacolda.",
+    "image": "https://ejatlas.org/media/conflict/punta-alcalde-power-plant-huasco-chile/Punta_Alcalde.jpg",
+    "slug": "punta-alcalde-power-plant-huasco-chile"
+  }
+]

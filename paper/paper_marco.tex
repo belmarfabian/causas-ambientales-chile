@@ -1,0 +1,655 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{float}
+
+\geometry{margin=2.5cm}
+\onehalfspacing
+
+\title{\textbf{Transiciones Socioecológicas Críticas en Chile: Comunicación, Conflicto e Instituciones Ambientales}}
+
+\author{Fabián Belmar$^{1,2}$ \and Aldo Mascareño$^{1,2}$\\[0.5cm]
+\small $^1$Núcleo Milenio para la Ciencia de Datos Sociales (SODAS)\\
+\small $^2$Centro de Estudios Públicos, Chile}
+
+\date{Borrador - Enero 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Este artículo presenta un marco teórico y una agenda de investigación para estudiar los conflictos socioecológicos en Chile desde la perspectiva de las transiciones críticas. Integrando la teoría de transiciones críticas en sistemas complejos (Scheffer) con la teoría de sistemas sociales (Luhmann), proponemos analizar cómo las instituciones ambientales chilenas procesan comunicativamente los conflictos entre desarrollo económico y protección ambiental. Identificamos cinco arenas comunicativas donde se expresan estos conflictos: judicial (Tribunales Ambientales), evaluativa (SEIA), fiscalizadora (SMA), mediática y contenciosa. El artículo mapea los datos disponibles para cada arena y propone una agenda de investigación orientada a detectar señales de alerta temprana de transiciones críticas en el sistema socioecológico chileno. Como primera aplicación empírica, presentamos resultados preliminares del análisis de la arena judicial, basados en un corpus de 2,516 documentos de los Tribunales Ambientales (2012-2025). Los resultados revelan que el 69\% de las causas son reclamaciones contra actos administrativos, mientras solo el 11\% son demandas por daño ambiental, sugiriendo que el sistema funciona principalmente como mecanismo de control de legalidad más que como foro de reparación de daños.
+
+\vspace{0.5cm}
+\noindent\textbf{Palabras clave:} transiciones críticas, conflictos socioecológicos, comunicación, instituciones ambientales, Chile, justicia ambiental
+\end{abstract}
+
+\newpage
+\tableofcontents
+\newpage
+
+%------------------------------------------------------------------
+\section{Introducción}
+%------------------------------------------------------------------
+
+Chile ha experimentado una intensa conflictividad socioecológica durante las últimas décadas. La expansión de industrias extractivas ---minería, salmonicultura, energía, forestal--- ha generado tensiones recurrentes entre desarrollo económico y protección ambiental, expresadas en protestas ciudadanas, controversias mediáticas y litigación judicial. Casos emblemáticos como Pascua Lama, la crisis de la marea roja en Chiloé (2016), los conflictos en las denominadas ``zonas de sacrificio'' de Quintero-Puchuncaví, y las controversias en torno a proyectos hidroeléctricos en la Patagonia ilustran la magnitud y diversidad del fenómeno.
+
+Estas tensiones no son exclusivas de Chile. A nivel global, los conflictos socioecológicos han aumentado en frecuencia e intensidad, documentados sistemáticamente en iniciativas como el Environmental Justice Atlas \citep{temper2018ejatlas}, que registra más de 3,500 conflictos en todo el mundo. Sin embargo, Chile presenta características que lo convierten en un caso particularmente relevante para el estudio de estos fenómenos: un modelo de desarrollo orientado a la exportación de recursos naturales, una institucionalidad ambiental relativamente reciente, y una sociedad civil cada vez más movilizada en torno a demandas ambientales.
+
+A pesar de la relevancia del fenómeno, carecemos de un marco analítico integrado para comprender cómo estos conflictos se procesan institucionalmente y qué patrones podrían indicar transformaciones críticas en el sistema. La literatura existente tiende a abordar los conflictos caso por caso, o a analizar instituciones específicas de manera aislada. ¿Cómo se relacionan las distintas arenas donde se expresan los conflictos? ¿Qué dinámicas emergen de su interacción? ¿Existen señales que permitan anticipar escalamientos o crisis?
+
+Esta carencia analítica tiene consecuencias prácticas. Sin un marco integrador, la política pública opera reactivamente: responde a crisis cuando ya han escalado, sin capacidad de anticipación. El estallido social de octubre 2019 en Chile, aunque multidimensional, tuvo entre sus antecedentes una acumulación de conflictos socioecológicos no procesados satisfactoriamente: Quintero, Chiloé, Aysén, zonas de sacrificio. La demanda por un ``nuevo modelo de desarrollo'' incluía prominentemente la dimensión ambiental. Un marco que permita monitorear señales de alerta temprana no habría predicho el estallido, pero podría haber iluminado la acumulación de tensiones socioecológicas que contribuyeron a él.
+
+\subsection{La reforma ambiental de 2010}
+
+La reforma ambiental de 2010 (Ley 20.417) creó una arquitectura institucional especializada para gestionar los conflictos socioecológicos en Chile. Esta reforma respondió a críticas acumuladas sobre el modelo anterior, donde la Comisión Nacional del Medio Ambiente (CONAMA) concentraba funciones de evaluación, fiscalización y diseño de políticas, generando conflictos de interés y debilidades institucionales.
+
+La nueva arquitectura separó funciones en instituciones especializadas:
+
+\begin{itemize}
+    \item El \textbf{Ministerio del Medio Ambiente} asumió el diseño de políticas y regulaciones.
+    \item El \textbf{Servicio de Evaluación Ambiental (SEA)} quedó a cargo de evaluar proyectos de inversión mediante el Sistema de Evaluación de Impacto Ambiental (SEIA).
+    \item La \textbf{Superintendencia del Medio Ambiente (SMA)}, creada en 2010 pero operativa desde 2013, asumió la fiscalización del cumplimiento de compromisos ambientales.
+    \item Los \textbf{Tribunales Ambientales}, creados por la Ley 20.600 (2012), se establecieron como órganos jurisdiccionales especializados para resolver controversias ambientales.
+\end{itemize}
+
+Esta diferenciación institucional implica que los conflictos socioecológicos se procesan en múltiples arenas, cada una con lógicas, actores y temporalidades distintas. Un mismo conflicto puede transitar por el SEIA durante la evaluación del proyecto, por la SMA si hay incumplimientos, por los Tribunales Ambientales si hay impugnaciones, por los medios si hay cobertura periodística, y por las calles si hay movilización social. La pregunta es cómo se articulan estas arenas y qué dinámicas emergen de su interacción.
+
+En el contexto latinoamericano, Chile representa un caso de institucionalización avanzada. Mientras varios países de la región han experimentado con tribunales o cortes ambientales especializadas ---como el Tribunal de Fiscalización Ambiental de Perú (OEFA), las cortes ambientales de Colombia, o los juzgados ambientales de Costa Rica---, la arquitectura chilena destaca por su integración sistémica: las tres instituciones (SEA, SMA, TA) fueron diseñadas simultáneamente como un sistema articulado, no como adiciones incrementales a una institucionalidad preexistente. Esta característica hace del caso chileno un laboratorio particularmente adecuado para estudiar las dinámicas entre arenas comunicativas.
+
+\subsection{Preguntas de investigación}
+
+Este artículo aborda tres preguntas interrelacionadas:
+
+\begin{enumerate}
+    \item ¿Cómo procesan comunicativamente las instituciones ambientales chilenas los conflictos socioecológicos?
+    \item ¿Qué patrones en el procesamiento comunicativo podrían indicar la proximidad de transiciones críticas?
+    \item ¿Cómo se relacionan las distintas arenas comunicativas donde se expresan los conflictos?
+\end{enumerate}
+
+Para abordar estas preguntas, proponemos un marco teórico que integra la teoría de transiciones críticas en sistemas complejos \citep{scheffer2009critical} con la teoría de sistemas sociales \citep{luhmann1995social}, siguiendo desarrollos recientes que articulan ambas perspectivas \citep{mascareno2021critical}.
+
+\subsection{Estructura del artículo}
+
+El artículo se organiza en cinco secciones adicionales. La sección 2 presenta el marco teórico integrado, desarrollando los conceptos de transiciones críticas, comunicación sistémica y su articulación mediante el caso empírico de Chiloé (2016). La sección 3 introduce el concepto de arenas comunicativas y mapea las cinco arenas identificadas en Chile, analizando sus códigos, actores y relaciones. La sección 4 describe los datos disponibles para estudiar cada arena y las posibilidades de integración entre fuentes. La sección 5 presenta la agenda de investigación, incluyendo resultados preliminares del análisis de 866 causas de la arena judicial con distribución por tipo, tribunal y evolución temporal. La sección 6 concluye con implicancias teóricas y de política pública, incluyendo propuestas para mejorar el acceso a la justicia ambiental reparatoria y desarrollar capacidades de monitoreo de señales de alerta temprana.
+
+%------------------------------------------------------------------
+\section{Marco teórico}
+%------------------------------------------------------------------
+
+\subsection{Transiciones críticas en sistemas complejos}
+
+La teoría de transiciones críticas, desarrollada principalmente en ecología de ecosistemas, describe cómo sistemas complejos pueden experimentar cambios abruptos cuando cruzan umbrales críticos o ``tipping points'' \citep{scheffer2009critical, scheffer2009early}. A diferencia de cambios graduales y proporcionales a las perturbaciones, las transiciones críticas implican saltos discontinuos entre estados alternativos del sistema. Un lago puede pasar súbitamente de aguas claras a turbias; un ecosistema árido puede colapsar hacia la desertificación; un bosque puede transformarse en sabana; una población puede extinguirse tras décadas de aparente estabilidad.
+
+El marco teórico de las transiciones críticas se fundamenta en la teoría de sistemas dinámicos y, específicamente, en el estudio de bifurcaciones. Una bifurcación ocurre cuando un pequeño cambio en un parámetro del sistema provoca un cambio cualitativo en su comportamiento. En sistemas con múltiples estados estables (multiestabilidad), las bifurcaciones pueden llevar al sistema a ``saltar'' de un atractor a otro, generando cambios dramáticos y a menudo irreversibles.
+
+Tres conceptos son centrales para comprender las transiciones críticas:
+
+\textbf{Resiliencia.} La resiliencia refiere a la capacidad del sistema de absorber perturbaciones sin cambiar cualitativamente de estado \citep{holling1973resilience}. Un sistema resiliente puede experimentar fluctuaciones significativas pero retorna a su estado original. Sin embargo, la resiliencia no es constante: puede erosionarse gradualmente debido a presiones sostenidas, haciendo al sistema cada vez más vulnerable a perturbaciones que antes habría absorbido sin problemas.
+
+\textbf{Bucles de retroalimentación positiva.} Las transiciones críticas son amplificadas por mecanismos de retroalimentación positiva que refuerzan las perturbaciones iniciales. En un lago, por ejemplo, la eutrofización genera turbidez, que reduce la luz, que mata la vegetación acuática, que libera nutrientes, que aumenta la eutrofización. Estos bucles pueden convertir perturbaciones pequeñas en cambios sistémicos.
+
+\textbf{Señales de alerta temprana.} Un hallazgo fundamental de esta literatura es que las transiciones críticas son, en principio, predecibles. Antes de una transición, el sistema exhibe patrones estadísticos característicos: aumento de la varianza, aumento de la autocorrelación temporal (``critical slowing down''), asimetría en las fluctuaciones \citep{scheffer2009early}. Estas señales de alerta temprana reflejan la pérdida de resiliencia del sistema y su aproximación al umbral crítico.
+
+La aplicación de este marco a sistemas sociales enfrenta desafíos específicos. Los sistemas sociales no son meramente adaptativos sino anticipatorios: los actores pueden prever transiciones y modificar su comportamiento en consecuencia, potencialmente evitando o precipitando el cambio. Además, los sistemas sociales operan mediante comunicación, lo que introduce una capa de complejidad ausente en sistemas puramente ecológicos.
+
+\subsection{Teoría de sistemas sociales y comunicación}
+
+La teoría de sistemas sociales de Niklas Luhmann ofrece herramientas conceptuales para abordar la especificidad de los sistemas sociales \citep{luhmann1995social, luhmann1997gesellschaft}. Para Luhmann, los sistemas sociales son sistemas de comunicación: se constituyen y reproducen mediante operaciones comunicativas, no mediante acciones individuales ni estados mentales. La comunicación ---entendida como síntesis de información, emisión y comprensión--- es la operación elemental que define y reproduce lo social.
+
+Una contribución central de Luhmann es la teoría de la diferenciación funcional. La sociedad moderna se caracteriza por la coexistencia de sistemas funcionalmente diferenciados ---derecho, economía, política, ciencia, medios de comunicación, entre otros--- que operan con lógicas autónomas. Cada sistema procesa la complejidad del entorno mediante un código binario específico: legal/ilegal en el derecho, pago/no pago en la economía, gobierno/oposición en la política, verdadero/falso en la ciencia.
+
+Esta diferenciación tiene consecuencias importantes para el análisis de conflictos socioecológicos. Un mismo evento ---por ejemplo, la contaminación de un río--- será procesado de maneras radicalmente distintas por cada sistema funcional. El sistema legal evaluará si hubo infracción normativa; el sistema económico procesará los costos y beneficios; el sistema político evaluará las implicancias electorales; los medios evaluarán su noticiabilidad. No existe un punto de vista privilegiado desde el cual integrar estas perspectivas: cada sistema observa desde su propia lógica.
+
+Tres conceptos luhmannianos son particularmente relevantes para nuestro análisis:
+
+\textbf{Clausura operativa y apertura cognitiva.} Los sistemas sociales son operativamente clausurados ---solo pueden operar mediante sus propias comunicaciones--- pero cognitivamente abiertos: pueden observar su entorno y ser irritados por él. Esta distinción es crucial para entender cómo el medio ambiente (que no es un sistema social) puede afectar a los sistemas sociales: mediante irritaciones que gatillan comunicaciones.
+
+\textbf{Acoplamiento estructural.} Aunque operativamente separados, los sistemas sociales desarrollan acoplamientos estructurales que permiten irritaciones recíprocas. El derecho y la política, por ejemplo, están acoplados mediante la constitución: las decisiones políticas irritan al derecho, y las sentencias judiciales irritan a la política. Estos acoplamientos canalizan las irritaciones pero no determinan cómo cada sistema las procesa.
+
+\textbf{Comunicación como operación constitutiva.} La comunicación no es mera transmisión de información entre emisores y receptores. La comunicación produce realidad social: cuando un tribunal declara ilegal una actividad, esa declaración tiene efectos constitutivos. Esta dimensión performativa de la comunicación es central para entender cómo los sistemas sociales procesan ---y transforman--- los conflictos socioecológicos.
+
+\subsection{El problema del medio ambiente en la teoría de sistemas}
+
+La aplicación de la teoría de sistemas al ámbito ambiental plantea un problema específico: el medio ambiente no es un sistema social. Los ecosistemas no comunican; operan mediante procesos físicos, químicos y biológicos que son categorialmente distintos de la comunicación social. ¿Cómo puede entonces el medio ambiente afectar a los sistemas sociales?
+
+La respuesta luhmanniana es que el medio ambiente afecta a los sistemas sociales mediante irritaciones que son procesadas comunicativamente. La contaminación de un río no ``comunica'' nada por sí misma, pero puede gatillar comunicaciones: denuncias, noticias, demandas, protestas, políticas públicas. Estas comunicaciones constituyen el conflicto socioecológico propiamente tal. El conflicto no está ``en'' el río contaminado sino en las comunicaciones que se producen a propósito de esa contaminación.
+
+Esta perspectiva tiene implicancias metodológicas importantes. Estudiar conflictos socioecológicos implica estudiar comunicaciones: sentencias judiciales, resoluciones administrativas, noticias, discursos, protestas. Los datos relevantes no son primariamente ecológicos (niveles de contaminación, biodiversidad) sino comunicativos (qué se dice, quién lo dice, en qué arena, con qué efectos).
+
+\subsection{Integración: comunicación performativa en transiciones socioecológicas}
+
+\citet{mascareno2021critical} propone una integración de la teoría de transiciones críticas con la teoría de sistemas sociales. El argumento central es que la comunicación social tiene efectos performativos en las transiciones socioecológicas: no solo representa los conflictos ambientales sino que los constituye y transforma. Cuando un tribunal declara ilegal una actividad, cuando un medio denuncia contaminación, cuando una comunidad protesta, estas comunicaciones modifican las condiciones del conflicto.
+
+Esta perspectiva permite reinterpretar los conceptos de la teoría de transiciones críticas en términos comunicativos:
+
+\textbf{Resiliencia comunicativa.} La capacidad del sistema de procesar irritaciones ambientales sin cambiar sus estructuras básicas de comunicación. Un sistema comunicativamente resiliente puede absorber controversias, procesar demandas y producir decisiones sin crisis institucional. La resiliencia se erosiona cuando las comunicaciones se vuelven repetitivas, cuando los conflictos no se resuelven, cuando las decisiones generan más controversia que la que resuelven.
+
+\textbf{Bloqueos comunicativos.} Situaciones donde la comunicación se rigidiza, pierde variedad y capacidad de procesar complejidad. En un bloqueo comunicativo, las posiciones se polarizan, los argumentos se repiten sin variación, las decisiones se postergan o ignoran. Estos bloqueos pueden operar como bucles de retroalimentación positiva que amplifican los conflictos. Un indicador observable de bloqueo es la ``judicialización masiva'': cuando los actores acuden sistemáticamente a tribunales no para resolver disputas específicas sino como táctica dilatoria o de desgaste. Otro indicador es el ``escalamiento inter-arenas'': cuando un conflicto no resuelto en una arena transita sistemáticamente hacia otras, sin encontrar procesamiento satisfactorio en ninguna.
+
+\textbf{Señales de alerta temprana comunicativas.} Patrones observables en la comunicación que preceden transiciones críticas. Candidatos incluyen: aumento de la frecuencia de comunicaciones sobre el conflicto, polarización del debate (reducción de posiciones intermedias), sincronización entre arenas comunicativas (el mismo conflicto se procesa simultáneamente en múltiples sistemas), aumento de la varianza en indicadores comunicativos.
+
+El caso de la crisis de marea roja en Chiloé (2016), analizado por \citet{mascareno2018controversies} y \citet{mascareno2020twitter}, ilustra estas dinámicas de manera ejemplar y constituye un antecedente empírico fundamental para nuestra agenda de investigación.
+
+\subsubsection{El caso de Chiloé (2016): una ilustración empírica}
+
+En mayo de 2016, el archipiélago de Chiloé experimentó una crisis socioecológica sin precedentes. Una floración algal nociva (``marea roja'') provocó mortalidad masiva en la industria salmonera, y las empresas vertieron miles de toneladas de salmones muertos en el mar con autorización del gobierno. Simultáneamente, la marea roja afectó a pescadores artesanales y recolectores de mariscos, cuyo sustento depende de recursos costeros.
+
+La crisis escaló rápidamente cuando se difundió la sospecha de que el vertimiento de salmones había intensificado la marea roja. Aunque la evidencia científica no respaldó esta hipótesis, la controversia sobre la causalidad se convirtió en el eje de una movilización masiva. Durante semanas, los habitantes de Chiloé bloquearon caminos, aislaron la isla del continente, y rechazaron las compensaciones ofrecidas por el gobierno. La cobertura mediática fue intensa, las redes sociales amplificaron el conflicto, y el gobierno enfrentó una crisis política significativa.
+
+Este caso ilustra los conceptos de nuestro marco teórico:
+
+\textbf{Sincronización de arenas.} El conflicto se procesó simultáneamente en múltiples arenas: la arena contenciosa (protestas, bloqueos), la arena mediática (cobertura de prensa, Twitter), la arena política (intervención gubernamental, negociaciones), y parcialmente la arena judicial (aunque la judicialización fue limitada). Esta sincronización amplificó el conflicto más allá de lo que cualquier arena por sí sola habría generado.
+
+\textbf{Bloqueo comunicativo.} El análisis de \citet{mascareno2020twitter} mostró que la comunicación en Twitter se polarizó progresivamente, con posiciones que se rigidizaron y perdieron capacidad de procesar complejidad. Los hashtags \#ChiloéResiste y \#ChiloéEnCrisis canalizaron comunicaciones que reforzaban la confrontación, mientras las posiciones intermedias o matizadas perdieron visibilidad.
+
+\textbf{Señales de alerta temprana.} El análisis retrospectivo identificó patrones que precedieron los momentos más críticos de la crisis: aumento de varianza en la frecuencia de tweets, aumento de la polarización en los contenidos, sincronización entre la dinámica de redes sociales y la dinámica de protestas en terreno. Estos patrones sugieren que las señales de alerta temprana comunicativas son, en principio, detectables.
+
+\textbf{Comunicación performativa.} Las comunicaciones durante la crisis no solo describieron el conflicto sino que lo constituyeron. La narrativa de ``Chiloé abandonado por el Estado'' construyó una identidad colectiva de resistencia; la narrativa de ``crisis provocada por las salmoneras'' estableció una causalidad social (aunque no respaldada científicamente) que orientó las demandas; la negativa a aceptar compensaciones ``insuficientes'' transformó el conflicto de económico a político.
+
+El caso de Chiloé demuestra que el marco teórico de transiciones socioecológicas críticas es aplicable empíricamente y que la sincronización entre arenas comunicativas puede constituir una señal de transición. Sin embargo, el caso también ilustra una limitación: la crisis fue analizada retrospectivamente. El desafío para nuestra agenda de investigación es desarrollar capacidades de monitoreo en tiempo real que permitan detectar señales de alerta antes de que las crisis escalen.
+
+%------------------------------------------------------------------
+\section{Arenas comunicativas del conflicto socioecológico}
+%------------------------------------------------------------------
+
+\subsection{El concepto de arena comunicativa}
+
+Proponemos el concepto de ``arena comunicativa'' para designar espacios institucionalizados donde los conflictos socioecológicos se procesan mediante códigos comunicativos específicos. El concepto se inspira en la noción de ``arenas públicas'' desarrollada en sociología de los problemas públicos, pero enfatiza la dimensión sistémica: cada arena opera como un sistema de comunicación con lógicas propias.
+
+Cada arena traduce el conflicto a su propio lenguaje: lo que en la calle es protesta, en el tribunal es demanda, en el medio es noticia, en la administración es expediente. Esta traducción no es neutral: implica selecciones (qué aspectos del conflicto se tematizan), exclusiones (qué actores pueden comunicar válidamente) y transformaciones (cómo se reformula el problema para hacerlo procesable).
+
+El concepto de arena comunicativa dialoga con la literatura de justicia ambiental global. \citet{temper2018ejatlas, temper2020defenders}, mediante el Environmental Justice Atlas (EJAtlas), han documentado sistemáticamente las múltiples formas en que los conflictos socioecológicos se expresan: peticiones, asambleas, ocupaciones, protestas, iniciativas legislativas, litigación, campañas mediáticas, desobediencia civil. Un hallazgo relevante de esta literatura es que combinar estrategias ---movilización preventiva, diversificación táctica y litigación--- aumenta significativamente el éxito de los defensores ambientales (de 11\% a 27\% de casos donde se detienen proyectos dañinos).
+
+La noción de ``justicia ambiental'' (environmental justice) que subyace a esta literatura tiene sus orígenes en el movimiento por derechos civiles en Estados Unidos durante los años 1980, cuando comunidades afroamericanas denunciaron la concentración de vertederos tóxicos y actividades contaminantes en sus barrios. Desde entonces, el concepto se ha globalizado y ampliado para incluir dimensiones distributivas (quién soporta los costos ambientales), procedimentales (quién participa en las decisiones) y de reconocimiento (qué voces son escuchadas). Nuestro marco de arenas comunicativas contribuye particularmente a la dimensión procedimental: ¿cómo se procesan institucionalmente las demandas de justicia ambiental y qué barreras enfrentan diferentes actores para acceder a cada arena?
+
+Nuestro enfoque complementa esta literatura al enfatizar la dimensión comunicativa sistémica. Las arenas no son meros canales por donde fluye el conflicto, sino sistemas que procesan, transforman y producen realidad socioecológica. El análisis de patrones comunicativos dentro y entre arenas puede revelar dinámicas de transición crítica que no son visibles desde una perspectiva centrada en actores o estrategias.
+
+\subsection{Cinco arenas en el Chile post-reforma}
+
+Identificamos cinco arenas comunicativas principales donde se procesan los conflictos socioecológicos en Chile posterior a la reforma de 2010:
+
+\subsubsection{Arena judicial: Tribunales Ambientales}
+
+Creados por la Ley 20.600 (2012), los tres Tribunales Ambientales constituyen la arena de adjudicación legal de conflictos ambientales. Operan con el código legal/ilegal (o, más específicamente, acoge/rechaza la pretensión). Sus competencias principales incluyen:
+
+\begin{itemize}
+    \item Reclamaciones contra actos administrativos de la SMA, el SEA, el Comité de Ministros y decretos supremos ambientales.
+    \item Demandas por reparación de daño ambiental.
+    \item Autorizaciones para medidas provisionales y sanciones graves solicitadas por la SMA.
+\end{itemize}
+
+Los tres tribunales tienen jurisdicción territorial diferenciada: el Primer Tribunal Ambiental (1TA, Antofagasta) cubre las regiones del norte; el Segundo Tribunal Ambiental (2TA, Santiago) cubre la zona central; el Tercer Tribunal Ambiental (3TA, Valdivia) cubre las regiones del sur. Cada tribunal está compuesto por tres ministros: dos abogados y un licenciado en ciencias.
+
+La comunicación judicial produce decisiones vinculantes que modifican las condiciones del conflicto: puede anular resoluciones, ordenar reparaciones, autorizar clausuras. En términos luhmannianos, es comunicación performativa por excelencia. A diferencia de la protesta (que puede ser ignorada), del debate mediático (que puede desvanecerse), o de las observaciones ciudadanas en el SEIA (que son formalmente no vinculantes), las sentencias de los Tribunales Ambientales producen efectos jurídicos directos que deben ser acatados. Esta característica hace de la arena judicial un punto privilegiado para estudiar cómo el sistema institucional procesa ---o bloquea--- los conflictos socioecológicos.
+
+\subsubsection{Arena evaluativa: Sistema de Evaluación de Impacto Ambiental}
+
+El Sistema de Evaluación de Impacto Ambiental (SEIA), administrado por el SEA, procesa proyectos de inversión que requieren calificación ambiental. Opera con el código aprueba/rechaza (o califica favorable/desfavorablemente). El proceso incluye:
+
+\begin{itemize}
+    \item Ingreso del proyecto mediante Declaración de Impacto Ambiental (DIA) o Estudio de Impacto Ambiental (EIA).
+    \item Evaluación técnica por servicios públicos con competencia ambiental.
+    \item Participación ciudadana (obligatoria en EIA, voluntaria en DIA).
+    \item Resolución de Calificación Ambiental (RCA) que aprueba, rechaza o aprueba con condiciones.
+\end{itemize}
+
+La RCA establece las condiciones ambientales que el proyecto debe cumplir, las cuales serán fiscalizadas posteriormente por la SMA. Las observaciones ciudadanas en el proceso de participación constituyen comunicaciones que, aunque no vinculantes, deben ser consideradas y respondidas por la autoridad.
+
+\subsubsection{Arena fiscalizadora: Superintendencia del Medio Ambiente}
+
+La Superintendencia del Medio Ambiente (SMA) fiscaliza el cumplimiento de RCAs, normas de emisión, planes de prevención y descontaminación, y otras obligaciones ambientales. Opera con el código cumple/incumple (y, derivadamente, sanciona/absuelve). Sus funciones incluyen:
+
+\begin{itemize}
+    \item Fiscalización directa y mediante programas sectoriales.
+    \item Recepción de denuncias ciudadanas a través del SNIFA.
+    \item Inicio de procedimientos sancionatorios.
+    \item Aplicación de sanciones (amonestación, multa, clausura, revocación).
+    \item Aprobación de programas de cumplimiento.
+\end{itemize}
+
+Para las sanciones más graves (clausura, revocación), la SMA requiere autorización de los Tribunales Ambientales, lo que genera un acoplamiento institucional entre ambas arenas.
+
+\subsubsection{Arena mediática}
+
+Los medios de comunicación y redes sociales procesan los conflictos socioecológicos mediante el código noticiable/no noticiable (o, en términos más amplios, relevante/irrelevante para la atención pública). Esta arena incluye:
+
+\begin{itemize}
+    \item Medios tradicionales (prensa, televisión, radio).
+    \item Medios digitales (portales de noticias, periodismo de investigación).
+    \item Redes sociales (Twitter/X, Facebook, Instagram).
+\end{itemize}
+
+La comunicación mediática puede amplificar o invisibilizar conflictos, enmarcar responsabilidades (``framing''), movilizar opinión pública y presionar a otras arenas. El análisis de la cobertura mediática permite estudiar qué conflictos logran visibilidad, cómo se construyen narrativamente y qué efectos tiene la mediatización sobre el procesamiento en otras arenas.
+
+\subsubsection{Arena contenciosa}
+
+La movilización social ---protestas, marchas, bloqueos, tomas, huelgas--- expresa el conflicto fuera de los canales institucionales formales. Opera con el código moviliza/no moviliza (o participa/no participa). Esta arena incluye:
+
+\begin{itemize}
+    \item Protestas y marchas públicas.
+    \item Bloqueos de caminos y ocupaciones.
+    \item Acciones de desobediencia civil.
+    \item Campañas de organizaciones ambientales.
+\end{itemize}
+
+La arena contenciosa tiene una relación ambivalente con las arenas institucionales: puede operar como presión externa que modifica el procesamiento institucional, pero también puede expresar la incapacidad o insuficiencia de las arenas formales para procesar el conflicto. La investigación sobre justicia ambiental sugiere que la movilización social y la litigación operan frecuentemente como estrategias complementarias: las comunidades que combinan protesta, participación institucional y litigación tienen mayores probabilidades de éxito que aquellas que se limitan a una sola estrategia. Sin embargo, el acceso diferencial a estas estrategias ---que depende de recursos económicos, capital social, acceso a abogados y organizaciones de apoyo--- genera desigualdades en la capacidad de defender intereses ambientales.
+
+\subsection{Relaciones entre arenas}
+
+Las arenas no operan aisladamente. Los conflictos transitan entre ellas, generando dinámicas de acoplamiento, secuenciación y, potencialmente, sincronización.
+
+\textbf{Secuencias típicas.} Un conflicto puede seguir trayectorias características:
+\begin{itemize}
+    \item Proyecto ingresa al SEIA $\rightarrow$ genera oposición ciudadana $\rightarrow$ se aprueba $\rightarrow$ se reclama ante el Tribunal Ambiental.
+    \item Actividad genera contaminación $\rightarrow$ denuncia ante la SMA $\rightarrow$ procedimiento sancionatorio $\rightarrow$ sanción $\rightarrow$ reclamación judicial.
+    \item Conflicto local $\rightarrow$ cobertura mediática $\rightarrow$ movilización social $\rightarrow$ respuesta política.
+\end{itemize}
+
+\textbf{Acoplamientos institucionales.} Algunas arenas están formalmente acopladas: la SMA requiere autorización judicial para sanciones graves; las decisiones del SEA pueden ser reclamadas ante tribunales; el Comité de Ministros (arena política) resuelve recursos contra el SEA.
+
+\textbf{Sincronización.} Una hipótesis central de nuestra agenda es que la sincronización entre arenas ---cuando múltiples arenas procesan simultáneamente el mismo conflicto con alta intensidad--- puede constituir una señal de alerta temprana de transiciones críticas. La crisis de Chiloé (2016) ejemplifica esta dinámica: protesta masiva, cobertura mediática intensa, debate político nacional y litigación judicial ocurrieron simultáneamente, generando una crisis que desbordó la capacidad de procesamiento institucional.
+
+\textbf{Tensiones inter-arenas.} Las arenas no solo se acoplan; también pueden tensionarse mutuamente. Una sentencia judicial que revierte una decisión administrativa puede generar resistencia en el poder ejecutivo; una protesta masiva puede presionar a los tribunales a fallar de maneras que luego generan críticas de falta de neutralidad; una cobertura mediática intensa puede politizar conflictos que los actores institucionales preferirían mantener como cuestiones ``técnicas''. Estas tensiones son inherentes a un sistema diferenciado y pueden, paradójicamente, tanto estabilizar el sistema (al ofrecer múltiples vías de procesamiento) como desestabilizarlo (al generar señales contradictorias sobre el ``estado'' del conflicto).
+
+%------------------------------------------------------------------
+\section{Datos disponibles}
+%------------------------------------------------------------------
+
+Una ventaja del sistema institucional chileno es la disponibilidad de datos públicos para múltiples arenas. Esta sección describe las fuentes disponibles y las posibilidades de análisis.
+
+\subsection{Arena judicial}
+
+Los tres Tribunales Ambientales publican sentencias y resoluciones en sus sitios web institucionales. Para este proyecto, hemos construido un corpus comprehensivo de documentos judiciales que será publicado con DOI en Harvard Dataverse.
+
+\textbf{Composición del corpus:}
+\begin{itemize}
+    \item 2,516 documentos totales
+    \item 866 causas únicas identificadas
+    \item Período: 2012-2025
+    \item Cobertura estimada: 99\% de sentencias (695 en corpus vs. 704 reportadas oficialmente)
+\end{itemize}
+
+\textbf{Variables disponibles:}
+\begin{itemize}
+    \item Tipo de procedimiento (reclamación, demanda, solicitud)
+    \item Tribunal (1TA, 2TA, 3TA)
+    \item Año de ingreso
+    \item Resultado (acoge, rechaza, inadmisible, etc.)
+    \item Partes (demandante, demandado)
+    \item Texto completo de la sentencia
+\end{itemize}
+
+El corpus permite análisis cuantitativos (distribuciones, tendencias temporales, patrones por tribunal) y cualitativos (análisis de contenido, argumentación jurídica, evolución jurisprudencial). Mediante técnicas de procesamiento de lenguaje natural (NLP), es posible extraer información adicional: sectores económicos involucrados, tipos de daño alegado, referencias normativas, precedentes citados.
+
+Un desafío metodológico significativo en la construcción del corpus fue el procesamiento de documentos escaneados. Aproximadamente el 9\% de las sentencias disponibles en los sitios institucionales están en formato de imagen (PDFs escaneados) en lugar de texto digital, lo que requirió técnicas de reconocimiento óptico de caracteres (OCR) para su transcripción. Este proceso, aunque laborioso, asegura la completitud del corpus y su utilidad para análisis automatizados.
+
+El corpus será publicado con DOI en Harvard Dataverse, siguiendo estándares FAIR de datos abiertos (Findable, Accessible, Interoperable, Reusable). Esta publicación constituirá el primer corpus sistematizado de jurisprudencia ambiental chilena, ofreciendo una infraestructura de datos para investigadores de derecho ambiental, ciencias políticas, sociología y estudios ambientales.
+
+\subsection{Arena evaluativa}
+
+El SEA publica información detallada sobre proyectos evaluados en su plataforma web (https://seia.sea.gob.cl). Los datos incluyen:
+
+\begin{itemize}
+    \item Proyectos ingresados (DIA y EIA), con información de titular, ubicación, inversión, tipología.
+    \item Estado del proceso de evaluación.
+    \item Observaciones ciudadanas en procesos de participación.
+    \item Informes de servicios públicos.
+    \item Resoluciones de Calificación Ambiental.
+    \item Recursos de reclamación ante el Comité de Ministros.
+\end{itemize}
+
+Estos datos permiten analizar patrones de aprobación/rechazo, caracterizar la participación ciudadana, identificar proyectos conflictivos y estudiar la relación entre evaluación ambiental y judicialización posterior. Un aspecto particularmente relevante es el estudio de las observaciones ciudadanas en el proceso de participación: ¿quiénes participan?, ¿sobre qué temas?, ¿con qué argumentos?, ¿cómo responde la autoridad?, ¿qué proporción de observaciones se incorpora efectivamente en las decisiones? El análisis textual de las observaciones permitiría mapear la ``ciudadanía ambiental'' activa en Chile: su distribución geográfica, su sofisticación técnica, su evolución temporal.
+
+\subsection{Arena fiscalizadora}
+
+La SMA publica datos a través del Sistema Nacional de Información de Fiscalización Ambiental (SNIFA, https://snifa.sma.gob.cl). Las fuentes incluyen:
+
+\begin{itemize}
+    \item Registro de denuncias ciudadanas.
+    \item Programas y actividades de fiscalización.
+    \item Procedimientos sancionatorios (en curso y terminados).
+    \item Resoluciones de sanción.
+    \item Programas de cumplimiento aprobados.
+\end{itemize}
+
+Estos datos permiten analizar la distribución geográfica y sectorial de las denuncias, la efectividad de la fiscalización, la relación entre denuncias y sanciones, y los patrones de cumplimiento/incumplimiento.
+
+\subsection{Arena mediática}
+
+El análisis de la arena mediática requiere construcción de datos mediante técnicas de web scraping y acceso a APIs. Fuentes potenciales incluyen:
+
+\begin{itemize}
+    \item Medios digitales chilenos: CIPER Chile, El Mostrador, La Tercera, El Mercurio, BioBioChile.
+    \item Bases de prensa internacionales: Factiva, LexisNexis.
+    \item Redes sociales: Twitter/X (API académica), Facebook (CrowdTangle).
+    \item Google Trends: tendencias de búsqueda sobre temas ambientales.
+\end{itemize}
+
+El análisis puede incluir frecuencia de cobertura, análisis de frames, identificación de actores citados, sentiment analysis, y dinámicas de difusión en redes.
+
+\subsection{Arena contenciosa}
+
+Varias bases de datos documentan eventos de protesta y conflictos:
+
+\begin{itemize}
+    \item \textbf{EJAtlas}: El Environmental Justice Atlas documenta más de 100 conflictos socioambientales en Chile, con información sobre actores, impactos, formas de movilización y resultados. Para cada conflicto, el EJAtlas registra información estructurada sobre ubicación, sectores económicos, actores involucrados, tipos de impacto ambiental, formas de movilización (desde peticiones hasta desobediencia civil), respuesta gubernamental y resultados. Esta base permite análisis comparativos con otros países latinoamericanos y globales.
+    \item \textbf{ACLED}: El Armed Conflict Location \& Event Data Project registra eventos de protesta geolocalizados con información sobre fecha, ubicación, actores, tamaño estimado y tipo de evento. Para Chile, ACLED ofrece cobertura sistemática desde 2018, permitiendo análisis de series temporales de movilización.
+    \item \textbf{OLCA}: El Observatorio Latinoamericano de Conflictos Ambientales mantiene un mapa de conflictos en Chile con documentación histórica de casos emblemáticos.
+\end{itemize}
+
+Una ventaja metodológica de triangular estas fuentes es la posibilidad de estimar la ``tasa de invisibilidad'': ¿qué proporción de conflictos documentados en EJAtlas o ACLED llega a las arenas institucionales (SEIA, SMA, tribunales)? ¿Qué caracteriza a los conflictos que permanecen fuera del procesamiento institucional?
+
+\subsection{Posibilidades de integración}
+
+La disponibilidad de datos en múltiples arenas abre posibilidades de análisis integrado:
+
+\begin{itemize}
+    \item \textbf{SEIA $\rightarrow$ Tribunales}: ¿Qué características de los proyectos predicen su judicialización posterior?
+    \item \textbf{SMA $\rightarrow$ Tribunales}: ¿Qué proporción de sanciones se reclama judicialmente? ¿Con qué resultado?
+    \item \textbf{Medios $\rightarrow$ Tribunales}: ¿La cobertura mediática predice o sigue a la judicialización?
+    \item \textbf{Protesta $\rightarrow$ Tribunales}: ¿La movilización social precede, acompaña o sustituye a la litigación?
+    \item \textbf{Sincronización}: ¿Hay patrones de activación simultánea en múltiples arenas que precedan crisis?
+\end{itemize}
+
+%------------------------------------------------------------------
+\section{Agenda de investigación}
+%------------------------------------------------------------------
+
+\subsection{Línea 1: Arena judicial (en desarrollo)}
+
+La primera línea de investigación, actualmente en desarrollo, se centra en los Tribunales Ambientales. La pregunta guía es: ¿cómo procesan comunicativamente los TA los conflictos socioecológicos y qué patrones podrían indicar transiciones críticas?
+
+\subsubsection{Resultados preliminares}
+
+El análisis del corpus de causas revela un patrón notable en la distribución por tipo de procedimiento:
+
+\begin{table}[H]
+\centering
+\caption{Distribución de causas por tipo de procedimiento (2012-2025)}
+\begin{tabular}{lrr}
+\toprule
+Tipo de procedimiento & Causas & Porcentaje \\
+\midrule
+Reclamaciones (R) & 599 & 69.2\% \\
+Solicitudes SMA (S) & 161 & 18.6\% \\
+Demandas por daño (D) & 96 & 11.1\% \\
+Otras (C) & 10 & 1.2\% \\
+\midrule
+\textbf{Total} & \textbf{866} & \textbf{100\%} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Las reclamaciones contra actos administrativos constituyen más de dos tercios de las causas (69.2\%), mientras las demandas por reparación de daño ambiental representan solo el 11.1\%. El ratio reclamaciones/demandas es de aproximadamente 6:1.
+
+\subsubsection{Distribución por tribunal}
+
+El análisis por tribunal revela patrones diferenciados que reflejan las características de cada jurisdicción territorial:
+
+\begin{table}[H]
+\centering
+\caption{Distribución de causas por tribunal y tipo de procedimiento}
+\begin{tabular}{lrrrrr}
+\toprule
+Tribunal & Total & R (\%) & D (\%) & S (\%) & C (\%) \\
+\midrule
+1TA (Antofagasta) & 69 & 49 (71\%) & 12 (17\%) & 8 (12\%) & 0 \\
+2TA (Santiago) & 385 & 276 (72\%) & 25 (6\%) & 79 (21\%) & 5 (1\%) \\
+3TA (Valdivia) & 412 & 274 (67\%) & 59 (14\%) & 74 (18\%) & 5 (1\%) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Tres hallazgos emergen de esta distribución. Primero, el patrón de predominio de reclamaciones es consistente en los tres tribunales, oscilando entre 67\% y 72\%. La estructura del sistema ---donde las reclamaciones dominan--- no es un artefacto de un tribunal particular sino una característica sistémica.
+
+Segundo, el Tercer Tribunal Ambiental (Valdivia) concentra una proporción significativamente mayor de demandas por daño ambiental: 14\% de sus causas son demandas, comparado con solo 6\% en el 2TA (Santiago). Más aún, el 3TA concentra el 61.5\% de todas las demandas por daño del país (59 de 96), a pesar de representar el 47.6\% de las causas totales. Este patrón refleja la alta conflictividad socioecológica de las regiones del sur de Chile, donde las industrias salmonera, forestal y energética tienen presencia significativa, y donde comunidades indígenas y organizaciones ambientales han sido particularmente activas.
+
+Tercero, el Segundo Tribunal Ambiental (Santiago) presenta la mayor proporción de solicitudes de la SMA (21\%), lo que refleja la concentración de las oficinas centrales de la Superintendencia en la capital y su rol como principal generador de procedimientos sancionatorios a nivel nacional.
+
+\subsubsection{Evolución temporal}
+
+El análisis temporal de las causas permite identificar tendencias y posibles puntos de inflexión:
+
+\begin{table}[H]
+\centering
+\caption{Evolución de causas por tipo y año}
+\begin{tabular}{lrrrrl}
+\toprule
+Año & R & D & S & Total & Observación \\
+\midrule
+2013 & 13 & 3 & 5 & 23 & Inicio 2TA y 3TA \\
+2014 & 24 & 7 & 8 & 40 & \\
+2015 & 29 & 6 & 13 & 49 & \\
+2016 & 50 & 12 & 32 & 95 & Peak solicitudes SMA \\
+2017 & 33 & 11 & 12 & 56 & Inicio 1TA \\
+2018 & 35 & 5 & 13 & 53 & \\
+2019 & 37 & 16 & 9 & 62 & Peak demandas D \\
+2020 & 58 & 5 & 4 & 68 & Pandemia \\
+2021 & 62 & 9 & 2 & 73 & \\
+2022 & 79 & 7 & 9 & 95 & Peak reclamaciones \\
+2023 & 66 & 2 & 6 & 74 & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+La serie temporal revela varios patrones relevantes. Las reclamaciones muestran una tendencia creciente sostenida, desde 13 en 2013 hasta un máximo de 79 en 2022, reflejando tanto la consolidación institucional de los tribunales como el aumento de la actividad fiscalizadora de la SMA (cuyas sanciones son frecuentemente reclamadas). Las demandas por daño, en cambio, muestran un patrón más errático, con un peak en 2019 (16 demandas) seguido de un declive pronunciado (solo 2 en 2023). Este declive posterior a 2019 merece investigación adicional: ¿refleja barreras de acceso crecientes, cambios en estrategias de litigación, o efectos de la pandemia?
+
+Las solicitudes de la SMA muestran un peak notable en 2016 (32 solicitudes), posiblemente asociado a una intensificación de la fiscalización en ese período. Notablemente, las solicitudes han disminuido significativamente desde entonces, lo que podría indicar cambios en las estrategias de fiscalización o en los criterios para solicitar autorización judicial.
+
+\subsubsection{Interpretación teórica}
+
+Este patrón sugiere que los Tribunales Ambientales funcionan principalmente como órganos de \textbf{control de legalidad de la administración ambiental}, no como foros de \textbf{reparación de daños}. En términos luhmannianos, el sistema judicial ambiental está más fuertemente acoplado estructuralmente con el sistema administrativo (SMA, SEA, Comité de Ministros) que con las comunidades afectadas por daño ambiental.
+
+Las reclamaciones típicamente involucran a empresas que impugnan sanciones de la SMA o rechazos del SEA. Son comunicaciones entre el sistema regulatorio y el sistema económico, mediadas por el sistema legal. Las demandas por daño, en cambio, canalizarían las comunicaciones de comunidades afectadas buscando reparación. Su baja proporción indica que esta vía está subrepresentada.
+
+Este hallazgo coincide con investigaciones previas. \citet{rosas2019tribunales} encontró que ``son los titulares de proyectos (no las comunidades) quienes más usan los TA'', y que el problema central ``parece ser dificultades de acceso a la justicia ambiental''.
+
+\subsubsection{Implicancias}
+
+Si las demandas por daño son la vía principal para que comunidades afectadas accedan a la justicia ambiental, su baja proporción (11\%) indica barreras de acceso significativas. Estas barreras pueden incluir:
+
+\begin{itemize}
+    \item \textbf{Costos}: peritajes ambientales, abogados especializados, duración del proceso.
+    \item \textbf{Carga probatoria}: dificultad de probar el daño y la causalidad.
+    \item \textbf{Diseño institucional}: los TA solo ordenan reparación in natura, no indemnización (que requiere juicio civil separado).
+    \item \textbf{Información}: desconocimiento de la vía judicial o de los derechos.
+\end{itemize}
+
+El sistema, tal como opera actualmente, procesa principalmente comunicaciones entre reguladores y regulados, no entre afectados y responsables.
+
+\subsubsection{Análisis adicionales en desarrollo}
+
+\begin{itemize}
+    \item \textbf{Evolución temporal}: ¿Hay cambios abruptos en las tasas de litigación que indiquen transiciones?
+    \item \textbf{Resultados}: ¿Qué proporción de causas se acoge vs. rechaza? ¿Hay diferencias por tipo?
+    \item \textbf{Sectores}: ¿Qué industrias generan más litigación?
+    \item \textbf{Geografía}: ¿Cómo se distribuyen territorialmente los conflictos judicializados?
+    \item \textbf{Actores}: ¿Quiénes son los litigantes frecuentes?
+    \item \textbf{Señales}: ¿Se observan patrones de varianza, autocorrelación o polarización que precedan períodos de alta conflictividad?
+\end{itemize}
+
+Adicionalmente, el análisis de contenido de las sentencias mediante técnicas de procesamiento de lenguaje natural permitirá explorar dimensiones cualitativas del procesamiento judicial. Entre las líneas de análisis textual contempladas se incluyen: (1) evolución del vocabulario jurídico ambiental y recepción de conceptos como ``daño ambiental'', ``principio precautorio'' o ``justicia intergeneracional''; (2) patrones de citación de precedentes y formación de jurisprudencia consolidada; (3) análisis de los argumentos de las partes y su recepción por los tribunales; (4) identificación de ``casos difíciles'' donde la argumentación es más extensa o donde hay votos disidentes.
+
+\subsection{Líneas futuras}
+
+\subsubsection{Línea 2: Arena evaluativa (SEIA)}
+
+El Sistema de Evaluación de Impacto Ambiental constituye la puerta de entrada formal para proyectos de inversión con potencial impacto ambiental. Esta línea de investigación abordará preguntas como:
+
+\begin{itemize}
+    \item ¿Cómo se distribuye la aprobación/rechazo de proyectos por sector económico, región y tipo de titular?
+    \item ¿Qué características de los proyectos o de su evaluación predicen la conflictividad posterior (judicialización, protesta, cobertura mediática)?
+    \item ¿La participación ciudadana en el proceso de evaluación reduce o aumenta la probabilidad de judicialización?
+    \item ¿Qué patrones temporales se observan en las observaciones ciudadanas? ¿Han aumentado en cantidad, extensión, sofisticación técnica?
+\end{itemize}
+
+Los datos del SEA permiten construir indicadores de conflictividad ex ante (durante la evaluación) y relacionarlos con conflictividad ex post (en otras arenas). La hipótesis a testear es que proyectos con alta conflictividad en el SEIA tienen mayor probabilidad de transitar hacia otras arenas.
+
+\subsubsection{Línea 3: Arena fiscalizadora (SMA)}
+
+La Superintendencia del Medio Ambiente opera como el brazo fiscalizador del sistema, monitoreando el cumplimiento de compromisos ambientales y canalizando denuncias ciudadanas. Las preguntas de investigación incluyen:
+
+\begin{itemize}
+    \item ¿Cómo se distribuyen geográficamente las denuncias ciudadanas? ¿Hay concentración en territorios específicos (``zonas de sacrificio'', regiones con industrias extractivas)?
+    \item ¿Qué proporción de denuncias resulta en fiscalizaciones, procedimientos sancionatorios y sanciones efectivas?
+    \item ¿Qué factores predicen el cumplimiento vs. incumplimiento de compromisos ambientales?
+    \item ¿Cómo se relacionan las sanciones de la SMA con las reclamaciones ante los Tribunales Ambientales? ¿Qué características de las sanciones predicen su impugnación judicial?
+\end{itemize}
+
+El SNIFA ofrece datos granulares sobre denuncias, fiscalizaciones y procedimientos que permitirán mapear la ``geografía de la denuncia ambiental'' en Chile y su relación con otras arenas.
+
+\subsubsection{Línea 4: Arena mediática}
+
+Los medios de comunicación y redes sociales juegan un rol crucial en la visibilización ---o invisibilización--- de conflictos socioecológicos. Esta línea abordará:
+
+\begin{itemize}
+    \item ¿Cómo se enmarcan (``framing'') los conflictos socioecológicos en los medios chilenos? ¿Predominan frames económicos, ambientales, de salud, de derechos?
+    \item ¿La cobertura mediática predice, acompaña o sigue a la judicialización? ¿Y a la protesta?
+    \item ¿Qué conflictos logran visibilidad mediática y cuáles permanecen invisibles? ¿Qué factores explican esta selectividad?
+    \item ¿Cómo se difunden las controversias ambientales en redes sociales? ¿Se observan patrones de polarización previos a crisis?
+\end{itemize}
+
+El análisis de esta arena requiere construcción de datos mediante web scraping y APIs, pero ofrece la posibilidad de estudiar dinámicas comunicativas en tiempo casi real, complementando el análisis de las arenas institucionales.
+
+\subsubsection{Línea 5: Arena contenciosa}
+
+La movilización social representa la expresión del conflicto fuera de los canales institucionales formales. Las preguntas incluyen:
+
+\begin{itemize}
+    \item ¿Qué características de los conflictos predicen la movilización social? ¿Sectores económicos, tipos de impacto, presencia de comunidades indígenas?
+    \item ¿La protesta precede, acompaña o sustituye a la litigación judicial? ¿Son estrategias complementarias o alternativas?
+    \item ¿Qué combinaciones de estrategias (protesta + litigación + medios) son más efectivas para detener proyectos dañinos?
+    \item ¿Cómo se relaciona la movilización local con redes nacionales e internacionales de activismo ambiental?
+\end{itemize}
+
+Esta línea dialogará directamente con la literatura del EJAtlas y los estudios de justicia ambiental global, permitiendo situar el caso chileno en perspectiva comparada.
+
+\subsection{Integración: señales de alerta temprana}
+
+La integración de las cinco líneas permitirá testear la hipótesis central: ¿la sincronización entre arenas constituye una señal de alerta temprana de transiciones críticas?
+
+Indicadores potenciales a monitorear:
+\begin{itemize}
+    \item Aumento simultáneo de litigación, denuncias, cobertura mediática y protesta sobre un mismo conflicto o territorio.
+    \item Polarización en los resultados de cada arena (más acoger O más rechazar, no equilibrio).
+    \item Aumento de varianza en tasas temporales de actividad en cada arena.
+    \item Correlación temporal entre arenas: ¿la protesta precede la judicialización? ¿La cobertura mediática amplifica ambas?
+    \item Bloqueos comunicativos: conflictos que no se resuelven, escalan entre arenas, y generan crisis institucional.
+\end{itemize}
+
+La operacionalización de estos indicadores requiere resolver desafíos metodológicos significativos. Primero, la definición de ventanas temporales: ¿qué significa ``simultáneo'' cuando las arenas operan con temporalidades distintas (una sentencia puede demorar años, una protesta es instantánea)? Segundo, la identificación de ``mismo conflicto'' cuando diferentes arenas lo nombran de maneras distintas (un proyecto tiene nombre en el SEIA, una empresa tiene nombre en la SMA, un territorio tiene nombre en las protestas). Tercero, la distinción entre correlación y causalidad: que dos arenas se activen simultáneamente no implica que una cause la otra. Estos desafíos metodológicos serán abordados en papers específicos de la agenda.
+
+%------------------------------------------------------------------
+\section{Conclusiones}
+%------------------------------------------------------------------
+
+Este artículo ha propuesto un marco teórico y una agenda de investigación para estudiar los conflictos socioecológicos en Chile desde la perspectiva de las transiciones críticas. Las principales contribuciones son:
+
+\textbf{Primera}, una integración teórica que articula la teoría de transiciones críticas \citep{scheffer2009critical} con la teoría de sistemas sociales \citep{luhmann1995social}, siguiendo desarrollos recientes \citep{mascareno2021critical}. El argumento central es que la comunicación social tiene efectos performativos en las transiciones socioecológicas: no solo representa los conflictos sino que los constituye y transforma. Conceptos como resiliencia comunicativa, bloqueos comunicativos y señales de alerta temprana comunicativas permiten aplicar el marco de transiciones críticas a sistemas sociales. Esta integración teórica ofrece un lenguaje conceptual para describir fenómenos que la literatura de conflictos ambientales ha observado empíricamente pero no ha teorizado sistemáticamente.
+
+\textbf{Segunda}, el concepto de arenas comunicativas para designar espacios institucionalizados donde los conflictos se procesan mediante códigos específicos. Identificamos cinco arenas en el Chile post-reforma 2010: judicial (Tribunales Ambientales), evaluativa (SEIA), fiscalizadora (SMA), mediática y contenciosa. Cada arena traduce el conflicto a su propio lenguaje, con implicancias para qué aspectos se tematizan, qué actores pueden participar y cómo se transforma el problema.
+
+\textbf{Tercera}, un mapeo de los datos disponibles para estudiar cada arena en Chile. La institucionalidad ambiental chilena genera datos públicos que permiten análisis sistemáticos: sentencias judiciales, expedientes de evaluación, registros de fiscalización, cobertura mediática, eventos de protesta. La integración de estas fuentes abre posibilidades de análisis que trascienden el estudio de arenas aisladas.
+
+\textbf{Cuarta}, resultados preliminares del análisis de la arena judicial. El corpus de 866 causas de los Tribunales Ambientales (2012-2025) revela que el 69\% son reclamaciones contra actos administrativos, mientras solo el 11\% son demandas por daño ambiental. Este patrón sugiere que el sistema funciona principalmente como mecanismo de control de legalidad, no como foro de reparación de daños. Las barreras de acceso a la justicia ambiental reparatoria emergen como un problema significativo.
+
+\textbf{Quinta}, una agenda de investigación orientada a detectar señales de alerta temprana de transiciones críticas. La hipótesis central es que la sincronización entre arenas ---cuando múltiples arenas procesan simultáneamente el mismo conflicto con alta intensidad--- puede indicar la proximidad de umbrales críticos. Esta hipótesis es testeable empíricamente y, de confirmarse, tendría implicancias directas para el diseño de sistemas de monitoreo y gobernanza ambiental anticipatoria.
+
+\subsection{Implicancias para política pública}
+
+Los resultados preliminares tienen implicancias directas para el diseño institucional. El predominio de reclamaciones sobre demandas sugiere que el sistema, tal como opera, favorece el control de legalidad sobre la reparación efectiva del daño. Si el objetivo es que los Tribunales Ambientales también sirvan como foros de justicia reparatoria, podrían considerarse medidas como:
+
+\begin{itemize}
+    \item \textbf{Fondos de litigación ambiental} para comunidades afectadas, que financien peritajes, abogados y costas procesales.
+    \item \textbf{Clínicas jurídicas especializadas} en derecho ambiental, vinculadas a universidades, que ofrezcan asesoría gratuita.
+    \item \textbf{Simplificación de la carga probatoria} en demandas por daño, por ejemplo mediante presunciones de causalidad en zonas de sacrificio o inversión de la carga de prueba.
+    \item \textbf{Ampliación de la competencia} de los TA para incluir indemnizaciones, evitando que las víctimas deban litigar en dos jurisdicciones distintas.
+    \item \textbf{Mecanismos de acción colectiva ambiental} que permitan a comunidades u organizaciones representar intereses difusos.
+    \item \textbf{Programas de difusión} sobre derechos ambientales y vías de acceso a la justicia.
+\end{itemize}
+
+Más ampliamente, el marco de transiciones críticas sugiere la importancia de desarrollar capacidades de \textbf{monitoreo de señales de alerta temprana}. Si la sincronización entre arenas precede crisis, un sistema de monitoreo integrado ---que combine datos de tribunales, SMA, SEIA, medios y protesta--- podría permitir intervenciones preventivas antes de que los conflictos escalen. Este sistema de ``alerta temprana socioecológica'' constituiría una innovación en gobernanza ambiental.
+
+El caso de las denominadas ``zonas de sacrificio'' ---Quintero-Puchuncaví, Coronel, Huasco, Mejillones--- ilustra la urgencia de estas capacidades. En estos territorios, la acumulación de actividades industriales contaminantes ha generado crisis recurrentes de salud pública, protestas ciudadanas y litigación judicial, sin que ninguna arena haya logrado procesar satisfactoriamente el conflicto. La crisis de intoxicaciones masivas en Quintero (agosto 2018) ejemplifica el patrón de sincronización entre arenas: denuncias ante la SMA, cobertura mediática nacional, protestas ciudadanas, demandas judiciales y debate parlamentario ocurrieron simultáneamente. Un sistema de monitoreo podría haber detectado la acumulación de señales ---aumento de denuncias, incremento de cobertura mediática, primeros eventos de protesta--- antes del escalamiento crítico.
+
+La experiencia de Chiloé (2016) demuestra que las crisis socioecológicas pueden escalar rápidamente y desbordar la capacidad institucional. Un sistema de monitoreo no garantiza evitar crisis, pero puede ofrecer información oportuna para que tomadores de decisiones intervengan tempranamente. Las variables a monitorear incluirían: tasas de litigación por tipo y territorio, denuncias en SNIFA, cobertura mediática de conflictos ambientales, eventos de protesta registrados.
+
+\subsection{Implicancias para la investigación}
+
+Este artículo abre varias líneas de investigación futura más allá de las cinco arenas identificadas:
+
+\textbf{Comparación internacional.} El marco de arenas comunicativas y transiciones críticas es aplicable a otros países con institucionalidad ambiental diferenciada. A nivel global, según \citet{pring2016environmental}, existen más de 1,500 tribunales y cortes ambientales en 50 países, con diseños institucionales variados. Comparar Chile con casos como Colombia (que también tiene tribunales ambientales especializados), Perú (con su Tribunal de Fiscalización Ambiental), Brasil (con su complejo sistema de fiscalización y alta judicialización ambiental), o países europeos con trayectorias institucionales más largas, permitiría identificar patrones generalizables y especificidades nacionales. La pregunta comparativa clave es si el patrón de predominio de reclamaciones sobre demandas ---que observamos en Chile--- se replica en otros países o constituye una particularidad del diseño institucional chileno.
+
+\textbf{Análisis de redes de actores.} El análisis de quiénes litigan, quiénes denuncian, quiénes protestan, y cómo se relacionan estos actores entre sí, permitiría mapear la ``ecología de actores'' del conflicto socioecológico chileno. ¿Hay actores que operan sistemáticamente en múltiples arenas? ¿Hay redes de coordinación entre organizaciones ambientales, comunidades y abogados especializados?
+
+\textbf{Machine learning para detección de señales.} Las técnicas de aprendizaje automático podrían aplicarse a la detección de señales de alerta temprana en datos comunicativos. Entrenar modelos con crisis pasadas (Chiloé 2016, Quintero 2018) para predecir escalamientos futuros constituye un desafío técnico significativo pero potencialmente valioso.
+
+\textbf{Estudios cualitativos de casos emblemáticos.} El análisis cuantitativo de patrones debe complementarse con estudios cualitativos en profundidad de casos emblemáticos: Pascua Lama, Dominga, HidroAysén, zonas de sacrificio. Estos estudios pueden iluminar mecanismos causales que el análisis de patrones agregados no captura.
+
+\textbf{Dimensión temporal de largo plazo.} Una pregunta central es si los trece años de datos disponibles (2012-2025) son suficientes para detectar transiciones críticas, o si se requieren series más largas. La institucionalidad ambiental chilena es relativamente joven, lo que limita la profundidad histórica disponible. Sin embargo, esto mismo hace que el período de estudio capture precisamente la fase de institucionalización, donde las dinámicas de aprendizaje, adaptación y estabilización son particularmente visibles. Comparar los patrones de los primeros años (2012-2016) con los más recientes (2020-2025) permitirá evaluar si el sistema ha alcanzado un equilibrio o si continúa en transición.
+
+\textbf{Rol de las comunidades indígenas.} Un vacío en la literatura sobre justicia ambiental chilena es el análisis sistemático del rol de las comunidades indígenas ---particularmente mapuches--- en las arenas comunicativas. ¿Las comunidades indígenas acceden a los Tribunales Ambientales en proporción a los conflictos que enfrentan? ¿Sus demandas tienen tasas de acogida distintas? ¿Qué rol juegan organizaciones como la Coordinadora Arauco-Malleco o comunidades específicas en la arena contenciosa? El Convenio 169 de la OIT y el deber de consulta indígena introducen complejidades adicionales que merecen análisis específico.
+
+\subsection{Implicancias teóricas}
+
+El estudio de conflictos socioecológicos requiere atender a su dimensión comunicativa. Los conflictos ambientales no son meros reflejos de problemas ecológicos objetivos, sino construcciones comunicativas que se procesan en múltiples arenas institucionales. La dinámica entre estas arenas ---sus acoplamientos, secuencias y posibles sincronizaciones--- constituye un objeto de estudio en sí mismo, irreducible al análisis de arenas aisladas o de ``el conflicto'' como entidad unitaria.
+
+El marco propuesto invita a repensar qué significa ``resolver'' un conflicto socioecológico. Desde una perspectiva comunicativa, no hay un punto final donde el conflicto ``se resuelve'' definitivamente. Cada arena produce decisiones que pueden cerrar comunicaciones en esa arena pero abrir otras en arenas distintas. Una sentencia judicial puede terminar un litigio pero gatillar protestas; una sanción administrativa puede cerrar un procedimiento pero generar cobertura mediática. La gestión de conflictos socioecológicos es, en este sentido, gestión de comunicaciones entre arenas.
+
+\subsection{Limitaciones y trabajo futuro}
+
+Este artículo presenta un marco teórico y resultados preliminares de una línea de investigación. Las limitaciones incluyen: (1) el análisis empírico se concentra hasta ahora en la arena judicial; (2) no hemos testeado aún la hipótesis de sincronización entre arenas; (3) la identificación de señales de alerta temprana requiere series temporales más largas y análisis estadísticos específicos; (4) el corpus judicial, aunque comprehensivo, requiere validación adicional de completitud y precisión en la extracción de metadatos.
+
+El trabajo futuro incluye: completar el análisis de la arena judicial (resultados, sectores, actores, evolución temporal); desarrollar las líneas de investigación sobre las otras arenas; integrar datos de múltiples arenas para testear la hipótesis de sincronización; y desarrollar indicadores operacionales de señales de alerta temprana comunicativas. La publicación del corpus judicial con DOI en Harvard Dataverse constituirá un hito importante, al ofrecer infraestructura de datos abiertos para la comunidad de investigadores interesados en justicia ambiental, derecho ambiental y conflictos socioecológicos en Chile y Latinoamérica.
+
+%------------------------------------------------------------------
+\bibliographystyle{apalike}
+\begin{thebibliography}{99}
+
+\bibitem[Holling, 1973]{holling1973resilience}
+Holling, C. S. (1973). Resilience and stability of ecological systems. \textit{Annual Review of Ecology and Systematics}, 4(1), 1-23.
+
+\bibitem[Luhmann, 1995]{luhmann1995social}
+Luhmann, N. (1995). \textit{Social Systems}. Stanford University Press.
+
+\bibitem[Luhmann, 1997]{luhmann1997gesellschaft}
+Luhmann, N. (1997). \textit{Die Gesellschaft der Gesellschaft}. Suhrkamp.
+
+\bibitem[Mascareño, 2021]{mascareno2021critical}
+Mascareño, A. (2021). Critical Transitions in Ecosystems and Society: The Contribution of Sociological Systems Theory. \textit{Frontiers in Sociology}, 6, 763453.
+
+\bibitem[Mascareño et al., 2018]{mascareno2018controversies}
+Mascareño, A., Goles, E., \& Ruz, G. A. (2018). Controversies in Social-Ecological Systems: Lessons from a Major Red Tide Crisis on Chiloé Island, Chile. \textit{Ecology and Society}, 23(4), 15.
+
+\bibitem[Mascareño et al., 2020]{mascareno2020twitter}
+Mascareño, A., Henríquez, P. A., Billi, M., \& Ruz, G. A. (2020). A Twitter-Lived Red Tide Crisis on Chiloé Island, Chile: What Can Be Learned for Social-Ecological Research and Disaster Risk Management? \textit{Sustainability}, 12(20), 8506.
+
+\bibitem[Pring \& Pring, 2016]{pring2016environmental}
+Pring, G., \& Pring, C. (2016). \textit{Environmental Courts \& Tribunals: A Guide for Policy Makers}. UN Environment Programme.
+
+\bibitem[Rosas Zambrano, 2019]{rosas2019tribunales}
+Rosas Zambrano, N. (2019). \textit{Estado, Medio Ambiente y Sociedad: Una aproximación sociojurídica a la formación y el funcionamiento de los Tribunales Ambientales en Chile entre 2012 y 2019}. Tesis de Magíster, Universidad de Chile.
+
+\bibitem[Scheffer, 2009]{scheffer2009critical}
+Scheffer, M. (2009). \textit{Critical Transitions in Nature and Society}. Princeton University Press.
+
+\bibitem[Scheffer et al., 2009]{scheffer2009early}
+Scheffer, M., Bascompte, J., Brock, W. A., Brovkin, V., Carpenter, S. R., Dakos, V., ... \& Sugihara, G. (2009). Early-warning signals for critical transitions. \textit{Nature}, 461(7260), 53-59.
+
+\bibitem[Temper et al., 2018]{temper2018ejatlas}
+Temper, L., Demaria, F., Scheidel, A., Del Bene, D., \& Martinez-Alier, J. (2018). The Global Environmental Justice Atlas (EJAtlas): Ecological distribution conflicts as forces for sustainability. \textit{Sustainability Science}, 13(3), 573-584.
+
+\bibitem[Temper et al., 2020]{temper2020defenders}
+Temper, L., Avila, S., Del Bene, D., Gobby, J., Kosoy, N., Le Billon, P., ... \& Walter, M. (2020). Environmental conflicts and defenders: A global overview. \textit{Global Environmental Change}, 63, 102104.
+
+\end{thebibliography}
+
+\end{document}

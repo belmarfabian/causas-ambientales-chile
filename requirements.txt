@@ -1,1 +1,6 @@
 PyMuPDF>=1.23.0
+
+# Geocodificación y mapas
+geopy>=2.4.0
+folium>=0.15.0
+matplotlib>=3.7.0

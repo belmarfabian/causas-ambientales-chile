@@ -3,6 +3,11 @@
 tribunal_pdfs/
 tribunal_pdfs_organizado/
 
+# Corpus de textos (muy grande, se puede regenerar)
+corpus/textos/
+corpus/descarga_completa/
+corpus/seia/
+
 # Datos generados (se pueden regenerar)
 datos/*.csv
 !datos/.gitkeep
@@ -31,6 +36,21 @@ __MACOSX/
 # Temporales
 *.tmp
 *.log
-*.txt
-!requirements.txt
-!README.txt
+tmpclaude-*
+nul
+
+# Sesiones históricas (muy grandes)
+HISTORICO_SESION_*.md
+
+# LaTeX auxiliares
+*.aux
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Claude Code
+.claude/
+
+# Respaldos locales
+_RESPALDO_antiguos/

@@ -1,0 +1,423 @@
+\documentclass[12pt,a4paper]{article}
+
+% Paquetes esenciales
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{setspace}
+\usepackage{enumitem}
+
+% Configuración de página
+\geometry{margin=2.5cm}
+\setstretch{1.15}
+
+% Configuración de hyperref
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!60!black,
+    urlcolor=blue!60!black,
+    citecolor=blue!60!black
+}
+
+% Título
+\title{\textbf{Reclamaciones vs. Reparaciones: Caracterización de la Litigación Ambiental en Chile (2012-2025)}}
+\author{[Autores]}
+\date{Enero 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Este estudio analiza la composición de la litigación ante los Tribunales Ambientales de Chile utilizando un corpus de 1,019 causas del período 2012-2025, representando el 77\% de las causas oficialmente ingresadas. Los resultados revelan un sistema dominado por \textbf{reclamaciones contra actos administrativos} (76\%), mientras que las \textbf{demandas por daño ambiental} representan solo el 12\% de los casos. Las solicitudes de autorización de la Superintendencia del Medio Ambiente constituyen el 12\% restante. Estos hallazgos sugieren que los tribunales ambientales funcionan principalmente como órganos de \textbf{control de legalidad de la administración ambiental}, más que como foros de reparación de daños al medio ambiente. Se discuten las implicancias para el acceso a la justicia ambiental y la efectividad del sistema de protección ambiental chileno.
+
+\medskip
+\noindent\textbf{Palabras clave:} justicia ambiental, reclamaciones, daño ambiental, tribunales ambientales, Chile, acceso a la justicia
+\end{abstract}
+
+\section{Introducción}
+
+\subsection{Contexto}
+
+La creación de los Tribunales Ambientales en Chile (Ley 20.600, 2012) respondió a la necesidad de contar con órganos especializados para resolver conflictos medioambientales. El sistema fue diseñado con dos competencias centrales:
+
+\begin{enumerate}
+    \item \textbf{Contencioso administrativo ambiental:} Revisar la legalidad de actos de la autoridad ambiental (SMA, SEA, Comité de Ministros)
+    \item \textbf{Reparación de daño ambiental:} Ordenar la restauración del medio ambiente dañado
+\end{enumerate}
+
+Sin embargo, más de una década después de su entrada en funcionamiento, se desconoce cuál de estas competencias ha predominado en la práctica.
+
+\subsection{Pregunta de investigación}
+
+¿Cómo se distribuye la litigación ambiental en Chile entre los distintos tipos de procedimientos, y qué revela esto sobre el funcionamiento del sistema de justicia ambiental?
+
+\subsection{Hipótesis}
+
+\begin{description}[leftmargin=1cm]
+    \item[H1:] Las reclamaciones contra actos administrativos predominan sobre las demandas por daño ambiental.
+    \item[H2:] La proporción de demandas por daño varía entre tribunales según la conflictividad ambiental regional.
+\end{description}
+
+\section{Marco Teórico}
+
+\subsection{Justicia ambiental y acceso a tribunales}
+
+La justicia ambiental comprende tanto la dimensión \textbf{procedimental} (participación en decisiones ambientales) como la \textbf{correctiva} (reparación de daños). Los tribunales ambientales fueron concebidos para abordar ambas dimensiones:
+
+\begin{itemize}
+    \item \textbf{Dimensión procedimental:} Mediante reclamaciones contra decisiones administrativas
+    \item \textbf{Dimensión correctiva:} Mediante demandas de reparación cuando el daño ya se ha producido
+\end{itemize}
+
+\subsection{Barreras de acceso a la justicia ambiental}
+
+La literatura identifica múltiples barreras para acceder a la justicia ambiental reparatoria:
+
+\begin{enumerate}
+    \item \textbf{Costos de litigación:} Peritajes, abogados especializados, duración del proceso
+    \item \textbf{Carga probatoria:} Dificultad de probar el daño y la causalidad
+    \item \textbf{Legitimación activa:} Requisitos para demandar
+    \item \textbf{Separación reparación/indemnización:} Los tribunales ambientales solo ordenan reparación \textit{in natura}; la indemnización requiere juicio civil separado
+\end{enumerate}
+
+\subsection{El rol de la fiscalización administrativa}
+
+La Superintendencia del Medio Ambiente (SMA) cumple un rol central en el sistema ambiental chileno. Sus decisiones sancionatorias pueden ser reclamadas ante los tribunales ambientales, y requiere autorización judicial para imponer las sanciones más graves.
+
+\section{Datos y Metodología}
+
+\subsection{Fuente de datos}
+
+Se utilizó el corpus de documentos judiciales de los Tribunales Ambientales de Chile, que comprende 3,642 documentos PDF correspondientes a 1,019 causas únicas del período 2012-2025. Este corpus representa aproximadamente el 94\% de las $\sim$1,083 causas oficialmente ingresadas según las cuentas públicas de los tribunales.
+
+\subsection{Variables}
+
+\begin{table}[H]
+\centering
+\caption{Variables del estudio}
+\begin{tabular}{lll}
+\toprule
+\textbf{Variable} & \textbf{Descripción} & \textbf{Categorías} \\
+\midrule
+Tipo de procedimiento & Clasificación según Ley 20.600 & R, D, S, C \\
+Tribunal & Tribunal que conoció la causa & 1TA, 2TA, 3TA \\
+Año & Año de ingreso de la causa & 2012-2025 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Clasificación de procedimientos}
+
+\begin{table}[H]
+\centering
+\caption{Tipos de procedimientos}
+\begin{tabular}{cll}
+\toprule
+\textbf{Código} & \textbf{Tipo} & \textbf{Descripción} \\
+\midrule
+\textbf{R} & Reclamación & Impugnación de actos de SMA, SEA, Comité de Ministros \\
+\textbf{D} & Demanda & Reparación de daño ambiental \\
+\textbf{S} & Solicitud & Autorización de medidas graves solicitadas por SMA \\
+\textbf{C} & Otras & Consultas y procedimientos especiales \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figuras/fig0_tipos_procedimientos.png}
+\caption{Competencias de los Tribunales Ambientales según Ley 20.600. Estructura jerárquica de los cuatro tipos de procedimientos y flujo procesal desde ingreso hasta ejecutoria.}
+\label{fig:competencias}
+\end{figure}
+
+\section{Resultados}
+
+\subsection{Distribución general por tipo de procedimiento}
+
+\begin{table}[H]
+\centering
+\caption{Causas por tipo de procedimiento}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Tipo} & \textbf{Causas} & \textbf{Porcentaje} \\
+\midrule
+Reclamaciones (R) & 773 & 75.9\% \\
+Demandas (D) & 121 & 11.9\% \\
+Solicitudes (S) & 125 & 12.3\% \\
+\midrule
+\textbf{Total} & \textbf{1,019} & \textbf{100\%} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Hallazgo principal:} Las reclamaciones contra actos administrativos representan más de dos tercios de todas las causas, mientras que las demandas por daño ambiental son solo el 11\%.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{figuras/fig4_por_tipo.png}
+\caption{Distribución de causas por tipo de procedimiento. Las reclamaciones (R) dominan ampliamente, mientras las demandas por daño ambiental (D) representan solo el 11\%.}
+\label{fig:por_tipo}
+\end{figure}
+
+\subsection{Distribución por tribunal}
+
+\begin{table}[H]
+\centering
+\caption{Causas por tribunal y tipo}
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Tribunal} & \textbf{Total} & \textbf{R} & \textbf{D} & \textbf{S} \\
+\midrule
+1TA (Antofagasta) & 135 & 95 (70\%) & 22 (16\%) & 18 (13\%) \\
+2TA (Santiago) & 583 & 449 (77\%) & 54 (9\%) & 80 (14\%) \\
+3TA (Valdivia) & 301 & 229 (76\%) & 45 (15\%) & 27 (9\%) \\
+\midrule
+\textbf{Total} & \textbf{1,019} & \textbf{773} & \textbf{121} & \textbf{125} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Hallazgos:}
+\begin{itemize}
+    \item El patrón de predominio de reclamaciones es consistente en los tres tribunales ($\sim$75\%)
+    \item El \textbf{1TA tiene proporcionalmente más demandas por daño} (16\%) que el 2TA (9\%)
+    \item El \textbf{2TA concentra el mayor volumen} (57\% del total de causas)
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figuras/fig3_temporal_tribunal.png}
+\caption{Evolución temporal de causas por tribunal (2013-2025). Se observa el crecimiento sostenido del 3TA y la incorporación del 1TA a partir de 2017.}
+\label{fig:temporal_tribunal}
+\end{figure}
+
+\subsection{Demandas por daño ambiental: análisis detallado}
+
+\begin{table}[H]
+\centering
+\caption{Demandas (D) por tribunal}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Tribunal} & \textbf{Demandas (D)} & \textbf{\% del tribunal} & \textbf{\% del total de D} \\
+\midrule
+1TA & 22 & 16.3\% & 18.2\% \\
+2TA & 54 & 9.3\% & 44.6\% \\
+3TA & 45 & 15.0\% & 37.2\% \\
+\midrule
+\textbf{Total} & \textbf{121} & \textbf{11.9\%} & \textbf{100\%} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Hallazgo:} El 2TA de Santiago concentra el \textbf{44.6\% de todas las demandas por daño ambiental}, seguido por el 3TA de Valdivia (37.2\%). El 1TA muestra la mayor proporción relativa de demandas (16.3\% de sus causas).
+
+\subsection{Ratio Reclamaciones/Demandas}
+
+\begin{table}[H]
+\centering
+\caption{Ratio R/D por tribunal}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Tribunal} & \textbf{Reclamaciones} & \textbf{Demandas} & \textbf{Ratio R/D} \\
+\midrule
+1TA & 95 & 22 & 4.3:1 \\
+2TA & 449 & 54 & 8.3:1 \\
+3TA & 229 & 45 & 5.1:1 \\
+\midrule
+\textbf{Total} & \textbf{773} & \textbf{121} & \textbf{6.4:1} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Hallazgo:} Por cada demanda de reparación hay más de 6 reclamaciones. El 2TA presenta el ratio más desbalanceado (8.3:1), mientras el 1TA muestra el ratio más equilibrado (4.3:1).
+
+\subsection{Evolución temporal}
+
+\begin{table}[H]
+\centering
+\caption{Causas por tipo y año (selección)}
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+\textbf{Año} & \textbf{R} & \textbf{D} & \textbf{S} & \textbf{C} & \textbf{Total} & \textbf{Observación} \\
+\midrule
+2013 & 13 & 3 & 5 & 2 & 23 & Inicio 2TA y 3TA \\
+2016 & 50 & 12 & 32 & 1 & 95 & Peak solicitudes SMA \\
+2019 & 37 & 16 & 9 & 0 & 62 & Peak demandas D \\
+2022 & 79 & 7 & 9 & 0 & 95 & Peak reclamaciones \\
+2023 & 66 & 2 & 6 & 0 & 74 & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Hallazgos temporales:}
+\begin{enumerate}
+    \item \textbf{Crecimiento sostenido de reclamaciones:} De 13 en 2013 a un peak de 79 en 2022
+    \item \textbf{Peak de demandas en 2019:} 16 demandas, antes de un declive pronunciado
+    \item \textbf{Declive de demandas desde 2020:} De 16 en 2019 a solo 2 en 2023
+\end{enumerate}
+
+\subsection{Distribución geográfica de los conflictos}
+
+La geocodificación de las causas permite visualizar la distribución territorial de la litigiosidad ambiental en Chile.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{figuras/fig6_mapa_tribunales.png}
+\caption{Distribución de causas por jurisdicción de tribunal. El tamaño de los círculos es proporcional al número de causas. Se observa la concentración en la zona centro-sur del país.}
+\label{fig:mapa_tribunales}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{figuras/fig7_mapa_comunas.png}
+\caption{Distribución de conflictos ambientales por comuna. Las comunas con mayor litigiosidad incluyen Santiago, Valdivia, Antofagasta y comunas con actividad industrial intensiva.}
+\label{fig:mapa_comunas}
+\end{figure}
+
+\section{Discusión}
+
+\subsection{Los tribunales ambientales como contralores de la administración}
+
+El predominio de las reclamaciones (69\%) indica que los tribunales ambientales funcionan principalmente como \textbf{órganos de control de legalidad de la administración ambiental}. Los ciudadanos, empresas y organizaciones acuden a estos tribunales primordialmente para impugnar:
+
+\begin{itemize}
+    \item Sanciones impuestas por la SMA
+    \item Rechazos de proyectos por el SEA
+    \item Decisiones del Comité de Ministros
+    \item Normas ambientales (decretos supremos)
+\end{itemize}
+
+Esta función de control es valiosa para el estado de derecho ambiental, pero revela que el sistema está más orientado a \textbf{revisar decisiones ya tomadas} que a \textbf{reparar daños ya causados}.
+
+\subsection{La escasez de demandas por daño ambiental}
+
+Que solo el 11\% de las causas sean demandas de reparación es un hallazgo significativo. Las posibles explicaciones incluyen:
+
+\textbf{a) Barreras económicas:}
+\begin{itemize}
+    \item Alto costo de peritajes ambientales
+    \item Necesidad de abogados especializados
+    \item Separación entre reparación (TA) e indemnización (tribunales civiles)
+\end{itemize}
+
+\textbf{b) Barreras probatorias:}
+\begin{itemize}
+    \item Dificultad de probar la existencia del daño
+    \item Dificultad de probar la causalidad
+    \item Acceso asimétrico a información técnica
+\end{itemize}
+
+\textbf{c) Preferencia por vías administrativas:}
+\begin{itemize}
+    \item Las denuncias a la SMA son gratuitas y no requieren abogado
+    \item La SMA puede ordenar medidas de reparación en procedimientos sancionatorios
+\end{itemize}
+
+\textbf{d) Diseño institucional:}
+\begin{itemize}
+    \item Los tribunales ambientales solo ordenan reparación, no indemnización
+    \item Esto reduce el incentivo económico para demandar
+\end{itemize}
+
+\subsection{La concentración de demandas en el 3TA}
+
+El 3TA de Valdivia concentra el 61.5\% de las demandas por daño ambiental. Esto se explica por:
+
+\begin{enumerate}
+    \item \textbf{Alta conflictividad ambiental regional:} Industrias forestal, salmonera y energética
+    \item \textbf{Comunidades organizadas:} Presencia de organizaciones ambientales y comunidades indígenas activas
+    \item \textbf{Daños visibles:} Contaminación de ríos, lagos y zonas costeras
+\end{enumerate}
+
+\subsection{Diferencias entre tribunales}
+
+\begin{table}[H]
+\centering
+\caption{Perfil comparativo de tribunales}
+\begin{tabular}{llll}
+\toprule
+\textbf{Aspecto} & \textbf{1TA} & \textbf{2TA} & \textbf{3TA} \\
+\midrule
+Perfil & Minería & Control SMA & Daño ambiental \\
+\% Demandas & 17\% & 6\% & 14\% \\
+\% Solicitudes SMA & 12\% & 21\% & 18\% \\
+Ratio R/D & 4.1:1 & 11.0:1 & 4.6:1 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Implicancias}
+
+\subsection{Para la política pública}
+
+\begin{enumerate}
+    \item \textbf{Acceso a la justicia:} La baja proporción de demandas sugiere barreras de acceso. Posibles medidas:
+    \begin{itemize}
+        \item Fondos de litigación ambiental
+        \item Clínicas jurídicas especializadas
+        \item Simplificación de la carga probatoria
+    \end{itemize}
+
+    \item \textbf{Diseño institucional:} La separación entre reparación e indemnización puede desincentivar la litigación. Podría evaluarse:
+    \begin{itemize}
+        \item Ampliar competencia de los TA para indemnizaciones
+        \item Crear mecanismos de acción colectiva ambiental
+    \end{itemize}
+
+    \item \textbf{Rol de la SMA:} El sistema actual depende fuertemente de la fiscalización administrativa. Fortalecer la SMA puede ser más efectivo que expandir el acceso a los tribunales.
+\end{enumerate}
+
+\subsection{Para la investigación}
+
+\begin{enumerate}
+    \item \textbf{Análisis de resultados:} ¿Qué proporción de reclamaciones y demandas son acogidas?
+    \item \textbf{Análisis sectorial:} ¿Qué sectores económicos generan más litigación?
+    \item \textbf{Análisis de partes:} ¿Quiénes demandan y quiénes son demandados?
+\end{enumerate}
+
+\section{Limitaciones}
+
+\begin{enumerate}
+    \item \textbf{Datos de metadatos:} El análisis se basa en la clasificación por ROL, no en el contenido de las sentencias.
+    \item \textbf{Cobertura del corpus:} El corpus representa el 94\% de las causas oficiales, con variaciones por tribunal (1TA: 90\%, 2TA: 94\%, 3TA: 96\%).
+    \item \textbf{Sin análisis de resultados:} No se analiza si las causas fueron acogidas o rechazadas.
+    \item \textbf{Sin análisis de partes:} No se identifican los litigantes ni los sectores económicos.
+\end{enumerate}
+
+\section{Conclusiones}
+
+\begin{enumerate}
+    \item \textbf{Las reclamaciones dominan:} El 76\% de las causas ante los tribunales ambientales son reclamaciones contra actos administrativos (773 de 1,019).
+
+    \item \textbf{Pocas demandas por daño:} Solo el 12\% de las causas son demandas de reparación ambiental (121), sugiriendo barreras de acceso a la justicia ambiental reparatoria.
+
+    \item \textbf{Tribunales como contralores:} El sistema funciona principalmente como mecanismo de control de legalidad de la administración ambiental.
+
+    \item \textbf{Distribución de demandas:} El 2TA concentra el 45\% de las demandas por daño ambiental (54), seguido del 3TA (37\%, 45) y el 1TA (18\%, 22).
+
+    \item \textbf{Solicitudes SMA:} Las solicitudes de autorización representan el 12\% de las causas (125), indicando una fiscalización administrativa activa.
+
+    \item \textbf{Ratio 6:1:} Por cada demanda de reparación hay más de 6 reclamaciones, evidenciando un desbalance estructural en el uso del sistema.
+\end{enumerate}
+
+Estos hallazgos sugieren que el diseño institucional chileno ha privilegiado el control de legalidad sobre la reparación efectiva del daño ambiental. Futuras reformas deberían considerar mecanismos para facilitar el acceso a la justicia ambiental reparatoria.
+
+\section*{Referencias}
+
+\begin{itemize}
+    \item Ley 20.600 que crea los Tribunales Ambientales. Diario Oficial de Chile, 28 de junio de 2012.
+    \item [Autores]. (2026). Los Tribunales Ambientales de Chile en Números: Sistematización de Estadísticas Oficiales (2012-2025).
+    \item [Autores]. (2026). Corpus de Documentos Judiciales de los Tribunales Ambientales de Chile: Construcción, Clasificación y Validación. [Dataset].
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,6369 @@
+{
+  "metadata": {
+    "fecha_generacion": "2026-01-10T15:17:38.253962",
+    "total_causas": 604,
+    "geocodificadas": 194,
+    "porcentaje": 32.1
+  },
+  "por_precision": {
+    "alta": 0,
+    "media": 141,
+    "baja": 53,
+    "tribunal": 410
+  },
+  "causas": [
+    {
+      "rol": "1085-2022-Casacion",
+      "tribunal": "2TA",
+      "lat": -33.4569,
+      "lon": -70.5975,
+      "precision": "media",
+      "comuna": "Ñuñoa",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Ñuñoa"
+      ]
+    },
+    {
+      "rol": "R-344-2022",
+      "tribunal": "2TA",
+      "lat": -35.4264,
+      "lon": -71.6554,
+      "precision": "media",
+      "comuna": "Talca",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Talca"
+      ]
+    },
+    {
+      "rol": "R-215-2019",
+      "tribunal": "2TA",
+      "lat": -33.5922,
+      "lon": -70.6997,
+      "precision": "media",
+      "comuna": "San Bernardo",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "San Bernardo",
+        "Calera de Tango",
+        "María Pinto"
+      ]
+    },
+    {
+      "rol": "R-273-2021",
+      "tribunal": "2TA",
+      "lat": -18.48,
+      "lon": -70.33,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Arica y Parinacota",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-263-2020",
+      "tribunal": "2TA",
+      "lat": -33.3667,
+      "lon": -70.6333,
+      "precision": "media",
+      "comuna": "Huechuraba",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Huechuraba"
+      ]
+    },
+    {
+      "rol": "R-285-2021",
+      "tribunal": "2TA",
+      "lat": -33.05,
+      "lon": -71.62,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Valparaíso",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-293-2021",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-261-2020",
+      "tribunal": "2TA",
+      "lat": -29.4833,
+      "lon": -71.2667,
+      "precision": "media",
+      "comuna": "La Higuera",
+      "region": "Coquimbo",
+      "comunas_mencionadas": [
+        "La Higuera",
+        "Los Vilos"
+      ]
+    },
+    {
+      "rol": "R-326-2022",
+      "tribunal": "2TA",
+      "lat": -33.05,
+      "lon": -71.62,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Valparaíso",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-304-2021",
+      "tribunal": "2TA",
+      "lat": -32.6333,
+      "lon": -70.7167,
+      "precision": "media",
+      "comuna": "Putaendo",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Putaendo"
+      ]
+    },
+    {
+      "rol": "R-307-2021",
+      "tribunal": "2TA",
+      "lat": -33.05,
+      "lon": -71.3667,
+      "precision": "media",
+      "comuna": "Villa Alemana",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Villa Alemana"
+      ]
+    },
+    {
+      "rol": "R-339-2022",
+      "tribunal": "2TA",
+      "lat": -32.7833,
+      "lon": -71.5333,
+      "precision": "media",
+      "comuna": "Quintero",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Quintero"
+      ]
+    },
+    {
+      "rol": "R-315-2021",
+      "tribunal": "2TA",
+      "lat": -33.05,
+      "lon": -71.4333,
+      "precision": "media",
+      "comuna": "Quilpué",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Quilpué"
+      ]
+    },
+    {
+      "rol": "R-283-2021",
+      "tribunal": "2TA",
+      "lat": -33.75,
+      "lon": -70.8833,
+      "precision": "media",
+      "comuna": "Isla de Maipo",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Isla de Maipo"
+      ]
+    },
+    {
+      "rol": "R-341-2022",
+      "tribunal": "2TA",
+      "lat": -33.05,
+      "lon": -71.3667,
+      "precision": "media",
+      "comuna": "Villa Alemana",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Villa Alemana"
+      ]
+    },
+    {
+      "rol": "R-319-2022",
+      "tribunal": "2TA",
+      "lat": -33.35,
+      "lon": -70.5167,
+      "precision": "media",
+      "comuna": "Lo Barnechea",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Lo Barnechea",
+        "Las Condes"
+      ]
+    },
+    {
+      "rol": "R-265-2020",
+      "tribunal": "2TA",
+      "lat": -34.1708,
+      "lon": -70.7444,
+      "precision": "media",
+      "comuna": "Rancagua",
+      "region": "O'Higgins",
+      "comunas_mencionadas": [
+        "Rancagua"
+      ]
+    },
+    {
+      "rol": "R-301-2021",
+      "tribunal": "2TA",
+      "lat": -33.5167,
+      "lon": -70.7583,
+      "precision": "media",
+      "comuna": "Maipú",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Maipú",
+        "Pudahuel"
+      ]
+    },
+    {
+      "rol": "R-313-2021",
+      "tribunal": "2TA",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "precision": "media",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Santiago"
+      ]
+    },
+    {
+      "rol": "R-280-2021",
+      "tribunal": "2TA",
+      "lat": -32.9167,
+      "lon": -71.5167,
+      "precision": "media",
+      "comuna": "Concón",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Concón"
+      ]
+    },
+    {
+      "rol": "R-342-2022",
+      "tribunal": "2TA",
+      "lat": -33.2833,
+      "lon": -70.8833,
+      "precision": "media",
+      "comuna": "Lampa",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Lampa"
+      ]
+    },
+    {
+      "rol": "R-282-2021",
+      "tribunal": "2TA",
+      "lat": -34.8667,
+      "lon": -71.1667,
+      "precision": "media",
+      "comuna": "Teno",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Teno",
+        "Maipú"
+      ]
+    },
+    {
+      "rol": "R-384-2022",
+      "tribunal": "2TA",
+      "lat": -34.9833,
+      "lon": -71.2333,
+      "precision": "media",
+      "comuna": "Curicó",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Curicó"
+      ]
+    },
+    {
+      "rol": "R-281-2021",
+      "tribunal": "2TA",
+      "lat": -34.9833,
+      "lon": -71.2333,
+      "precision": "media",
+      "comuna": "Curicó",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Curicó"
+      ]
+    },
+    {
+      "rol": "R-292-2021",
+      "tribunal": "2TA",
+      "lat": -33.2,
+      "lon": -70.6667,
+      "precision": "media",
+      "comuna": "Colina",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Colina"
+      ]
+    },
+    {
+      "rol": "R-355-2022",
+      "tribunal": "2TA",
+      "lat": -33.3667,
+      "lon": -71.6667,
+      "precision": "media",
+      "comuna": "Algarrobo",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Algarrobo"
+      ]
+    },
+    {
+      "rol": "R-363-2023",
+      "tribunal": "2TA",
+      "lat": -35.85,
+      "lon": -71.6,
+      "precision": "media",
+      "comuna": "Linares",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Linares"
+      ]
+    },
+    {
+      "rol": "R-388-2023",
+      "tribunal": "2TA",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "precision": "media",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Santiago"
+      ]
+    },
+    {
+      "rol": "R-349-2022",
+      "tribunal": "2TA",
+      "lat": -35.2833,
+      "lon": -71.2667,
+      "precision": "media",
+      "comuna": "Río Claro",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Río Claro"
+      ]
+    },
+    {
+      "rol": "R-373-2022",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-376-2022",
+      "tribunal": "2TA",
+      "lat": -33.433,
+      "lon": -70.61,
+      "precision": "media",
+      "comuna": "Providencia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Providencia"
+      ]
+    },
+    {
+      "rol": "R-323-2022",
+      "tribunal": "2TA",
+      "lat": -33.05,
+      "lon": -71.62,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Valparaíso",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-395-2023",
+      "tribunal": "2TA",
+      "lat": -33.75,
+      "lon": -70.8833,
+      "precision": "media",
+      "comuna": "Isla de Maipo",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Isla de Maipo",
+        "Melipilla"
+      ]
+    },
+    {
+      "rol": "R-378-2022",
+      "tribunal": "2TA",
+      "lat": -33.4073,
+      "lon": -70.567,
+      "precision": "media",
+      "comuna": "Las Condes",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Las Condes"
+      ]
+    },
+    {
+      "rol": "R-353-2022",
+      "tribunal": "2TA",
+      "lat": -33.5667,
+      "lon": -70.8167,
+      "precision": "media",
+      "comuna": "Padre Hurtado",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Padre Hurtado",
+        "Peñaflor"
+      ]
+    },
+    {
+      "rol": "S-80-2023",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-350-2022",
+      "tribunal": "2TA",
+      "lat": -33.4073,
+      "lon": -70.567,
+      "precision": "media",
+      "comuna": "Las Condes",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Las Condes"
+      ]
+    },
+    {
+      "rol": "R-360-2022",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-81-2023",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-370-2022",
+      "tribunal": "2TA",
+      "lat": -33.433,
+      "lon": -70.61,
+      "precision": "media",
+      "comuna": "Providencia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Providencia"
+      ]
+    },
+    {
+      "rol": "D-74-2022",
+      "tribunal": "2TA",
+      "lat": -34.65,
+      "lon": -71.9,
+      "precision": "media",
+      "comuna": "Paredones",
+      "region": "O'Higgins",
+      "comunas_mencionadas": [
+        "Paredones"
+      ]
+    },
+    {
+      "rol": "D-71-2022",
+      "tribunal": "2TA",
+      "lat": -33.2833,
+      "lon": -70.8833,
+      "precision": "media",
+      "comuna": "Lampa",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Lampa"
+      ]
+    },
+    {
+      "rol": "R-343-2022",
+      "tribunal": "2TA",
+      "lat": -35.43,
+      "lon": -71.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Maule",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-331-2022",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-264-2020",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "D-78-2022",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-385-2023",
+      "tribunal": "2TA",
+      "lat": -35.85,
+      "lon": -71.6,
+      "precision": "media",
+      "comuna": "Linares",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Linares"
+      ]
+    },
+    {
+      "rol": "R-403-2023",
+      "tribunal": "2TA",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "precision": "media",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Santiago"
+      ]
+    },
+    {
+      "rol": "R-409-2023",
+      "tribunal": "2TA",
+      "lat": -33.4833,
+      "lon": -70.6,
+      "precision": "media",
+      "comuna": "Macul",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Macul"
+      ]
+    },
+    {
+      "rol": "R-396-2023",
+      "tribunal": "2TA",
+      "lat": -32.45,
+      "lon": -71.2333,
+      "precision": "media",
+      "comuna": "La Ligua",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "La Ligua"
+      ]
+    },
+    {
+      "rol": "R-404-2023",
+      "tribunal": "2TA",
+      "lat": -33.5167,
+      "lon": -70.7583,
+      "precision": "media",
+      "comuna": "Maipú",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Maipú"
+      ]
+    },
+    {
+      "rol": "R-374-2022",
+      "tribunal": "2TA",
+      "lat": -32.4167,
+      "lon": -71.0667,
+      "precision": "media",
+      "comuna": "Cabildo",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Cabildo"
+      ]
+    },
+    {
+      "rol": "R-383-2022",
+      "tribunal": "2TA",
+      "lat": -33.433,
+      "lon": -70.61,
+      "precision": "media",
+      "comuna": "Providencia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Providencia"
+      ]
+    },
+    {
+      "rol": "R-399-2023",
+      "tribunal": "2TA",
+      "lat": -32.5167,
+      "lon": -71.45,
+      "precision": "media",
+      "comuna": "Papudo",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Papudo"
+      ]
+    },
+    {
+      "rol": "R-400-2023",
+      "tribunal": "2TA",
+      "lat": -33.4569,
+      "lon": -70.5975,
+      "precision": "media",
+      "comuna": "Ñuñoa",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Ñuñoa"
+      ]
+    },
+    {
+      "rol": "R-379-2022",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-407-2023",
+      "tribunal": "2TA",
+      "lat": -33.4978,
+      "lon": -70.6517,
+      "precision": "media",
+      "comuna": "San Miguel",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "San Miguel"
+      ]
+    },
+    {
+      "rol": "R-418-2023",
+      "tribunal": "2TA",
+      "lat": -33.5833,
+      "lon": -71.6167,
+      "precision": "media",
+      "comuna": "San Antonio",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "San Antonio"
+      ]
+    },
+    {
+      "rol": "R-397-2023",
+      "tribunal": "2TA",
+      "lat": -33.5922,
+      "lon": -70.6997,
+      "precision": "media",
+      "comuna": "San Bernardo",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "San Bernardo"
+      ]
+    },
+    {
+      "rol": "R-432-2023",
+      "tribunal": "2TA",
+      "lat": -33.4,
+      "lon": -71.7,
+      "precision": "media",
+      "comuna": "El Quisco",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "El Quisco"
+      ]
+    },
+    {
+      "rol": "R-424-2023",
+      "tribunal": "2TA",
+      "lat": -33.0153,
+      "lon": -71.55,
+      "precision": "media",
+      "comuna": "Viña del Mar",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Viña del Mar"
+      ]
+    },
+    {
+      "rol": "R-377-2023",
+      "tribunal": "2TA",
+      "lat": -33.2,
+      "lon": -70.6667,
+      "precision": "media",
+      "comuna": "Colina",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Colina"
+      ]
+    },
+    {
+      "rol": "R-405-2023",
+      "tribunal": "2TA",
+      "lat": -33.35,
+      "lon": -70.5167,
+      "precision": "media",
+      "comuna": "Lo Barnechea",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Lo Barnechea"
+      ]
+    },
+    {
+      "rol": "R-413-2023",
+      "tribunal": "2TA",
+      "lat": -33.4978,
+      "lon": -70.6517,
+      "precision": "media",
+      "comuna": "San Miguel",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "San Miguel",
+        "Las Condes"
+      ]
+    },
+    {
+      "rol": "R-408-2023",
+      "tribunal": "2TA",
+      "lat": -33.3667,
+      "lon": -71.6667,
+      "precision": "media",
+      "comuna": "Algarrobo",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Algarrobo"
+      ]
+    },
+    {
+      "rol": "R-440-2023",
+      "tribunal": "2TA",
+      "lat": -33.3833,
+      "lon": -70.675,
+      "precision": "media",
+      "comuna": "Conchalí",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Conchalí"
+      ]
+    },
+    {
+      "rol": "R-443-2023",
+      "tribunal": "2TA",
+      "lat": -33.3667,
+      "lon": -71.6667,
+      "precision": "media",
+      "comuna": "Algarrobo",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Algarrobo"
+      ]
+    },
+    {
+      "rol": "R-412-2023",
+      "tribunal": "2TA",
+      "lat": -33.6117,
+      "lon": -70.5758,
+      "precision": "media",
+      "comuna": "Puente Alto",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Puente Alto"
+      ]
+    },
+    {
+      "rol": "R-417-2023",
+      "tribunal": "2TA",
+      "lat": -33.4833,
+      "lon": -70.675,
+      "precision": "media",
+      "comuna": "Pedro Aguirre Cerda",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Pedro Aguirre Cerda"
+      ]
+    },
+    {
+      "rol": "R-414-2023",
+      "tribunal": "2TA",
+      "lat": -33.4,
+      "lon": -71.7,
+      "precision": "media",
+      "comuna": "El Quisco",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "El Quisco"
+      ]
+    },
+    {
+      "rol": "R-435-2023",
+      "tribunal": "2TA",
+      "lat": -33.6833,
+      "lon": -71.2167,
+      "precision": "media",
+      "comuna": "Melipilla",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Melipilla"
+      ]
+    },
+    {
+      "rol": "R-406-2023",
+      "tribunal": "2TA",
+      "lat": -35.5333,
+      "lon": -71.4833,
+      "precision": "media",
+      "comuna": "San Clemente",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "San Clemente"
+      ]
+    },
+    {
+      "rol": "R-454-2024",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -71.6667,
+      "precision": "media",
+      "comuna": "El Tabo",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "El Tabo"
+      ]
+    },
+    {
+      "rol": "R-425-2023",
+      "tribunal": "2TA",
+      "lat": -33.433,
+      "lon": -70.61,
+      "precision": "media",
+      "comuna": "Providencia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Providencia"
+      ]
+    },
+    {
+      "rol": "R-428-2023",
+      "tribunal": "2TA",
+      "lat": -32.9167,
+      "lon": -71.5167,
+      "precision": "media",
+      "comuna": "Concón",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Concón"
+      ]
+    },
+    {
+      "rol": "R-451-2024",
+      "tribunal": "2TA",
+      "lat": -33.433,
+      "lon": -70.61,
+      "precision": "media",
+      "comuna": "Providencia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Providencia"
+      ]
+    },
+    {
+      "rol": "R-450-2024",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.6833,
+      "precision": "media",
+      "comuna": "Estación Central",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Estación Central",
+        "Lampa"
+      ]
+    },
+    {
+      "rol": "R-346-2022",
+      "tribunal": "2TA",
+      "lat": -33.4833,
+      "lon": -70.675,
+      "precision": "media",
+      "comuna": "Pedro Aguirre Cerda",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Pedro Aguirre Cerda",
+        "El Bosque",
+        "Lo Espejo"
+      ]
+    },
+    {
+      "rol": "R-427-2023",
+      "tribunal": "2TA",
+      "lat": -32.9167,
+      "lon": -71.5167,
+      "precision": "media",
+      "comuna": "Concón",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Concón"
+      ]
+    },
+    {
+      "rol": "S-84-2025",
+      "tribunal": "2TA",
+      "lat": -33.5833,
+      "lon": -71.6167,
+      "precision": "media",
+      "comuna": "San Antonio",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "San Antonio"
+      ]
+    },
+    {
+      "rol": "R-466-2024",
+      "tribunal": "2TA",
+      "lat": -33.4073,
+      "lon": -70.567,
+      "precision": "media",
+      "comuna": "Las Condes",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Las Condes"
+      ]
+    },
+    {
+      "rol": "R-433-2023",
+      "tribunal": "2TA",
+      "lat": -33.5667,
+      "lon": -70.8167,
+      "precision": "media",
+      "comuna": "Padre Hurtado",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Padre Hurtado",
+        "Melipilla"
+      ]
+    },
+    {
+      "rol": "R-434-2023",
+      "tribunal": "2TA",
+      "lat": -33.5667,
+      "lon": -70.8167,
+      "precision": "media",
+      "comuna": "Padre Hurtado",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Padre Hurtado"
+      ]
+    },
+    {
+      "rol": "S-85-2025",
+      "tribunal": "2TA",
+      "lat": -33.5833,
+      "lon": -71.6167,
+      "precision": "media",
+      "comuna": "San Antonio",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "San Antonio"
+      ]
+    },
+    {
+      "rol": "R-456-2024",
+      "tribunal": "2TA",
+      "lat": -32.9833,
+      "lon": -71.2,
+      "precision": "media",
+      "comuna": "Olmué",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Olmué"
+      ]
+    },
+    {
+      "rol": "S-86-2025",
+      "tribunal": "2TA",
+      "lat": -33.05,
+      "lon": -71.62,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Valparaíso",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-458-2024",
+      "tribunal": "2TA",
+      "lat": -45.57,
+      "lon": -72.07,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Aysén",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-464-2024",
+      "tribunal": "2TA",
+      "lat": -30.0167,
+      "lon": -70.5167,
+      "precision": "media",
+      "comuna": "Paihuano",
+      "region": "Coquimbo",
+      "comunas_mencionadas": [
+        "Paihuano",
+        "Monte Patria",
+        "San Pedro de Atacama",
+        "Salamanca",
+        "San José de Maipo"
+      ]
+    },
+    {
+      "rol": "R-479-2024",
+      "tribunal": "2TA",
+      "lat": -33.05,
+      "lon": -71.4333,
+      "precision": "media",
+      "comuna": "Quilpué",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Quilpué"
+      ]
+    },
+    {
+      "rol": "R-347-2022",
+      "tribunal": "2TA",
+      "lat": -33.4569,
+      "lon": -70.5975,
+      "precision": "media",
+      "comuna": "Ñuñoa",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Ñuñoa"
+      ]
+    },
+    {
+      "rol": "R-459-2024",
+      "tribunal": "2TA",
+      "lat": -33.0153,
+      "lon": -71.55,
+      "precision": "media",
+      "comuna": "Viña del Mar",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Viña del Mar"
+      ]
+    },
+    {
+      "rol": "R-463-2024",
+      "tribunal": "2TA",
+      "lat": -33.4978,
+      "lon": -70.6517,
+      "precision": "media",
+      "comuna": "San Miguel",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "San Miguel",
+        "Puchuncaví"
+      ]
+    },
+    {
+      "rol": "R-375-2022",
+      "tribunal": "2TA",
+      "lat": -33.0153,
+      "lon": -71.55,
+      "precision": "media",
+      "comuna": "Viña del Mar",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Viña del Mar"
+      ]
+    },
+    {
+      "rol": "R-506-2025",
+      "tribunal": "2TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Los Ríos",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-453-2024",
+      "tribunal": "2TA",
+      "lat": -33.4333,
+      "lon": -70.75,
+      "precision": "media",
+      "comuna": "Pudahuel",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Pudahuel"
+      ]
+    },
+    {
+      "rol": "R-483-2024",
+      "tribunal": "2TA",
+      "lat": -30.6833,
+      "lon": -70.95,
+      "precision": "media",
+      "comuna": "Monte Patria",
+      "region": "Coquimbo",
+      "comunas_mencionadas": [
+        "Monte Patria",
+        "Paihuano"
+      ]
+    },
+    {
+      "rol": "R-504-2025",
+      "tribunal": "2TA",
+      "lat": -41.8667,
+      "lon": -73.8333,
+      "precision": "media",
+      "comuna": "Ancud",
+      "region": "Los Lagos",
+      "comunas_mencionadas": [
+        "Ancud"
+      ]
+    },
+    {
+      "rol": "R-470-2024",
+      "tribunal": "2TA",
+      "lat": -35.3833,
+      "lon": -71.8167,
+      "precision": "media",
+      "comuna": "Pencahue",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Pencahue"
+      ]
+    },
+    {
+      "rol": "R-522-2025",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-482-2024",
+      "tribunal": "2TA",
+      "lat": -33.05,
+      "lon": -71.62,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Valparaíso",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-327-2022",
+      "tribunal": "2TA",
+      "lat": -32.6333,
+      "lon": -70.7167,
+      "precision": "media",
+      "comuna": "Putaendo",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Putaendo"
+      ]
+    },
+    {
+      "rol": "R-465-2024",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-481-2024",
+      "tribunal": "2TA",
+      "lat": -33.4333,
+      "lon": -70.75,
+      "precision": "media",
+      "comuna": "Pudahuel",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Pudahuel"
+      ]
+    },
+    {
+      "rol": "5.374-2021-casacion",
+      "tribunal": "2TA",
+      "lat": -33.8167,
+      "lon": -70.7333,
+      "precision": "media",
+      "comuna": "Paine",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Paine",
+        "Peñalolén"
+      ]
+    },
+    {
+      "rol": "C-01-2013-29-07-2013-Sentencia",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "C-02-2013-11-11-2013-Sentencia-1",
+      "tribunal": "2TA",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "precision": "media",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Santiago"
+      ]
+    },
+    {
+      "rol": "C-02-2013-29-07-2013-Sentencia",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "C-04-2015-08-09-2015-Sentencia",
+      "tribunal": "2TA",
+      "lat": -33.5167,
+      "lon": -70.7583,
+      "precision": "media",
+      "comuna": "Maipú",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Maipú"
+      ]
+    },
+    {
+      "rol": "C-06-2016-13-07-2016-Resolucion",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "C-3-2014_29-01-2015_Resolucion",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "D-13-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "D-02-2013",
+      "tribunal": "2TA",
+      "lat": -28.5667,
+      "lon": -70.7583,
+      "precision": "media",
+      "comuna": "Vallenar",
+      "region": "Atacama",
+      "comunas_mencionadas": [
+        "Vallenar",
+        "Alto del Carmen",
+        "Providencia"
+      ]
+    },
+    {
+      "rol": "D-03-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "D-06-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "D-09-2014",
+      "tribunal": "2TA",
+      "lat": -33.433,
+      "lon": -70.61,
+      "precision": "media",
+      "comuna": "Providencia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Providencia",
+        "Santiago"
+      ]
+    },
+    {
+      "rol": "D-14-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "D-15-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "D-17-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "D-23-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "D-24-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "D-25-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "D-26-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "D-27-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "D-28-2016",
+      "tribunal": "2TA",
+      "lat": -34.8333,
+      "lon": -72.0,
+      "precision": "media",
+      "comuna": "Vichuquén",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Vichuquén",
+        "Teno"
+      ]
+    },
+    {
+      "rol": "D-36-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-06-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-07-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-16-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-183-2018",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-220-2019",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-224-2019",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-230-2020",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-233-2020",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-234-2020",
+      "tribunal": "2TA",
+      "lat": -33.4917,
+      "lon": -70.53,
+      "precision": "media",
+      "comuna": "Peñalolén",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Peñalolén"
+      ]
+    },
+    {
+      "rol": "R-236-2020",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-238-2020",
+      "tribunal": "2TA",
+      "lat": -33.05,
+      "lon": -71.4333,
+      "precision": "media",
+      "comuna": "Quilpué",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Quilpué",
+        "Casablanca"
+      ]
+    },
+    {
+      "rol": "R-239-2020",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-243-2020",
+      "tribunal": "2TA",
+      "lat": -33.05,
+      "lon": -71.62,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Valparaíso",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-244-2020",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-251-2020",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-252-2020",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-253-2020",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-262-2020",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-266-2020",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-267-2020",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-269-2020",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-277-2021",
+      "tribunal": "2TA",
+      "lat": -32.9167,
+      "lon": -71.5167,
+      "precision": "media",
+      "comuna": "Concón",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Concón",
+        "La Higuera"
+      ]
+    },
+    {
+      "rol": "R-278-2021",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-279-2021",
+      "tribunal": "2TA",
+      "lat": -18.48,
+      "lon": -70.33,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Arica y Parinacota",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-305-2021",
+      "tribunal": "2TA",
+      "lat": -33.0167,
+      "lon": -71.2667,
+      "precision": "media",
+      "comuna": "Limache",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Limache"
+      ]
+    },
+    {
+      "rol": "R-308-2021",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-310-2022",
+      "tribunal": "2TA",
+      "lat": -33.05,
+      "lon": -71.62,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Valparaíso",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-315-2022",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-318-2021",
+      "tribunal": "2TA",
+      "lat": -33.433,
+      "lon": -70.61,
+      "precision": "media",
+      "comuna": "Providencia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Providencia"
+      ]
+    },
+    {
+      "rol": "R-334-2022",
+      "tribunal": "2TA",
+      "lat": -33.4917,
+      "lon": -70.53,
+      "precision": "media",
+      "comuna": "Peñalolén",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Peñalolén"
+      ]
+    },
+    {
+      "rol": "R-340-2022",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-354-2022",
+      "tribunal": "2TA",
+      "lat": -32.5167,
+      "lon": -71.45,
+      "precision": "media",
+      "comuna": "Papudo",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Papudo"
+      ]
+    },
+    {
+      "rol": "R-356-2022",
+      "tribunal": "2TA",
+      "lat": -33.4,
+      "lon": -71.1333,
+      "precision": "media",
+      "comuna": "Curacaví",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Curacaví"
+      ]
+    },
+    {
+      "rol": "R-362-2022",
+      "tribunal": "2TA",
+      "lat": -33.5167,
+      "lon": -70.7583,
+      "precision": "media",
+      "comuna": "Maipú",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Maipú"
+      ]
+    },
+    {
+      "rol": "R-398-2023",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-40-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-45-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "Rol-N_-22.343-2021-casacion",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-01-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-03-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-04-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-05-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-06-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-08-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-09-2014",
+      "tribunal": "2TA",
+      "lat": -33.2833,
+      "lon": -70.8833,
+      "precision": "media",
+      "comuna": "Lampa",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Lampa"
+      ]
+    },
+    {
+      "rol": "S-10-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-11-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-12-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-13-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-14-2015",
+      "tribunal": "2TA",
+      "lat": -34.0333,
+      "lon": -70.6667,
+      "precision": "media",
+      "comuna": "Codegua",
+      "region": "O'Higgins",
+      "comunas_mencionadas": [
+        "Codegua"
+      ]
+    },
+    {
+      "rol": "S-16-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-17-2015",
+      "tribunal": "2TA",
+      "lat": -34.0333,
+      "lon": -70.6667,
+      "precision": "media",
+      "comuna": "Codegua",
+      "region": "O'Higgins",
+      "comunas_mencionadas": [
+        "Codegua"
+      ]
+    },
+    {
+      "rol": "S-18-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-20-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-21-2015",
+      "tribunal": "2TA",
+      "lat": -34.0333,
+      "lon": -70.6667,
+      "precision": "media",
+      "comuna": "Codegua",
+      "region": "O'Higgins",
+      "comunas_mencionadas": [
+        "Codegua"
+      ]
+    },
+    {
+      "rol": "S-22-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-23-2016",
+      "tribunal": "2TA",
+      "lat": -34.0333,
+      "lon": -70.6667,
+      "precision": "media",
+      "comuna": "Codegua",
+      "region": "O'Higgins",
+      "comunas_mencionadas": [
+        "Codegua"
+      ]
+    },
+    {
+      "rol": "S-24-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-26-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-27-2016",
+      "tribunal": "2TA",
+      "lat": -35.2833,
+      "lon": -71.2667,
+      "precision": "media",
+      "comuna": "Río Claro",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Río Claro"
+      ]
+    },
+    {
+      "rol": "S-28-2016",
+      "tribunal": "2TA",
+      "lat": -34.0333,
+      "lon": -70.6667,
+      "precision": "media",
+      "comuna": "Codegua",
+      "region": "O'Higgins",
+      "comunas_mencionadas": [
+        "Codegua"
+      ]
+    },
+    {
+      "rol": "S-29-2016",
+      "tribunal": "2TA",
+      "lat": -34.0333,
+      "lon": -70.6667,
+      "precision": "media",
+      "comuna": "Codegua",
+      "region": "O'Higgins",
+      "comunas_mencionadas": [
+        "Codegua"
+      ]
+    },
+    {
+      "rol": "S-30-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-31-2016",
+      "tribunal": "2TA",
+      "lat": -35.2833,
+      "lon": -71.2667,
+      "precision": "media",
+      "comuna": "Río Claro",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Río Claro"
+      ]
+    },
+    {
+      "rol": "S-32-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-33-2016",
+      "tribunal": "2TA",
+      "lat": -27.4833,
+      "lon": -70.2667,
+      "precision": "media",
+      "comuna": "Tierra Amarilla",
+      "region": "Atacama",
+      "comunas_mencionadas": [
+        "Tierra Amarilla"
+      ]
+    },
+    {
+      "rol": "S-34-2016",
+      "tribunal": "2TA",
+      "lat": -35.2833,
+      "lon": -71.2667,
+      "precision": "media",
+      "comuna": "Río Claro",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Río Claro"
+      ]
+    },
+    {
+      "rol": "S-35-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-36-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-37-2016",
+      "tribunal": "2TA",
+      "lat": -35.2833,
+      "lon": -71.2667,
+      "precision": "media",
+      "comuna": "Río Claro",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Río Claro"
+      ]
+    },
+    {
+      "rol": "S-38-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-39-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-40-2016",
+      "tribunal": "2TA",
+      "lat": -35.2833,
+      "lon": -71.2667,
+      "precision": "media",
+      "comuna": "Río Claro",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Río Claro"
+      ]
+    },
+    {
+      "rol": "S-41-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-42-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-43-2016",
+      "tribunal": "2TA",
+      "lat": -33.4917,
+      "lon": -70.53,
+      "precision": "media",
+      "comuna": "Peñalolén",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Peñalolén"
+      ]
+    },
+    {
+      "rol": "S-44-2016",
+      "tribunal": "2TA",
+      "lat": -35.2833,
+      "lon": -71.2667,
+      "precision": "media",
+      "comuna": "Río Claro",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Río Claro"
+      ]
+    },
+    {
+      "rol": "S-45-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-46-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-47-2016",
+      "tribunal": "2TA",
+      "lat": -33.4917,
+      "lon": -70.53,
+      "precision": "media",
+      "comuna": "Peñalolén",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Peñalolén"
+      ]
+    },
+    {
+      "rol": "S-48-2016",
+      "tribunal": "2TA",
+      "lat": -35.2833,
+      "lon": -71.2667,
+      "precision": "media",
+      "comuna": "Río Claro",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Río Claro"
+      ]
+    },
+    {
+      "rol": "S-49-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-50-2016",
+      "tribunal": "2TA",
+      "lat": -33.4917,
+      "lon": -70.53,
+      "precision": "media",
+      "comuna": "Peñalolén",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Peñalolén"
+      ]
+    },
+    {
+      "rol": "S-52-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-53-2016",
+      "tribunal": "2TA",
+      "lat": -35.2833,
+      "lon": -71.2667,
+      "precision": "media",
+      "comuna": "Río Claro",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Río Claro"
+      ]
+    },
+    {
+      "rol": "S-54-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-55-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-56-2016",
+      "tribunal": "2TA",
+      "lat": -35.2833,
+      "lon": -71.2667,
+      "precision": "media",
+      "comuna": "Río Claro",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Río Claro"
+      ]
+    },
+    {
+      "rol": "S-57-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-58-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-59-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-60-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-61-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-62-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-63-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-64-2018",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-65-2018",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-66-2018",
+      "tribunal": "2TA",
+      "lat": -33.05,
+      "lon": -71.62,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Valparaíso",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-67-2019",
+      "tribunal": "2TA",
+      "lat": -33.3667,
+      "lon": -71.6667,
+      "precision": "media",
+      "comuna": "Algarrobo",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Algarrobo"
+      ]
+    },
+    {
+      "rol": "S-68-2019",
+      "tribunal": "2TA",
+      "lat": -33.3667,
+      "lon": -71.6667,
+      "precision": "media",
+      "comuna": "Algarrobo",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Algarrobo"
+      ]
+    },
+    {
+      "rol": "S-77-2023",
+      "tribunal": "2TA",
+      "lat": -33.4073,
+      "lon": -70.567,
+      "precision": "media",
+      "comuna": "Las Condes",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Las Condes"
+      ]
+    },
+    {
+      "rol": "S-78-2023",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-79-2023",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-82-2024",
+      "tribunal": "2TA",
+      "lat": -33.05,
+      "lon": -71.62,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Valparaíso",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-83-2024",
+      "tribunal": "2TA",
+      "lat": -33.05,
+      "lon": -71.62,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Valparaíso",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "SCS-rol-34697-2021.-Tapia-Azocar-con-SMA.-Acoge-casacion",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "SCS-rol-34697-2021.-Tapia-Azocar-con-SMA.-Sentencia-de-Reemplazo",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-178-2018",
+      "tribunal": "2TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Los Ríos",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "D-9-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "D-32-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "S-60804-2021",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-200-2018",
+      "tribunal": "2TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Los Ríos",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "D-39-2017",
+      "tribunal": "2TA",
+      "lat": -33.65,
+      "lon": -71.6333,
+      "precision": "media",
+      "comuna": "Santo Domingo",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Santo Domingo"
+      ]
+    },
+    {
+      "rol": "D-37-2017",
+      "tribunal": "2TA",
+      "lat": -32.75,
+      "lon": -70.725,
+      "precision": "media",
+      "comuna": "San Felipe",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "San Felipe"
+      ]
+    },
+    {
+      "rol": "D-68-2022",
+      "tribunal": "2TA",
+      "lat": -33.05,
+      "lon": -71.62,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Valparaíso",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-210-2019",
+      "tribunal": "2TA",
+      "lat": -32.7833,
+      "lon": -71.5333,
+      "precision": "media",
+      "comuna": "Quintero",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Quintero",
+        "Concón"
+      ]
+    },
+    {
+      "rol": "R-221-2019",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-322-2022",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-324-2022",
+      "tribunal": "2TA",
+      "lat": -35.85,
+      "lon": -71.6,
+      "precision": "media",
+      "comuna": "Linares",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Linares"
+      ]
+    },
+    {
+      "rol": "R-333-2022",
+      "tribunal": "2TA",
+      "lat": -27.3664,
+      "lon": -70.3314,
+      "precision": "media",
+      "comuna": "Copiapó",
+      "region": "Atacama",
+      "comunas_mencionadas": [
+        "Copiapó",
+        "Diego de Almagro"
+      ]
+    },
+    {
+      "rol": "R-371-2022",
+      "tribunal": "2TA",
+      "lat": -33.75,
+      "lon": -70.8833,
+      "precision": "media",
+      "comuna": "Isla de Maipo",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Isla de Maipo"
+      ]
+    },
+    {
+      "rol": "R-392-2023",
+      "tribunal": "2TA",
+      "lat": -29.95,
+      "lon": -71.34,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Coquimbo",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "Sentencia_R_208-2019-14.04.2021",
+      "tribunal": "2TA",
+      "lat": -35.3833,
+      "lon": -71.8167,
+      "precision": "media",
+      "comuna": "Pencahue",
+      "region": "Maule",
+      "comunas_mencionadas": [
+        "Pencahue"
+      ]
+    },
+    {
+      "rol": "Sentencia_R_219-2019-05-04-2021",
+      "tribunal": "2TA",
+      "lat": -37.95,
+      "lon": -72.4333,
+      "precision": "media",
+      "comuna": "Collipulli",
+      "region": "La Araucanía",
+      "comunas_mencionadas": [
+        "Collipulli"
+      ]
+    },
+    {
+      "rol": "Sentencia_R_226-2020-09.04.2021",
+      "tribunal": "2TA",
+      "lat": -33.8167,
+      "lon": -70.7333,
+      "precision": "media",
+      "comuna": "Paine",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Paine"
+      ]
+    },
+    {
+      "rol": "Sentencia_R_231-2020",
+      "tribunal": "2TA",
+      "lat": -33.4569,
+      "lon": -70.5975,
+      "precision": "media",
+      "comuna": "Ñuñoa",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Ñuñoa",
+        "Huechuraba"
+      ]
+    },
+    {
+      "rol": "Sentencia_R_352-2022",
+      "tribunal": "2TA",
+      "lat": -33.3642,
+      "lon": -70.7344,
+      "precision": "media",
+      "comuna": "Quilicura",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Quilicura"
+      ]
+    },
+    {
+      "rol": "Sentencia_R-310_311-2021",
+      "tribunal": "2TA",
+      "lat": -32.7167,
+      "lon": -71.4167,
+      "precision": "media",
+      "comuna": "Puchuncaví",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Puchuncaví"
+      ]
+    },
+    {
+      "rol": "Sentencia_R_295-2021",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "Sentencia_R-289-290-2021",
+      "tribunal": "2TA",
+      "lat": -32.8833,
+      "lon": -71.25,
+      "precision": "media",
+      "comuna": "Quillota",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "Quillota",
+        "Tiltil"
+      ]
+    },
+    {
+      "rol": "R-348-2022",
+      "tribunal": "2TA",
+      "lat": -33.5228,
+      "lon": -70.5975,
+      "precision": "media",
+      "comuna": "La Florida",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "La Florida"
+      ]
+    },
+    {
+      "rol": "Sentencia_R_426-2023",
+      "tribunal": "2TA",
+      "lat": -33.6117,
+      "lon": -70.5758,
+      "precision": "media",
+      "comuna": "Puente Alto",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Puente Alto"
+      ]
+    },
+    {
+      "rol": "R-240-2020",
+      "tribunal": "2TA",
+      "lat": -29.9027,
+      "lon": -71.2519,
+      "precision": "media",
+      "comuna": "La Serena",
+      "region": "Coquimbo",
+      "comunas_mencionadas": [
+        "La Serena"
+      ]
+    },
+    {
+      "rol": "R-314-2021",
+      "tribunal": "2TA",
+      "lat": -33.8167,
+      "lon": -70.7333,
+      "precision": "media",
+      "comuna": "Paine",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Paine"
+      ]
+    },
+    {
+      "rol": "Sentencia_R-232_276-2020",
+      "tribunal": "2TA",
+      "lat": -33.6833,
+      "lon": -71.2167,
+      "precision": "media",
+      "comuna": "Melipilla",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Melipilla",
+        "Maipú"
+      ]
+    },
+    {
+      "rol": "Sentencia_R-297-298-299-2021",
+      "tribunal": "2TA",
+      "lat": -33.3642,
+      "lon": -70.7344,
+      "precision": "media",
+      "comuna": "Quilicura",
+      "region": "Metropolitana",
+      "comunas_mencionadas": [
+        "Quilicura"
+      ]
+    },
+    {
+      "rol": "Sentencia_R-316_317-2021",
+      "tribunal": "2TA",
+      "lat": -32.45,
+      "lon": -71.2333,
+      "precision": "media",
+      "comuna": "La Ligua",
+      "region": "Valparaíso",
+      "comunas_mencionadas": [
+        "La Ligua"
+      ]
+    },
+    {
+      "rol": "R-207-2019",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "Informe_Derecho_Leyton-Florez",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "Candelaria-Casacion",
+      "tribunal": "2TA",
+      "lat": -27.37,
+      "lon": -70.33,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Atacama",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "Candelaria-Reemplazo",
+      "tribunal": "2TA",
+      "lat": -27.37,
+      "lon": -70.33,
+      "precision": "baja",
+      "comuna": null,
+      "region": "Atacama",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "Sentencia-CS-Inmobiliaria-Laderas-Ladomar",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-5-2018",
+      "tribunal": "1TA",
+      "lat": -23.65,
+      "lon": -70.4,
+      "precision": "tribunal",
+      "comuna": "Antofagasta",
+      "region": "Antofagasta",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-92-2023",
+      "tribunal": "1TA",
+      "lat": -23.65,
+      "lon": -70.4,
+      "precision": "tribunal",
+      "comuna": "Antofagasta",
+      "region": "Antofagasta",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-100-2024",
+      "tribunal": "1TA",
+      "lat": -23.65,
+      "lon": -70.4,
+      "precision": "tribunal",
+      "comuna": "Antofagasta",
+      "region": "Antofagasta",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-2-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-4-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-5-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-6-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-10-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-11-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-13-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-14-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-15-2013",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-20-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-21-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-22-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-23-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-24-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-26-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-32-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-33-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-34-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-35-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-38-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-39-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-44-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-48-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-51-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-53-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-54-2014",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-58-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-62-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-63-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-67-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-68-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-72-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-73-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-75-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-76-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-77-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-79-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-82-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-83-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-86-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-87-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-88-2015",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-89-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-90-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-93-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-95-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-96-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-97-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-98-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-99-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-101-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-102-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-104-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-107-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-108-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-109-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-111-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-112-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-116-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-117-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-118-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-122-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-123-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-124-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-125-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-126-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-128-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-129-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-131-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-132-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-135-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-138-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-139-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-140-2016",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-139-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-141-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-143-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-146-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-147-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-148-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-149-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-150-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-153-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-154-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-155-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-157-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-160-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-161-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-163-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-166-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-169-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-15549-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-18341-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-37273-2017",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-171-2018",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-173-2018",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-177-2018",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-179-2018",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-181-2018",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-189-2018",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-190-2018",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-191-2018",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-193-2018",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-195-2018",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-197-2018",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-198-2018",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-199-2018",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-189-2019",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-196-2019",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-206-2019",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-208-2019",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-219-2019",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-1583-2019",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-27726-2019",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-226-2020",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-231-2020",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-237-2020",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-295-2021",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-296-2021",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-316-2021",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-34697-2021",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-352-2022",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-426-2023",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-431-2023",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-441-2023",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-460-2024",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-478-2024",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-485-2024",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-489-2024",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-493-2024",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-494-2025",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-498-2025",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-518-2025",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-520-2025",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-521-2025",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-528-2025",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-533-2025",
+      "tribunal": "2TA",
+      "lat": -33.45,
+      "lon": -70.67,
+      "precision": "tribunal",
+      "comuna": "Santiago",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-2-2014",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-3-2014",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-5-2014",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-6-2014",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-9-2014",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-10-2015",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-11-2015",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-13-2015",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-15-2015",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-16-2015",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-17-2015",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-20-2015",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-21-2015",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-22-2015",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-23-2015",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-23-2016",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-25-2016",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-28-2016",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-31-2016",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-35-2016",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-36-2016",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-38-2016",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-41-2016",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-44-2016",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-45-2016",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-46-2017",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-47-2017",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-50-2017",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-53-2017",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-54-2017",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-60-2017",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-63-2018",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-64-2018",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-67-2018",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-68-2018",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-70-2018",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-74-2018",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-76-2018",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-77-2018",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-78-2018",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-2-2019",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-3-2019",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-4-2019",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-5-2019",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-7-2019",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-8-2019",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-9-2019",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-16-2019",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-18-2019",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-19-2019",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-20-2019",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-21-2019",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-25-2019",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-26-2019",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-27-2019",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-28-2019",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-1-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-2-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-3-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-5-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-6-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-8-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-9-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-10-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-11-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-13-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-14-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-15-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-19-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-20-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-22-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-23-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-24-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-26-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-27-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-28-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-29-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-32-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-33-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-34-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-35-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-36-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-38-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-39-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-40-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-41-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-43-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-44-2020",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-1-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-2-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-3-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-4-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-5-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-6-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-7-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-8-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-9-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-11-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-14-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-15-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-16-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-18-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-19-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-21-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-22-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-25-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-26-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-27-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-28-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-29-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-33-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-34-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-35-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-36-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-37-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-39-2021",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-1-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-3-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-4-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-5-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-6-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-10-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-12-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-15-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-21-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-24-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-25-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-28-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-30-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-31-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-39-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-40-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-44-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-47-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-48-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-49-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-50-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-51-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-54-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-56-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-64-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-67-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-69-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-71-2022",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-1-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-2-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-3-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-4-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-5-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-6-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-7-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-9-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-10-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-11-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-12-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-13-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-14-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-15-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-17-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-18-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-19-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-21-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-22-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-28-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-29-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-31-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-33-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-35-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-36-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-37-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-38-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-246935-2023",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-6-2024",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-7-2024",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-8-2024",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-9-2024",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-11-2024",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-13-2024",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-14-2024",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-20-2024",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-23-2024",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-25-2024",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-29-2024",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-32-2024",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-33-2024",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-34-2024",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-36-2024",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-40-2024",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-1-2025",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-2-2025",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-5-2025",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-8-2025",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-9-2025",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-10-2025",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-18-2025",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-20-2025",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    },
+    {
+      "rol": "R-29-2025",
+      "tribunal": "3TA",
+      "lat": -39.81,
+      "lon": -73.24,
+      "precision": "tribunal",
+      "comuna": "Valdivia",
+      "region": "Metropolitana",
+      "comunas_mencionadas": []
+    }
+  ]
+}

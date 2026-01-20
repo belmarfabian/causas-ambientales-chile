@@ -1,0 +1,44 @@
+{
+  "fecha_analisis": "2026-01-10",
+  "textos_analizados": 308,
+  "nota": "Un texto puede mencionar multiples sectores",
+  "sectores": {
+    "mineria": {
+      "cantidad": 128,
+      "porcentaje": 41.6
+    },
+    "energia": {
+      "cantidad": 121,
+      "porcentaje": 39.3
+    },
+    "industrial": {
+      "cantidad": 113,
+      "porcentaje": 36.7
+    },
+    "inmobiliario": {
+      "cantidad": 102,
+      "porcentaje": 33.1
+    },
+    "residuos": {
+      "cantidad": 102,
+      "porcentaje": 33.1
+    },
+    "infraestructura": {
+      "cantidad": 99,
+      "porcentaje": 32.1
+    },
+    "agropecuario": {
+      "cantidad": 93,
+      "porcentaje": 30.2
+    },
+    "forestal": {
+      "cantidad": 79,
+      "porcentaje": 25.6
+    },
+    "acuicultura": {
+      "cantidad": 11,
+      "porcentaje": 3.6
+    }
+  },
+  "no_identificado": 64
+}

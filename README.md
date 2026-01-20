@@ -1,62 +1,83 @@
-# Clasificador de PDFs - Tribunal Ambiental
+# Corpus Tribunales Ambientales de Chile
 
-Sistema para clasificar y organizar documentos judiciales del Tribunal Ambiental de Chile.
+Corpus de documentos judiciales de los Tribunales Ambientales de Chile (2012-2025) para investigación en humanidades digitales y derecho ambiental.
+
+## Contenido del Corpus
+
+| Componente | Cantidad | Estado |
+|------------|----------|--------|
+| PDFs descargados | 3,642 | ✅ Completo |
+| Documentos Word | 101 | ✅ Completo |
+| Transcripciones | 361 / 3,743 | 🔄 En progreso (9.6%) |
+| Causas únicas | 755 | ✅ Identificadas |
+| Período | 2012-2025 | |
+
+## Estadísticas del Sistema
+
+| Tribunal | Causas | Sentencias | % |
+|----------|--------|------------|---|
+| 2TA Santiago | 620 | 332 | 57% |
+| 3TA Valdivia | 313 | 306 | 29% |
+| 1TA Antofagasta | 150 | 66 | 14% |
+| **Total** | **1,083** | **704** | 100% |
+
+## Papers
+
+| Paper | Archivo | Estado |
+|-------|---------|--------|
+| Cifras Oficiales | `paper/paper1_cifras_oficiales.pdf` | Completo (17 pp) |
+| Corpus y Metodología | `paper/paper2_corpus.md` | Borrador |
+| Análisis de Sentencias | `paper/paper3_analisis.md` | Borrador |
+
+## Estructura
+
+```
+tribunal_pdf/
+├── corpus/                    # Datos principales
+│   ├── descarga_completa/     # 3,642 PDFs
+│   └── textos/                # 308 transcripciones
+├── datos/                     # Metadatos y estadísticas
+│   ├── estadisticas/          # JSON con análisis
+│   └── geografico/            # Geocodificación
+├── paper/                     # Papers académicos
+│   ├── paper1_cifras_oficiales.tex
+│   └── figuras/
+└── scripts/                   # Scripts Python
+```
 
 ## Requisitos
-
-- Python 3.8+
-- PyMuPDF
 
 ```bash
 pip install -r requirements.txt
 ```
 
+- Python 3.8+
+- PyMuPDF (extracción de texto)
+- TinyTeX (compilación LaTeX)
+
 ## Uso
 
-### Clasificador mejorado (con lectura de contenido PDF)
-
 ```bash
-python scripts/clasificador_mejorado.py
+# Compilar Paper 1
+cd paper && pdflatex paper1_cifras_oficiales.tex
+
+# Generar gráficos
+python scripts/generar_graficos.py
+
+# Extraer texto de PDFs
+python scripts/extraer_texto_pdf.py
 ```
 
-Opciones:
-- Procesar solo N archivos: `python scripts/clasificador_mejorado.py 50`
+## Documentación
 
-### Salida
+- `ESTADO_PROYECTO.md` - Estado actual y próximos pasos
+- `CLAUDE.md` - Instrucciones de estilo para escritura
+- `HISTORICO_SESION_*.md` - Históricos de sesiones de trabajo
 
-El script genera `datos/inventario_mejorado.csv` con los siguientes campos:
+## Autor
 
-| Campo | Descripción |
-|-------|-------------|
-| archivo | Nombre del archivo PDF |
-| estado | OK_CONTENIDO, OK_NOMBRE, OK_CORTE_SUPREMA, OK_INFORME, REVISION_MANUAL |
-| tipo_caso | R (Reclamación), D (Demanda), S (Solicitud), C (Consulta) |
-| rol | Número de rol |
-| año_rol | Año del rol |
-| fecha_sentencia | Fecha de la sentencia |
-| tipo_documento | Sentencia, Resolución, Casación, Informe |
-| es_corte_suprema | True si es documento de Corte Suprema |
-| rol_cs | Rol de Corte Suprema (si aplica) |
-| tribunal | Tribunal que emitió el documento |
+Fabián Belmar - Núcleo Milenio SODAS / Centro de Estudios Públicos
 
-## Estructura del proyecto
+## Licencia
 
-```
-tribunal_pdf/
-├── scripts/
-│   ├── clasificador_mejorado.py  # Clasificador principal
-│   ├── organizar_pdfs.py         # Organizador de archivos
-│   └── pdf_a_txt.py              # Extractor de texto
-├── datos/
-│   └── inventario_mejorado.csv   # Inventario generado
-├── tribunal_pdfs_organizado/     # PDFs organizados (no en git)
-│   ├── originales/
-│   └── duplicados/
-└── requirements.txt
-```
-
-## Estadísticas actuales
-
-- Total archivos: 588
-- Clasificados correctamente: 99.0%
-- Requieren revisión manual: 0.3%
+Datos públicos de los Tribunales Ambientales de Chile.

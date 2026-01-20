@@ -1,0 +1,21 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{3}{section.1}%
+\contentsline {section}{\numberline {2}Datos y métodos}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Fuentes de datos}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Proceso de integración}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Dataset resultante}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Limitaciones}{6}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Distribución geográfica}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Norte: minería y crisis hídrica}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Centro: complejos industriales}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Sur: salmonicultura y pueblos originarios}{7}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Sectores económicos}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Minería}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Energía}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Salmonicultura}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Sector forestal}{10}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Zonas de sacrificio}{10}{section.5}%
+\contentsline {section}{\numberline {6}Actores}{11}{section.6}%
+\contentsline {section}{\numberline {7}Formas de expresión}{11}{section.7}%
+\contentsline {section}{\numberline {8}Antecedentes institucionales}{12}{section.8}%
+\contentsline {section}{\numberline {9}Conclusiones}{13}{section.9}%

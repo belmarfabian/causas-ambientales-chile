@@ -1,0 +1,450 @@
+{
+  "total_conflictos": 244,
+  "temporal": {
+    "por_año": {
+      "2015": 13,
+      "2011": 7,
+      "2002": 1,
+      "2010": 20,
+      "2009": 15,
+      "2012": 5,
+      "2013": 11,
+      "2008": 14,
+      "2017": 7,
+      "1990": 3,
+      "1995": 5,
+      "1992": 3,
+      "2007": 17,
+      "2006": 10,
+      "2004": 3,
+      "1989": 1,
+      "2014": 6,
+      "2005": 5,
+      "1999": 3,
+      "2001": 2,
+      "2019": 2,
+      "2016": 15,
+      "2003": 2,
+      "2018": 5,
+      "1984": 1,
+      "1994": 3,
+      "1954": 1,
+      "1993": 2,
+      "1986": 1,
+      "1938": 2,
+      "1996": 2,
+      "1997": 2,
+      "1945": 1,
+      "1998": 1,
+      "1958": 1
+    },
+    "por_decada": {
+      "1930": 2,
+      "1940": 1,
+      "1950": 2,
+      "1980": 3,
+      "1990": 24,
+      "2000": 69,
+      "2010": 91
+    },
+    "evolucion_acumulada": [
+      {
+        "año": 1938,
+        "nuevos": 2,
+        "acumulado": 2
+      },
+      {
+        "año": 1945,
+        "nuevos": 1,
+        "acumulado": 3
+      },
+      {
+        "año": 1954,
+        "nuevos": 1,
+        "acumulado": 4
+      },
+      {
+        "año": 1958,
+        "nuevos": 1,
+        "acumulado": 5
+      },
+      {
+        "año": 1984,
+        "nuevos": 1,
+        "acumulado": 6
+      },
+      {
+        "año": 1986,
+        "nuevos": 1,
+        "acumulado": 7
+      },
+      {
+        "año": 1989,
+        "nuevos": 1,
+        "acumulado": 8
+      },
+      {
+        "año": 1990,
+        "nuevos": 3,
+        "acumulado": 11
+      },
+      {
+        "año": 1992,
+        "nuevos": 3,
+        "acumulado": 14
+      },
+      {
+        "año": 1993,
+        "nuevos": 2,
+        "acumulado": 16
+      },
+      {
+        "año": 1994,
+        "nuevos": 3,
+        "acumulado": 19
+      },
+      {
+        "año": 1995,
+        "nuevos": 5,
+        "acumulado": 24
+      },
+      {
+        "año": 1996,
+        "nuevos": 2,
+        "acumulado": 26
+      },
+      {
+        "año": 1997,
+        "nuevos": 2,
+        "acumulado": 28
+      },
+      {
+        "año": 1998,
+        "nuevos": 1,
+        "acumulado": 29
+      },
+      {
+        "año": 1999,
+        "nuevos": 3,
+        "acumulado": 32
+      },
+      {
+        "año": 2001,
+        "nuevos": 2,
+        "acumulado": 34
+      },
+      {
+        "año": 2002,
+        "nuevos": 1,
+        "acumulado": 35
+      },
+      {
+        "año": 2003,
+        "nuevos": 2,
+        "acumulado": 37
+      },
+      {
+        "año": 2004,
+        "nuevos": 3,
+        "acumulado": 40
+      },
+      {
+        "año": 2005,
+        "nuevos": 5,
+        "acumulado": 45
+      },
+      {
+        "año": 2006,
+        "nuevos": 10,
+        "acumulado": 55
+      },
+      {
+        "año": 2007,
+        "nuevos": 17,
+        "acumulado": 72
+      },
+      {
+        "año": 2008,
+        "nuevos": 14,
+        "acumulado": 86
+      },
+      {
+        "año": 2009,
+        "nuevos": 15,
+        "acumulado": 101
+      },
+      {
+        "año": 2010,
+        "nuevos": 20,
+        "acumulado": 121
+      },
+      {
+        "año": 2011,
+        "nuevos": 7,
+        "acumulado": 128
+      },
+      {
+        "año": 2012,
+        "nuevos": 5,
+        "acumulado": 133
+      },
+      {
+        "año": 2013,
+        "nuevos": 11,
+        "acumulado": 144
+      },
+      {
+        "año": 2014,
+        "nuevos": 6,
+        "acumulado": 150
+      },
+      {
+        "año": 2015,
+        "nuevos": 13,
+        "acumulado": 163
+      },
+      {
+        "año": 2016,
+        "nuevos": 15,
+        "acumulado": 178
+      },
+      {
+        "año": 2017,
+        "nuevos": 7,
+        "acumulado": 185
+      },
+      {
+        "año": 2018,
+        "nuevos": 5,
+        "acumulado": 190
+      },
+      {
+        "año": 2019,
+        "nuevos": 2,
+        "acumulado": 192
+      }
+    ],
+    "total_con_año": 192,
+    "total_sin_año": 52
+  },
+  "temporal_por_sector": {
+    "Minería": {
+      "2015": 3,
+      "2010": 6,
+      "2009": 6,
+      "2013": 5,
+      "1990": 1,
+      "1995": 3,
+      "1992": 2,
+      "2004": 1,
+      "2008": 6,
+      "1989": 1,
+      "2001": 2,
+      "2006": 2,
+      "2011": 4,
+      "2003": 1,
+      "1984": 1,
+      "2007": 5,
+      "2005": 2,
+      "2016": 5,
+      "1986": 1,
+      "1938": 2,
+      "1994": 2,
+      "1996": 2,
+      "2019": 1,
+      "1997": 2,
+      "2017": 3,
+      "2018": 2,
+      "1945": 1,
+      "1999": 1,
+      "1998": 1,
+      "2012": 1,
+      "1958": 1
+    },
+    "Energía": {
+      "2011": 1,
+      "2012": 1,
+      "2008": 8,
+      "2015": 3,
+      "2010": 7,
+      "2007": 11,
+      "2006": 5,
+      "2019": 1,
+      "2013": 5,
+      "2016": 2,
+      "2009": 7,
+      "2014": 4,
+      "1990": 2,
+      "1954": 1,
+      "2005": 1,
+      "1995": 1
+    },
+    "Pesca y acuicultura": {
+      "2012": 1,
+      "2010": 2,
+      "2011": 1,
+      "2017": 1,
+      "2007": 1,
+      "2016": 1
+    },
+    "Forestal": {
+      "1999": 2,
+      "1994": 1,
+      "1995": 1,
+      "1993": 1
+    }
+  },
+  "geografico": {
+    "por_region": {
+      "Magallanes y la Antártica Chilena": 2,
+      "La Araucanía": 12,
+      "Valparaíso": 17,
+      "Los Lagos": 5,
+      "Coquimbo": 22,
+      "Arica y Parinacota": 12,
+      "Antofagasta": 16,
+      "Maule": 5,
+      "Biobío": 13,
+      "Metropolitana de Santiago": 6,
+      "Tarapacá": 8,
+      "Atacama": 18,
+      "Los Ríos": 5,
+      "Aysén": 3,
+      "Metropolitana": 1
+    },
+    "georreferenciados": 97,
+    "zonas_sacrificio": 25
+  },
+  "region_sector": {
+    "Magallanes y la Antártica Chilena": {
+      "Minería": 2
+    },
+    "La Araucanía": {
+      "Energía": 5,
+      "Minería": 2,
+      "Saneamiento ambiental": 1,
+      "Pesca y acuicultura": 4
+    },
+    "Valparaíso": {
+      "Agropecuario": 1,
+      "Minería": 7,
+      "Energía": 5,
+      "Infraestructura de transporte": 2,
+      "Otro": 1,
+      "Inmobiliario": 1
+    },
+    "Los Lagos": {
+      "Energía": 3,
+      "Saneamiento ambiental": 1,
+      "Minería": 1
+    },
+    "Coquimbo": {
+      "Minería": 16,
+      "Energía": 4,
+      "Infraestructura de transporte": 1,
+      "Pesca y acuicultura": 1
+    },
+    "Arica y Parinacota": {
+      "Minería": 11,
+      "Energía": 1
+    },
+    "Antofagasta": {
+      "Energía": 8,
+      "Infraestructura portuaria": 1,
+      "Minería": 7
+    },
+    "Maule": {
+      "Minería": 1,
+      "Forestal": 1,
+      "Energía": 3
+    },
+    "Biobío": {
+      "Energía": 9,
+      "Minería": 2,
+      "Instalaciones fabriles": 1,
+      "Forestal": 1
+    },
+    "Metropolitana de Santiago": {
+      "Saneamiento ambiental": 3,
+      "Energía": 2,
+      "Inmobiliario": 1
+    },
+    "Tarapacá": {
+      "Minería": 6,
+      "Energía": 2
+    },
+    "Atacama": {
+      "Minería": 12,
+      "Infraestructura portuaria": 2,
+      "Energía": 3,
+      "Agropecuario": 1
+    },
+    "Los Ríos": {
+      "Forestal": 2,
+      "Energía": 3
+    },
+    "Aysén": {
+      "Energía": 2,
+      "Minería": 1
+    },
+    "Metropolitana": {
+      "Minería": 1
+    }
+  },
+  "cruces_categorias": {
+    "impacto_actor": {
+      "agua": {
+        "agricultor": 96,
+        "urbano": 100,
+        "indigena": 53,
+        "pescador": 24
+      },
+      "aire": {
+        "agricultor": 43,
+        "urbano": 60,
+        "pescador": 21,
+        "indigena": 16
+      },
+      "salud": {
+        "agricultor": 45,
+        "urbano": 60,
+        "indigena": 12,
+        "pescador": 20
+      },
+      "suelo": {
+        "agricultor": 41,
+        "urbano": 39,
+        "indigena": 15,
+        "pescador": 7
+      },
+      "biodiversidad": {
+        "indigena": 42,
+        "urbano": 65,
+        "agricultor": 62,
+        "pescador": 18
+      }
+    },
+    "resistencia_resultado": {
+      "movilizacion": {
+        "aprobado": 61,
+        "paralizado": 42,
+        "en_litigio": 32
+      },
+      "institucional": {
+        "aprobado": 72,
+        "paralizado": 54,
+        "en_litigio": 31
+      },
+      "judicial": {
+        "paralizado": 53,
+        "aprobado": 75,
+        "en_litigio": 33
+      },
+      "mediatica": {
+        "paralizado": 22,
+        "aprobado": 31,
+        "en_litigio": 19
+      }
+    }
+  }
+}

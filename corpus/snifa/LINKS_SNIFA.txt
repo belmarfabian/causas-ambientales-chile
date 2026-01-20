@@ -1,0 +1,31 @@
+DATOS ABIERTOS SNIFA - LINKS DE DESCARGA
+==================================================
+
+termoelectricas:
+  Datos termoeléctricas D.S. N° 13/2011 (desde 2014)
+  https://drive.google.com/drive/folders/1CfvVC3l4tDvRFyLWv2a_4H6Q8DV58cr6
+
+unidades_fiscalizables:
+  Catastro de unidades fiscalizables vigentes
+  https://drive.google.com/drive/folders/1Pos3xmMDj0OoRiqmR1W9Q2K0hsnMaEL4
+
+sancionatorios:
+  Procesos sancionatorios históricos
+  https://drive.google.com/drive/folders/1O7o60LzQ-qH8xiK_-Ofqw_mZzti_gbEr
+
+rep_residuos:
+  Responsabilidad Extendida del Productor
+  https://drive.google.com/drive/folders/1nlG-tSKrkUb6Tp2ZhjUeRzDlFucPuUb1
+
+riles:
+  Datos RILES D.S. N° 90/2000 (desde 2017)
+  https://drive.google.com/drive/folders/1Ne0COCkx70XOPLIqeUqpIl3uiayqfihl
+
+fiscalizaciones:
+  Fiscalizaciones históricas
+  https://drive.google.com/drive/folders/1WAw7SSPMug3oZimgHYkEIi7_5JqLvzpb
+
+sanciones_firmes:
+  Sanciones declaradas firmes por SMA
+  https://drive.google.com/drive/folders/1q6MG4sfGxLisRuusnYKpUxmi9jgkSU4F
+

@@ -1,0 +1,427 @@
+\documentclass[12pt,a4paper]{article}
+
+% Paquetes esenciales
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{setspace}
+% listings y tikz removidos - no instalados en TinyTeX
+
+% Configuración de página
+\geometry{margin=2.5cm}
+\setstretch{1.15}
+
+% Configuración de hyperref
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!60!black,
+    urlcolor=blue!60!black,
+    citecolor=blue!60!black
+}
+
+
+% Título
+\title{\textbf{Corpus de Documentos Judiciales de los Tribunales Ambientales de Chile: Construcción, Clasificación y Validación}}
+\author{[Autores]}
+\date{Enero 2026 \\ \small{Data Paper}}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Este artículo describe la construcción y validación de un corpus de documentos judiciales de los Tribunales Ambientales de Chile. Mediante técnicas de web scraping y consulta a APIs, se recopilaron \textbf{3,642 documentos PDF} de los sitios oficiales de los tres tribunales, identificando \textbf{1,019 causas únicas} clasificadas por tipo de procedimiento. La comparación con estadísticas oficiales indica una cobertura del \textbf{94\%} respecto de las $\sim$1,083 causas ingresadas según fuentes oficiales. El corpus incluye sentencias definitivas, sentencias de casación de la Corte Suprema, síntesis y documentos complementarios del período 2012-2025. Se describe la metodología de recopilación, el esquema de clasificación basado en la Ley 20.600, y las limitaciones del dataset. El corpus se pone a disposición de la comunidad investigadora para habilitar estudios empíricos sobre justicia ambiental en Chile.
+
+\medskip
+\noindent\textbf{Palabras clave:} corpus jurídico, tribunales ambientales, Chile, data paper, web scraping, justicia ambiental
+\end{abstract}
+
+\section{Introducción}
+
+\subsection{Motivación}
+
+La investigación empírica sobre justicia ambiental en Chile enfrenta una barrera fundamental: la ausencia de datasets estructurados de documentos judiciales. Si bien los tribunales ambientales publican sus sentencias en línea, estas se encuentran dispersas en tres sitios web distintos, con nomenclaturas heterogéneas y sin metadatos estandarizados.
+
+\subsection{Objetivo}
+
+Construir un corpus consolidado de documentos judiciales de los tribunales ambientales chilenos que:
+\begin{enumerate}
+    \item Reúna documentos de los tres tribunales en un único repositorio
+    \item Clasifique los documentos por tipo de procedimiento según la Ley 20.600
+    \item Valide la completitud respecto a estadísticas oficiales
+    \item Facilite la investigación empírica sobre justicia ambiental
+\end{enumerate}
+
+\subsection{Contribución}
+
+Este es el primer corpus sistematizado de documentos judiciales ambientales de Chile, permitiendo:
+\begin{itemize}
+    \item Análisis cuantitativos de la litigación ambiental
+    \item Estudios de jurisprudencia asistidos por computador
+    \item Investigación comparada entre tribunales
+    \item Procesamiento de lenguaje natural sobre textos jurídicos ambientales
+\end{itemize}
+
+\section{Marco Legal: Tipos de Procedimientos}
+
+\subsection{Competencias de los Tribunales Ambientales}
+
+La Ley 20.600 (Art. 17) establece las competencias de los tribunales ambientales. Para efectos de clasificación del corpus, se identifican cuatro tipos principales de procedimientos:
+
+\begin{table}[H]
+\centering
+\caption{Tipos de procedimientos según Ley 20.600}
+\begin{tabular}{clll}
+\toprule
+\textbf{Código} & \textbf{Tipo} & \textbf{Descripción} & \textbf{Base Legal} \\
+\midrule
+\textbf{R} & Reclamación & Impugnación de actos administrativos & Art. 17 N° 3,5,6,7,8 \\
+\textbf{D} & Demanda & Reparación de daño ambiental & Art. 17 N° 2 \\
+\textbf{S} & Solicitud & Autorización de medidas SMA & Art. 17 N° 4 \\
+\textbf{C} & Otras & Consultas y procedimientos especiales & Diversos \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figuras/fig0_tipos_procedimientos.png}
+\caption{Estructura de competencias de los Tribunales Ambientales según Ley 20.600. Las reclamaciones (R) constituyen el 70\% de las causas, seguidas por demandas (D) y solicitudes (S) con 12\% cada una.}
+\label{fig:tipos_procedimientos}
+\end{figure}
+
+\subsection{Tipos de Resoluciones}
+
+\begin{table}[H]
+\centering
+\caption{Tipos de resoluciones judiciales}
+\begin{tabular}{lll}
+\toprule
+\textbf{Tipo} & \textbf{Tribunal emisor} & \textbf{Descripción} \\
+\midrule
+Sentencia Definitiva & Tribunal Ambiental & Resuelve el fondo del asunto \\
+Sentencia de Casación & Corte Suprema & Revisa legalidad de sentencia TA \\
+Sentencia de Reemplazo & Corte Suprema & Nueva sentencia tras anular \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Metodología de Construcción del Corpus}
+
+\subsection{Fuentes de datos}
+
+\begin{table}[H]
+\centering
+\caption{Fuentes de datos del corpus}
+\begin{tabular}{llll}
+\toprule
+\textbf{Tribunal} & \textbf{URL} & \textbf{Tecnología} & \textbf{Secciones} \\
+\midrule
+1TA & www.1ta.cl & WordPress & Sentencias, API medios \\
+2TA & tribunalambiental.cl & WordPress & Sentencias, informes \\
+3TA & 3ta.cl & WordPress & Sentencias, fallos \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Proceso de recopilación}
+
+El proceso de construcción del corpus siguió seis pasos:
+
+\begin{enumerate}
+    \item \textbf{Escaneo de páginas web:} Identificación de URLs de documentos en secciones de sentencias y publicaciones de cada tribunal.
+
+    \item \textbf{Consulta a APIs:} Utilización de la API REST de WordPress (\texttt{/wp-json/wp/v2/media}) para acceder a documentos en la biblioteca de medios.
+
+    \item \textbf{Descarga sistemática:} Descarga automatizada de archivos PDF, DOC y DOCX con manejo de errores y reintentos.
+
+    \item \textbf{Extracción de metadatos:} Parsing del nombre de archivo para extraer ROL, tipo de resolución y tribunal de origen.
+
+    \item \textbf{Clasificación:} Asignación de tipo de procedimiento según el prefijo del ROL.
+
+    \item \textbf{Validación:} Comparación con estadísticas oficiales publicadas.
+\end{enumerate}
+
+\subsection{Patrones de nomenclatura identificados}
+
+Los tribunales utilizan nomenclaturas heterogéneas:
+
+\begin{table}[H]
+\centering
+\caption{Patrones de nomenclatura por tribunal}
+\small
+\begin{tabular}{lll}
+\toprule
+\textbf{Tribunal} & \textbf{Ejemplo} & \textbf{Patrón} \\
+\midrule
+1TA & \texttt{S1TA-R-65-2022.pdf} & \texttt{S1TA-[TIPO]-[NUM]-[AÑO]} \\
+2TA & \texttt{2022.02.24\_Sentencia\_R-344-2022.pdf} & \texttt{[FECHA]\_Sentencia\_R-[NUM]-[AÑO]} \\
+3TA & \texttt{Sentencia-3TA-R-30-2022.pdf} & \texttt{Sentencia-3TA-R-[NUM]-[AÑO]} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Expresiones regulares utilizadas:}
+
+\begin{verbatim}
+r'R-(\d{1,3})-(\d{4})'            # R-344-2022
+r'D-(\d{1,3})-(\d{4})'            # D-74-2022
+r'S1TA-([RDS])-(\d{1,3})-(\d{4})' # S1TA-R-65-2022
+\end{verbatim}
+
+\subsection{Herramientas utilizadas}
+
+\begin{itemize}
+    \item Python 3.x
+    \item Bibliotecas: \texttt{requests}, \texttt{beautifulsoup4}, \texttt{pathlib}, \texttt{re}
+    \item Almacenamiento: Sistema de archivos local organizado por tribunal
+\end{itemize}
+
+\section{Descripción del Corpus}
+
+\subsection{Estadísticas generales}
+
+\begin{table}[H]
+\centering
+\caption{Estadísticas generales del corpus}
+\begin{tabular}{lr}
+\toprule
+\textbf{Métrica} & \textbf{Valor} \\
+\midrule
+Total de documentos & 3,642 (PDFs) \\
+Causas únicas identificadas & 1,019 \\
+Causas con PDF descargado & 737 \\
+Período cubierto & 2012-2025 \\
+Tribunales & 3 (1TA, 2TA, 3TA) \\
+Formato predominante & PDF (97\%) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Nota:} Las 1,019 causas se identificaron combinando documentos PDF y posts de los sitios WordPress de los tribunales.
+
+\subsection{Distribución por tipo de procedimiento}
+
+\begin{table}[H]
+\centering
+\caption{Distribución de causas por tipo de procedimiento}
+\begin{tabular}{lcrl}
+\toprule
+\textbf{Tipo} & \textbf{Causas} & \textbf{\%} & \textbf{Descripción} \\
+\midrule
+R (Reclamaciones) & 773 & 75.9\% & Impugnación de actos administrativos \\
+D (Demandas) & 121 & 11.9\% & Reparación de daño ambiental \\
+S (Solicitudes) & 125 & 12.3\% & Autorizaciones SMA \\
+\midrule
+\textbf{Total} & \textbf{1,019} & \textbf{100\%} & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Distribución por tribunal}
+
+\begin{table}[H]
+\centering
+\caption{Distribución de causas por tribunal}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Tribunal} & \textbf{Causas} & \textbf{Porcentaje} \\
+\midrule
+1TA (Antofagasta) & 135 & 13.2\% \\
+2TA (Santiago) & 583 & 57.2\% \\
+3TA (Valdivia) & 301 & 29.5\% \\
+\midrule
+\textbf{Total} & \textbf{1,019} & \textbf{100\%} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{figuras/fig1_por_tribunal.png}
+\caption{Distribución de documentos por tribunal. El 2TA y 3TA concentran la mayor parte del corpus, mientras el 1TA representa una proporción menor debido a su creación más tardía (2017).}
+\label{fig:por_tribunal}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.6\textwidth]{figuras/fig5_pie_tribunal.png}
+\caption{Proporción de causas por tribunal en el corpus.}
+\label{fig:pie_tribunal}
+\end{figure}
+
+\subsection{Distribución por tipo de procedimiento y tribunal}
+
+\begin{table}[H]
+\centering
+\caption{Matriz de causas por tribunal y tipo}
+\begin{tabular}{lrrrrr}
+\toprule
+\textbf{Tribunal} & \textbf{R} & \textbf{D} & \textbf{S} & \textbf{C} & \textbf{Total} \\
+\midrule
+1TA & 95 & 22 & 18 & 0 & 135 \\
+2TA & 449 & 54 & 80 & 0 & 583 \\
+3TA & 229 & 45 & 27 & 0 & 301 \\
+\midrule
+\textbf{Total} & \textbf{773} & \textbf{121} & \textbf{125} & \textbf{0} & \textbf{1,019} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Distribución por tipo de resolución}
+
+\begin{table}[H]
+\centering
+\caption{Tipos de documentos en el corpus}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Tipo de Documento} & \textbf{Cantidad} & \textbf{Porcentaje} \\
+\midrule
+Sentencias Definitivas (TA) & 1,129 & 44.9\% \\
+Sentencias de Casación (CS) & 101 & 4.0\% \\
+Sentencias de Reemplazo (CS) & 32 & 1.3\% \\
+Síntesis/Resúmenes & 269 & 10.7\% \\
+Otros documentos & 985 & 39.1\% \\
+\midrule
+\textbf{Total} & \textbf{2,516} & \textbf{100\%} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Validación}
+
+\subsection{Comparación con estadísticas oficiales}
+
+Es importante distinguir entre las \textbf{cifras oficiales} reportadas por los tribunales y las \textbf{causas identificadas} en nuestro corpus. Las cifras oficiales provienen de cuentas públicas y sitios institucionales, mientras que el corpus refleja únicamente los documentos disponibles en línea.
+
+\begin{table}[H]
+\centering
+\caption{Cifras oficiales vs. corpus recopilado (causas ingresadas)}
+\begin{tabular}{lrrrl}
+\toprule
+\textbf{Tribunal} & \textbf{Oficial} & \textbf{En Corpus} & \textbf{Cobertura} & \textbf{Nota} \\
+\midrule
+1TA & $\sim$150 & 135 & 90.0\% & Estimación oficial \\
+2TA & $\sim$620 & 583 & 94.0\% & Alta confianza \\
+3TA & 313 & 301 & 96.2\% & Datos exactos \\
+\midrule
+\textbf{Total} & \textbf{$\sim$1,083} & \textbf{1,019} & \textbf{94.1\%} & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Interpretación:} El corpus captura el 94\% de las causas que los tribunales declaran haber conocido. La pequeña diferencia (64 causas) se explica porque:
+\begin{itemize}
+    \item Algunas causas están en tramitación sin resolución aún
+    \item No todas las causas tienen documentos publicados en línea
+\end{itemize}
+
+\subsection{Composición del corpus}
+
+\begin{table}[H]
+\centering
+\caption{Fuentes de identificación de causas}
+\begin{tabular}{lr}
+\toprule
+\textbf{Fuente} & \textbf{Causas} \\
+\midrule
+Con PDF descargado & 737 \\
+Solo en posts/estadísticas & 282 \\
+\midrule
+\textbf{Total identificadas} & \textbf{1,019} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Análisis de la cobertura}
+
+La cobertura varía significativamente entre tribunales:
+
+\begin{enumerate}
+    \item \textbf{3TA (96\%):} Excelente cobertura, publica estadísticas detalladas en línea
+    \item \textbf{2TA (94\%):} Mayor digitalización de documentos, portal web completo
+    \item \textbf{1TA (90\%):} Buena cobertura a pesar de ser el tribunal más nuevo (2017)
+\end{enumerate}
+
+\section{Limitaciones}
+
+\subsection{Limitaciones de los datos}
+
+\begin{enumerate}
+    \item \textbf{Metadatos basados en nombres de archivo:} La clasificación se basa en patrones del nombre, no en el contenido.
+
+    \item \textbf{Sin extracción de texto:} El corpus actual no incluye el texto extraído de los PDFs.
+
+    \item \textbf{Cobertura uniforme:} Todos los tribunales presentan cobertura superior al 90\%.
+
+    \item \textbf{Sesgo temporal:} Los años más recientes (2024-2025) pueden tener datos incompletos.
+\end{enumerate}
+
+\subsection{Limitaciones de la clasificación}
+
+\begin{enumerate}
+    \item \textbf{Clasificación por ROL:} Algunos documentos sin ROL estándar no pudieron ser clasificados ($\sim$15\%).
+
+    \item \textbf{Causas acumuladas:} Algunas sentencias resuelven múltiples causas, contabilizadas como una.
+
+    \item \textbf{Documentos duplicados:} Pueden existir versiones duplicadas con nombres diferentes.
+\end{enumerate}
+
+\section{Usos potenciales}
+
+\begin{table}[H]
+\centering
+\caption{Líneas de investigación habilitadas por el corpus}
+\begin{tabular}{lll}
+\toprule
+\textbf{Uso} & \textbf{Descripción} & \textbf{Requisitos} \\
+\midrule
+Análisis de resultados & Tasas de acogida/rechazo & Extracción de texto \\
+Análisis sectorial & Casos por sector económico & Extracción de texto \\
+Análisis de partes & Caracterización de litigantes & Extracción de texto \\
+Evolución jurisprudencial & Cambios en criterios & NLP avanzado \\
+Comparación tribunales & Diferencias regionales & Datos actuales \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Acceso al corpus}
+
+\subsection{Disponibilidad}
+
+El corpus está disponible para fines de investigación académica. Contactar a los autores para acceso.
+
+\subsection{Formato de datos}
+
+\begin{itemize}
+    \item \textbf{Documentos:} Archivos PDF/DOC originales
+    \item \textbf{Metadatos:} Archivo JSON con clasificación de cada documento
+    \item \textbf{Estadísticas:} Archivos CSV y JSON con conteos agregados
+\end{itemize}
+
+\subsection{Citación sugerida}
+
+[Autores]. (2026). Corpus de Documentos Judiciales de los Tribunales Ambientales de Chile (2012-2025). [Dataset].
+
+\section{Conclusiones}
+
+Se ha construido y validado un corpus de \textbf{3,642 documentos PDF} correspondientes a \textbf{1,019 causas únicas} de los tribunales ambientales de Chile. La validación con estadísticas oficiales indica una cobertura del \textbf{94\%} respecto a las $\sim$1,083 causas oficialmente ingresadas, constituyendo el primer dataset sistematizado de justicia ambiental chilena. El corpus clasifica los documentos según los cuatro tipos de procedimientos establecidos en la Ley 20.600 y está disponible para la comunidad investigadora.
+
+\section*{Referencias}
+
+\begin{itemize}
+    \item Ley 20.600 que crea los Tribunales Ambientales. Diario Oficial de Chile, 28 de junio de 2012.
+    \item Primer Tribunal Ambiental. Sitio oficial. \url{https://www.1ta.cl/}
+    \item Segundo Tribunal Ambiental. Sitio oficial. \url{https://tribunalambiental.cl/}
+    \item Tercer Tribunal Ambiental. (2025). 3TA en Cifras. \url{https://3ta.cl/3ta-en-cifras/}
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,12 @@
+{
+  "fuente": "Observatorio Latinoamericano de Conflictos Ambientales (OLCA)",
+  "url": "https://olca.cl/",
+  "descripcion": "Organización chilena que documenta conflictos ambientales desde los años 1990",
+  "tipo_acceso": "Manual - No tiene API pública",
+  "notas": [
+    "Requiere revisión manual del sitio web",
+    "Documentación histórica de casos emblemáticos",
+    "Énfasis en perspectiva de comunidades afectadas"
+  ],
+  "fecha_documentacion": "2026-01-17T11:13:20.135110"
+}

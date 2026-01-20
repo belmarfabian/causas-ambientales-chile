@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "fecha_generacion": "2026-01-10T19:00:00",
+    "descripcion": "Comparacion entre cifras oficiales y corpus recopilado",
+    "nota": "Cifras 3TA actualizadas desde 3ta.cl/3ta-en-cifras/ (30/06/2025)"
+  },
+  "cifras_oficiales": {
+    "fuente": "Cuentas publicas 2024 y sitios web oficiales",
+    "total_causas_ingresadas": 1083,
+    "total_sentencias": 704,
+    "por_tribunal": {
+      "1TA": {
+        "causas_ingresadas": 150,
+        "sentencias": 66,
+        "periodo": "2017-2024",
+        "certeza": "estimacion"
+      },
+      "2TA": {
+        "causas_ingresadas": 620,
+        "sentencias": 332,
+        "periodo": "2013-2024",
+        "certeza": "alta"
+      },
+      "3TA": {
+        "causas_ingresadas": 313,
+        "sentencias": 306,
+        "periodo": "2013-2025",
+        "certeza": "exacta",
+        "fuente": "https://3ta.cl/3ta-en-cifras/"
+      }
+    }
+  },
+  "corpus": {
+    "fuente": "PDFs descargados y posts WordPress",
+    "total_causas_identificadas": 1019,
+    "causas_con_pdf": 737,
+    "causas_solo_post": 282,
+    "por_tribunal": {
+      "1TA": 135,
+      "2TA": 583,
+      "3TA": 301
+    },
+    "por_tipo": {
+      "R": 773,
+      "D": 121,
+      "S": 125
+    }
+  },
+  "cobertura": {
+    "1TA": {
+      "oficial": 150,
+      "corpus": 135,
+      "porcentaje": 90.0,
+      "diferencia": 15
+    },
+    "2TA": {
+      "oficial": 620,
+      "corpus": 583,
+      "porcentaje": 94.0,
+      "diferencia": 37
+    },
+    "3TA": {
+      "oficial": 313,
+      "corpus": 301,
+      "porcentaje": 96.2,
+      "diferencia": 12
+    },
+    "total": {
+      "oficial": 1083,
+      "corpus": 1019,
+      "porcentaje": 94.1
+    }
+  }
+}

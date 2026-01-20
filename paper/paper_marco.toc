@@ -1,0 +1,46 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}La reforma ambiental de 2010}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Preguntas de investigación}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Estructura del artículo}{6}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Marco teórico}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Transiciones críticas en sistemas complejos}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Teoría de sistemas sociales y comunicación}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}El problema del medio ambiente en la teoría de sistemas}{8}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Integración: comunicación performativa en transiciones socioecológicas}{9}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}El caso de Chiloé (2016): una ilustración empírica}{9}{subsubsection.2.4.1}%
+\contentsline {section}{\numberline {3}Arenas comunicativas del conflicto socioecológico}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}El concepto de arena comunicativa}{11}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Cinco arenas en el Chile post-reforma}{12}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Arena judicial: Tribunales Ambientales}{12}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Arena evaluativa: Sistema de Evaluación de Impacto Ambiental}{12}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Arena fiscalizadora: Superintendencia del Medio Ambiente}{13}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Arena mediática}{13}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}Arena contenciosa}{14}{subsubsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.3}Relaciones entre arenas}{14}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Datos disponibles}{15}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Arena judicial}{15}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Arena evaluativa}{16}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Arena fiscalizadora}{17}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Arena mediática}{17}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Arena contenciosa}{18}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Posibilidades de integración}{18}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Agenda de investigación}{19}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Línea 1: Arena judicial (en desarrollo)}{19}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Resultados preliminares}{19}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Distribución por tribunal}{19}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}Evolución temporal}{20}{subsubsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.4}Interpretación teórica}{21}{subsubsection.5.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.5}Implicancias}{21}{subsubsection.5.1.5}%
+\contentsline {subsubsection}{\numberline {5.1.6}Análisis adicionales en desarrollo}{22}{subsubsection.5.1.6}%
+\contentsline {subsection}{\numberline {5.2}Líneas futuras}{22}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Línea 2: Arena evaluativa (SEIA)}{22}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Línea 3: Arena fiscalizadora (SMA)}{23}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}Línea 4: Arena mediática}{23}{subsubsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.4}Línea 5: Arena contenciosa}{24}{subsubsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.3}Integración: señales de alerta temprana}{24}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Conclusiones}{25}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Implicancias para política pública}{26}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Implicancias para la investigación}{27}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Implicancias teóricas}{28}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Limitaciones y trabajo futuro}{29}{subsection.6.4}%

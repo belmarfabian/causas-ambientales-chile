@@ -1,0 +1,37 @@
+{
+  "fecha_ejecucion": "2026-01-17T11:13:26.940780",
+  "fuentes": {
+    "INDH": {
+      "url": "https://mapaconflictos.indh.cl/",
+      "conflictos_reportados": 127,
+      "estado": "pendiente verificación"
+    },
+    "EJAtlas": {
+      "url": "https://ejatlas.org/country/chile",
+      "conflictos_reportados": "100+",
+      "estado": "pendiente verificación"
+    },
+    "OLCA": {
+      "url": "https://olca.cl/",
+      "tipo": "documentación histórica",
+      "estado": "requiere revisión manual"
+    },
+    "OCMAL": {
+      "url": "https://mapa.conflictosmineros.net/",
+      "tipo": "conflictos mineros",
+      "estado": "pendiente verificación"
+    },
+    "ACLED": {
+      "url": "https://acleddata.com/",
+      "tipo": "eventos de protesta",
+      "cobertura": "desde 2018",
+      "estado": "requiere registro API"
+    }
+  },
+  "archivos_generados": [
+    "indh_conflictos.json",
+    "olca_info.json",
+    "ocmal_info.json",
+    "acled_info.json"
+  ]
+}

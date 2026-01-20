@@ -1,0 +1,27 @@
+{
+  "fuente": "Armed Conflict Location & Event Data Project (ACLED)",
+  "url": "https://acleddata.com/",
+  "api_docs": "https://apidocs.acleddata.com/",
+  "descripcion": "Base de datos global de eventos de conflicto y protesta geolocalizados",
+  "tipo_acceso": "API pública con registro gratuito requerido",
+  "cobertura_chile": "Desde 2018",
+  "variables_relevantes": [
+    "event_date",
+    "event_type",
+    "sub_event_type",
+    "actor1",
+    "actor2",
+    "location",
+    "latitude",
+    "longitude",
+    "notes",
+    "fatalities"
+  ],
+  "instrucciones": [
+    "1. Registrarse en https://developer.acleddata.com/",
+    "2. Obtener API key gratuita",
+    "3. Usar endpoint: https://api.acleddata.com/acled/read",
+    "4. Filtrar por country=Chile y event_type=Protests"
+  ],
+  "fecha_documentacion": "2026-01-17T11:13:26.919720"
+}

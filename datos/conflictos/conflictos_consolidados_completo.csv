@@ -1,0 +1,245 @@
+﻿id_maestro,fuente_principal,nombre,region,sector,estado,año_inicio,en_ejatlas,nombre_ejatlas,en_ocmal,nombre_ocmal
+CONF-0001,INDH,El Tranquilo,Magallanes y la Antártica Chilena,Minería,Latente,2015,False,,False,
+CONF-0002,INDH,Línea de transmisión Melipeuco-Freire,La Araucanía,Energía,Latente,2011,False,,False,
+CONF-0003,INDH,"Usurpación de aguas en Petorca, Cabildo y La Ligua",Valparaíso,Agropecuario,Activo,2002,False,,False,
+CONF-0004,INDH,Almacenamiento de ácido sulfúrico en puerto de San Antonio,Valparaíso,Minería,Archivado,2010,False,,False,
+CONF-0005,INDH,Lavadero de oro en río Colico,La Araucanía,Minería,Archivado,2009,False,,True,Río Colico Mining Dispute
+CONF-0006,INDH,Central de Pasada Mediterráneo,Los Lagos,Energía,Activo,2012,False,,False,
+CONF-0007,INDH,Andina 244,Valparaíso,Minería,Cerrado,2013,True,"Proyecto Expansión Andina 244 CODELCO, Chile",True,Oposición a Proyecto Andina 244
+CONF-0008,INDH,Central Térmica RC Generación,Valparaíso,Energía,Archivado,2008,False,,False,
+CONF-0009,INDH,Puesco-Momolluco,La Araucanía,Energía,Cerrado,2015,False,,False,
+CONF-0010,INDH,Planta de Tratamiento de lodos Cabrero,,Saneamiento ambiental,Activo,2017,False,,False,
+CONF-0011,INDH,Central hidroeléctrica El Gato,,Energía,Latente,2015,True,"Proyecto Central Hidroeléctrica Aguas Calientes, Chile",False,
+CONF-0012,INDH,Manejo y disposición de RISES del Complejo Termoeléctrico Ventanas,Valparaíso,Energía,Activo,2010,False,,False,
+CONF-0013,INDH,Fundición Ventanas,Valparaíso,Minería,Activo,1990,True,"Refinería y fundición ENAMI-CODELCO en Zona de Sacrificio Ventanas, Chile",False,
+CONF-0014,INDH,Mina Carmen de Andacollo,Coquimbo,Minería,Latente,1995,True,"Mina de cobre Carmen de Andacollo,  Chile",True,Carmen de Andacollo Toxic Waste
+CONF-0015,INDH,Pozos de extracción de agua en el Parque Nacional Lauca,Arica y Parinacota,Minería,Latente,1992,True,"Minería en el Parque y Reserva Nacional Lauca-Las Vicuñas, Chile",True,Pampa Colorada extracción agua comunidades
+CONF-0016,INDH,Vertedero Municipal Boyeco,La Araucanía,Saneamiento ambiental,Cerrado,1992,False,,False,
+CONF-0017,INDH,Perforación geotérmica profunda El Tatio Fase I,Antofagasta,Energía,Archivado,2007,False,,False,
+CONF-0018,INDH,Vertedero la Hormiga,,Saneamiento ambiental,Cerrado,2013,False,,False,
+CONF-0019,INDH,Desafectación del Parque Nacional Lauca,Arica y Parinacota,Minería,Cerrado,2010,False,,False,
+CONF-0020,INDH,Central termoeléctrica Hornitos,Antofagasta,Energía,Activo,2006,False,,False,
+CONF-0021,INDH,Dunas de Putú,Maule,Minería,Archivado,2010,False,,True,Proyecto extracción de hierro en dunas de Putú
+CONF-0022,INDH,Central termoeléctrica Bocamina II,Biobío,Energía,Activo,2006,False,,False,
+CONF-0023,INDH,Concesiones Mineras Lago Lleu Lleu,Biobío,Minería,Archivado,2004,True,"Lago Lleu Lleu, Chile",True,Scandium Discovery at Lago Lleu Lleu
+CONF-0024,INDH,Contaminación del río Rahue y Damas,,Otro,Latente,2015,False,,False,
+CONF-0025,INDH,Central termoeléctrica Farellones,Coquimbo,Energía,Archivado,2007,False,,False,
+CONF-0026,INDH,Proyecto Minero Vizcachitas,,Minería,Activo,2008,False,,False,
+CONF-0027,INDH,Derrame Río Aconcagua,,Otro,Latente,2011,False,,False,
+CONF-0028,INDH,Deshechos mineros en Copaquilla,,Minería,Latente,1989,False,,False,
+CONF-0029,INDH,Derrame en bahía de Quintero,,Otro,Activo,2014,False,,False,
+CONF-0030,INDH,Desastre ecológico en humedal de Batuco,Metropolitana de Santiago,Saneamiento ambiental,Latente,2005,False,,False,
+CONF-0031,INDH,Relleno sanitario Chiloé,Los Lagos,Saneamiento ambiental,Activo,2010,False,,False,
+CONF-0032,INDH,Planta de celulosa Licancel,Maule,Forestal,Latente,1999,False,,False,
+CONF-0033,INDH,Relleno Sanitario El Panul ,,Saneamiento ambiental,Latente,2017,False,,False,
+CONF-0034,INDH,Contaminación del río Choapa por Mina Los Pelambres,Coquimbo,Minería,Activo,2008,False,,False,
+CONF-0035,INDH,Central termoeléctrica Cruz Grande,Coquimbo,Energía,Archivado,2008,False,,False,
+CONF-0036,INDH,Proyecto Los Pingos,Coquimbo,Minería,Archivado,2001,False,,False,
+CONF-0037,INDH,"Minicentral Hidroeléctrica Río Mañío, Bosch Rivera Ltda.",,Energía,Activo,2019,False,,False,
+CONF-0038,INDH,Central termoeléctrica Punta Colorada,Coquimbo,Energía,Archivado,2007,False,,False,
+CONF-0039,INDH,Proyecto minero Tres Valles ,Coquimbo,Minería,Latente,2008,True,"Minera Tres Valles en Coquimbo, Chile",True,Tres Valles Project
+CONF-0040,INDH,Embalse Chacrillas,Valparaíso,Infraestructura de transporte,Activo,2009,False,,False,
+CONF-0041,INDH,Relleno Sanitario Iquique (Vertedero El Boro),,Saneamiento ambiental,Activo,2016,False,,False,
+CONF-0042,INDH,Central termoeléctrica Pirquenes,Biobío,Energía,Cerrado,2010,False,,False,
+CONF-0043,INDH,Central de Enegía Biomasa Mulchén,Biobío,Energía,Archivado,2013,False,,False,
+CONF-0044,INDH,Emanación de olores en Longotoma y La Ligua,,Agropecuario,Activo,2015,False,,False,
+CONF-0045,INDH,Embalse Puntilla del Viento,Valparaíso,Infraestructura de transporte,Cerrado,2006,False,,False,
+CONF-0046,INDH,Extracción ilegal de agua en pampa del Tamarugal,Tarapacá,Minería,Archivado,2006,False,,False,
+CONF-0047,INDH,Proyecto Paguanta ,,Minería,Activo,2011,False,,False,
+CONF-0048,INDH,Planta de cerdos Maxagro,,Agropecuario,Latente,2016,False,,False,
+CONF-0049,INDH,Planta de Tratamiento de Aguas Servidas Panitao,,Otro,Activo,2015,False,,False,
+CONF-0050,INDH,Planta de molienda de cemento Coronel,Biobío,Instalaciones fabriles,Archivado,2010,False,,False,
+CONF-0051,INDH,Doña Alicia,La Araucanía,Energía,Cerrado,2013,True,"Represas río Cautín (Alto Cautín y Doña Alicia), Chile",False,
+CONF-0052,INDH,"Tiltil, patio trasero de Santiago",Metropolitana de Santiago,Saneamiento ambiental,Activo,2010,False,,False,
+CONF-0053,INDH,Central Termoeléctrica Energía Minera,Valparaíso,Energía,Archivado,2008,False,,False,
+CONF-0054,INDH,Central Hidroeléctrica Osorno,Los Lagos,Energía,Activo,2007,False,,False,
+CONF-0055,INDH,Galpón Antofagasta Terminal Internacional,Antofagasta,Infraestructura portuaria,Activo,2006,False,,False,
+CONF-0056,INDH,Proyecto minero El Pachón,Coquimbo,Infraestructura de transporte,Cerrado,2006,False,,False,
+CONF-0057,INDH,Tranque de relaves El Mauro  y comunidad de Caimanes,Coquimbo,Minería,Latente,2003,False,,False,
+CONF-0058,INDH,Disputa Laguna Laja,Biobío,Energía,Cerrado,2013,False,,False,
+CONF-0059,INDH,Planta de Explosivos Navío,Valparaíso,Otro,Archivado,2015,False,,False,
+CONF-0060,INDH,Central hidroeléctrica Guayacán,Metropolitana de Santiago,Energía,Cerrado,2008,False,,False,
+CONF-0061,INDH,Parque eólico Chiloé,Los Lagos,Energía,Activo,2010,True,"Parque eólico Pililín en Cerro Oncol de Acciona Energía, Chile",False,
+CONF-0062,INDH,Central termoeléctrica Angamos,Antofagasta,Energía,Activo,2006,False,,False,
+CONF-0063,INDH,Relleno Sanitario Santa Marta,,Saneamiento ambiental,Latente,2016,False,,False,
+CONF-0064,INDH,Proyecto central hidroeléctrica Angostura (PCH-Angostura),Biobío,Energía,Cerrado,2008,False,,False,
+CONF-0065,INDH,Parque Eólico Pililín,,Energía,Activo,2016,False,,False,
+CONF-0066,INDH,Central hidroeléctrica Aguas Calientes,Biobío,Energía,Archivado,2009,False,,False,
+CONF-0067,INDH,Central termoeléctrica RG-Generación,Biobío,Energía,Archivado,2010,False,,False,
+CONF-0068,INDH,Derrame de pintura en Lago Huillinco,,Otro,Activo,2018,False,,False,
+CONF-0069,INDH,Contaminación lago Llanquihue,,Otro,Latente,2016,True,"Contaminación masiva de la Cuenca del Lago Villarrica, Araucanía, Chile",False,
+CONF-0070,INDH,Central Termoeléctrica Campiche,Valparaíso,Energía,Activo,2008,False,,False,
+CONF-0071,INDH,Regularización y ampliación piscicultura Caburgua I,La Araucanía,Pesca y acuicultura,Archivado,2012,False,,False,
+CONF-0072,INDH,Piscicultura Newenco,La Araucanía,Pesca y acuicultura,Activo,2010,False,,False,
+CONF-0073,INDH,Plomo en Arica,Arica y Parinacota,Minería,Activo,1984,True,"Conflicto del Plomo Boliden, Cerro Chuño en Arica, Chile",False,
+CONF-0074,INDH,Planta de producción de sales de potasio en Salar de Atacama,Antofagasta,Minería,Cerrado,2009,True,"Lithium mining in the Salar de Atacama, Chile",True,Lithium Exploitation at Salar de Atacama
+CONF-0075,INDH,Central termoeléctrica Los Robles,Maule,Energía,Cerrado,2007,False,,False,
+CONF-0076,INDH,Central termoeléctrica Cochrane,Antofagasta,Energía,Activo,2008,False,,False,
+CONF-0077,INDH,Planta de Biomasa Toltén,La Araucanía,Energía,Activo,2014,False,,False,
+CONF-0078,INDH,Planta La Farfana,Metropolitana de Santiago,Saneamiento ambiental,Archivado,2003,False,,False,
+CONF-0079,INDH,Proyecto minero ChoqueLimpie,Arica y Parinacota,Minería,Archivado,2007,False,,False,
+CONF-0080,INDH,Planta de  paneles MDP Teno y línea de transmisión eléctrica,Maule,Energía,Latente,2010,False,,False,
+CONF-0081,INDH,Cambio PRC Los Molles,,Otro,Activo,2014,False,,False,
+CONF-0082,INDH,Central térmica Andino,Antofagasta,Energía,Activo,2006,False,,False,
+CONF-0083,INDH,Cerro Colorado y Pampa Lagunillas,Tarapacá,Minería,Activo,2005,True,"Mining company Cerro Colorado, Chile",True,Cerro Colorado
+CONF-0084,INDH,Proyecto minero Las Flechas,Atacama,Minería,Archivado,2007,False,,False,
+CONF-0085,INDH,Minas de Hierro en Longotoma y La Ligua,,Minería,Latente,2013,False,,False,
+CONF-0086,INDH,Proyecto minero Quebrada Blanca,,Minería,Latente,2016,False,,False,
+CONF-0087,INDH,Central térmica Barrancones,Coquimbo,Energía,Archivado,2007,False,,False,
+CONF-0088,INDH,Linea de transmisión Chiloé-Gamboa,,Energía,Activo,2016,False,,False,
+CONF-0089,INDH,Proyecto Dominga,Coquimbo,Minería,Activo,2013,False,,False,
+CONF-0090,INDH,Infraestructura energética Mejillones,Antofagasta,Energía,Activo,2009,False,,False,
+CONF-0091,INDH,Central Termoeléctrcia Santa María,Biobío,Energía,Cerrado,2006,False,,False,
+CONF-0092,INDH,Contaminación del río Cruces por planta de celulosa Valdivia (CELCO),Los Ríos,Forestal,Activo,1994,True,"Cellulose Factory Celulosa Aurauco S.A., Valdivia, Chile",False,
+CONF-0093,INDH,Contaminación de Tocopilla (Zona de sacrificio),Antofagasta,Energía,Activo,1990,False,,False,
+CONF-0094,INDH,Conflicto por las aguas del río Wueneywue ,,Energía,Latente,1954,True,"Conflicto internacional sobre el Rio Lauca, Bolivia – Chile",False,
+CONF-0095,INDH,Central termoeléctrica Parinacota,Arica y Parinacota,Energía,Archivado,2009,False,,False,
+CONF-0096,INDH,Regularización y ampliación piscicultura Quetroleufú,La Araucanía,Pesca y acuicultura,Latente,2011,False,,False,
+CONF-0097,INDH,Proyecto minero Los Pumas,Arica y Parinacota,Minería,Archivado,2010,False,,True,Proyecto minero Los Pumas
+CONF-0098,INDH,Amenazas a la conservación del sitio arqueológico Monteverde,,Otro,Latente,2016,False,,False,
+CONF-0099,INDH,Proyecto hidroeléctrico Alto Maipo,Metropolitana de Santiago,Energía,Activo,2007,True,"ALTO MAIPO Hydroelectric Project (PHAM), Chile",False,
+CONF-0100,INDH,Dunas de Concón,Valparaíso,Inmobiliario,Latente,1993,False,,False,
+CONF-0101,INDH,Termoeléctrica Los Rulos,,Energía,Activo,2014,False,,False,
+CONF-0102,INDH,Hidroaysén,Aysén,Energía,Cerrado,2005,False,,False,
+CONF-0103,INDH,Central Los Aromos,La Araucanía,Energía,Latente,2013,False,,False,
+CONF-0104,INDH,Pozas de evaporación solar en Salar de Atacama,Antofagasta,Minería,Archivado,2009,False,,False,
+CONF-0105,INDH,Contaminación del Lago Panguipulli,,Pesca y acuicultura,Activo,2017,False,,False,
+CONF-0106,INDH,Terminal Oxiquim,,Infraestructura portuaria,Activo,2012,False,,False,
+CONF-0107,INDH,Mina el Soldado,,Minería,Activo,2016,False,,False,
+CONF-0108,INDH,Ducto CELCO-Mehuín,Los Ríos,Forestal,Activo,1995,False,,False,
+CONF-0109,INDH,Central hidroeléctrica Neltume,Los Ríos,Energía,Cerrado,2010,False,,False,
+CONF-0110,INDH,Terminal GNL Penco - Lirquén,Biobío,Energía,Cerrado,2013,False,,False,
+CONF-0111,INDH,Minera Quiborax,Arica y Parinacota,Minería,Latente,1986,False,,False,
+CONF-0112,INDH,Puerto Castilla,Atacama,Infraestructura portuaria,Archivado,2009,False,,False,
+CONF-0113,INDH,Proyecto hidroeléctrico Achibueno,Maule,Energía,Cerrado,2009,False,,False,
+CONF-0114,INDH,Piscicultura Palguín,La Araucanía,Pesca y acuicultura,Cerrado,2007,False,,False,
+CONF-0115,INDH,Línea de alta tensión Neltume-Pullinque,Los Ríos,Energía,Cerrado,2010,False,,False,
+CONF-0116,INDH,Línea de Transmisión Cardones-Polpaico Tramo Región Valparaíso,,Energía,Activo,2014,False,,False,
+CONF-0117,INDH,Mina Salamanqueja,Arica y Parinacota,Minería,Activo,2011,False,,False,
+CONF-0118,INDH,Planta de molibdeno de minera Collahuasi,Tarapacá,Minería,Latente,2005,False,,False,
+CONF-0119,INDH,Zona industrial de Mejillones (Zona de sacrificio),Antofagasta,Energía,Activo,1990,False,,False,
+CONF-0120,INDH,Central termoeléctrica Castilla,Atacama,Energía,Archivado,2008,False,,False,
+CONF-0121,INDH,Centro de engorda offshore de peces salmónidos,Coquimbo,Pesca y acuicultura,Archivado,2010,False,,False,
+CONF-0122,INDH,Central hidroeléctrica Cuervo,Aysén,Energía,Cerrado,2007,False,,False,
+CONF-0123,INDH,Proyecto inmobiliario El Panul,Metropolitana de Santiago,Inmobiliario,Latente,2004,False,,False,
+CONF-0124,INDH,Puerto Desierto,Atacama,Infraestructura portuaria,Archivado,2012,False,,False,
+CONF-0125,INDH,Central termoeléctrica Pacífico,Tarapacá,Energía,Activo,2009,False,,False,
+CONF-0126,INDH,Contaminación de la bahía de Chañaral,Atacama,Minería,Activo,1938,False,,False,
+CONF-0127,INDH,Contaminación en Alto Mañihuales,,Minería,Activo,2015,False,,False,
+CONF-0128,INDH,Proyecto minero Pampa Hermosa,Tarapacá,Minería,Activo,2008,False,,True,Pampa Hermosa afectación Salar Llamara
+CONF-0129,INDH,Embalse de relaves Minera Tambillos,Coquimbo,Minería,Archivado,2010,False,,False,
+CONF-0130,INDH,Central Patache,Tarapacá,Energía,Latente,2009,False,,False,
+CONF-0131,INDH,Fundición Paipote,Atacama,Minería,Activo,1994,True,"Fundicion de cobre Paipote (Videla Lira), Chile",True,Fundición Paipote descontaminación
+CONF-0132,INDH,Humedal El Culebrón,,Saneamiento ambiental,Latente,2015,False,,False,
+CONF-0133,INDH,Carretera ruta Alerce Costero Tramo La Unión- Corral ,,Infraestructura de transporte,Activo,2016,False,,False,
+CONF-0134,INDH,Acopio Chips en la comuna de Corral,,Forestal,Cerrado,1993,False,,False,
+CONF-0135,INDH,Proyecto Mina Invierno (Isla Riesco),Magallanes y la Antártica Chilena,Minería,Activo,2010,True,"Minera Invierno de carbón en Isla Riesco, Chile",True,Isla Riesco Coal Exploitation
+CONF-0136,INDH,Termoeléctrica Nueva Era,Valparaíso,Energía,Activo,2015,False,,False,
+CONF-0137,INDH,Central hidroeléctrica San Pedro,Los Ríos,Energía,Activo,2007,False,,False,
+CONF-0138,INDH,Planta de Alimentos Balanceados La Estrella,,Agropecuario,Activo,2018,False,,False,
+CONF-0139,INDH,Conflicto Villa Parque Torreones IV - Valdicor ,,Planificación territorial,Activo,2018,False,,False,
+CONF-0140,INDH,Proyecto minero Cerro Casale,Atacama,Minería,Activo,2001,False,,True,Cerro Casale Mining Opposition
+CONF-0141,INDH,Central Hidroeléctrica Maqueo SN Power/Trayenko S.A,,Energía,Latente,2007,True,"Hidroeléctrica Maqueo, Chile",False,
+CONF-0142,INDH,Proyecto minero La Candelaria,Atacama,Minería,Activo,1995,False,,False,
+CONF-0143,INDH,Central termoeléctrica Guacolda,Atacama,Energía,Activo,1995,False,,False,
+CONF-0144,INDH,Planta de celulosa Nueva Aldea (ex-Itata),Biobío,Forestal,Activo,1999,False,,False,
+CONF-0145,INDH,Central termoeléctrica El Campesino,,Energía,Activo,2014,False,,False,
+CONF-0146,INDH,Centrales hidroeléctricas Statkraft en el Río Pilmaiquén,,Energía,Activo,2007,False,,False,
+CONF-0147,INDH,Planta de cerdos Agrosuper,Atacama,Agropecuario,Latente,2005,False,,False,
+CONF-0148,INDH,Proyecto minero Caserones,Atacama,Minería,Activo,2008,False,,False,
+CONF-0149,INDH,Proyecto minero Refugio,Atacama,Minería,Activo,1994,False,,False,
+CONF-0150,INDH,Proyecto minero El Morro,Atacama,Minería,Latente,2008,False,,False,
+CONF-0151,INDH,Cobquecura sin acuícolas,,Pesca y acuicultura,Activo,2016,False,,False,
+CONF-0152,INDH,Central termoeléctrica Punta Alcalde,Atacama,Energía,Cerrado,2009,True,"Punta Alcalde power plant, Huasco, Chile",False,
+CONF-0153,INDH,Pascua Lama,Atacama,Minería,Activo,1996,True,"Mina de oro, cobre y plata Pascua Lama, Chile",True,Pascua Lama glaciares en peligro
+CONF-0154,INDH,"Expansión portuaria en Humedal ""Ojos de Mar"" de Llolleo",,Infraestructura portuaria,Activo,2010,False,,False,
+CONF-0155,INDH,Megaproyecto inmobiliario sector Las Salinas,,Inmobiliario,Activo,2004,False,,False,
+CONF-0156,INDH,Puerto Chino en Corral (Puerto Pacífico Sur/Consorcio Chino-Chileno),,Infraestructura portuaria,Latente,2017,True,"Puerto Corral Pacífico Sur, Chile",False,
+CONF-0157,INDH,Avenida Circunvalación Humedal Angachilla,,Infraestructura de transporte,Activo,2010,False,,False,
+CONF-0158,INDH,Centro de Manejo de Residuos Sólidos Malleco Norte,,Saneamiento ambiental,Activo,2016,False,,False,
+CONF-0159,INDH,Proyecto minero Catanave,Arica y Parinacota,Minería,Archivado,2009,False,,False,
+CONF-0160,INDH,Conflicto Criadero de Cerdos COEXCA San Agustín del Arbolillo,,Agropecuario,Activo,2015,False,,False,
+CONF-0161,INDH,Proyecto minero Los Bronces Integrado de Anglo American,,Minería,Activo,2019,False,,False,
+CONF-0162,INDH,Vertedero Municipal la Chimba,,Otro,Activo,2015,False,,False,
+CONF-0163,EJAtlas,"Data Center Google en Cerrillos, Santiago, Chile",,,,,True,"Data Center Google en Cerrillos, Santiago, Chile",False,
+CONF-0164,EJAtlas,"Green Hydrogen in the Magallanes Region, Chile",,,,,True,"Green Hydrogen in the Magallanes Region, Chile",False,
+CONF-0165,EJAtlas,"Health impacts of pesticides exposure on rural populations in the Maule region, Chile",,,,,True,"Health impacts of pesticides exposure on rural populations in the Maule region, Chile",False,
+CONF-0166,EJAtlas,"Living with pesticides from export crops in Monte Patria, Coquimbo Region, Chile.",,,,,True,"Living with pesticides from export crops in Monte Patria, Coquimbo Region, Chile.",False,
+CONF-0167,EJAtlas,"Proyecto inmobiliario 'Maratué', Valparaíso, Chile",,,,,True,"Proyecto inmobiliario 'Maratué', Valparaíso, Chile",False,
+CONF-0168,EJAtlas,"Minería de Tierras Raras en Penco, Región del Biobío, Chile",,,,,True,"Minería de Tierras Raras en Penco, Región del Biobío, Chile",False,
+CONF-0169,EJAtlas,"Environmental threats (industrial salmon, new mining concessions) in Chiloé, Chile",,,,,True,"Environmental threats (industrial salmon, new mining concessions) in Chiloé, Chile",False,
+CONF-0170,EJAtlas,"Ventanas Industrial Complex, Chile",,,,,True,"Ventanas Industrial Complex, Chile",False,
+CONF-0171,EJAtlas,"Transporte de cobre en Antofagasta y movimiento Este Polvo te Mata, Chile",,,,,True,"Transporte de cobre en Antofagasta y movimiento Este Polvo te Mata, Chile",False,
+CONF-0172,EJAtlas,"Extracción de agua en Pampa Colorada para la minera Escondida, Chile",,,,,True,"Extracción de agua en Pampa Colorada para la minera Escondida, Chile",False,
+CONF-0173,EJAtlas,"Small-scale fisher people against contaminating industries in Valparaiso, Chile",,,,,True,"Small-scale fisher people against contaminating industries in Valparaiso, Chile",False,
+CONF-0174,EJAtlas,"Yelcho Watershed targeted by Ministry of Energy’s hydro plans, Chile",,,,,True,"Yelcho Watershed targeted by Ministry of Energy’s hydro plans, Chile",False,
+CONF-0175,EJAtlas,"Lithium and iron mining in the dunes of Putu, Chile",,,,,True,"Lithium and iron mining in the dunes of Putu, Chile",False,
+CONF-0176,EJAtlas,"Lithium mining in Salar Coipasa, Chile and Bolivia",,,,,True,"Lithium mining in Salar Coipasa, Chile and Bolivia",False,
+CONF-0177,EJAtlas,"Lithium mining and potassium Salar Maricunga, Copiapó, Chile",,,,,True,"Lithium mining and potassium Salar Maricunga, Copiapó, Chile",False,
+CONF-0178,EJAtlas,"Proyecto Minera Dominga, Coquimbo, Chile",,,,,True,"Proyecto Minera Dominga, Coquimbo, Chile",True,Proyecto Dominga
+CONF-0179,EJAtlas,"Las Vizcachitas Mining Project, Chile",,,,,True,"Las Vizcachitas Mining Project, Chile",True,Proyecto Vizcachita
+CONF-0180,EJAtlas,"Central Hidroeléctrica Rucalhue, Bíobío, Chile",,,,,True,"Central Hidroeléctrica Rucalhue, Bíobío, Chile",False,
+CONF-0181,EJAtlas,"Geothermal plant Cerro Pabellón, Chile",,,,,True,"Geothermal plant Cerro Pabellón, Chile",False,
+CONF-0182,EJAtlas,"Angostura dam, Chile",,,,,True,"Angostura dam, Chile",False,
+CONF-0183,EJAtlas,"Minera Manganese Atacama, Chile",,,,,True,"Minera Manganese Atacama, Chile",False,
+CONF-0184,EJAtlas,"Exploitation of Manganese Los Pumas, Arica, Chile",,,,,True,"Exploitation of Manganese Los Pumas, Arica, Chile",False,
+CONF-0185,EJAtlas,"The avocado agribusiness and the water crisis in Petorca, Valparaiso Chile",,,,,True,"The avocado agribusiness and the water crisis in Petorca, Valparaiso Chile",False,
+CONF-0186,EJAtlas,"Proyecto Nueva Unión en Vallenar, Chile",,,,,True,"Proyecto Nueva Unión en Vallenar, Chile",False,
+CONF-0187,EJAtlas,"Proyecto de minería de oro Los Domos, Aysén, Chile",,,,,True,"Proyecto de minería de oro Los Domos, Aysén, Chile",True,Proyecto Los Domos
+CONF-0188,EJAtlas,"Ralco HEP and Bio Bio Watershed hydro plans, Chile",,,,,True,"Ralco HEP and Bio Bio Watershed hydro plans, Chile",False,
+CONF-0189,EJAtlas,"Puesco-Momolluco complex and Tolten Watershed hydropower plans, Chile",,,,,True,"Puesco-Momolluco complex and Tolten Watershed hydropower plans, Chile",False,
+CONF-0190,EJAtlas,"Chiloé wind power project in Mapuche territory, Chile",,,,,True,"Chiloé wind power project in Mapuche territory, Chile",False,
+CONF-0191,EJAtlas,"Minera El Morro en Valles del Huasco, Chile",,,,,True,"Minera El Morro en Valles del Huasco, Chile",False,
+CONF-0192,EJAtlas,"Mediterraneo Hydroelectric plant and future exploitation plans of Puelo River, Chile",,,,,True,"Mediterraneo Hydroelectric plant and future exploitation plans of Puelo River, Chile",False,
+CONF-0193,EJAtlas,"Minas de Carbón en Isla Guafo, Chile",,,,,True,"Minas de Carbón en Isla Guafo, Chile",True,Coal Exploitation at Isla Guafo
+CONF-0194,EJAtlas,"Hidroaysén hydroelectric project, Chile",,,,,True,"Hidroaysén hydroelectric project, Chile",False,
+CONF-0195,EJAtlas,"Castilla Thermal Power Station, Chile",,,,,True,"Castilla Thermal Power Station, Chile",False,
+CONF-0196,EJAtlas,"White Quebrada White and Quebrada Phase 2 in Tarapaca, Chile",,,,,True,"White Quebrada White and Quebrada Phase 2 in Tarapaca, Chile",False,
+CONF-0197,EJAtlas,"Drying of Quillagua by Chuquicamata and SQM, Chile",,,,,True,"Drying of Quillagua by Chuquicamata and SQM, Chile",False,
+CONF-0198,EJAtlas,"Mina Escondida en el Salar de Punta Negra,  Chile",,,,,True,"Mina Escondida en el Salar de Punta Negra,  Chile",False,
+CONF-0199,EJAtlas,"Minera Los Pelambres, Los Vilos, Coquimbo, Chile",,,,,True,"Minera Los Pelambres, Los Vilos, Coquimbo, Chile",True,Los Pelambres Tailings
+CONF-0200,EJAtlas,"Neltume hydroelectric project in Panguipulli, Chile",,,,,True,"Neltume hydroelectric project in Panguipulli, Chile",False,
+CONF-0201,EJAtlas,"Hidroñuble Hydroelectric dam, Chile",,,,,True,"Hidroñuble Hydroelectric dam, Chile",False,
+CONF-0202,EJAtlas,"Embalse La Tranca, Valle de Cogotí, Chile",,,,,True,"Embalse La Tranca, Valle de Cogotí, Chile",False,
+CONF-0203,EJAtlas,"Yacimiento de Cobre Los Pingos, Tulahuén, Chile",,,,,True,"Yacimiento de Cobre Los Pingos, Tulahuén, Chile",False,
+CONF-0204,EJAtlas,"Minera de cobre Candelaria, Tierra Amarilla, Chile",,,,,True,"Minera de cobre Candelaria, Tierra Amarilla, Chile",False,
+CONF-0205,EJAtlas,"Minería de Oro y Cobre Cerro Casale/Aldebaran, Chile",,,,,True,"Minería de Oro y Cobre Cerro Casale/Aldebaran, Chile",False,
+CONF-0206,EJAtlas,"Embalse La Punilla, Ñuble, Chile",,,,,True,"Embalse La Punilla, Ñuble, Chile",False,
+CONF-0207,EJAtlas,"Proyecto Minera Paguanta, Quebrada de Tarapacá, Chile",,,,,True,"Proyecto Minera Paguanta, Quebrada de Tarapacá, Chile",False,
+CONF-0208,EJAtlas,"Osorno water crisis and anti-privatization struggle, Chile",,,,,True,"Osorno water crisis and anti-privatization struggle, Chile",False,
+CONF-0209,EJAtlas,"Minera de cobre Doña Inés de Collahuasi, Chile",,,,,True,"Minera de cobre Doña Inés de Collahuasi, Chile",True,Doña Inés de Collahuasi
+CONF-0210,EJAtlas,"Caserones, Chile",,,,,True,"Caserones, Chile",True,Proyecto Caserones sequía Tierra Amarilla
+CONF-0211,EJAtlas,"'Tranquilo' coal mining project, Chile",,,,,True,"'Tranquilo' coal mining project, Chile",False,
+CONF-0212,EJAtlas,"Contaminación por asbesto en empresa Pizarreño, Chile",,,,,True,"Contaminación por asbesto en empresa Pizarreño, Chile",False,
+CONF-0213,EJAtlas,"Hidroeléctrica Tranguil, Chile",,,,,True,"Hidroeléctrica Tranguil, Chile",False,
+CONF-0214,EJAtlas,"Rio Cuervo Hydroelectric Project, Aysen, Chile",,,,,True,"Rio Cuervo Hydroelectric Project, Aysen, Chile",False,
+CONF-0215,EJAtlas,"Monoculture plantation in Araucania, Chile",,,,,True,"Monoculture plantation in Araucania, Chile",False,
+CONF-0216,EJAtlas,"Huasco - Petcoke, Chile",,,,,True,"Huasco - Petcoke, Chile",False,
+CONF-0217,EJAtlas,"Landfills in Mapuche Territories, Chile",,,,,True,"Landfills in Mapuche Territories, Chile",False,
+CONF-0218,OCMAL,Valle del Lluta and Canal Uchusuma,Arica y Parinacota,Minería,,2007,False,,True,Valle del Lluta and Canal Uchusuma
+CONF-0219,OCMAL,Carmen de Andacollo Expansion,Coquimbo,Minería,,1998,False,,True,Carmen de Andacollo Expansion
+CONF-0220,OCMAL,Altonorte Expansion,Antofagasta,Minería,,,False,,True,Altonorte Expansion
+CONF-0221,OCMAL,Quillagua Contamination,Antofagasta,Minería,,1997,False,,True,Quillagua Contamination
+CONF-0222,OCMAL,Delfín Project,Antofagasta,Minería,,2015,False,,True,Delfín Project
+CONF-0223,OCMAL,Chinese Mining Company,Coquimbo,Minería,,2013,False,,True,Chinese Mining Company
+CONF-0224,OCMAL,Penco BioLantánidos,Biobío,Minería,,2016,False,,True,Penco BioLantánidos
+CONF-0225,OCMAL,Toconao Salmuera Extraction,Antofagasta,Minería,,2017,False,,True,Toconao Salmuera Extraction
+CONF-0226,OCMAL,Belén Indigenous Exploration Opposition,Arica y Parinacota,Minería,,2018,False,,True,Belén Indigenous Exploration Opposition
+CONF-0227,OCMAL,Huatacondo Quechua Community,Tarapacá,Minería,,2016,False,,True,Huatacondo Quechua Community
+CONF-0228,OCMAL,Salar de Maricunga Defense,Atacama,Minería,,2017,False,,True,Salar de Maricunga Defense
+CONF-0229,OCMAL,Elqui Valley Opposition (Alturas),Coquimbo,Minería,,2011,False,,True,Elqui Valley Opposition (Alturas)
+CONF-0230,OCMAL,Huasco Valley Resistance,Atacama,Minería,,2018,False,,True,Huasco Valley Resistance
+CONF-0231,OCMAL,Chañaral Bay Contamination,Atacama,Minería,,1938,False,,True,Chañaral Bay Contamination
+CONF-0232,OCMAL,Manganesos Atacama Contamination,Coquimbo,Minería,,1945,False,,True,Manganesos Atacama Contamination
+CONF-0233,OCMAL,Lauca National Park Deaffectation,Arica y Parinacota,Minería,,1999,False,,True,Lauca National Park Deaffectation
+CONF-0234,OCMAL,Pachón Project,Coquimbo,Minería,,1997,False,,True,Pachón Project
+CONF-0235,OCMAL,Andrean Dragón Heavy Metal Processing Plant,Valparaíso,Minería,,2012,False,,True,Andrean Dragón Heavy Metal Processing Plant
+CONF-0236,OCMAL,Las Ventanas Copper Smelter Contamination,Valparaíso,Minería,,1958,False,,True,Las Ventanas Copper Smelter Contamination
+CONF-0237,OCMAL,Minera Dayton contamina aguas de Andacollo,Coquimbo,Minería,,1995,False,,True,Minera Dayton contamina aguas de Andacollo
+CONF-0238,OCMAL,Minera Los Pingos amenaza Valle del Limarí,Coquimbo,Minería,,1996,False,,True,Minera Los Pingos amenaza Valle del Limarí
+CONF-0239,OCMAL,Proyecto El Espino Valle de Illapel,Coquimbo,Minería,,2016,False,,True,Proyecto El Espino Valle de Illapel
+CONF-0240,OCMAL,Proyecto Catanave,Arica y Parinacota,Minería,,2009,False,,True,Proyecto Catanave
+CONF-0241,OCMAL,Proyecto NX Uno,Antofagasta,Minería,,2009,False,,True,Proyecto NX Uno
+CONF-0242,OCMAL,Proyecto Paguanta,Tarapacá,Minería,,2011,False,,True,Proyecto Paguanta
+CONF-0243,OCMAL,Teck Cominco Valle de Elqui,Coquimbo,Minería,,2006,False,,True,Teck Cominco Valle de Elqui
+CONF-0244,OCMAL,Puzolana extraction conflict,Metropolitana,Minería,,2011,False,,True,Puzolana extraction conflict

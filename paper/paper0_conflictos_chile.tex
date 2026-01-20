@@ -1,0 +1,373 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{float}
+
+\geometry{margin=2.5cm}
+\onehalfspacing
+
+\title{\textbf{Conflictos Socioecológicos en Chile:\\ Magnitud, Distribución y Patrones}}
+
+\author{Fabián Belmar$^{1,2}$ \and Aldo Mascareño$^{1,2}$\\[0.5cm]
+\small $^1$Núcleo Milenio para la Ciencia de Datos Sociales (SODAS)\\
+\small $^2$Centro de Estudios Públicos, Chile}
+
+\date{Borrador - Enero 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Chile registra al menos 244 conflictos socioecológicos únicos según la integración de tres fuentes independientes: el Instituto Nacional de Derechos Humanos (162 casos), el Environmental Justice Atlas (51 casos adicionales) y el Observatorio de Conflictos Mineros de América Latina (31 casos adicionales). Esta conflictividad no es accidental: responde a un modelo de desarrollo basado en la exportación de recursos naturales. Este artículo cuantifica la magnitud del fenómeno, identifica sus patrones geográficos y sectoriales, y describe los actores involucrados. Cuatro sectores concentran la mayor parte de los conflictos: minería, energía, salmonicultura y sector forestal. Cinco territorios han sido caracterizados como ``zonas de sacrificio'': Tocopilla, Mejillones, Huasco, Quintero-Puchuncaví y Coronel. Los conflictos afectan desproporcionadamente a comunidades indígenas y pescadores artesanales. Este mapeo establece el contexto empírico para estudiar cómo las instituciones ambientales chilenas procesan estos conflictos.
+
+\vspace{0.5cm}
+\noindent\textbf{Palabras clave:} conflictos socioambientales, Chile, zonas de sacrificio, minería, salmonicultura, justicia ambiental
+\end{abstract}
+
+\newpage
+\tableofcontents
+\newpage
+
+%------------------------------------------------------------------
+\section{Introducción}
+%------------------------------------------------------------------
+
+Chile presenta una densidad de conflictividad ambiental notable. La integración de tres fuentes independientes ---Instituto Nacional de Derechos Humanos (INDH), Environmental Justice Atlas (EJAtlas) y Observatorio de Conflictos Mineros de América Latina (OCMAL)--- permite identificar al menos 244 conflictos socioecológicos únicos. El INDH documenta 162 casos activos, latentes, cerrados o archivados \citep{indh2024mapa}. El EJAtlas registra 77 casos para el país, de los cuales 51 son adicionales al INDH \citep{temper2018ejatlas}. El OCMAL aporta 31 conflictos mineros no registrados en las otras fuentes. Estas cifras posicionan a Chile entre los países con mayor conflictividad ambiental per cápita en América Latina. La conflictividad no es accidental: es consecuencia estructural de un modelo económico que desde 1973 ha privilegiado la exportación de recursos naturales como motor de crecimiento.
+
+El objetivo de este artículo es establecer el contexto empírico de los conflictos socioecológicos en Chile. Tres preguntas organizan el análisis: ¿cuál es la magnitud del fenómeno?, ¿qué patrones geográficos y sectoriales presenta?, ¿qué actores están involucrados? Este mapeo es necesario para estudiar posteriormente cómo las instituciones ambientales ---particularmente los Tribunales Ambientales--- procesan estos conflictos. Sin conocer el territorio en disputa, no es posible evaluar si la institucionalidad responde adecuadamente a las demandas ciudadanas.
+
+La estructura del artículo es la siguiente. La sección 2 presenta los datos y métodos, incluyendo las fuentes, el proceso de integración y el dataset resultante. La sección 3 presenta la distribución geográfica. La sección 4 analiza los sectores económicos. La sección 5 examina las zonas de sacrificio. La sección 6 identifica los actores. La sección 7 describe las formas de expresión. La sección 8 presenta un análisis cuantitativo del corpus: evolución temporal, categorización de impactos y actores, y patrones de resistencia y resultado. La sección 9 presenta los antecedentes institucionales. La sección 10 concluye.
+
+%------------------------------------------------------------------
+\section{Datos y métodos}
+%------------------------------------------------------------------
+
+El mapeo de conflictos socioecológicos en Chile presenta un desafío metodológico: no existe un registro oficial único. Este artículo integra tres fuentes independientes ---INDH, EJAtlas y OCMAL--- mediante un proceso de armonización que permite construir una visión comprehensiva del fenómeno. El dataset resultante estará disponible públicamente para facilitar investigaciones futuras.
+
+\subsection{Fuentes de datos}
+
+El Instituto Nacional de Derechos Humanos mantiene desde 2012 un Mapa de Conflictos Socioambientales. El INDH define estos conflictos como disputas entre actores ---personas, organizaciones, empresas, Estado--- que expresan divergencias sobre el acceso y uso de recursos naturales o sobre los impactos ambientales de actividades económicas \citep{indh2024mapa}. El catastro ha crecido: 102 conflictos en julio 2015, 116 en abril 2018, 162 en enero 2026 (incluyendo 74 activos, 33 latentes, 31 archivados y 24 cerrados). Este crecimiento refleja tanto el aumento real de la conflictividad como la mejora en los métodos de registro. El mapa clasifica los conflictos por estado (activo, latente, cerrado), sector económico, región e impactos.
+
+El Environmental Justice Atlas documenta más de 4.400 conflictos a nivel global, de los cuales 77 corresponden a Chile \citep{temper2018ejatlas}. A diferencia del INDH, utiliza documentación participativa donde organizaciones locales contribuyen información. Para cada caso registra ubicación georreferenciada, sector económico, actores, impactos ambientales, formas de movilización y resultados. Esta base permite comparaciones internacionales. Un hallazgo relevante: las comunidades que combinan estrategias ---movilización preventiva, litigación y diversificación táctica--- tienen tasas de éxito del 27\%, frente al 11\% de quienes usan una sola estrategia \citep{temper2020defenders}.
+
+El Observatorio de Conflictos Mineros de América Latina (OCMAL) registra 49 conflictos mineros en Chile, con información sobre ubicación, empresa responsable, año de inicio y región afectada. Su especialización sectorial lo convierte en fuente complementaria para casos no cubiertos por el INDH o EJAtlas.
+
+Otras fuentes fueron evaluadas pero no integradas. El Observatorio Latinoamericano de Conflictos Ambientales (OLCA) mantiene documentación histórica desde los años 1990, con énfasis en la perspectiva de las comunidades afectadas; sin embargo, su información es cualitativa y no está disponible como base de datos estructurada. El Armed Conflict Location \& Event Data Project (ACLED) geolocaliza eventos de protesta desde 2018, pero registra eventos puntuales (manifestaciones, incidentes) más que conflictos estructurales, y requiere acceso mediante API.
+
+\subsection{Proceso de integración}
+
+La integración de estas fuentes requirió resolver tres problemas metodológicos. Primero, las definiciones de conflicto difieren: el INDH utiliza un concepto amplio que incluye casos latentes; el EJAtlas enfatiza la movilización visible; OCMAL se concentra en minería. Adoptamos un criterio inclusivo: un conflicto se registra si aparece en al menos una fuente, preservando las diferencias de clasificación como metadatos. Segundo, existen duplicados entre bases: el mismo conflicto puede aparecer con diferentes nombres o delimitaciones geográficas. Identificamos duplicados mediante normalización de texto y coincidencia de palabras clave, consolidando registros cuando la correspondencia superaba umbrales predefinidos. Tercero, las categorías sectoriales no son uniformes. Construimos una taxonomía armonizada de 12 sectores económicos mapeando las categorías originales de cada fuente.
+
+El proceso de recolección incluyó extracción automatizada de datos del sitio web del INDH, descarga de registros chilenos desde la API del EJAtlas, y extracción de datos del OCMAL. Cada registro fue enriquecido con coordenadas geográficas estandarizadas, códigos de región y comuna, y enlaces a documentación primaria cuando estaba disponible.
+
+\subsection{Dataset resultante}
+
+El dataset integrado contiene 244 conflictos únicos (Tabla \ref{tab:fuentes}). Del INDH provienen 162 casos con información completa: 74 activos, 33 latentes, 31 archivados y 24 cerrados (Figura \ref{fig:estados}). De EJAtlas se incorporaron 77 casos para Chile, de los cuales 26 fueron identificados como posibles duplicados con el INDH mediante coincidencia de palabras clave, resultando en 51 casos adicionales únicos. De OCMAL se incorporaron 49 conflictos mineros, de los cuales 18 fueron identificados como duplicados, aportando 31 casos adicionales. Cada registro incluye identificadores de fuente original, fechas de inicio y actualización, ubicación georreferenciada cuando está disponible, sector económico, estado del conflicto, y enlaces a fuentes primarias.
+
+\begin{table}[H]
+\centering
+\caption{Fuentes de datos y proceso de integración}
+\label{tab:fuentes}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Fuente} & \textbf{Total} & \textbf{Duplicados} & \textbf{Únicos} \\
+\midrule
+INDH & 162 & --- & 162 \\
+EJAtlas & 77 & 26 & 51 \\
+OCMAL & 49 & 18 & 31 \\
+\midrule
+\textbf{Total integrado} & \textbf{288} & \textbf{44} & \textbf{244} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\textwidth]{figuras/conflictos_estado.pdf}
+\caption{Estado de los conflictos socioambientales según el INDH (enero 2026). El 46\% de los conflictos permanece activo.}
+\label{fig:estados}
+\end{figure}
+
+El dataset estará disponible en Harvard Dataverse con licencia CC-BY, permitiendo su reutilización para investigación. Esta decisión responde a dos objetivos: transparencia metodológica ---permitir replicación y verificación de los análisis--- y utilidad pública ---facilitar investigaciones futuras sobre conflictividad socioambiental en Chile. El repositorio incluirá el dataset en formatos CSV y JSON, el código de integración y armonización, y documentación detallada de las decisiones metodológicas.
+
+\subsection{Limitaciones}
+
+Tres limitaciones deben considerarse. Primera, existe un sesgo hacia conflictos visibilizados: casos con menor capacidad de movilización o cobertura mediática pueden estar subrepresentados. Segunda, la temporalidad varía entre fuentes: el INDH registra desde 2012, EJAtlas tiene cobertura variable, OCMAL desde los años 1990. Tercera, algunas fuentes privilegian ciertos tipos de conflictos: OCMAL se concentra en minería, EJAtlas en casos con movilización activa. Además, fuentes como ACLED (eventos de protesta) y OLCA (documentación cualitativa) no pudieron integrarse por limitaciones de acceso o estructura de datos. Estas limitaciones no invalidan el análisis pero deben considerarse al interpretar los patrones. El mapeo representa un piso, no un techo: la conflictividad real probablemente supera lo documentado.
+
+%------------------------------------------------------------------
+\section{Distribución geográfica}
+%------------------------------------------------------------------
+
+Los conflictos no se distribuyen homogéneamente (Figura \ref{fig:regiones}). Tres macroregiones presentan patrones diferenciados según los sectores económicos predominantes y las comunidades afectadas.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{figuras/conflictos_region.pdf}
+\caption{Distribución geográfica de conflictos socioambientales por región (INDH, 2026). Atacama lidera con 15 casos, seguida por Valparaíso y Coquimbo con 13 cada una.}
+\label{fig:regiones}
+\end{figure}
+
+\subsection{Norte: minería y crisis hídrica}
+
+Las regiones de Arica y Parinacota, Tarapacá, Antofagasta, Atacama y Coquimbo concentran conflictos asociados a la minería metálica y sus impactos sobre recursos hídricos. El desierto de Atacama alberga simultáneamente las mayores reservas mundiales de cobre y litio, y ecosistemas frágiles ---salares, humedales altoandinos, vegas--- que sostienen a comunidades indígenas ancestrales. La tensión es estructural: la minería requiere agua en una de las zonas más áridas del planeta.
+
+Las cifras ilustran la magnitud del problema. Según datos de SQM y Albemarle, sus operaciones de litio en el Salar de Atacama consumen 200 millones de litros de agua diarios para producir 70.000 toneladas anuales, con una pérdida del 95\% del agua utilizada. El 70\% del agua de la región se destina a fines mineros. Esta extracción afecta a comunidades atacameñas (likan-antai), aymaras, quechuas y collas cuyas prácticas ancestrales dependen del agua. La privatización del agua establecida en el Código de Aguas de 1981 ---que la convierte en un bien transable separado de la tierra--- ha permitido la concentración de derechos en manos de grandes empresas.
+
+\subsection{Centro: complejos industriales}
+
+Las regiones centrales (Valparaíso, Metropolitana, O'Higgins, Maule, Ñuble, Biobío) presentan conflictividad más diversa. Aquí se ubican tres de las cinco zonas de sacrificio: Quintero-Puchuncaví, Coronel y, en el límite norte, Huasco. La bahía de Quintero-Puchuncaví ilustra el patrón: un complejo industrial que desde los años 1960 incluye fundición de cobre, termoeléctricas, refinerías y plantas químicas. Los impactos acumulados durante seis décadas incluyen contaminación por metales pesados, derrames de hidrocarburos, episodios recurrentes de intoxicaciones masivas (2011, 2018, 2022) y varamientos de carbón en playas.
+
+\subsection{Sur: salmonicultura y pueblos originarios}
+
+Las regiones de La Araucanía, Los Ríos, Los Lagos, Aysén y Magallanes concentran conflictos por salmonicultura, sector forestal e hidroelectricidad. Estos conflictos tienen una dimensión étnica distintiva: afectan desproporcionadamente a comunidades mapuche, huilliche y kawésqar cuyos territorios ancestrales se superponen con las áreas de expansión industrial. La industria salmonera opera en los fiordos y canales de Chiloé, Aysén y Magallanes, generando contaminación de fondos marinos, mortalidades masivas de peces, escapes que amenazan especies nativas y destrucción de economías pesqueras artesanales.
+
+%------------------------------------------------------------------
+\section{Sectores económicos}
+%------------------------------------------------------------------
+
+Cuatro sectores concentran la mayor parte de los conflictos documentados (Figura \ref{fig:sectores}). Cada uno genera impactos específicos, pero comparten patrones comunes: afectación de recursos hídricos, impactos en salud y conflictos con comunidades locales e indígenas.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figuras/conflictos_sector.pdf}
+\caption{Conflictos socioambientales por sector económico (INDH, 2026). Energía y minería concentran el 65\% de los casos.}
+\label{fig:sectores}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Distribución de conflictos por sector económico}
+\label{tab:sectores}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Sector} & \textbf{N} & \textbf{\%} \\
+\midrule
+Energía & 60 & 37,0 \\
+Minería & 46 & 28,4 \\
+Saneamiento ambiental & 12 & 7,4 \\
+Otro & 10 & 6,2 \\
+Pesca y acuicultura & 7 & 4,3 \\
+Agropecuario & 6 & 3,7 \\
+Infraestructura portuaria & 6 & 3,7 \\
+Forestal & 5 & 3,1 \\
+Infraestructura de transporte & 5 & 3,1 \\
+Otros sectores & 5 & 3,1 \\
+\midrule
+\textbf{Total} & \textbf{162} & \textbf{100,0} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Minería}
+
+La minería constituye el sector con mayor generación de conflictos. Chile produce el 27\% del cobre mundial y posee las mayores reservas conocidas de litio. Esta posición estratégica ha implicado una expansión constante de la frontera extractiva hacia territorios sensibles: cabeceras de cuencas, salares, glaciares, territorios indígenas. Los impactos incluyen alto consumo hídrico (15 metros cúbicos por tonelada de cobre; 100-800 metros cúbicos por tonelada de litio), contaminación por relaves y drenaje ácido, desplazamiento de comunidades y destrucción de sitios arqueológicos.
+
+Casos emblemáticos ilustran el patrón. Pascua Lama, proyecto aurífero binacional de Barrick Gold, fue paralizado por impactos sobre glaciares. El proyecto Producción de Sales Maricunga vio anulada su Resolución de Calificación Ambiental por no realizar consulta indígena. Los conflictos en el Salar de Atacama enfrentan a empresas de litio con comunidades atacameñas que reclaman derechos sobre el agua. El patrón se repite: proyectos que avanzan generando resistencia de comunidades locales, litigación judicial y, en ocasiones, paralización.
+
+\subsection{Energía}
+
+El sector energético genera conflictos en dos frentes: termoeléctricas a carbón e hidroelectricidad. Chile tiene 25 centrales a carbón concentradas en cinco zonas costeras que coinciden con las zonas de sacrificio. Los impactos incluyen emisiones de material particulado, óxidos de azufre y nitrógeno, mercurio y cenizas. Existe un compromiso de cierre gradual hacia 2040, postergado desde el objetivo original de 2025.
+
+La hidroelectricidad ha generado conflictos emblemáticos. HidroAysén ---cinco represas en los ríos Baker y Pascua--- fue paralizado tras protestas masivas. Alto Maipo, central de pasada en la cuenca que abastece de agua a Santiago, opera desde 2024 entre cuestionamientos. Los impactos incluyen alteración de caudales, afectación de humedales, desplazamiento de comunidades. El patrón común: proyectos aprobados institucionalmente que enfrentan resistencia ciudadana sostenida.
+
+\subsection{Salmonicultura}
+
+Chile es el segundo productor mundial de salmón, con exportaciones por más de 5.000 millones de dólares anuales. La industria opera más de 1.000 centros de cultivo entre Puerto Montt y el Cabo de Hornos. Los impactos están documentados: acumulación de fecas y antibióticos en fondos marinos que generan anoxia; uso de antibióticos 300-700 veces mayor que Noruega por tonelada producida; millones de salmones escapados que depredan especies nativas; mortalidades masivas con vertimiento de peces al mar.
+
+La crisis de mayo 2016 en Chiloé ilustra la dinámica. Una floración algal provocó mortalidad masiva y el gobierno autorizó el vertimiento de 5.000 toneladas de salmones en descomposición al mar. Pescadores artesanales y comunidades costeras ---cuyo sustento también fue afectado--- vincularon el vertimiento con la intensificación del fenómeno. La controversia gatilló protestas que paralizaron la isla durante semanas. El dato estructural: de 2.045 proyectos salmoneros aprobados entre 1996 y 2019, solo 11 (0,5\%) elaboraron Estudio de Impacto Ambiental; el 99,5\% ingresó mediante Declaración, instrumento menos exigente.
+
+\subsection{Sector forestal}
+
+La industria forestal ocupa más de 3 millones de hectáreas, principalmente en Biobío, La Araucanía y Los Ríos. Genera conflictos por múltiples vías. Las plantaciones de pino y eucalipto sustituyeron bosque nativo especialmente entre 1970 y 1990. El eucalipto consume grandes cantidades de agua, afectando disponibilidad para comunidades rurales. La expansión forestal se realizó sobre territorios reclamados por comunidades mapuche, generando un conflicto de décadas que incluye recuperaciones de tierra, sabotajes y represión.
+
+El caso de la planta de celulosa Valdivia ilustra la conflictividad. Inaugurada en 2004, contaminó el Santuario Carlos Anwandter, un humedal protegido donde murieron miles de cisnes de cuello negro. Las protestas ciudadanas masivas y la litigación judicial llevaron al cierre temporal. Este caso es considerado uno de los antecedentes de la reforma ambiental de 2010.
+
+%------------------------------------------------------------------
+\section{Zonas de sacrificio}
+%------------------------------------------------------------------
+
+El término ``zona de sacrificio'' no es una categoría jurídica sino una denominación acuñada por organizaciones ciudadanas. Designa territorios donde se ha concentrado actividad industrial contaminante de manera que los impactos superan umbrales tolerables. En mayo de 2014, los alcaldes de Tocopilla, Mejillones, Huasco, Puchuncaví y Coronel formalizaron la identificación de sus comunas como zonas de sacrificio en el Primer Cónclave sobre Impacto Ambiental y Desarrollo Comunal.
+
+Las cinco zonas comparten características estructurales. Todas son bahías o puertos costeros que facilitan el transporte de materiales. Las 25 carboneras de Chile se concentran en estos cinco territorios. Además de termoeléctricas, albergan fundiciones, refinerías, plantas químicas y puertos de embarque. La población residente tiende a ser de menores ingresos que el promedio nacional, con menor capacidad de movilidad. Estudios epidemiológicos documentan mayores tasas de enfermedades respiratorias, cardiovasculares y cáncer respecto al promedio nacional.
+
+Quintero-Puchuncaví, a 120 kilómetros de Santiago, alberga el Complejo Industrial Ventanas desde los años 1960. El complejo incluyó fundición y refinería de cobre de Codelco (cerrada en 2023), central termoeléctrica Ventanas, refinería de petróleo ENAP, terminales de GNL y plantas químicas. Los impactos acumulados durante seis décadas han provocado crisis recurrentes. La organización ``Mujeres de Zona de Sacrificio Quintero-Puchuncaví en Resistencia'' ha llevado el caso ante la Comisión Interamericana de Derechos Humanos.
+
+Huasco, en Atacama, concentra actividades mineras y termoeléctricas. El riesgo de fallecer por tumores malignos de tráquea, bronquios y pulmón es 172\% mayor que el promedio nacional según estudios epidemiológicos. Coronel, en Biobío, alberga el complejo termoeléctrico más grande del país con más de 1.200 MW de potencia instalada. Tocopilla y Mejillones, en el norte, concentran termoeléctricas que abastecen a la minería del cobre. Ambas comunidades reportan impactos en salud similares.
+
+%------------------------------------------------------------------
+\section{Actores}
+%------------------------------------------------------------------
+
+Los conflictos socioambientales involucran cuatro tipos de actores con intereses divergentes y recursos asimétricos.
+
+Las comunidades afectadas son diversas. Los pueblos indígenas enfrentan conflictos que amenazan sus territorios ancestrales: atacameños, aymaras y collas en el norte por minería e hídricos; mapuche, huilliche y kawésqar en el sur por forestales, salmoneras e hidroeléctricas. El Convenio 169 de la OIT, ratificado en 2008, establece el derecho a consulta previa, pero su implementación ha sido deficiente. Los pescadores artesanales ---más de 90.000 registrados--- dependen de recursos costeros amenazados por salmonicultura, contaminación industrial y cambio climático. Comunidades rurales y vecinos de zonas industriales completan el cuadro.
+
+Las empresas incluyen grandes mineras nacionales e internacionales (Codelco, BHP, Anglo American), empresas de litio (SQM, Albemarle), salmoneras principalmente noruegas (Mowi, Cermaq), forestales (CMPC, Arauco) y energéticas (Enel, AES, Colbún). Operan con diferentes grados de responsabilidad ambiental. Algunas han adoptado estándares internacionales; otras han sido sancionadas reiteradamente por incumplimientos.
+
+El Estado juega un rol ambivalente: promueve el desarrollo extractivo mediante políticas de fomento, concesiones y subsidios, y simultáneamente regula mediante el SEA, la SMA y los Tribunales Ambientales. Esta tensión se expresa en aprobación de proyectos cuestionados, fiscalización insuficiente y respuestas represivas a la protesta, pero también en creación de institucionalidad, establecimiento de normas y paralización de proyectos.
+
+Las organizaciones de la sociedad civil acompañan y amplifican demandas. ONG ambientales (Terram, Chile Sustentable, Greenpeace, FIMA), organizaciones de derechos humanos (INDH, Amnistía Internacional), centros académicos y medios alternativos (CIPER, El Desconcierto) proveen asesoría técnica y legal, documentan impactos, visibilizan conflictos y articulan redes de apoyo.
+
+%------------------------------------------------------------------
+\section{Formas de expresión}
+%------------------------------------------------------------------
+
+Los conflictos se expresan a través de múltiples formas, desde la participación institucional hasta la acción directa. Las comunidades transitan entre estos repertorios según las oportunidades y restricciones que enfrentan.
+
+La participación institucional incluye tres vías. La ciudadanía puede presentar observaciones durante la evaluación de proyectos que ingresan mediante Estudio de Impacto Ambiental, aunque estas no son vinculantes. Los proyectos que ingresan mediante Declaración ---la mayoría--- no contemplan participación obligatoria. La Superintendencia del Medio Ambiente recibe denuncias ciudadanas que pueden gatillar fiscalizaciones. Los Tribunales Ambientales permiten impugnar actos administrativos o demandar reparación de daño ambiental, aunque con barreras significativas de acceso.
+
+La movilización social escala cuando los canales institucionales se perciben como insuficientes. Las formas incluyen protestas y marchas, bloqueos de caminos, huelgas de hambre y acciones directas como sabotajes o recuperaciones de tierra. La investigación del EJAtlas muestra que las comunidades que combinan múltiples estrategias tienen mayores probabilidades de éxito \citep{temper2020defenders}.
+
+La comunicación mediática juega un rol crucial. Casos que logran cobertura sostenida ---Pascua Lama, HidroAysén, la crisis de Chiloé, las intoxicaciones en Quintero--- generan presión sobre autoridades y empresas. Los medios digitales han ampliado las posibilidades de comunicación directa de las comunidades.
+
+%------------------------------------------------------------------
+\section{Análisis cuantitativo del corpus}
+%------------------------------------------------------------------
+
+El dataset integrado permite análisis cuantitativos mediante extracción automatizada de información textual. Se desarrollaron rutinas de categorización basadas en patrones léxicos para clasificar los conflictos según tipo de impacto ambiental, actor afectado, forma de resistencia y resultado. Esta sección presenta los hallazgos principales.
+
+\subsection{Evolución temporal}
+
+De los 244 conflictos, 192 (79\%) tienen año de inicio identificable. La distribución temporal muestra una aceleración sostenida (Tabla \ref{tab:temporal}). La década de 1990 registra 24 conflictos; la de 2000, 69; la de 2010, 91. El año con mayor número de conflictos iniciados es 2010 con 20 casos, coincidiendo con la reforma ambiental que creó los Tribunales Ambientales. Este patrón temporal sugiere dos interpretaciones complementarias: un aumento real de la conflictividad asociado a la expansión extractiva, y una mayor visibilización producto de mejores registros y mayor activismo ciudadano.
+
+\begin{table}[H]
+\centering
+\caption{Evolución temporal de conflictos por década}
+\label{tab:temporal}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Década} & \textbf{N} & \textbf{\% acumulado} \\
+\midrule
+1930--1950 & 5 & 2,6 \\
+1980s & 3 & 4,2 \\
+1990s & 24 & 16,7 \\
+2000s & 69 & 52,6 \\
+2010s & 91 & 100,0 \\
+\midrule
+\textbf{Total con fecha} & \textbf{192} & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Categorización por impacto ambiental}
+
+La categorización automática identifica cinco tipos de impacto ambiental mediante patrones léxicos en las descripciones de los conflictos (Tabla \ref{tab:impactos}). El agua es el recurso más frecuentemente afectado: 140 conflictos (57,4\%) mencionan impactos hídricos ---contaminación, escasez, derechos de agua, vertimientos. Este hallazgo es consistente con la centralidad del agua en la conflictividad ambiental chilena, particularmente en el norte minero. La biodiversidad aparece en el 32,4\% de los casos; los impactos en salud, en el 30,3\%. Un conflicto puede afectar múltiples recursos simultáneamente: el promedio es 1,7 tipos de impacto por conflicto.
+
+\begin{table}[H]
+\centering
+\caption{Tipo de impacto ambiental (categorización automática)}
+\label{tab:impactos}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Impacto} & \textbf{N} & \textbf{\%} \\
+\midrule
+Agua & 140 & 57,4 \\
+Biodiversidad & 79 & 32,4 \\
+Salud & 74 & 30,3 \\
+Aire & 68 & 27,9 \\
+Suelo & 50 & 20,5 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Actores afectados}
+
+La mitad de los conflictos (50\%) involucra a comunidades urbanas ---vecinos, juntas de vecinos, pobladores residentes en zonas industriales. Los agricultores aparecen en el 45,1\% de los casos, reflejando los impactos de la actividad extractiva sobre el agua de riego y la tierra cultivable. Las comunidades indígenas están presentes en el 27,5\% de los conflictos, proporción que subestima su relevancia dado que estos casos tienden a ser más intensos y prolongados. Los pescadores artesanales aparecen en el 16,8\%, concentrados en conflictos por salmonicultura y contaminación costera.
+
+El cruce entre tipo de impacto y actor afectado revela patrones específicos. Los conflictos por agua afectan principalmente a comunidades urbanas (100 casos), agricultores (96) e indígenas (53). Los conflictos por biodiversidad siguen un patrón similar. Los impactos en salud afectan desproporcionadamente a comunidades urbanas (60) que residen en zonas industriales.
+
+\subsection{Formas de resistencia y resultados}
+
+Las comunidades despliegan cuatro formas principales de resistencia (Tabla \ref{tab:resistencia}). La vía judicial ---recursos de protección, demandas, querellas ante tribunales--- aparece en el 40,2\% de los conflictos. La participación institucional ---observaciones ciudadanas, consulta indígena, interacción con el SEIA--- está presente en el 38,9\%. La movilización social ---protestas, marchas, bloqueos--- se registra en el 32,4\%. Las estrategias mediáticas ---denuncias públicas, campañas--- aparecen en el 18\%. Las comunidades combinan estrategias: el promedio es 1,3 formas de resistencia por conflicto.
+
+\begin{table}[H]
+\centering
+\caption{Forma de resistencia (categorización automática)}
+\label{tab:resistencia}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Resistencia} & \textbf{N} & \textbf{\%} \\
+\midrule
+Judicial & 98 & 40,2 \\
+Institucional & 95 & 38,9 \\
+Movilización & 79 & 32,4 \\
+Mediática & 44 & 18,0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Los resultados de los conflictos muestran un patrón preocupante. El 47,5\% de los proyectos en conflicto fueron finalmente aprobados; el 34,4\% fue paralizado; el 20,1\% permanece en litigio. Un hallazgo relevante emerge del cruce entre forma de resistencia y resultado: \textbf{de los 98 conflictos con resistencia judicial, 75 (77\%) terminaron con el proyecto aprobado}. La litigación ambiental, por sí sola, no garantiza la paralización de proyectos cuestionados. Este dato sugiere que la institucionalidad ambiental tiende a validar proyectos que enfrentan resistencia ciudadana, procesando los conflictos sin necesariamente resolverlos.
+
+\subsection{Análisis de texto: empresas y contaminantes}
+
+El análisis de frecuencia léxica identifica las empresas más mencionadas en las descripciones de conflictos. Codelco lidera con presencia en 17 conflictos, seguida por ENAMI (14), Colbún (10), Endesa (10), Arauco (9), Enel (7) y Teck (6). Este patrón refleja la concentración sectorial: empresas mineras estatales y privadas, generadoras eléctricas y forestales dominan la conflictividad.
+
+Los contaminantes más frecuentemente mencionados son cobre (14,3\% de los conflictos), material particulado (11,1\%), relaves mineros (8,6\%), hidrocarburos (7,8\%) y mercurio (7,8\%). Los impactos en salud documentados incluyen mortalidad (11 conflictos), cáncer (4), problemas respiratorios (4) e intoxicaciones (3). Estos datos cuantitativos corroboran la caracterización cualitativa de las secciones anteriores.
+
+%------------------------------------------------------------------
+\section{Antecedentes institucionales}
+%------------------------------------------------------------------
+
+La institucionalidad ambiental chilena actual responde a las limitaciones del modelo anterior. La Ley 19.300 (1994) creó la Comisión Nacional del Medio Ambiente (CONAMA), un organismo coordinador sin rango ministerial que concentraba funciones de diseño de políticas, evaluación de proyectos y ---limitadamente--- fiscalización. El modelo generó críticas: la misma institución que promovía políticas evaluaba proyectos; la CONAMA carecía de jerarquía y recursos; no existía un organismo especializado en fiscalización; los conflictos se resolvían en tribunales ordinarios sin expertise técnica.
+
+Varios casos visibilizaron estas limitaciones. La contaminación del Santuario Carlos Anwandter por la planta Celco-Valdivia (2004-2005) evidenció las debilidades de fiscalización. El proyecto Pascua Lama ilustró las tensiones entre desarrollo minero y protección ambiental. La intervención presidencial en el caso Barrancones (2010), cuando Sebastián Piñera solicitó a GDF Suez retirar un proyecto termoeléctrico aprobado, evidenció la politización de las decisiones.
+
+La Ley 20.417 (2010) creó una arquitectura institucional diferenciada: Ministerio del Medio Ambiente para diseño de políticas; Servicio de Evaluación Ambiental (SEA) para evaluación de proyectos; Superintendencia del Medio Ambiente (SMA) para fiscalización y sanción; y Tribunales Ambientales para resolución de controversias. Esta diferenciación funcional respondió a las críticas: separar diseño de evaluación, crear fiscalización especializada, establecer tribunales con expertise técnica. La pregunta que sigue es si esta arquitectura logra procesar adecuadamente los conflictos documentados.
+
+%------------------------------------------------------------------
+\section{Conclusiones}
+%------------------------------------------------------------------
+
+Este artículo ha cuantificado la magnitud de los conflictos socioecológicos en Chile e identificado sus patrones geográficos, sectoriales y actoriales. Los hallazgos principales son siete.
+
+Primero, Chile presenta alta densidad de conflictos socioambientales: 244 casos únicos tras integrar tres fuentes independientes (INDH, EJAtlas, OCMAL). Esta conflictividad es estructural, no coyuntural. Refleja un modelo de desarrollo orientado a la exportación de recursos naturales que genera tensiones recurrentes entre crecimiento económico y protección ambiental.
+
+Segundo, los conflictos se han acelerado en las últimas décadas. La década de 2010 registra 91 conflictos iniciados, frente a 69 en los 2000 y 24 en los 1990. El año 2010 ---cuando se crearon los Tribunales Ambientales--- marca el pico con 20 conflictos nuevos. Este patrón refleja tanto aumento real de la conflictividad como mayor capacidad de registro y visibilización.
+
+Tercero, los conflictos presentan patrones geográficos diferenciados. El norte concentra conflictos mineros e hídricos que afectan a pueblos indígenas. El centro agrupa complejos industriales con impactos crónicos en salud. El sur presenta conflictos por salmonicultura y forestales que afectan a comunidades mapuche y pescadores artesanales.
+
+Cuarto, el agua es el recurso más afectado: el 57,4\% de los conflictos involucra impactos hídricos. Siguen biodiversidad (32,4\%), salud (30,3\%), aire (27,9\%) y suelo (20,5\%). Cuatro sectores concentran la conflictividad: energía, minería, salmonicultura y sector forestal.
+
+Quinto, cinco territorios constituyen zonas de sacrificio por acumulación de actividades contaminantes: Tocopilla, Mejillones, Huasco, Quintero-Puchuncaví y Coronel. Las 25 carboneras de Chile se concentran en estos territorios. Los impactos en salud están documentados epidemiológicamente.
+
+Sexto, el 40\% de los conflictos incluye resistencia judicial. Sin embargo, de estos 98 casos, el 77\% terminó con el proyecto aprobado. La litigación ambiental, por sí sola, no garantiza la paralización de proyectos cuestionados. Este hallazgo sugiere que la institucionalidad procesa los conflictos sin necesariamente resolverlos a favor de las comunidades afectadas.
+
+Séptimo, los conflictos involucran actores con recursos asimétricos: comunidades afectadas (50\% urbanas, 45\% agricultores, 27,5\% indígenas, 16,8\% pescadores), empresas nacionales e internacionales ---Codelco, ENAMI, Colbún, Endesa lideran en menciones---, Estado en su rol ambivalente de promotor y regulador, y organizaciones de la sociedad civil.
+
+Este mapeo establece el contexto empírico para estudiar cómo las instituciones ambientales procesan estos conflictos. La pregunta que guía la investigación posterior es si los Tribunales Ambientales logran canalizar la conflictividad o reproducen las desigualdades de acceso que caracterizan al sistema. El dato de que el 77\% de los conflictos judicializados terminan con proyectos aprobados sugiere una hipótesis: la institucionalidad ambiental chilena tiende a legitimar proyectos contestados más que a bloquearlos.
+
+%------------------------------------------------------------------
+\bibliographystyle{apalike}
+\begin{thebibliography}{99}
+
+\bibitem[BCN, 2022]{bcn2022zonas}
+Biblioteca del Congreso Nacional de Chile (2022). Zonas de sacrificio en Chile: Quintero-Puchuncaví, Coronel, Huasco, Tocopilla y Mejillones. Asesoría Técnica Parlamentaria.
+
+\bibitem[Greenpeace, 2024]{greenpeace2024salmon}
+Greenpeace Chile (2024). ¿Es peligrosa la industria salmonera en Chile? Informe técnico.
+
+\bibitem[INDH, 2024]{indh2024mapa}
+Instituto Nacional de Derechos Humanos (2024). Mapa de Conflictos Socioambientales en Chile. \url{https://mapaconflictos.indh.cl/}
+
+\bibitem[NRDC, 2024]{nrdc2024litio}
+Natural Resources Defense Council (2024). La minería de litio está dejando a las comunidades indígenas de Chile altas y secas (literalmente).
+
+\bibitem[OCMAL, 2024]{ocmal2024chile}
+Observatorio de Conflictos Mineros de América Latina (2024). Conflictos mineros en Chile. \url{https://www.ocmal.org/}
+
+\bibitem[Temper et al., 2018]{temper2018ejatlas}
+Temper, L., Demaria, F., Scheidel, A., Del Bene, D., \& Martinez-Alier, J. (2018). The Global Environmental Justice Atlas (EJAtlas): Ecological distribution conflicts as forces for sustainability. \textit{Sustainability Science}, 13(3), 573-584.
+
+\bibitem[Temper et al., 2020]{temper2020defenders}
+Temper, L., Avila, S., Del Bene, D., Gobby, J., Kosoy, N., Le Billon, P., ... \& Walter, M. (2020). Environmental conflicts and defenders: A global overview. \textit{Global Environmental Change}, 63, 102104.
+
+\end{thebibliography}
+
+\end{document}

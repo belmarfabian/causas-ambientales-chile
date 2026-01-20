@@ -1,0 +1,1980 @@
+[
+  {
+    "id": 222,
+    "count": 16,
+    "description": "",
+    "link": "https://www.1ta.cl/category/1ta-en-terreno/",
+    "name": "1ta en Terreno",
+    "slug": "1ta-en-terreno",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/222",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=222"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 237,
+    "count": 7,
+    "description": "",
+    "link": "https://www.1ta.cl/category/actualidad-ambiental/",
+    "name": "Actualidad Ambiental",
+    "slug": "actualidad-ambiental",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/237",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=237"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 269,
+    "count": 4,
+    "description": "",
+    "link": "https://www.1ta.cl/category/aplicabilidad-tig/",
+    "name": "Aplicabilidad TIG",
+    "slug": "aplicabilidad-tig",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/269",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=269"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 179,
+    "count": 150,
+    "description": "",
+    "link": "https://www.1ta.cl/category/audiencias/",
+    "name": "Audiencias",
+    "slug": "audiencias",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/179",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=179"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 239,
+    "count": 0,
+    "description": "",
+    "link": "https://www.1ta.cl/category/autoacordados/",
+    "name": "autoacordados",
+    "slug": "autoacordados",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/239",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=239"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 204,
+    "count": 164,
+    "description": "",
+    "link": "https://www.1ta.cl/category/avisos/",
+    "name": "Avisos",
+    "slug": "avisos",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/204",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=204"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "count": 5,
+    "description": "",
+    "link": "https://www.1ta.cl/category/biblioteca/",
+    "name": "Biblioteca",
+    "slug": "biblioteca",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/60",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=60"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 206,
+    "count": 29,
+    "description": "",
+    "link": "https://www.1ta.cl/category/boletines/",
+    "name": "Boletines",
+    "slug": "boletines",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/206",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=206"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 209,
+    "count": 4,
+    "description": "",
+    "link": "https://www.1ta.cl/category/boletines-de-sentencias/",
+    "name": "Boletines de Sentencias",
+    "slug": "boletines-de-sentencias",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/209",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=209"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 208,
+    "count": 56,
+    "description": "",
+    "link": "https://www.1ta.cl/category/canal1ta/",
+    "name": "Canal1TA",
+    "slug": "canal1ta",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/208",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=208"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 235,
+    "count": 2,
+    "description": "",
+    "link": "https://www.1ta.cl/category/capacitaciones/",
+    "name": "Capacitaciones",
+    "slug": "capacitaciones",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/235",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=235"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 229,
+    "count": 9,
+    "description": "",
+    "link": "https://www.1ta.cl/category/capsulas-medioambientales/",
+    "name": "capsulas medioambientales",
+    "slug": "capsulas-medioambientales",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/229",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=229"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 211,
+    "count": 14,
+    "description": "",
+    "link": "https://www.1ta.cl/category/causas/",
+    "name": "Causas",
+    "slug": "causas",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/211",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=211"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 236,
+    "count": 0,
+    "description": "",
+    "link": "https://www.1ta.cl/category/charlas/",
+    "name": "Charlas",
+    "slug": "charlas",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/236",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=236"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 253,
+    "count": 1,
+    "description": "",
+    "link": "https://www.1ta.cl/category/charlas-magistrales/",
+    "name": "Charlas Magistrales",
+    "slug": "charlas-magistrales",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/253",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=253"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 228,
+    "count": 5,
+    "description": "",
+    "link": "https://www.1ta.cl/category/coloquios/",
+    "name": "Coloquios",
+    "slug": "coloquios",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/228",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=228"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "count": 2,
+    "description": "<h2 style=\"text-align: center;\">Compañía Minera del Pacífico S.A. - Superintendencia del Medio Ambiente</h2>\r\n<h3 style=\"text-align: center;\">Información paso a paso del proceso iniciado en relación a la causa R-2-2017</h3>\r\n",
+    "link": "https://www.1ta.cl/category/compania-minera-del-pacifico-sma-r-2-2017/",
+    "name": "Compañía Minera del Pacífico - SMA R-2-2017",
+    "slug": "compania-minera-del-pacifico-sma-r-2-2017",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/26",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=26"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "count": 4,
+    "description": "<h2 style=\"text-align: center;\">Información paso a paso del proceso iniciado en relación a las causas de la Compañía Minera Nevada - Proyecto Pascua Lama con otros. </h2>\r\n",
+    "link": "https://www.1ta.cl/category/compania-minera-nevada-proyecto-pascua-lama-con-otros/",
+    "name": "Compañía Minera Nevada - Proyecto Pascua Lama - con otros",
+    "slug": "compania-minera-nevada-proyecto-pascua-lama-con-otros",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/30",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=30"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 268,
+    "count": 3,
+    "description": "",
+    "link": "https://www.1ta.cl/category/contaminantes-organicos-persistentes-cop/",
+    "name": "Contaminantes orgánicos persistentes COP",
+    "slug": "contaminantes-organicos-persistentes-cop",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/268",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=268"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 207,
+    "count": 7,
+    "description": "",
+    "link": "https://www.1ta.cl/category/cuenta-publica/",
+    "name": "Cuenta Pública",
+    "slug": "cuenta-publica",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/207",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=207"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 266,
+    "count": 6,
+    "description": "",
+    "link": "https://www.1ta.cl/category/energia-solar-en-el-desierto-de-atacama/",
+    "name": "Energía solar en el Desierto de Atacama",
+    "slug": "energia-solar-en-el-desierto-de-atacama",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/266",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=266"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 213,
+    "count": 2,
+    "description": "",
+    "link": "https://www.1ta.cl/category/entrevistas/",
+    "name": "Entrevistas",
+    "slug": "entrevistas",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/213",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=213"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 240,
+    "count": 1,
+    "description": "",
+    "link": "https://www.1ta.cl/category/guias/",
+    "name": "guías",
+    "slug": "guias",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/240",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=240"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 223,
+    "count": 41,
+    "description": "",
+    "link": "https://www.1ta.cl/category/infografias-medioambientales/",
+    "name": "Infografías Medioambientales",
+    "slug": "infografias-medioambientales",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/223",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=223"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 233,
+    "count": 9,
+    "description": "",
+    "link": "https://www.1ta.cl/category/lecturas-recomendadas/",
+    "name": "Lecturas Recomendadas",
+    "slug": "lecturas-recomendadas",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/233",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=233"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 238,
+    "count": 0,
+    "description": "",
+    "link": "https://www.1ta.cl/category/leyes/",
+    "name": "Leyes",
+    "slug": "leyes",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/238",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=238"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 241,
+    "count": 0,
+    "description": "",
+    "link": "https://www.1ta.cl/category/leyes-autoacordados-guias/",
+    "name": "Leyes autoacordados guías",
+    "slug": "leyes-autoacordados-guias",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/241",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=241"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 234,
+    "count": 2,
+    "description": "",
+    "link": "https://www.1ta.cl/category/mapoteca-demandas/",
+    "name": "Mapoteca-demandas",
+    "slug": "mapoteca-demandas",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/234",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=234"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 232,
+    "count": 11,
+    "description": "",
+    "link": "https://www.1ta.cl/category/mapoteca/",
+    "name": "Mapoteca-reclamaciones",
+    "slug": "mapoteca",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/232",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=232"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 230,
+    "count": 1,
+    "description": "",
+    "link": "https://www.1ta.cl/category/normativa-ambiental/",
+    "name": "Normativa ambiental",
+    "slug": "normativa-ambiental",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/230",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=230"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "count": 761,
+    "description": "",
+    "link": "https://www.1ta.cl/category/noticias-del-primer-tribunal-ambiental/",
+    "name": "Noticias del Primer Tribunal Ambiental",
+    "slug": "noticias-del-primer-tribunal-ambiental",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/7",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=7"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "count": 250,
+    "description": "",
+    "link": "https://www.1ta.cl/category/noticias/",
+    "name": "NOTICIAS RECIENTES",
+    "slug": "noticias",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/1",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=1"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 210,
+    "count": 1,
+    "description": "",
+    "link": "https://www.1ta.cl/category/noticias-test/",
+    "name": "Noticias TEST",
+    "slug": "noticias-test",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/210",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=210"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "count": 8,
+    "description": "<h2 style=\"text-align: center;\">Sociedad Química y Minera de Chile SQM - Superintendencia del Medio Ambiente.</h2>\r\n<h3 style=\"text-align: center;\">Información paso a paso del proceso iniciado en relación a Pozos de Extracción de Agua Salar de Llamara SQM. Cronología del proceso.</h3>",
+    "link": "https://www.1ta.cl/category/pozos-de-extraccion-de-agua-salar-de-llamara-r-3-2018-sqm/",
+    "name": "Pozos de Extracción de Agua Salar de Llamara SQM",
+    "slug": "pozos-de-extraccion-de-agua-salar-de-llamara-r-3-2018-sqm",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/25",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=25"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "count": 16,
+    "description": "<h2 style=\"text-align: center;\">Andes Iron SPA - Servicio de Evaluación Ambiental SEA Comité de Ministros.</h2>\r\n<h3 style=\"text-align: center;\">Información paso a paso del proceso iniciado en relación a la causa R1-2017 Proyecto Minero Portuario Dominga. Cronología del proceso. \r\n</h3>\r\n\r\n",
+    "link": "https://www.1ta.cl/category/proyecto-minero-portuario-dominga-r-1-2017/",
+    "name": "Proyecto Minero Portuario Dominga R-1-2017",
+    "slug": "proyecto-minero-portuario-dominga-r-1-2017",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/24",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=24"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 180,
+    "count": 120,
+    "description": "",
+    "link": "https://www.1ta.cl/category/registro-audiovisual/",
+    "name": "Registro Audiovisual",
+    "slug": "registro-audiovisual",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/180",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=180"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 254,
+    "count": 1,
+    "description": "",
+    "link": "https://www.1ta.cl/category/seminarios/",
+    "name": "Seminarios",
+    "slug": "seminarios",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/254",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=254"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 214,
+    "count": 32,
+    "description": "",
+    "link": "https://www.1ta.cl/category/transmision-vivo/",
+    "name": "transmision-vivo",
+    "slug": "transmision-vivo",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/214",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=214"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 262,
+    "count": 6,
+    "description": "",
+    "link": "https://www.1ta.cl/category/valoracion-economica/",
+    "name": "Valoración económica",
+    "slug": "valoracion-economica",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/262",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=262"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 226,
+    "count": 0,
+    "description": "",
+    "link": "https://www.1ta.cl/category/visitas-consultas/",
+    "name": "Visitas-consultas",
+    "slug": "visitas-consultas",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/226",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=226"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 225,
+    "count": 12,
+    "description": "",
+    "link": "https://www.1ta.cl/category/visitas-demandas-por-dano-ambiental/",
+    "name": "Visitas-demandas por daño ambiental",
+    "slug": "visitas-demandas-por-dano-ambiental",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/225",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=225"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 224,
+    "count": 30,
+    "description": "",
+    "link": "https://www.1ta.cl/category/visitas-reclamaciones/",
+    "name": "Visitas-reclamaciones",
+    "slug": "visitas-reclamaciones",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/224",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=224"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 227,
+    "count": 0,
+    "description": "",
+    "link": "https://www.1ta.cl/category/visitas-solicitudes/",
+    "name": "Visitas-solicitudes",
+    "slug": "visitas-solicitudes",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories/227",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.1ta.cl/wp-json/wp/v2/posts?categories=227"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]
