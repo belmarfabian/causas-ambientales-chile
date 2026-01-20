@@ -265,12 +265,12 @@ def seccion_tribunales():
 
     total_docs_legales = sentencias_total + sentencias_reemplazo + sentencias_casacion + resoluciones
 
-    # Métricas principales (482 causas únicas de causas_final.json)
+    # Métricas principales (datos oficiales verificados - CIFRAS_OFICIALES.md)
     col1, col2, col3, col4 = st.columns(4)
-    col1.metric("Causas con sentencia", "482")
-    col2.metric("Documentos sentencia", sentencias_total)
-    col3.metric("Sentencias Casación", sentencias_casacion)
-    col4.metric("Resoluciones", resoluciones)
+    col1.metric("Sentencias oficiales", "704")
+    col2.metric("Causas ingresadas", "~1,320")
+    col3.metric("Tribunales", "3")
+    col4.metric("Período", "2013-2025")
 
     # Sub-pestañas de tribunales
     tab_stats, tab_temporal, tab_tribunal = st.tabs([
@@ -278,56 +278,32 @@ def seccion_tribunales():
     ])
 
     with tab_stats:
-        col1, col2 = st.columns(2)
+        # Datos oficiales verificados (CIFRAS_OFICIALES.md)
+        st.markdown("### Sentencias definitivas por tribunal")
+        st.caption("Fuentes: Cuentas Públicas 2024 y 3TA en Cifras")
 
-        with col1:
-            # Sentencias por tribunal
-            df_trib = pd.DataFrame([
-                {'Tribunal': '1TA (Antofagasta)', 'Sentencias': datos['por_tribunal_tipo'].get('1TA', {}).get('Sentencia', 0)},
-                {'Tribunal': '2TA (Santiago)', 'Sentencias': datos['por_tribunal_tipo'].get('2TA', {}).get('Sentencia', 0)},
-                {'Tribunal': '3TA (Valdivia)', 'Sentencias': datos['por_tribunal_tipo'].get('3TA', {}).get('Sentencia', 0)},
-            ])
-            fig = px.bar(df_trib, x='Tribunal', y='Sentencias',
-                        title='Sentencias por Tribunal', text='Sentencias',
-                        color='Tribunal',
-                        color_discrete_sequence=['#1f77b4', '#ff7f0e', '#2ca02c'])
-            fig.update_layout(showlegend=False)
-            fig.update_traces(textposition='outside')
-            st.plotly_chart(fig, use_container_width=True)
-
-        with col2:
-            # Tipos de resolución judicial
-            tipos_judiciales = [
-                ('Sentencia definitiva', sentencias_total),
-                ('Sentencia casación', sentencias_casacion),
-                ('Sentencia reemplazo', sentencias_reemplazo),
-                ('Resolución', resoluciones),
-            ]
-            df_tipo = pd.DataFrame(tipos_judiciales, columns=['Tipo', 'Cantidad'])
-            df_tipo = df_tipo[df_tipo['Cantidad'] > 0].sort_values('Cantidad', ascending=True)
-
-            fig = px.bar(df_tipo, x='Cantidad', y='Tipo', orientation='h',
-                        title='Tipos de resolución judicial', text='Cantidad',
-                        color='Cantidad', color_continuous_scale='Blues')
-            fig.update_traces(textposition='outside')
-            st.plotly_chart(fig, use_container_width=True)
-
-        # Causas por tribunal (datos de causas_final.json: 482 causas únicas)
-        st.markdown("### Causas únicas por tribunal")
-        st.caption("Reclamaciones con sentencia definitiva en el corpus")
-
-        # Datos verificados de causas_final.json (482 causas, todas tipo R)
-        df_causas = pd.DataFrame([
-            {'Tribunal': '1TA (Antofagasta)', 'Causas': 4},
-            {'Tribunal': '2TA (Santiago)', 'Causas': 285},
-            {'Tribunal': '3TA (Valdivia)', 'Causas': 193},
+        # Datos oficiales verificados
+        df_oficial = pd.DataFrame([
+            {'Tribunal': '1TA (Antofagasta)', 'Sentencias': 66, 'Causas': 150},
+            {'Tribunal': '2TA (Santiago)', 'Sentencias': 332, 'Causas': 620},
+            {'Tribunal': '3TA (Valdivia)', 'Sentencias': 306, 'Causas': 549},
         ])
 
         col1, col2 = st.columns(2)
 
         with col1:
-            fig = px.bar(df_causas, x='Tribunal', y='Causas',
-                        title='482 causas únicas por tribunal',
+            fig = px.bar(df_oficial, x='Tribunal', y='Sentencias',
+                        title='704 sentencias definitivas (2013-2025)',
+                        text='Sentencias',
+                        color='Tribunal',
+                        color_discrete_sequence=['#1f77b4', '#ff7f0e', '#2ca02c'])
+            fig.update_layout(showlegend=False, xaxis_title='', yaxis_title='Sentencias')
+            fig.update_traces(textposition='outside')
+            st.plotly_chart(fig, use_container_width=True)
+
+        with col2:
+            fig = px.bar(df_oficial, x='Tribunal', y='Causas',
+                        title='~1,320 causas ingresadas (2013-2025)',
                         text='Causas',
                         color='Tribunal',
                         color_discrete_sequence=['#1f77b4', '#ff7f0e', '#2ca02c'])
@@ -335,37 +311,47 @@ def seccion_tribunales():
             fig.update_traces(textposition='outside')
             st.plotly_chart(fig, use_container_width=True)
 
-        with col2:
-            # Sentencias por tribunal (de estadisticas_corpus.json)
-            df_sent = pd.DataFrame([
-                {'Tribunal': '1TA (Antofagasta)', 'Sentencias': datos['por_tribunal_tipo'].get('1TA', {}).get('Sentencia', 0)},
-                {'Tribunal': '2TA (Santiago)', 'Sentencias': datos['por_tribunal_tipo'].get('2TA', {}).get('Sentencia', 0)},
-                {'Tribunal': '3TA (Valdivia)', 'Sentencias': datos['por_tribunal_tipo'].get('3TA', {}).get('Sentencia', 0)},
-            ])
+        # Distribución porcentual
+        st.markdown("### Distribución del sistema")
+        col1, col2 = st.columns(2)
 
-            fig = px.bar(df_sent, x='Tribunal', y='Sentencias',
-                        title=f'{sentencias_total} documentos de sentencia',
-                        text='Sentencias',
+        with col1:
+            df_pct = df_oficial.copy()
+            df_pct['Porcentaje'] = (df_pct['Sentencias'] / df_pct['Sentencias'].sum() * 100).round(1)
+            df_pct = df_pct.sort_values('Sentencias', ascending=True)
+
+            fig = px.bar(df_pct, x='Sentencias', y='Tribunal', orientation='h',
+                        title='Sentencias por tribunal',
+                        text=df_pct.apply(lambda x: f"{x['Sentencias']} ({x['Porcentaje']}%)", axis=1),
                         color='Tribunal',
                         color_discrete_sequence=['#1f77b4', '#ff7f0e', '#2ca02c'])
-            fig.update_layout(showlegend=False, xaxis_title='', yaxis_title='Documentos')
+            fig.update_layout(showlegend=False, xaxis_title='Sentencias', yaxis_title='')
             fig.update_traces(textposition='outside')
             st.plotly_chart(fig, use_container_width=True)
 
-        # Comparativa horizontal
-        st.markdown("### Distribución porcentual")
-        df_pct = df_causas.copy()
-        df_pct['Porcentaje'] = (df_pct['Causas'] / df_pct['Causas'].sum() * 100).round(1)
-        df_pct = df_pct.sort_values('Causas', ascending=True)
+        with col2:
+            # Productividad anual
+            df_prod = pd.DataFrame([
+                {'Tribunal': '1TA (Antofagasta)', 'Promedio': 9, 'Años': 7},
+                {'Tribunal': '2TA (Santiago)', 'Promedio': 28, 'Años': 12},
+                {'Tribunal': '3TA (Valdivia)', 'Promedio': 26, 'Años': 12},
+            ])
+            fig = px.bar(df_prod, x='Tribunal', y='Promedio',
+                        title='Promedio sentencias/año',
+                        text='Promedio',
+                        color='Tribunal',
+                        color_discrete_sequence=['#1f77b4', '#ff7f0e', '#2ca02c'])
+            fig.update_layout(showlegend=False, xaxis_title='', yaxis_title='Sentencias/año')
+            fig.update_traces(textposition='outside')
+            st.plotly_chart(fig, use_container_width=True)
 
-        fig = px.bar(df_pct, x='Causas', y='Tribunal', orientation='h',
-                    title='Causas por tribunal (482 total)',
-                    text=df_pct.apply(lambda x: f"{x['Causas']} ({x['Porcentaje']}%)", axis=1),
-                    color='Tribunal',
-                    color_discrete_sequence=['#1f77b4', '#ff7f0e', '#2ca02c'])
-        fig.update_layout(showlegend=False, xaxis_title='Causas', yaxis_title='')
-        fig.update_traces(textposition='outside')
-        st.plotly_chart(fig, use_container_width=True)
+        # Nota sobre fuentes
+        st.info("""
+        **Fuentes oficiales:**
+        - 3TA: [3TA en Cifras](https://3ta.cl/3ta-en-cifras/) (actualizado 30/06/2025)
+        - 2TA: [Cuenta Pública 2024](https://tribunalambiental.cl/)
+        - 1TA: [Cuenta Pública 2024](https://www.1ta.cl/)
+        """)
 
     with tab_temporal:
         # Solo años con sentencias
