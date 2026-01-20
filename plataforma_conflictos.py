@@ -415,7 +415,7 @@ def seccion_tribunales():
                     })
 
         if datos_evol:
-            df_evol = pd.DataFrame(datos_evol)
+            df_evol = pd.DataFrame(datos_evol).sort_values(['Tribunal', 'Año'])
             fig = px.line(df_evol, x='Año', y='Documentos', color='Tribunal',
                          markers=True, title='Actividad por tribunal y año')
             st.plotly_chart(fig, use_container_width=True)
