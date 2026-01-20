@@ -242,6 +242,21 @@ def seccion_tribunales():
         st.warning("No se encontraron datos de tribunales.")
         return
 
+    # Sidebar con filtros de tribunales
+    st.sidebar.header("Filtros - Tribunales")
+    tribunal_filtro = st.sidebar.multiselect(
+        "Tribunal",
+        ["1TA (Antofagasta)", "2TA (Santiago)", "3TA (Valdivia)"],
+        default=["1TA (Antofagasta)", "2TA (Santiago)", "3TA (Valdivia)"]
+    )
+
+    años_disponibles = sorted([int(k) for k in datos['por_año'].keys() if int(k) >= 2013])
+    año_min, año_max = st.sidebar.select_slider(
+        "Rango de años",
+        options=años_disponibles,
+        value=(min(años_disponibles), max(años_disponibles))
+    )
+
     # Calcular métricas de sentencias (solo documentos legales relevantes)
     sentencias_total = datos['por_tipo'].get('Sentencia', 0)
     sentencias_reemplazo = datos['por_tipo'].get('Sentencia Reemplazo', 0)
