@@ -1,83 +1,123 @@
-# Corpus Tribunales Ambientales de Chile
+# Conflictos Socioecológicos y Tribunales Ambientales de Chile
 
-Corpus de documentos judiciales de los Tribunales Ambientales de Chile (2012-2025) para investigación en humanidades digitales y derecho ambiental.
+Base de datos integrada de conflictos socioecológicos y corpus de sentencias de los Tribunales Ambientales de Chile (2012-2025).
 
-## Contenido del Corpus
+## Base de Datos de Conflictos
 
-| Componente | Cantidad | Estado |
-|------------|----------|--------|
-| PDFs descargados | 3,642 | ✅ Completo |
-| Documentos Word | 101 | ✅ Completo |
-| Transcripciones | 361 / 3,743 | 🔄 En progreso (9.6%) |
-| Causas únicas | 755 | ✅ Identificadas |
-| Período | 2012-2025 | |
+Integración de 3 fuentes sobre conflictos socioecológicos en Chile:
 
-## Estadísticas del Sistema
+| Fuente | Registros | Descripción |
+|--------|-----------|-------------|
+| [INDH](https://mapaconflictos.indh.cl/) | 162 | Mapa de Conflictos Socioambientales (oficial) |
+| [EJAtlas](https://ejatlas.org/) | 77 | Environmental Justice Atlas (global) |
+| [OCMAL](https://mapa.conflictosmineros.net/) | 49 | Observatorio de Conflictos Mineros |
+| **Total únicos** | **244** | Después de deduplicación (-44) |
 
-| Tribunal | Causas | Sentencias | % |
-|----------|--------|------------|---|
-| 2TA Santiago | 620 | 332 | 57% |
-| 3TA Valdivia | 313 | 306 | 29% |
-| 1TA Antofagasta | 150 | 66 | 14% |
-| **Total** | **1,083** | **704** | 100% |
+### Cobertura de campos
 
-## Papers
+| Campo | Cobertura |
+|-------|-----------|
+| Región | 86.5% |
+| Sector económico | 100% |
+| Resistencias | 96.7% |
+| Resultados | 95.1% |
+| Año inicio | 86.9% |
 
-| Paper | Archivo | Estado |
-|-------|---------|--------|
-| Cifras Oficiales | `paper/paper1_cifras_oficiales.pdf` | Completo (17 pp) |
-| Corpus y Metodología | `paper/paper2_corpus.md` | Borrador |
-| Análisis de Sentencias | `paper/paper3_analisis.md` | Borrador |
+### Sectores
+
+- Minería: 106 (43%)
+- Energía: 76 (31%)
+- Saneamiento: 13 (5%)
+- Agropecuario: 9 (4%)
+- Otros: 40 (17%)
+
+## Sistema de Justicia Ambiental
+
+| Tribunal | Causas | Sentencias |
+|----------|--------|------------|
+| 1TA Antofagasta | 150 | 66 |
+| 2TA Santiago | 620 | 332 |
+| 3TA Valdivia | 313 | 306 |
+| **Total** | **1,083** | **704** |
+
+## Plataforma de Visualización
+
+```bash
+pip install -r requirements.txt
+streamlit run plataforma_conflictos.py
+```
+
+Incluye:
+- Mapa interactivo de conflictos
+- Filtros por región, sector, estado
+- Gráficos de distribución temporal
+- Detalle de cada conflicto con fuentes
 
 ## Estructura
 
 ```
-tribunal_pdf/
-├── corpus/                    # Datos principales
-│   ├── descarga_completa/     # 3,642 PDFs
-│   └── textos/                # 308 transcripciones
-├── datos/                     # Metadatos y estadísticas
-│   ├── estadisticas/          # JSON con análisis
-│   └── geografico/            # Geocodificación
-├── paper/                     # Papers académicos
-│   ├── paper1_cifras_oficiales.tex
+├── datos/
+│   ├── conflictos/                    # Base integrada (244 registros)
+│   │   ├── conflictos_consolidados_noticias.json
+│   │   ├── METODOLOGIA_INTEGRACION.md
+│   │   └── duplicados_identificados.json
+│   ├── sentencias/                    # Causas tribunales
+│   └── estadisticas/                  # Análisis
+├── paper/                             # Papers académicos
+│   ├── paper1_cifras_oficiales.md
 │   └── figuras/
-└── scripts/                   # Scripts Python
+├── scripts/                           # Scripts Python
+│   ├── consolidar_con_ids.py         # Integración de fuentes
+│   ├── descargar_conflictos.py       # Descarga INDH
+│   └── descargar_ejatlas.py          # Descarga EJAtlas
+└── plataforma_conflictos.py          # Streamlit app
 ```
 
-## Requisitos
+## Archivos principales
 
-```bash
-pip install -r requirements.txt
-```
-
-- Python 3.8+
-- PyMuPDF (extracción de texto)
-- TinyTeX (compilación LaTeX)
+| Archivo | Descripción |
+|---------|-------------|
+| `datos/conflictos/conflictos_consolidados_noticias.json` | Dataset final (244 conflictos) |
+| `datos/conflictos/METODOLOGIA_INTEGRACION.md` | Documentación metodológica |
+| `datos/sentencias/causas_final.json` | 1,083 causas de tribunales |
+| `plataforma_conflictos.py` | Visualizador Streamlit |
 
 ## Uso
 
 ```bash
-# Compilar Paper 1
-cd paper && pdflatex paper1_cifras_oficiales.tex
+# Instalar dependencias
+pip install -r requirements.txt
 
-# Generar gráficos
-python scripts/generar_graficos.py
+# Ejecutar plataforma
+streamlit run plataforma_conflictos.py
 
-# Extraer texto de PDFs
-python scripts/extraer_texto_pdf.py
+# Regenerar dataset (requiere datos originales)
+python scripts/consolidar_con_ids.py
 ```
 
-## Documentación
+## Papers
 
-- `ESTADO_PROYECTO.md` - Estado actual y próximos pasos
-- `CLAUDE.md` - Instrucciones de estilo para escritura
-- `HISTORICO_SESION_*.md` - Históricos de sesiones de trabajo
+1. **Cifras oficiales**: Estadísticas del sistema de justicia ambiental
+2. **Corpus**: Metodología de construcción del corpus
+3. **Análisis**: Análisis de sentencias (en desarrollo)
 
 ## Autor
 
-Fabián Belmar - Núcleo Milenio SODAS / Centro de Estudios Públicos
+Fabián Belmar
+Núcleo Milenio SODAS / Centro de Estudios Públicos
 
 ## Licencia
 
-Datos públicos de los Tribunales Ambientales de Chile.
+Datos públicos. Base de conflictos construida a partir de fuentes públicas (INDH, EJAtlas, OCMAL).
+
+## Citar
+
+```bibtex
+@misc{belmar2026conflictos,
+  author = {Belmar, Fabián},
+  title = {Conflictos Socioecológicos y Tribunales Ambientales de Chile},
+  year = {2026},
+  publisher = {GitHub},
+  url = {https://github.com/belmarfabian/tribunal-ambiental-chile}
+}
+```
