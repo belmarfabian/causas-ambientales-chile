@@ -53,10 +53,11 @@ a.datos-link:hover,table.datos td a:hover{text-decoration:underline}
 .hero-num small{font-size:.8rem;color:#aaa;text-transform:uppercase;letter-spacing:1px}
 h2{font-family:'Roboto Slab',serif;font-size:1.4rem;color:#1B998B;margin:48px 0 8px;border-bottom:2px solid #9DBBAE;padding-bottom:6px}
 p.body{margin:8px 0 16px;color:#555;text-align:justify}
-#mapa,#mapa2{height:560px;border:1px solid #ddd;border-radius:4px}
-.mapas-dual{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
+#mapa,#mapa2,#mapa3{height:560px;border:1px solid #ddd;border-radius:4px}
+.mapas-dual{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:16px;margin:16px 0}
 .mapa-caja h4{font-family:'Roboto Slab',serif;font-size:.95rem;color:#32373c;margin-bottom:4px}
 .mapa-caja .mapa-subtit{font-size:.78rem;color:#888;margin-bottom:8px}
+@media(max-width:1000px){.mapas-dual{grid-template-columns:1fr 1fr}}
 @media(max-width:700px){.mapas-dual{grid-template-columns:1fr}}
 .mapa-filtros{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:10px 0 12px;font-size:.82rem;color:#555}
 .mapa-filtros label{display:flex;align-items:center;gap:6px}
@@ -68,6 +69,9 @@ p.body{margin:8px 0 16px;color:#555;text-align:justify}
 .slider-temporal b{color:#1B998B;font-family:'Roboto Slab',serif;min-width:44px;display:inline-block}
 .slider-temporal .btn-reset{background:transparent;border:1px solid #ccc;color:#555;padding:3px 10px;border-radius:4px;font-size:.75rem;cursor:pointer}
 .slider-temporal .btn-reset:hover{border-color:#1B998B;color:#1B998B}
+.slider-temporal .btn-play{background:#1B998B;border:none;color:white;width:32px;height:32px;border-radius:50%;cursor:pointer;font-size:.9rem;display:inline-flex;align-items:center;justify-content:center;padding:0;line-height:1}
+.slider-temporal .btn-play:hover{background:#147368}
+.slider-temporal .btn-play.playing{background:#FFBC7D}
 .faq details{border-bottom:1px solid #e0e0e0;padding:12px 0}
 .faq details summary{cursor:pointer;font-family:'Roboto Slab',serif;color:#32373c;font-size:.98rem;font-weight:500;list-style:none;position:relative;padding-right:24px}
 .faq details summary::-webkit-details-marker{display:none}
@@ -234,7 +238,8 @@ en un dataset consolidado de 244 conflictos únicos, de los cuales 74 se encuent
 <span id="mapa-count" style="margin-left:auto;color:#7A7A7A;font-size:.85rem"></span>
 </div>
 <div class="slider-temporal">
-<label for="f-anio">Hasta el año: <b id="anio-val">—</b></label>
+<button type="button" id="btn-play" onclick="togglePlay()" class="btn-play" aria-label="Reproducir">▶</button>
+<label for="f-anio">Hasta el año: <b id="anio-val">todos</b></label>
 <input type="range" id="f-anio" min="1970" max="2025" value="2025" step="1" oninput="filtrarMapa()">
 <button type="button" onclick="document.getElementById('f-anio').value=2025;filtrarMapa()" class="btn-reset">Reiniciar</button>
 </div>
@@ -251,15 +256,15 @@ en un dataset consolidado de 244 conflictos únicos, de los cuales 74 se encuent
 <div id="mapa2"></div>
 <div style="font-size:.75rem;color:#888;margin-top:6px;text-align:center">Los 244 conflictos agregados por región</div>
 </div>
+<div class="mapa-caja">
+<h4>Jurisdicción de los TA</h4>
+<div class="mapa-subtit">Territorios asignados por la Ley 20.600</div>
+<div id="mapa3"></div>
+<div class="leyenda" style="margin-top:8px;text-align:left;line-height:1.7">
+<span style="display:inline-block;width:12px;height:12px;background:#1B998B;vertical-align:middle"></span>&nbsp;<b>1TA</b> Arica → Coquimbo<br>
+<span style="display:inline-block;width:12px;height:12px;background:#6EC1E4;vertical-align:middle"></span>&nbsp;<b>2TA</b> Valparaíso → Biobío<br>
+<span style="display:inline-block;width:12px;height:12px;background:#61CE70;vertical-align:middle"></span>&nbsp;<b>3TA</b> Araucanía → Magallanes
 </div>
-<div class="mapa-caja" style="margin-top:24px">
-<h4>Jurisdicción de los Tribunales Ambientales</h4>
-<div class="mapa-subtit">Territorios asignados a cada tribunal por la Ley 20.600</div>
-<div id="mapa3" style="height:520px;border:1px solid #ddd;border-radius:4px"></div>
-<div class="leyenda" style="margin-top:8px">
-<span style="display:inline-block;width:14px;height:14px;background:#1B998B;vertical-align:middle"></span>&nbsp;<b>1TA</b> Antofagasta (Arica → Coquimbo)&nbsp;&nbsp;
-<span style="display:inline-block;width:14px;height:14px;background:#6EC1E4;vertical-align:middle"></span>&nbsp;<b>2TA</b> Santiago (Valparaíso → Biobío)&nbsp;&nbsp;
-<span style="display:inline-block;width:14px;height:14px;background:#61CE70;vertical-align:middle"></span>&nbsp;<b>3TA</b> Valdivia (Araucanía → Magallanes)
 </div>
 </div>
 <p style="font-size:.75rem;color:#888;margin-top:6px;text-align:center">
@@ -2584,6 +2589,7 @@ poblarOpciones("f-sector",[...new Set(D.map(d=>d.sector))].sort());
 poblarOpciones("f-estado",[...new Set(D.map(d=>d.estado))].sort());
 poblarOpciones("f-fuente",[...new Set(D.map(d=>d.fuente))].sort());
 function filtrarMapa(){var fs=document.getElementById("f-sector").value;var fe=document.getElementById("f-estado").value;var ff=document.getElementById("f-fuente").value;var fa=parseInt(document.getElementById("f-anio").value);document.getElementById("anio-val").textContent=(fa>=2025?"todos":fa);markers.forEach(function(k){m.removeLayer(k)});markers=[];var filt=D.filter(function(d){return (!fs||d.sector===fs)&&(!fe||d.estado===fe)&&(!ff||d.fuente===ff)&&(fa>=2025||(d.ano&&d.ano<=fa))});filt.forEach(function(d){var k=L.circleMarker([d.lat,d.lon],{radius:6,fillColor:d.color,color:"#fff",weight:1,fillOpacity:0.8}).bindPopup("<b>"+d.nombre+"</b><br>"+d.sector+"<br>"+d.region+"<br>Estado: "+d.estado+(d.ano?"<br>Año: "+d.ano:"")+"<br>Fuente: "+d.fuente);k.addTo(m);markers.push(k)});document.getElementById("mapa-count").textContent=filt.length+" de "+D.length+" geolocalizados";}
+var _playTimer=null;function togglePlay(){var btn=document.getElementById("btn-play");var sl=document.getElementById("f-anio");if(_playTimer){clearInterval(_playTimer);_playTimer=null;btn.textContent="▶";btn.classList.remove("playing");return}if(parseInt(sl.value)>=2025)sl.value=1970;btn.textContent="⏸";btn.classList.add("playing");_playTimer=setInterval(function(){var v=parseInt(sl.value);if(v>=2025){clearInterval(_playTimer);_playTimer=null;btn.textContent="▶";btn.classList.remove("playing");return}sl.value=v+1;filtrarMapa()},180)}
 filtrarMapa();
 </script>
 <script>
