@@ -2590,6 +2590,7 @@ poblarOpciones("f-sector",[...new Set(D.map(d=>d.sector))].sort());
 poblarOpciones("f-estado",[...new Set(D.map(d=>d.estado))].sort());
 poblarOpciones("f-fuente",[...new Set(D.map(d=>d.fuente))].sort());
 function normReg(r){var eq={"Biobío":"Bío-Bío","Aysén":"Aysén del Gral.Ibañez del Campo","Magallanes y la Antártica Chilena":"Magallanes y Antártica Chilena","Metropolitana de Santiago":"Metropolitana","Libertador General Bernardo O'Higgins":"Libertador Bernardo O'Higgins"};return eq[r]||r||"";}
+function radioPorZoom(z){ if(z<=4) return 3; if(z<=5) return 4; if(z<=6) return 5; if(z<=7) return 6; if(z<=8) return 8; if(z<=9) return 10; return 12; }
 function filtrarMapa(){
   var fs=document.getElementById("f-sector").value;
   var fe=document.getElementById("f-estado").value;
@@ -2599,8 +2600,9 @@ function filtrarMapa(){
   window._anio = fa;
   markers.forEach(function(k){m.removeLayer(k)});markers=[];
   var filt=D.filter(function(d){return (!fs||d.sector===fs)&&(!fe||d.estado===fe)&&(!ff||d.fuente===ff)&&(fa>=2025||(d.ano&&d.ano<=fa))});
+  var r = radioPorZoom(m.getZoom());
   filt.forEach(function(d){
-    var k=L.circleMarker([d.lat,d.lon],{radius:6,fillColor:d.color,color:"#fff",weight:1,fillOpacity:0.8})
+    var k=L.circleMarker([d.lat,d.lon],{radius:r,fillColor:d.color,color:"#fff",weight:1,fillOpacity:0.8})
       .bindPopup("<b>"+d.nombre+"</b><br>"+d.sector+"<br>"+d.region+"<br>Estado: "+d.estado+(d.ano?"<br>Año: "+d.ano:"")+"<br>Fuente: "+d.fuente);
     k.addTo(m);markers.push(k);
   });
@@ -2615,6 +2617,7 @@ function filtrarMapa(){
   if(window._layerJur)window._layerJur.eachLayer(function(ly){var nr=ly.feature.properties.region;var t=JURref[nr]||"—";var ini=window.TA_INICIO[t];var estado=(t&&ini&&fa<ini)?" (aún no operativo en "+fa+", inicia "+ini+")":(t?" (operativo desde "+ini+")":"");ly.setPopupContent("<b>"+nr+"</b><br>Tribunal: "+t+estado);});
   if(window._layerChoro)window._layerChoro.eachLayer(function(ly){var nr=ly.feature.properties.region;var n=cReg[nr]||0;ly.setPopupContent("<b>"+nr+"</b><br>"+n+" conflictos (filtrados)");});
 }
+m.on("zoomend",function(){var r=radioPorZoom(m.getZoom());markers.forEach(function(k){k.setRadius(r)})});
 var _playTimer=null;function togglePlay(){var btn=document.getElementById("btn-play");var sl=document.getElementById("f-anio");if(_playTimer){clearInterval(_playTimer);_playTimer=null;btn.textContent="▶";btn.classList.remove("playing");return}if(parseInt(sl.value)>=2025)sl.value=1970;btn.textContent="⏸";btn.classList.add("playing");_playTimer=setInterval(function(){var v=parseInt(sl.value);if(v>=2025){clearInterval(_playTimer);_playTimer=null;btn.textContent="▶";btn.classList.remove("playing");return}sl.value=v+1;filtrarMapa()},450)}
 filtrarMapa();
 </script>
