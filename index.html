@@ -252,6 +252,22 @@ h2::before{content:"";position:absolute;left:0;top:.42em;width:14px;height:16px;
 .lista-creditos a{color:var(--sodas-teal)}
 .titulo-suelto{font-family:'Roboto Slab',serif;font-size:1.25rem;color:var(--sodas-pizarra);
   margin:32px 0 6px}
+/* La línea de tiempo, reproducible: el hito activo se enciende y los demás se
+   apagan, de modo que el relato avanza solo. */
+.timeline-item{transition:opacity .45s,transform .45s}
+.timeline.reproduciendo .timeline-item{opacity:.26}
+.timeline.reproduciendo .timeline-item.activo{opacity:1;transform:translateX(4px)}
+.timeline-item.activo::before{background:var(--sodas-rosa);transform:scale(1.35)}
+.timeline-item::before{transition:background .3s,transform .3s}
+.relato-barra{display:flex;align-items:center;gap:14px;margin:6px 0 18px;flex-wrap:wrap}
+.btn-relato{background:var(--sodas-teal);border:none;color:white;padding:8px 18px;
+  border-radius:100px;cursor:pointer;font-family:inherit;font-size:.85rem;font-weight:600;
+  display:inline-flex;align-items:center;gap:8px}
+.btn-relato:hover{background:var(--sodas-rosa)}
+.relato-dato{font-size:.85rem;color:var(--tinta-suave)}
+.relato-dato b{font-family:'Roboto Slab',serif;font-size:1.5rem;color:var(--sodas-teal);
+  vertical-align:middle;margin-right:4px}
+.timeline-logo{height:26px;vertical-align:middle;margin-left:8px;opacity:.9}
 </style>
 </head>
 <body>
@@ -552,8 +568,13 @@ Esto da una pauta del funcionamiento efectivo de los canales institucionales.</p
 </div></div>
 </div>
 <h2 id="tribunales">Tribunales Ambientales</h2>
+<script>var RELATO=[{"anio": 1994, "n": 17}, {"anio": 2010, "n": 116}, {"anio": 2012, "n": 128}, {"anio": 2013, "n": 138}, {"anio": 2017, "n": 179}, {"anio": 2018, "n": 183}, {"anio": 2022, "n": 185}];</script>
 <h3 style="font-family:'Roboto Slab',serif;color:#2C3E50;margin:24px 0 10px">Hitos institucionales</h3>
-<div class="timeline">
+<div class="relato-barra">
+<button class="btn-relato" id="btn-relato" onclick="relatoToggle()">&#9654;&nbsp; Reproducir la historia</button>
+<span class="relato-dato"><b id="relato-causas">0</b> conflictos ya iniciados <span id="relato-anio"></span></span>
+</div>
+<div class="timeline" id="timeline">
 <div class="timeline-item">
 <div class="timeline-year">1994</div>
 <div class="timeline-title">Ley 19.300 de Bases del Medio Ambiente</div>
