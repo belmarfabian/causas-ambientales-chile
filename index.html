@@ -61,8 +61,15 @@ a.datos-link:hover,table.datos td a:hover{text-decoration:underline}
 .hero-velo{position:absolute;inset:0;background:linear-gradient(0deg,rgba(255,255,255,.30) 0%,rgba(255,255,255,0) 26%),linear-gradient(90deg,rgba(26,38,50,.30) 0%,rgba(26,38,50,.10) 34%,rgba(26,38,50,0) 58%)}
 /* La placa que sostiene el texto toma la forma del isotipo: un hexágono
    grande y otro interior, en vez de un velo sobre toda la imagen. */
-.hero-placa,.hero-placa2{position:absolute;pointer-events:none;
-  clip-path:polygon(0% 50%,15% 2%,85% 2%,100% 50%,85% 98%,15% 98%)}
+/* La punta debe abrir 120 grados, como el vértice del isotipo. Con el clip en
+   porcentajes el ángulo dependía del ancho de la pantalla y salía una flecha:
+   la profundidad de la punta se fija en píxeles como alto-de-media-punta
+   dividido por raíz de tres (549·0,48/1,732 y 482·0,48/1,732). */
+.hero-placa,.hero-placa2{position:absolute;pointer-events:none}
+.hero-placa{clip-path:polygon(0 50%,152px 2%,calc(100% - 152px) 2%,100% 50%,
+  calc(100% - 152px) 98%,152px 98%)}
+.hero-placa2{clip-path:polygon(0 50%,133px 2%,calc(100% - 133px) 2%,100% 50%,
+  calc(100% - 133px) 98%,133px 98%)}
 .hero-placa{left:-22%;top:1%;width:88%;height:98%;background:rgba(24,36,48,.26)}
 .hero-placa2{left:-20%;top:7%;width:80%;height:86%;background:rgba(24,36,48,.74)}
 @media(max-width:900px){.hero-placa,.hero-placa2{clip-path:none;left:0;top:0;width:100%;height:100%}.hero-placa2{background:rgba(24,36,48,.78)}}
