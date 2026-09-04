@@ -483,7 +483,7 @@ details.tabla-alt tbody tr:hover td{background:#f9fbfb}
   function contenido(){
     var r=Math.random();
     if(r<0.035){var d=document.createElement("div");d.className="hx-color";
-      d.style.background=Math.random()<.5?"#F4F1E8":"#1B998B";
+      d.style.background="#F4F1E8";   /* el isotipo solo sobre hueso: sobre teal se perdía */
       var im=new Image();im.src="data:image/png;base64,"+PANAL_ISO;
       d.appendChild(im);return d}
     if(r<0.13){var d2=document.createElement("div");d2.className="hx-color";
